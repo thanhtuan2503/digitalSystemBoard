@@ -510,15 +510,4 @@ U 5F9B6E57
 F0 "OUT_PIN" 50
 F1 "OUT_PIN.sch" 50
 $EndSheet
-$Comp
-L Connector:Screw_Terminal_01x12 J?
-U 1 1 5F9D2FDB
-P 6004 5726
-F 0 "J?" V 6221 5672 50  0000 C CNN
-F 1 "Screw_Terminal_01x12" V 6130 5672 50  0000 C CNN
-F 2 "" H 6004 5726 50  0001 C CNN
-F 3 "~" H 6004 5726 50  0001 C CNN
-	1    6004 5726
-	0    -1   -1   0   
-$EndComp
 $EndSCHEMATC
