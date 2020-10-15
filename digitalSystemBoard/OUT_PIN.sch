@@ -18,8 +18,8 @@ L Transistor_FET:2N7002 Q?
 U 1 1 5F9C00A8
 P 2146 1622
 AR Path="/5F8CFBC4/5F9C00A8" Ref="Q?"  Part="1" 
-AR Path="/5F9B6E57/5F9C00A8" Ref="Q?"  Part="1" 
-F 0 "Q?" H 2350 1668 50  0000 L CNN
+AR Path="/5F9B6E57/5F9C00A8" Ref="Q13"  Part="1" 
+F 0 "Q13" H 2350 1668 50  0000 L CNN
 F 1 "2N7002" H 2350 1577 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 2346 1547 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 2146 1622 50  0001 L CNN
@@ -31,9 +31,9 @@ L Device:R R?
 U 1 1 5F9C00AE
 P 1796 1622
 AR Path="/5F8CFBC4/5F9C00AE" Ref="R?"  Part="1" 
-AR Path="/5F9B6E57/5F9C00AE" Ref="R?"  Part="1" 
-F 0 "R?" H 1866 1668 50  0000 L CNN
-F 1 "R" H 1866 1577 50  0000 L CNN
+AR Path="/5F9B6E57/5F9C00AE" Ref="R37"  Part="1" 
+F 0 "R37" H 1866 1668 50  0000 L CNN
+F 1 "10" H 1866 1577 50  0000 L CNN
 F 2 "" V 1726 1622 50  0001 C CNN
 F 3 "~" H 1796 1622 50  0001 C CNN
 	1    1796 1622
@@ -44,9 +44,9 @@ L Device:R R?
 U 1 1 5F9C00B4
 P 1946 1772
 AR Path="/5F8CFBC4/5F9C00B4" Ref="R?"  Part="1" 
-AR Path="/5F9B6E57/5F9C00B4" Ref="R?"  Part="1" 
-F 0 "R?" H 2016 1818 50  0000 L CNN
-F 1 "R" H 2016 1727 50  0000 L CNN
+AR Path="/5F9B6E57/5F9C00B4" Ref="R39"  Part="1" 
+F 0 "R39" H 2016 1818 50  0000 L CNN
+F 1 "10k" H 2016 1727 50  0000 L CNN
 F 2 "" V 1876 1772 50  0001 C CNN
 F 3 "~" H 1946 1772 50  0001 C CNN
 	1    1946 1772
@@ -57,9 +57,9 @@ L Device:R R?
 U 1 1 5F9C00BA
 P 2246 972
 AR Path="/5F8CFBC4/5F9C00BA" Ref="R?"  Part="1" 
-AR Path="/5F9B6E57/5F9C00BA" Ref="R?"  Part="1" 
-F 0 "R?" H 2316 1018 50  0000 L CNN
-F 1 "R" H 2316 927 50  0000 L CNN
+AR Path="/5F9B6E57/5F9C00BA" Ref="R41"  Part="1" 
+F 0 "R41" H 2316 1018 50  0000 L CNN
+F 1 "330" H 2316 927 50  0000 L CNN
 F 2 "" V 2176 972 50  0001 C CNN
 F 3 "~" H 2246 972 50  0001 C CNN
 	1    2246 972 
@@ -70,8 +70,8 @@ L Device:LED D?
 U 1 1 5F9C00C0
 P 2246 1272
 AR Path="/5F8CFBC4/5F9C00C0" Ref="D?"  Part="1" 
-AR Path="/5F9B6E57/5F9C00C0" Ref="D?"  Part="1" 
-F 0 "D?" V 2285 1155 50  0000 R CNN
+AR Path="/5F9B6E57/5F9C00C0" Ref="D13"  Part="1" 
+F 0 "D13" V 2285 1155 50  0000 R CNN
 F 1 "LED" V 2194 1155 50  0000 R CNN
 F 2 "" H 2246 1272 50  0001 C CNN
 F 3 "~" H 2246 1272 50  0001 C CNN
@@ -90,8 +90,8 @@ L power:GND #PWR?
 U 1 1 5F9C00CA
 P 2246 1974
 AR Path="/5F8CFBC4/5F9C00CA" Ref="#PWR?"  Part="1" 
-AR Path="/5F9B6E57/5F9C00CA" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 2246 1724 50  0001 C CNN
+AR Path="/5F9B6E57/5F9C00CA" Ref="#PWR018"  Part="1" 
+F 0 "#PWR018" H 2246 1724 50  0001 C CNN
 F 1 "GND" H 2251 1801 50  0000 C CNN
 F 2 "" H 2246 1974 50  0001 C CNN
 F 3 "" H 2246 1974 50  0001 C CNN
@@ -105,830 +105,38 @@ Wire Wire Line
 	1646 1632 1646 1622
 Wire Wire Line
 	1536 1632 1646 1632
-$Comp
-L Transistor_FET:2N7002 Q?
-U 1 1 5F9C24E4
-P 3638 1566
-AR Path="/5F8CFBC4/5F9C24E4" Ref="Q?"  Part="1" 
-AR Path="/5F9B6E57/5F9C24E4" Ref="Q?"  Part="1" 
-F 0 "Q?" H 3842 1612 50  0000 L CNN
-F 1 "2N7002" H 3842 1521 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 3838 1491 50  0001 L CIN
-F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 3638 1566 50  0001 L CNN
-	1    3638 1566
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5F9C24EA
-P 3288 1566
-AR Path="/5F8CFBC4/5F9C24EA" Ref="R?"  Part="1" 
-AR Path="/5F9B6E57/5F9C24EA" Ref="R?"  Part="1" 
-F 0 "R?" H 3358 1612 50  0000 L CNN
-F 1 "R" H 3358 1521 50  0000 L CNN
-F 2 "" V 3218 1566 50  0001 C CNN
-F 3 "~" H 3288 1566 50  0001 C CNN
-	1    3288 1566
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5F9C24F0
-P 3438 1716
-AR Path="/5F8CFBC4/5F9C24F0" Ref="R?"  Part="1" 
-AR Path="/5F9B6E57/5F9C24F0" Ref="R?"  Part="1" 
-F 0 "R?" H 3508 1762 50  0000 L CNN
-F 1 "R" H 3508 1671 50  0000 L CNN
-F 2 "" V 3368 1716 50  0001 C CNN
-F 3 "~" H 3438 1716 50  0001 C CNN
-	1    3438 1716
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5F9C24F6
-P 3738 916
-AR Path="/5F8CFBC4/5F9C24F6" Ref="R?"  Part="1" 
-AR Path="/5F9B6E57/5F9C24F6" Ref="R?"  Part="1" 
-F 0 "R?" H 3808 962 50  0000 L CNN
-F 1 "R" H 3808 871 50  0000 L CNN
-F 2 "" V 3668 916 50  0001 C CNN
-F 3 "~" H 3738 916 50  0001 C CNN
-	1    3738 916 
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:LED D?
-U 1 1 5F9C24FC
-P 3738 1216
-AR Path="/5F8CFBC4/5F9C24FC" Ref="D?"  Part="1" 
-AR Path="/5F9B6E57/5F9C24FC" Ref="D?"  Part="1" 
-F 0 "D?" V 3777 1099 50  0000 R CNN
-F 1 "LED" V 3686 1099 50  0000 R CNN
-F 2 "" H 3738 1216 50  0001 C CNN
-F 3 "~" H 3738 1216 50  0001 C CNN
-	1    3738 1216
-	0    -1   -1   0   
-$EndComp
-Connection ~ 3438 1566
-Wire Wire Line
-	3438 1866 3438 1918
-Wire Wire Line
-	3438 1918 3738 1918
-Wire Wire Line
-	3738 1918 3738 1766
-$Comp
-L power:GND #PWR?
-U 1 1 5F9C2506
-P 3738 1918
-AR Path="/5F8CFBC4/5F9C2506" Ref="#PWR?"  Part="1" 
-AR Path="/5F9B6E57/5F9C2506" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 3738 1668 50  0001 C CNN
-F 1 "GND" H 3743 1745 50  0000 C CNN
-F 2 "" H 3738 1918 50  0001 C CNN
-F 3 "" H 3738 1918 50  0001 C CNN
-	1    3738 1918
-	1    0    0    -1  
-$EndComp
-Connection ~ 3738 1918
-Text HLabel 3738 766  0    50   Input ~ 0
-V_SOURCE
 Wire Wire Line
 	3138 1576 3138 1566
 Wire Wire Line
 	3028 1576 3138 1576
-$Comp
-L Transistor_FET:2N7002 Q?
-U 1 1 5F9C40CD
-P 5382 1542
-AR Path="/5F8CFBC4/5F9C40CD" Ref="Q?"  Part="1" 
-AR Path="/5F9B6E57/5F9C40CD" Ref="Q?"  Part="1" 
-F 0 "Q?" H 5586 1588 50  0000 L CNN
-F 1 "2N7002" H 5586 1497 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 5582 1467 50  0001 L CIN
-F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 5382 1542 50  0001 L CNN
-	1    5382 1542
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5F9C40D3
-P 5032 1542
-AR Path="/5F8CFBC4/5F9C40D3" Ref="R?"  Part="1" 
-AR Path="/5F9B6E57/5F9C40D3" Ref="R?"  Part="1" 
-F 0 "R?" H 5102 1588 50  0000 L CNN
-F 1 "R" H 5102 1497 50  0000 L CNN
-F 2 "" V 4962 1542 50  0001 C CNN
-F 3 "~" H 5032 1542 50  0001 C CNN
-	1    5032 1542
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5F9C40D9
-P 5182 1692
-AR Path="/5F8CFBC4/5F9C40D9" Ref="R?"  Part="1" 
-AR Path="/5F9B6E57/5F9C40D9" Ref="R?"  Part="1" 
-F 0 "R?" H 5252 1738 50  0000 L CNN
-F 1 "R" H 5252 1647 50  0000 L CNN
-F 2 "" V 5112 1692 50  0001 C CNN
-F 3 "~" H 5182 1692 50  0001 C CNN
-	1    5182 1692
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5F9C40DF
-P 5482 892
-AR Path="/5F8CFBC4/5F9C40DF" Ref="R?"  Part="1" 
-AR Path="/5F9B6E57/5F9C40DF" Ref="R?"  Part="1" 
-F 0 "R?" H 5552 938 50  0000 L CNN
-F 1 "R" H 5552 847 50  0000 L CNN
-F 2 "" V 5412 892 50  0001 C CNN
-F 3 "~" H 5482 892 50  0001 C CNN
-	1    5482 892 
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:LED D?
-U 1 1 5F9C40E5
-P 5482 1192
-AR Path="/5F8CFBC4/5F9C40E5" Ref="D?"  Part="1" 
-AR Path="/5F9B6E57/5F9C40E5" Ref="D?"  Part="1" 
-F 0 "D?" V 5521 1075 50  0000 R CNN
-F 1 "LED" V 5430 1075 50  0000 R CNN
-F 2 "" H 5482 1192 50  0001 C CNN
-F 3 "~" H 5482 1192 50  0001 C CNN
-	1    5482 1192
-	0    -1   -1   0   
-$EndComp
-Connection ~ 5182 1542
-Wire Wire Line
-	5182 1842 5182 1894
-Wire Wire Line
-	5182 1894 5482 1894
-Wire Wire Line
-	5482 1894 5482 1742
-$Comp
-L power:GND #PWR?
-U 1 1 5F9C40EF
-P 5482 1894
-AR Path="/5F8CFBC4/5F9C40EF" Ref="#PWR?"  Part="1" 
-AR Path="/5F9B6E57/5F9C40EF" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 5482 1644 50  0001 C CNN
-F 1 "GND" H 5487 1721 50  0000 C CNN
-F 2 "" H 5482 1894 50  0001 C CNN
-F 3 "" H 5482 1894 50  0001 C CNN
-	1    5482 1894
-	1    0    0    -1  
-$EndComp
-Connection ~ 5482 1894
-Text HLabel 5482 742  0    50   Input ~ 0
-V_SOURCE
 Wire Wire Line
 	4882 1552 4882 1542
 Wire Wire Line
 	4772 1552 4882 1552
-$Comp
-L Transistor_FET:2N7002 Q?
-U 1 1 5F9C60CF
-P 7164 1528
-AR Path="/5F8CFBC4/5F9C60CF" Ref="Q?"  Part="1" 
-AR Path="/5F9B6E57/5F9C60CF" Ref="Q?"  Part="1" 
-F 0 "Q?" H 7368 1574 50  0000 L CNN
-F 1 "2N7002" H 7368 1483 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 7364 1453 50  0001 L CIN
-F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 7164 1528 50  0001 L CNN
-	1    7164 1528
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5F9C60D5
-P 6814 1528
-AR Path="/5F8CFBC4/5F9C60D5" Ref="R?"  Part="1" 
-AR Path="/5F9B6E57/5F9C60D5" Ref="R?"  Part="1" 
-F 0 "R?" H 6884 1574 50  0000 L CNN
-F 1 "R" H 6884 1483 50  0000 L CNN
-F 2 "" V 6744 1528 50  0001 C CNN
-F 3 "~" H 6814 1528 50  0001 C CNN
-	1    6814 1528
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5F9C60DB
-P 6964 1678
-AR Path="/5F8CFBC4/5F9C60DB" Ref="R?"  Part="1" 
-AR Path="/5F9B6E57/5F9C60DB" Ref="R?"  Part="1" 
-F 0 "R?" H 7034 1724 50  0000 L CNN
-F 1 "R" H 7034 1633 50  0000 L CNN
-F 2 "" V 6894 1678 50  0001 C CNN
-F 3 "~" H 6964 1678 50  0001 C CNN
-	1    6964 1678
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5F9C60E1
-P 7264 878
-AR Path="/5F8CFBC4/5F9C60E1" Ref="R?"  Part="1" 
-AR Path="/5F9B6E57/5F9C60E1" Ref="R?"  Part="1" 
-F 0 "R?" H 7334 924 50  0000 L CNN
-F 1 "R" H 7334 833 50  0000 L CNN
-F 2 "" V 7194 878 50  0001 C CNN
-F 3 "~" H 7264 878 50  0001 C CNN
-	1    7264 878 
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:LED D?
-U 1 1 5F9C60E7
-P 7264 1178
-AR Path="/5F8CFBC4/5F9C60E7" Ref="D?"  Part="1" 
-AR Path="/5F9B6E57/5F9C60E7" Ref="D?"  Part="1" 
-F 0 "D?" V 7303 1061 50  0000 R CNN
-F 1 "LED" V 7212 1061 50  0000 R CNN
-F 2 "" H 7264 1178 50  0001 C CNN
-F 3 "~" H 7264 1178 50  0001 C CNN
-	1    7264 1178
-	0    -1   -1   0   
-$EndComp
-Connection ~ 6964 1528
-Wire Wire Line
-	6964 1828 6964 1880
-Wire Wire Line
-	6964 1880 7264 1880
-Wire Wire Line
-	7264 1880 7264 1728
-$Comp
-L power:GND #PWR?
-U 1 1 5F9C60F1
-P 7264 1880
-AR Path="/5F8CFBC4/5F9C60F1" Ref="#PWR?"  Part="1" 
-AR Path="/5F9B6E57/5F9C60F1" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 7264 1630 50  0001 C CNN
-F 1 "GND" H 7269 1707 50  0000 C CNN
-F 2 "" H 7264 1880 50  0001 C CNN
-F 3 "" H 7264 1880 50  0001 C CNN
-	1    7264 1880
-	1    0    0    -1  
-$EndComp
-Connection ~ 7264 1880
-Text HLabel 7264 728  0    50   Input ~ 0
-V_SOURCE
 Wire Wire Line
 	6664 1538 6664 1528
 Wire Wire Line
 	6554 1538 6664 1538
-$Comp
-L Transistor_FET:2N7002 Q?
-U 1 1 5F9C6DCF
-P 8970 1476
-AR Path="/5F8CFBC4/5F9C6DCF" Ref="Q?"  Part="1" 
-AR Path="/5F9B6E57/5F9C6DCF" Ref="Q?"  Part="1" 
-F 0 "Q?" H 9174 1522 50  0000 L CNN
-F 1 "2N7002" H 9174 1431 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 9170 1401 50  0001 L CIN
-F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 8970 1476 50  0001 L CNN
-	1    8970 1476
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5F9C6DD5
-P 8620 1476
-AR Path="/5F8CFBC4/5F9C6DD5" Ref="R?"  Part="1" 
-AR Path="/5F9B6E57/5F9C6DD5" Ref="R?"  Part="1" 
-F 0 "R?" H 8690 1522 50  0000 L CNN
-F 1 "R" H 8690 1431 50  0000 L CNN
-F 2 "" V 8550 1476 50  0001 C CNN
-F 3 "~" H 8620 1476 50  0001 C CNN
-	1    8620 1476
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5F9C6DDB
-P 8770 1626
-AR Path="/5F8CFBC4/5F9C6DDB" Ref="R?"  Part="1" 
-AR Path="/5F9B6E57/5F9C6DDB" Ref="R?"  Part="1" 
-F 0 "R?" H 8840 1672 50  0000 L CNN
-F 1 "R" H 8840 1581 50  0000 L CNN
-F 2 "" V 8700 1626 50  0001 C CNN
-F 3 "~" H 8770 1626 50  0001 C CNN
-	1    8770 1626
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5F9C6DE1
-P 9070 826
-AR Path="/5F8CFBC4/5F9C6DE1" Ref="R?"  Part="1" 
-AR Path="/5F9B6E57/5F9C6DE1" Ref="R?"  Part="1" 
-F 0 "R?" H 9140 872 50  0000 L CNN
-F 1 "R" H 9140 781 50  0000 L CNN
-F 2 "" V 9000 826 50  0001 C CNN
-F 3 "~" H 9070 826 50  0001 C CNN
-	1    9070 826 
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:LED D?
-U 1 1 5F9C6DE7
-P 9070 1126
-AR Path="/5F8CFBC4/5F9C6DE7" Ref="D?"  Part="1" 
-AR Path="/5F9B6E57/5F9C6DE7" Ref="D?"  Part="1" 
-F 0 "D?" V 9109 1009 50  0000 R CNN
-F 1 "LED" V 9018 1009 50  0000 R CNN
-F 2 "" H 9070 1126 50  0001 C CNN
-F 3 "~" H 9070 1126 50  0001 C CNN
-	1    9070 1126
-	0    -1   -1   0   
-$EndComp
-Connection ~ 8770 1476
-Wire Wire Line
-	8770 1776 8770 1828
-Wire Wire Line
-	8770 1828 9070 1828
-Wire Wire Line
-	9070 1828 9070 1676
-$Comp
-L power:GND #PWR?
-U 1 1 5F9C6DF1
-P 9070 1828
-AR Path="/5F8CFBC4/5F9C6DF1" Ref="#PWR?"  Part="1" 
-AR Path="/5F9B6E57/5F9C6DF1" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 9070 1578 50  0001 C CNN
-F 1 "GND" H 9075 1655 50  0000 C CNN
-F 2 "" H 9070 1828 50  0001 C CNN
-F 3 "" H 9070 1828 50  0001 C CNN
-	1    9070 1828
-	1    0    0    -1  
-$EndComp
-Connection ~ 9070 1828
-Text HLabel 9070 676  0    50   Input ~ 0
-V_SOURCE
 Wire Wire Line
 	8470 1486 8470 1476
 Wire Wire Line
 	8360 1486 8470 1486
-$Comp
-L Transistor_FET:2N7002 Q?
-U 1 1 5F9C84E6
-P 2050 4072
-AR Path="/5F8CFBC4/5F9C84E6" Ref="Q?"  Part="1" 
-AR Path="/5F9B6E57/5F9C84E6" Ref="Q?"  Part="1" 
-F 0 "Q?" H 2254 4118 50  0000 L CNN
-F 1 "2N7002" H 2254 4027 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 2250 3997 50  0001 L CIN
-F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 2050 4072 50  0001 L CNN
-	1    2050 4072
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5F9C84EC
-P 1700 4072
-AR Path="/5F8CFBC4/5F9C84EC" Ref="R?"  Part="1" 
-AR Path="/5F9B6E57/5F9C84EC" Ref="R?"  Part="1" 
-F 0 "R?" H 1770 4118 50  0000 L CNN
-F 1 "R" H 1770 4027 50  0000 L CNN
-F 2 "" V 1630 4072 50  0001 C CNN
-F 3 "~" H 1700 4072 50  0001 C CNN
-	1    1700 4072
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5F9C84F2
-P 1850 4222
-AR Path="/5F8CFBC4/5F9C84F2" Ref="R?"  Part="1" 
-AR Path="/5F9B6E57/5F9C84F2" Ref="R?"  Part="1" 
-F 0 "R?" H 1920 4268 50  0000 L CNN
-F 1 "R" H 1920 4177 50  0000 L CNN
-F 2 "" V 1780 4222 50  0001 C CNN
-F 3 "~" H 1850 4222 50  0001 C CNN
-	1    1850 4222
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5F9C84F8
-P 2150 3422
-AR Path="/5F8CFBC4/5F9C84F8" Ref="R?"  Part="1" 
-AR Path="/5F9B6E57/5F9C84F8" Ref="R?"  Part="1" 
-F 0 "R?" H 2220 3468 50  0000 L CNN
-F 1 "R" H 2220 3377 50  0000 L CNN
-F 2 "" V 2080 3422 50  0001 C CNN
-F 3 "~" H 2150 3422 50  0001 C CNN
-	1    2150 3422
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:LED D?
-U 1 1 5F9C84FE
-P 2150 3722
-AR Path="/5F8CFBC4/5F9C84FE" Ref="D?"  Part="1" 
-AR Path="/5F9B6E57/5F9C84FE" Ref="D?"  Part="1" 
-F 0 "D?" V 2189 3605 50  0000 R CNN
-F 1 "LED" V 2098 3605 50  0000 R CNN
-F 2 "" H 2150 3722 50  0001 C CNN
-F 3 "~" H 2150 3722 50  0001 C CNN
-	1    2150 3722
-	0    -1   -1   0   
-$EndComp
-Connection ~ 1850 4072
-Wire Wire Line
-	1850 4372 1850 4424
-Wire Wire Line
-	1850 4424 2150 4424
-Wire Wire Line
-	2150 4424 2150 4272
-$Comp
-L power:GND #PWR?
-U 1 1 5F9C8508
-P 2150 4424
-AR Path="/5F8CFBC4/5F9C8508" Ref="#PWR?"  Part="1" 
-AR Path="/5F9B6E57/5F9C8508" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 2150 4174 50  0001 C CNN
-F 1 "GND" H 2155 4251 50  0000 C CNN
-F 2 "" H 2150 4424 50  0001 C CNN
-F 3 "" H 2150 4424 50  0001 C CNN
-	1    2150 4424
-	1    0    0    -1  
-$EndComp
-Connection ~ 2150 4424
-Text HLabel 2150 3272 0    50   Input ~ 0
-V_SOURCE
 Wire Wire Line
 	1550 4082 1550 4072
 Wire Wire Line
 	1440 4082 1550 4082
-$Comp
-L Transistor_FET:2N7002 Q?
-U 1 1 5F9CAD50
-P 3600 3994
-AR Path="/5F8CFBC4/5F9CAD50" Ref="Q?"  Part="1" 
-AR Path="/5F9B6E57/5F9CAD50" Ref="Q?"  Part="1" 
-F 0 "Q?" H 3804 4040 50  0000 L CNN
-F 1 "2N7002" H 3804 3949 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 3800 3919 50  0001 L CIN
-F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 3600 3994 50  0001 L CNN
-	1    3600 3994
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5F9CAD56
-P 3250 3994
-AR Path="/5F8CFBC4/5F9CAD56" Ref="R?"  Part="1" 
-AR Path="/5F9B6E57/5F9CAD56" Ref="R?"  Part="1" 
-F 0 "R?" H 3320 4040 50  0000 L CNN
-F 1 "R" H 3320 3949 50  0000 L CNN
-F 2 "" V 3180 3994 50  0001 C CNN
-F 3 "~" H 3250 3994 50  0001 C CNN
-	1    3250 3994
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5F9CAD5C
-P 3400 4144
-AR Path="/5F8CFBC4/5F9CAD5C" Ref="R?"  Part="1" 
-AR Path="/5F9B6E57/5F9CAD5C" Ref="R?"  Part="1" 
-F 0 "R?" H 3470 4190 50  0000 L CNN
-F 1 "R" H 3470 4099 50  0000 L CNN
-F 2 "" V 3330 4144 50  0001 C CNN
-F 3 "~" H 3400 4144 50  0001 C CNN
-	1    3400 4144
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5F9CAD62
-P 3700 3344
-AR Path="/5F8CFBC4/5F9CAD62" Ref="R?"  Part="1" 
-AR Path="/5F9B6E57/5F9CAD62" Ref="R?"  Part="1" 
-F 0 "R?" H 3770 3390 50  0000 L CNN
-F 1 "R" H 3770 3299 50  0000 L CNN
-F 2 "" V 3630 3344 50  0001 C CNN
-F 3 "~" H 3700 3344 50  0001 C CNN
-	1    3700 3344
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:LED D?
-U 1 1 5F9CAD68
-P 3700 3644
-AR Path="/5F8CFBC4/5F9CAD68" Ref="D?"  Part="1" 
-AR Path="/5F9B6E57/5F9CAD68" Ref="D?"  Part="1" 
-F 0 "D?" V 3739 3527 50  0000 R CNN
-F 1 "LED" V 3648 3527 50  0000 R CNN
-F 2 "" H 3700 3644 50  0001 C CNN
-F 3 "~" H 3700 3644 50  0001 C CNN
-	1    3700 3644
-	0    -1   -1   0   
-$EndComp
-Connection ~ 3400 3994
-Wire Wire Line
-	3400 4294 3400 4346
-Wire Wire Line
-	3400 4346 3700 4346
-Wire Wire Line
-	3700 4346 3700 4194
-$Comp
-L power:GND #PWR?
-U 1 1 5F9CAD72
-P 3700 4346
-AR Path="/5F8CFBC4/5F9CAD72" Ref="#PWR?"  Part="1" 
-AR Path="/5F9B6E57/5F9CAD72" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 3700 4096 50  0001 C CNN
-F 1 "GND" H 3705 4173 50  0000 C CNN
-F 2 "" H 3700 4346 50  0001 C CNN
-F 3 "" H 3700 4346 50  0001 C CNN
-	1    3700 4346
-	1    0    0    -1  
-$EndComp
-Connection ~ 3700 4346
-Text HLabel 3700 3194 0    50   Input ~ 0
-V_SOURCE
 Wire Wire Line
 	3100 4004 3100 3994
 Wire Wire Line
 	2990 4004 3100 4004
-$Comp
-L Transistor_FET:2N7002 Q?
-U 1 1 5F9CCA33
-P 5330 3942
-AR Path="/5F8CFBC4/5F9CCA33" Ref="Q?"  Part="1" 
-AR Path="/5F9B6E57/5F9CCA33" Ref="Q?"  Part="1" 
-F 0 "Q?" H 5534 3988 50  0000 L CNN
-F 1 "2N7002" H 5534 3897 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 5530 3867 50  0001 L CIN
-F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 5330 3942 50  0001 L CNN
-	1    5330 3942
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5F9CCA39
-P 4980 3942
-AR Path="/5F8CFBC4/5F9CCA39" Ref="R?"  Part="1" 
-AR Path="/5F9B6E57/5F9CCA39" Ref="R?"  Part="1" 
-F 0 "R?" H 5050 3988 50  0000 L CNN
-F 1 "R" H 5050 3897 50  0000 L CNN
-F 2 "" V 4910 3942 50  0001 C CNN
-F 3 "~" H 4980 3942 50  0001 C CNN
-	1    4980 3942
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5F9CCA3F
-P 5130 4092
-AR Path="/5F8CFBC4/5F9CCA3F" Ref="R?"  Part="1" 
-AR Path="/5F9B6E57/5F9CCA3F" Ref="R?"  Part="1" 
-F 0 "R?" H 5200 4138 50  0000 L CNN
-F 1 "R" H 5200 4047 50  0000 L CNN
-F 2 "" V 5060 4092 50  0001 C CNN
-F 3 "~" H 5130 4092 50  0001 C CNN
-	1    5130 4092
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5F9CCA45
-P 5430 3292
-AR Path="/5F8CFBC4/5F9CCA45" Ref="R?"  Part="1" 
-AR Path="/5F9B6E57/5F9CCA45" Ref="R?"  Part="1" 
-F 0 "R?" H 5500 3338 50  0000 L CNN
-F 1 "R" H 5500 3247 50  0000 L CNN
-F 2 "" V 5360 3292 50  0001 C CNN
-F 3 "~" H 5430 3292 50  0001 C CNN
-	1    5430 3292
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:LED D?
-U 1 1 5F9CCA4B
-P 5430 3592
-AR Path="/5F8CFBC4/5F9CCA4B" Ref="D?"  Part="1" 
-AR Path="/5F9B6E57/5F9CCA4B" Ref="D?"  Part="1" 
-F 0 "D?" V 5469 3475 50  0000 R CNN
-F 1 "LED" V 5378 3475 50  0000 R CNN
-F 2 "" H 5430 3592 50  0001 C CNN
-F 3 "~" H 5430 3592 50  0001 C CNN
-	1    5430 3592
-	0    -1   -1   0   
-$EndComp
-Connection ~ 5130 3942
-Wire Wire Line
-	5130 4242 5130 4294
-Wire Wire Line
-	5130 4294 5430 4294
-Wire Wire Line
-	5430 4294 5430 4142
-$Comp
-L power:GND #PWR?
-U 1 1 5F9CCA55
-P 5430 4294
-AR Path="/5F8CFBC4/5F9CCA55" Ref="#PWR?"  Part="1" 
-AR Path="/5F9B6E57/5F9CCA55" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 5430 4044 50  0001 C CNN
-F 1 "GND" H 5435 4121 50  0000 C CNN
-F 2 "" H 5430 4294 50  0001 C CNN
-F 3 "" H 5430 4294 50  0001 C CNN
-	1    5430 4294
-	1    0    0    -1  
-$EndComp
-Connection ~ 5430 4294
-Text HLabel 5430 3142 0    50   Input ~ 0
-V_SOURCE
 Wire Wire Line
 	4830 3952 4830 3942
 Wire Wire Line
 	4720 3952 4830 3952
-$Comp
-L Transistor_FET:2N7002 Q?
-U 1 1 5F9CF1B7
-P 7138 3930
-AR Path="/5F8CFBC4/5F9CF1B7" Ref="Q?"  Part="1" 
-AR Path="/5F9B6E57/5F9CF1B7" Ref="Q?"  Part="1" 
-F 0 "Q?" H 7342 3976 50  0000 L CNN
-F 1 "2N7002" H 7342 3885 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 7338 3855 50  0001 L CIN
-F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 7138 3930 50  0001 L CNN
-	1    7138 3930
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5F9CF1BD
-P 6788 3930
-AR Path="/5F8CFBC4/5F9CF1BD" Ref="R?"  Part="1" 
-AR Path="/5F9B6E57/5F9CF1BD" Ref="R?"  Part="1" 
-F 0 "R?" H 6858 3976 50  0000 L CNN
-F 1 "R" H 6858 3885 50  0000 L CNN
-F 2 "" V 6718 3930 50  0001 C CNN
-F 3 "~" H 6788 3930 50  0001 C CNN
-	1    6788 3930
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5F9CF1C3
-P 6938 4080
-AR Path="/5F8CFBC4/5F9CF1C3" Ref="R?"  Part="1" 
-AR Path="/5F9B6E57/5F9CF1C3" Ref="R?"  Part="1" 
-F 0 "R?" H 7008 4126 50  0000 L CNN
-F 1 "R" H 7008 4035 50  0000 L CNN
-F 2 "" V 6868 4080 50  0001 C CNN
-F 3 "~" H 6938 4080 50  0001 C CNN
-	1    6938 4080
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5F9CF1C9
-P 7238 3280
-AR Path="/5F8CFBC4/5F9CF1C9" Ref="R?"  Part="1" 
-AR Path="/5F9B6E57/5F9CF1C9" Ref="R?"  Part="1" 
-F 0 "R?" H 7308 3326 50  0000 L CNN
-F 1 "R" H 7308 3235 50  0000 L CNN
-F 2 "" V 7168 3280 50  0001 C CNN
-F 3 "~" H 7238 3280 50  0001 C CNN
-	1    7238 3280
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:LED D?
-U 1 1 5F9CF1CF
-P 7238 3580
-AR Path="/5F8CFBC4/5F9CF1CF" Ref="D?"  Part="1" 
-AR Path="/5F9B6E57/5F9CF1CF" Ref="D?"  Part="1" 
-F 0 "D?" V 7277 3463 50  0000 R CNN
-F 1 "LED" V 7186 3463 50  0000 R CNN
-F 2 "" H 7238 3580 50  0001 C CNN
-F 3 "~" H 7238 3580 50  0001 C CNN
-	1    7238 3580
-	0    -1   -1   0   
-$EndComp
-Connection ~ 6938 3930
-Wire Wire Line
-	6938 4230 6938 4282
-Wire Wire Line
-	6938 4282 7238 4282
-Wire Wire Line
-	7238 4282 7238 4130
-$Comp
-L power:GND #PWR?
-U 1 1 5F9CF1D9
-P 7238 4282
-AR Path="/5F8CFBC4/5F9CF1D9" Ref="#PWR?"  Part="1" 
-AR Path="/5F9B6E57/5F9CF1D9" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 7238 4032 50  0001 C CNN
-F 1 "GND" H 7243 4109 50  0000 C CNN
-F 2 "" H 7238 4282 50  0001 C CNN
-F 3 "" H 7238 4282 50  0001 C CNN
-	1    7238 4282
-	1    0    0    -1  
-$EndComp
-Connection ~ 7238 4282
-Text HLabel 7238 3130 0    50   Input ~ 0
-V_SOURCE
 Wire Wire Line
 	6638 3940 6638 3930
 Wire Wire Line
 	6528 3940 6638 3940
-$Comp
-L Transistor_FET:2N7002 Q?
-U 1 1 5F9D1494
-P 9010 3942
-AR Path="/5F8CFBC4/5F9D1494" Ref="Q?"  Part="1" 
-AR Path="/5F9B6E57/5F9D1494" Ref="Q?"  Part="1" 
-F 0 "Q?" H 9214 3988 50  0000 L CNN
-F 1 "2N7002" H 9214 3897 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 9210 3867 50  0001 L CIN
-F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 9010 3942 50  0001 L CNN
-	1    9010 3942
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5F9D149A
-P 8660 3942
-AR Path="/5F8CFBC4/5F9D149A" Ref="R?"  Part="1" 
-AR Path="/5F9B6E57/5F9D149A" Ref="R?"  Part="1" 
-F 0 "R?" H 8730 3988 50  0000 L CNN
-F 1 "R" H 8730 3897 50  0000 L CNN
-F 2 "" V 8590 3942 50  0001 C CNN
-F 3 "~" H 8660 3942 50  0001 C CNN
-	1    8660 3942
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5F9D14A0
-P 8810 4092
-AR Path="/5F8CFBC4/5F9D14A0" Ref="R?"  Part="1" 
-AR Path="/5F9B6E57/5F9D14A0" Ref="R?"  Part="1" 
-F 0 "R?" H 8880 4138 50  0000 L CNN
-F 1 "R" H 8880 4047 50  0000 L CNN
-F 2 "" V 8740 4092 50  0001 C CNN
-F 3 "~" H 8810 4092 50  0001 C CNN
-	1    8810 4092
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5F9D14A6
-P 9110 3292
-AR Path="/5F8CFBC4/5F9D14A6" Ref="R?"  Part="1" 
-AR Path="/5F9B6E57/5F9D14A6" Ref="R?"  Part="1" 
-F 0 "R?" H 9180 3338 50  0000 L CNN
-F 1 "R" H 9180 3247 50  0000 L CNN
-F 2 "" V 9040 3292 50  0001 C CNN
-F 3 "~" H 9110 3292 50  0001 C CNN
-	1    9110 3292
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:LED D?
-U 1 1 5F9D14AC
-P 9110 3592
-AR Path="/5F8CFBC4/5F9D14AC" Ref="D?"  Part="1" 
-AR Path="/5F9B6E57/5F9D14AC" Ref="D?"  Part="1" 
-F 0 "D?" V 9149 3475 50  0000 R CNN
-F 1 "LED" V 9058 3475 50  0000 R CNN
-F 2 "" H 9110 3592 50  0001 C CNN
-F 3 "~" H 9110 3592 50  0001 C CNN
-	1    9110 3592
-	0    -1   -1   0   
-$EndComp
-Connection ~ 8810 3942
-Wire Wire Line
-	8810 4242 8810 4294
-Wire Wire Line
-	8810 4294 9110 4294
-Wire Wire Line
-	9110 4294 9110 4142
-$Comp
-L power:GND #PWR?
-U 1 1 5F9D14B6
-P 9110 4294
-AR Path="/5F8CFBC4/5F9D14B6" Ref="#PWR?"  Part="1" 
-AR Path="/5F9B6E57/5F9D14B6" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 9110 4044 50  0001 C CNN
-F 1 "GND" H 9115 4121 50  0000 C CNN
-F 2 "" H 9110 4294 50  0001 C CNN
-F 3 "" H 9110 4294 50  0001 C CNN
-	1    9110 4294
-	1    0    0    -1  
-$EndComp
-Connection ~ 9110 4294
-Text HLabel 9110 3142 0    50   Input ~ 0
-V_SOURCE
 Wire Wire Line
 	8510 3952 8510 3942
 Wire Wire Line
@@ -953,4 +161,796 @@ Text HLabel 6528 3940 0    50   Input ~ 0
 OLED9
 Text HLabel 8400 3952 0    50   Input ~ 0
 OLED10
+Connection ~ 3738 1918
+$Comp
+L power:GND #PWR?
+U 1 1 5F9B7437
+P 3738 1918
+AR Path="/5F8CFBC4/5F9B7437" Ref="#PWR?"  Part="1" 
+AR Path="/5F9B6E57/5F9B7437" Ref="#PWR020"  Part="1" 
+F 0 "#PWR020" H 3738 1668 50  0001 C CNN
+F 1 "GND" H 3743 1745 50  0000 C CNN
+F 2 "" H 3738 1918 50  0001 C CNN
+F 3 "" H 3738 1918 50  0001 C CNN
+	1    3738 1918
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3738 1918 3738 1766
+Wire Wire Line
+	3438 1918 3738 1918
+Wire Wire Line
+	3438 1866 3438 1918
+$Comp
+L Device:R R?
+U 1 1 5F9B7415
+P 3438 1716
+AR Path="/5F8CFBC4/5F9B7415" Ref="R?"  Part="1" 
+AR Path="/5F9B6E57/5F9B7415" Ref="R45"  Part="1" 
+F 0 "R45" H 3508 1762 50  0000 L CNN
+F 1 "10k" H 3508 1671 50  0000 L CNN
+F 2 "" V 3368 1716 50  0001 C CNN
+F 3 "~" H 3438 1716 50  0001 C CNN
+	1    3438 1716
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F9B740B
+P 3288 1566
+AR Path="/5F8CFBC4/5F9B740B" Ref="R?"  Part="1" 
+AR Path="/5F9B6E57/5F9B740B" Ref="R43"  Part="1" 
+F 0 "R43" H 3358 1612 50  0000 L CNN
+F 1 "10" H 3358 1521 50  0000 L CNN
+F 2 "" V 3218 1566 50  0001 C CNN
+F 3 "~" H 3288 1566 50  0001 C CNN
+	1    3288 1566
+	0    1    1    0   
+$EndComp
+Connection ~ 3438 1566
+$Comp
+L Transistor_FET:2N7002 Q?
+U 1 1 5F9B7401
+P 3638 1566
+AR Path="/5F8CFBC4/5F9B7401" Ref="Q?"  Part="1" 
+AR Path="/5F9B6E57/5F9B7401" Ref="Q15"  Part="1" 
+F 0 "Q15" H 3842 1612 50  0000 L CNN
+F 1 "2N7002" H 3842 1521 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 3838 1491 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 3638 1566 50  0001 L CNN
+	1    3638 1566
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F9B741F
+P 3738 916
+AR Path="/5F8CFBC4/5F9B741F" Ref="R?"  Part="1" 
+AR Path="/5F9B6E57/5F9B741F" Ref="R47"  Part="1" 
+F 0 "R47" H 3808 962 50  0000 L CNN
+F 1 "330" H 3808 871 50  0000 L CNN
+F 2 "" V 3668 916 50  0001 C CNN
+F 3 "~" H 3738 916 50  0001 C CNN
+	1    3738 916 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5F9B7429
+P 3738 1216
+AR Path="/5F8CFBC4/5F9B7429" Ref="D?"  Part="1" 
+AR Path="/5F9B6E57/5F9B7429" Ref="D15"  Part="1" 
+F 0 "D15" V 3777 1099 50  0000 R CNN
+F 1 "LED" V 3686 1099 50  0000 R CNN
+F 2 "" H 3738 1216 50  0001 C CNN
+F 3 "~" H 3738 1216 50  0001 C CNN
+	1    3738 1216
+	0    -1   -1   0   
+$EndComp
+Text HLabel 3738 766  0    50   Input ~ 0
+V_SOURCE
+Connection ~ 5482 1894
+$Comp
+L power:GND #PWR?
+U 1 1 5F9C9D2A
+P 5482 1894
+AR Path="/5F8CFBC4/5F9C9D2A" Ref="#PWR?"  Part="1" 
+AR Path="/5F9B6E57/5F9C9D2A" Ref="#PWR022"  Part="1" 
+F 0 "#PWR022" H 5482 1644 50  0001 C CNN
+F 1 "GND" H 5487 1721 50  0000 C CNN
+F 2 "" H 5482 1894 50  0001 C CNN
+F 3 "" H 5482 1894 50  0001 C CNN
+	1    5482 1894
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5482 1894 5482 1742
+Wire Wire Line
+	5182 1894 5482 1894
+Wire Wire Line
+	5182 1842 5182 1894
+$Comp
+L Device:R R?
+U 1 1 5F9C9D37
+P 5182 1692
+AR Path="/5F8CFBC4/5F9C9D37" Ref="R?"  Part="1" 
+AR Path="/5F9B6E57/5F9C9D37" Ref="R51"  Part="1" 
+F 0 "R51" H 5252 1738 50  0000 L CNN
+F 1 "10k" H 5252 1647 50  0000 L CNN
+F 2 "" V 5112 1692 50  0001 C CNN
+F 3 "~" H 5182 1692 50  0001 C CNN
+	1    5182 1692
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F9C9D41
+P 5032 1542
+AR Path="/5F8CFBC4/5F9C9D41" Ref="R?"  Part="1" 
+AR Path="/5F9B6E57/5F9C9D41" Ref="R49"  Part="1" 
+F 0 "R49" H 5102 1588 50  0000 L CNN
+F 1 "10" H 5102 1497 50  0000 L CNN
+F 2 "" V 4962 1542 50  0001 C CNN
+F 3 "~" H 5032 1542 50  0001 C CNN
+	1    5032 1542
+	0    1    1    0   
+$EndComp
+Connection ~ 5182 1542
+$Comp
+L Transistor_FET:2N7002 Q?
+U 1 1 5F9C9D4C
+P 5382 1542
+AR Path="/5F8CFBC4/5F9C9D4C" Ref="Q?"  Part="1" 
+AR Path="/5F9B6E57/5F9C9D4C" Ref="Q17"  Part="1" 
+F 0 "Q17" H 5586 1588 50  0000 L CNN
+F 1 "2N7002" H 5586 1497 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5582 1467 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 5382 1542 50  0001 L CNN
+	1    5382 1542
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F9C9D56
+P 5482 892
+AR Path="/5F8CFBC4/5F9C9D56" Ref="R?"  Part="1" 
+AR Path="/5F9B6E57/5F9C9D56" Ref="R53"  Part="1" 
+F 0 "R53" H 5552 938 50  0000 L CNN
+F 1 "330" H 5552 847 50  0000 L CNN
+F 2 "" V 5412 892 50  0001 C CNN
+F 3 "~" H 5482 892 50  0001 C CNN
+	1    5482 892 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5F9C9D60
+P 5482 1192
+AR Path="/5F8CFBC4/5F9C9D60" Ref="D?"  Part="1" 
+AR Path="/5F9B6E57/5F9C9D60" Ref="D17"  Part="1" 
+F 0 "D17" V 5521 1075 50  0000 R CNN
+F 1 "LED" V 5430 1075 50  0000 R CNN
+F 2 "" H 5482 1192 50  0001 C CNN
+F 3 "~" H 5482 1192 50  0001 C CNN
+	1    5482 1192
+	0    -1   -1   0   
+$EndComp
+Text HLabel 5482 742  0    50   Input ~ 0
+V_SOURCE
+Connection ~ 7264 1880
+$Comp
+L power:GND #PWR?
+U 1 1 5F9CFED0
+P 7264 1880
+AR Path="/5F8CFBC4/5F9CFED0" Ref="#PWR?"  Part="1" 
+AR Path="/5F9B6E57/5F9CFED0" Ref="#PWR024"  Part="1" 
+F 0 "#PWR024" H 7264 1630 50  0001 C CNN
+F 1 "GND" H 7269 1707 50  0000 C CNN
+F 2 "" H 7264 1880 50  0001 C CNN
+F 3 "" H 7264 1880 50  0001 C CNN
+	1    7264 1880
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7264 1880 7264 1728
+Wire Wire Line
+	6964 1880 7264 1880
+Wire Wire Line
+	6964 1828 6964 1880
+$Comp
+L Device:R R?
+U 1 1 5F9CFEDD
+P 6964 1678
+AR Path="/5F8CFBC4/5F9CFEDD" Ref="R?"  Part="1" 
+AR Path="/5F9B6E57/5F9CFEDD" Ref="R57"  Part="1" 
+F 0 "R57" H 7034 1724 50  0000 L CNN
+F 1 "10k" H 7034 1633 50  0000 L CNN
+F 2 "" V 6894 1678 50  0001 C CNN
+F 3 "~" H 6964 1678 50  0001 C CNN
+	1    6964 1678
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F9CFEE7
+P 6814 1528
+AR Path="/5F8CFBC4/5F9CFEE7" Ref="R?"  Part="1" 
+AR Path="/5F9B6E57/5F9CFEE7" Ref="R55"  Part="1" 
+F 0 "R55" H 6884 1574 50  0000 L CNN
+F 1 "10" H 6884 1483 50  0000 L CNN
+F 2 "" V 6744 1528 50  0001 C CNN
+F 3 "~" H 6814 1528 50  0001 C CNN
+	1    6814 1528
+	0    1    1    0   
+$EndComp
+Connection ~ 6964 1528
+$Comp
+L Transistor_FET:2N7002 Q?
+U 1 1 5F9CFEF2
+P 7164 1528
+AR Path="/5F8CFBC4/5F9CFEF2" Ref="Q?"  Part="1" 
+AR Path="/5F9B6E57/5F9CFEF2" Ref="Q19"  Part="1" 
+F 0 "Q19" H 7368 1574 50  0000 L CNN
+F 1 "2N7002" H 7368 1483 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7364 1453 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 7164 1528 50  0001 L CNN
+	1    7164 1528
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F9CFEFC
+P 7264 878
+AR Path="/5F8CFBC4/5F9CFEFC" Ref="R?"  Part="1" 
+AR Path="/5F9B6E57/5F9CFEFC" Ref="R59"  Part="1" 
+F 0 "R59" H 7334 924 50  0000 L CNN
+F 1 "330" H 7334 833 50  0000 L CNN
+F 2 "" V 7194 878 50  0001 C CNN
+F 3 "~" H 7264 878 50  0001 C CNN
+	1    7264 878 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5F9CFF06
+P 7264 1178
+AR Path="/5F8CFBC4/5F9CFF06" Ref="D?"  Part="1" 
+AR Path="/5F9B6E57/5F9CFF06" Ref="D19"  Part="1" 
+F 0 "D19" V 7303 1061 50  0000 R CNN
+F 1 "LED" V 7212 1061 50  0000 R CNN
+F 2 "" H 7264 1178 50  0001 C CNN
+F 3 "~" H 7264 1178 50  0001 C CNN
+	1    7264 1178
+	0    -1   -1   0   
+$EndComp
+Text HLabel 7264 728  0    50   Input ~ 0
+V_SOURCE
+Connection ~ 9070 1828
+$Comp
+L power:GND #PWR?
+U 1 1 5F9D8E6E
+P 9070 1828
+AR Path="/5F8CFBC4/5F9D8E6E" Ref="#PWR?"  Part="1" 
+AR Path="/5F9B6E57/5F9D8E6E" Ref="#PWR025"  Part="1" 
+F 0 "#PWR025" H 9070 1578 50  0001 C CNN
+F 1 "GND" H 9075 1655 50  0000 C CNN
+F 2 "" H 9070 1828 50  0001 C CNN
+F 3 "" H 9070 1828 50  0001 C CNN
+	1    9070 1828
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9070 1828 9070 1676
+Wire Wire Line
+	8770 1828 9070 1828
+Wire Wire Line
+	8770 1776 8770 1828
+$Comp
+L Device:R R?
+U 1 1 5F9D8E7B
+P 8770 1626
+AR Path="/5F8CFBC4/5F9D8E7B" Ref="R?"  Part="1" 
+AR Path="/5F9B6E57/5F9D8E7B" Ref="R62"  Part="1" 
+F 0 "R62" H 8840 1672 50  0000 L CNN
+F 1 "10k" H 8840 1581 50  0000 L CNN
+F 2 "" V 8700 1626 50  0001 C CNN
+F 3 "~" H 8770 1626 50  0001 C CNN
+	1    8770 1626
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F9D8E85
+P 8620 1476
+AR Path="/5F8CFBC4/5F9D8E85" Ref="R?"  Part="1" 
+AR Path="/5F9B6E57/5F9D8E85" Ref="R60"  Part="1" 
+F 0 "R60" H 8690 1522 50  0000 L CNN
+F 1 "10" H 8690 1431 50  0000 L CNN
+F 2 "" V 8550 1476 50  0001 C CNN
+F 3 "~" H 8620 1476 50  0001 C CNN
+	1    8620 1476
+	0    1    1    0   
+$EndComp
+Connection ~ 8770 1476
+$Comp
+L Transistor_FET:2N7002 Q?
+U 1 1 5F9D8E90
+P 8970 1476
+AR Path="/5F8CFBC4/5F9D8E90" Ref="Q?"  Part="1" 
+AR Path="/5F9B6E57/5F9D8E90" Ref="Q20"  Part="1" 
+F 0 "Q20" H 9174 1522 50  0000 L CNN
+F 1 "2N7002" H 9174 1431 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 9170 1401 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 8970 1476 50  0001 L CNN
+	1    8970 1476
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F9D8E9A
+P 9070 826
+AR Path="/5F8CFBC4/5F9D8E9A" Ref="R?"  Part="1" 
+AR Path="/5F9B6E57/5F9D8E9A" Ref="R64"  Part="1" 
+F 0 "R64" H 9140 872 50  0000 L CNN
+F 1 "330" H 9140 781 50  0000 L CNN
+F 2 "" V 9000 826 50  0001 C CNN
+F 3 "~" H 9070 826 50  0001 C CNN
+	1    9070 826 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5F9D8EA4
+P 9070 1126
+AR Path="/5F8CFBC4/5F9D8EA4" Ref="D?"  Part="1" 
+AR Path="/5F9B6E57/5F9D8EA4" Ref="D20"  Part="1" 
+F 0 "D20" V 9109 1009 50  0000 R CNN
+F 1 "LED" V 9018 1009 50  0000 R CNN
+F 2 "" H 9070 1126 50  0001 C CNN
+F 3 "~" H 9070 1126 50  0001 C CNN
+	1    9070 1126
+	0    -1   -1   0   
+$EndComp
+Text HLabel 9070 676  0    50   Input ~ 0
+V_SOURCE
+$Comp
+L Transistor_FET:2N7002 Q?
+U 1 1 5F9ECC70
+P 2050 4072
+AR Path="/5F8CFBC4/5F9ECC70" Ref="Q?"  Part="1" 
+AR Path="/5F9B6E57/5F9ECC70" Ref="Q12"  Part="1" 
+F 0 "Q12" H 2254 4118 50  0000 L CNN
+F 1 "2N7002" H 2254 4027 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2250 3997 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 2050 4072 50  0001 L CNN
+	1    2050 4072
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F9ECC7A
+P 1700 4072
+AR Path="/5F8CFBC4/5F9ECC7A" Ref="R?"  Part="1" 
+AR Path="/5F9B6E57/5F9ECC7A" Ref="R36"  Part="1" 
+F 0 "R36" H 1770 4118 50  0000 L CNN
+F 1 "10" H 1770 4027 50  0000 L CNN
+F 2 "" V 1630 4072 50  0001 C CNN
+F 3 "~" H 1700 4072 50  0001 C CNN
+	1    1700 4072
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F9ECC84
+P 1850 4222
+AR Path="/5F8CFBC4/5F9ECC84" Ref="R?"  Part="1" 
+AR Path="/5F9B6E57/5F9ECC84" Ref="R38"  Part="1" 
+F 0 "R38" H 1920 4268 50  0000 L CNN
+F 1 "10k" H 1920 4177 50  0000 L CNN
+F 2 "" V 1780 4222 50  0001 C CNN
+F 3 "~" H 1850 4222 50  0001 C CNN
+	1    1850 4222
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F9ECC8E
+P 2150 3422
+AR Path="/5F8CFBC4/5F9ECC8E" Ref="R?"  Part="1" 
+AR Path="/5F9B6E57/5F9ECC8E" Ref="R40"  Part="1" 
+F 0 "R40" H 2220 3468 50  0000 L CNN
+F 1 "330" H 2220 3377 50  0000 L CNN
+F 2 "" V 2080 3422 50  0001 C CNN
+F 3 "~" H 2150 3422 50  0001 C CNN
+	1    2150 3422
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5F9ECC98
+P 2150 3722
+AR Path="/5F8CFBC4/5F9ECC98" Ref="D?"  Part="1" 
+AR Path="/5F9B6E57/5F9ECC98" Ref="D12"  Part="1" 
+F 0 "D12" V 2189 3605 50  0000 R CNN
+F 1 "LED" V 2098 3605 50  0000 R CNN
+F 2 "" H 2150 3722 50  0001 C CNN
+F 3 "~" H 2150 3722 50  0001 C CNN
+	1    2150 3722
+	0    -1   -1   0   
+$EndComp
+Connection ~ 1850 4072
+Wire Wire Line
+	1850 4372 1850 4424
+Wire Wire Line
+	1850 4424 2150 4424
+Wire Wire Line
+	2150 4424 2150 4272
+$Comp
+L power:GND #PWR?
+U 1 1 5F9ECCA6
+P 2150 4424
+AR Path="/5F8CFBC4/5F9ECCA6" Ref="#PWR?"  Part="1" 
+AR Path="/5F9B6E57/5F9ECCA6" Ref="#PWR017"  Part="1" 
+F 0 "#PWR017" H 2150 4174 50  0001 C CNN
+F 1 "GND" H 2155 4251 50  0000 C CNN
+F 2 "" H 2150 4424 50  0001 C CNN
+F 3 "" H 2150 4424 50  0001 C CNN
+	1    2150 4424
+	1    0    0    -1  
+$EndComp
+Connection ~ 2150 4424
+Text HLabel 2150 3272 0    50   Input ~ 0
+V_SOURCE
+$Comp
+L Transistor_FET:2N7002 Q?
+U 1 1 5F9FA523
+P 3600 3994
+AR Path="/5F8CFBC4/5F9FA523" Ref="Q?"  Part="1" 
+AR Path="/5F9B6E57/5F9FA523" Ref="Q14"  Part="1" 
+F 0 "Q14" H 3804 4040 50  0000 L CNN
+F 1 "2N7002" H 3804 3949 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 3800 3919 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 3600 3994 50  0001 L CNN
+	1    3600 3994
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F9FA52D
+P 3250 3994
+AR Path="/5F8CFBC4/5F9FA52D" Ref="R?"  Part="1" 
+AR Path="/5F9B6E57/5F9FA52D" Ref="R42"  Part="1" 
+F 0 "R42" H 3320 4040 50  0000 L CNN
+F 1 "10" H 3320 3949 50  0000 L CNN
+F 2 "" V 3180 3994 50  0001 C CNN
+F 3 "~" H 3250 3994 50  0001 C CNN
+	1    3250 3994
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F9FA537
+P 3400 4144
+AR Path="/5F8CFBC4/5F9FA537" Ref="R?"  Part="1" 
+AR Path="/5F9B6E57/5F9FA537" Ref="R44"  Part="1" 
+F 0 "R44" H 3470 4190 50  0000 L CNN
+F 1 "10k" H 3470 4099 50  0000 L CNN
+F 2 "" V 3330 4144 50  0001 C CNN
+F 3 "~" H 3400 4144 50  0001 C CNN
+	1    3400 4144
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F9FA541
+P 3700 3344
+AR Path="/5F8CFBC4/5F9FA541" Ref="R?"  Part="1" 
+AR Path="/5F9B6E57/5F9FA541" Ref="R46"  Part="1" 
+F 0 "R46" H 3770 3390 50  0000 L CNN
+F 1 "330" H 3770 3299 50  0000 L CNN
+F 2 "" V 3630 3344 50  0001 C CNN
+F 3 "~" H 3700 3344 50  0001 C CNN
+	1    3700 3344
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5F9FA54B
+P 3700 3644
+AR Path="/5F8CFBC4/5F9FA54B" Ref="D?"  Part="1" 
+AR Path="/5F9B6E57/5F9FA54B" Ref="D14"  Part="1" 
+F 0 "D14" V 3739 3527 50  0000 R CNN
+F 1 "LED" V 3648 3527 50  0000 R CNN
+F 2 "" H 3700 3644 50  0001 C CNN
+F 3 "~" H 3700 3644 50  0001 C CNN
+	1    3700 3644
+	0    -1   -1   0   
+$EndComp
+Connection ~ 3400 3994
+Wire Wire Line
+	3400 4294 3400 4346
+Wire Wire Line
+	3400 4346 3700 4346
+Wire Wire Line
+	3700 4346 3700 4194
+$Comp
+L power:GND #PWR?
+U 1 1 5F9FA559
+P 3700 4346
+AR Path="/5F8CFBC4/5F9FA559" Ref="#PWR?"  Part="1" 
+AR Path="/5F9B6E57/5F9FA559" Ref="#PWR019"  Part="1" 
+F 0 "#PWR019" H 3700 4096 50  0001 C CNN
+F 1 "GND" H 3705 4173 50  0000 C CNN
+F 2 "" H 3700 4346 50  0001 C CNN
+F 3 "" H 3700 4346 50  0001 C CNN
+	1    3700 4346
+	1    0    0    -1  
+$EndComp
+Connection ~ 3700 4346
+Text HLabel 3700 3194 0    50   Input ~ 0
+V_SOURCE
+$Comp
+L Transistor_FET:2N7002 Q?
+U 1 1 5FA04324
+P 5330 3942
+AR Path="/5F8CFBC4/5FA04324" Ref="Q?"  Part="1" 
+AR Path="/5F9B6E57/5FA04324" Ref="Q16"  Part="1" 
+F 0 "Q16" H 5534 3988 50  0000 L CNN
+F 1 "2N7002" H 5534 3897 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5530 3867 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 5330 3942 50  0001 L CNN
+	1    5330 3942
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FA0432E
+P 4980 3942
+AR Path="/5F8CFBC4/5FA0432E" Ref="R?"  Part="1" 
+AR Path="/5F9B6E57/5FA0432E" Ref="R48"  Part="1" 
+F 0 "R48" H 5050 3988 50  0000 L CNN
+F 1 "10" H 5050 3897 50  0000 L CNN
+F 2 "" V 4910 3942 50  0001 C CNN
+F 3 "~" H 4980 3942 50  0001 C CNN
+	1    4980 3942
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FA04338
+P 5130 4092
+AR Path="/5F8CFBC4/5FA04338" Ref="R?"  Part="1" 
+AR Path="/5F9B6E57/5FA04338" Ref="R50"  Part="1" 
+F 0 "R50" H 5200 4138 50  0000 L CNN
+F 1 "10k" H 5200 4047 50  0000 L CNN
+F 2 "" V 5060 4092 50  0001 C CNN
+F 3 "~" H 5130 4092 50  0001 C CNN
+	1    5130 4092
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FA04342
+P 5430 3292
+AR Path="/5F8CFBC4/5FA04342" Ref="R?"  Part="1" 
+AR Path="/5F9B6E57/5FA04342" Ref="R52"  Part="1" 
+F 0 "R52" H 5500 3338 50  0000 L CNN
+F 1 "330" H 5500 3247 50  0000 L CNN
+F 2 "" V 5360 3292 50  0001 C CNN
+F 3 "~" H 5430 3292 50  0001 C CNN
+	1    5430 3292
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5FA0434C
+P 5430 3592
+AR Path="/5F8CFBC4/5FA0434C" Ref="D?"  Part="1" 
+AR Path="/5F9B6E57/5FA0434C" Ref="D16"  Part="1" 
+F 0 "D16" V 5469 3475 50  0000 R CNN
+F 1 "LED" V 5378 3475 50  0000 R CNN
+F 2 "" H 5430 3592 50  0001 C CNN
+F 3 "~" H 5430 3592 50  0001 C CNN
+	1    5430 3592
+	0    -1   -1   0   
+$EndComp
+Connection ~ 5130 3942
+Wire Wire Line
+	5130 4242 5130 4294
+Wire Wire Line
+	5130 4294 5430 4294
+Wire Wire Line
+	5430 4294 5430 4142
+$Comp
+L power:GND #PWR?
+U 1 1 5FA0435A
+P 5430 4294
+AR Path="/5F8CFBC4/5FA0435A" Ref="#PWR?"  Part="1" 
+AR Path="/5F9B6E57/5FA0435A" Ref="#PWR021"  Part="1" 
+F 0 "#PWR021" H 5430 4044 50  0001 C CNN
+F 1 "GND" H 5435 4121 50  0000 C CNN
+F 2 "" H 5430 4294 50  0001 C CNN
+F 3 "" H 5430 4294 50  0001 C CNN
+	1    5430 4294
+	1    0    0    -1  
+$EndComp
+Connection ~ 5430 4294
+Text HLabel 5430 3142 0    50   Input ~ 0
+V_SOURCE
+$Comp
+L Transistor_FET:2N7002 Q?
+U 1 1 5FA11587
+P 7138 3930
+AR Path="/5F8CFBC4/5FA11587" Ref="Q?"  Part="1" 
+AR Path="/5F9B6E57/5FA11587" Ref="Q18"  Part="1" 
+F 0 "Q18" H 7342 3976 50  0000 L CNN
+F 1 "2N7002" H 7342 3885 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7338 3855 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 7138 3930 50  0001 L CNN
+	1    7138 3930
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FA11591
+P 6788 3930
+AR Path="/5F8CFBC4/5FA11591" Ref="R?"  Part="1" 
+AR Path="/5F9B6E57/5FA11591" Ref="R54"  Part="1" 
+F 0 "R54" H 6858 3976 50  0000 L CNN
+F 1 "10" H 6858 3885 50  0000 L CNN
+F 2 "" V 6718 3930 50  0001 C CNN
+F 3 "~" H 6788 3930 50  0001 C CNN
+	1    6788 3930
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FA1159B
+P 6938 4080
+AR Path="/5F8CFBC4/5FA1159B" Ref="R?"  Part="1" 
+AR Path="/5F9B6E57/5FA1159B" Ref="R56"  Part="1" 
+F 0 "R56" H 7008 4126 50  0000 L CNN
+F 1 "10k" H 7008 4035 50  0000 L CNN
+F 2 "" V 6868 4080 50  0001 C CNN
+F 3 "~" H 6938 4080 50  0001 C CNN
+	1    6938 4080
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FA115A5
+P 7238 3280
+AR Path="/5F8CFBC4/5FA115A5" Ref="R?"  Part="1" 
+AR Path="/5F9B6E57/5FA115A5" Ref="R58"  Part="1" 
+F 0 "R58" H 7308 3326 50  0000 L CNN
+F 1 "330" H 7308 3235 50  0000 L CNN
+F 2 "" V 7168 3280 50  0001 C CNN
+F 3 "~" H 7238 3280 50  0001 C CNN
+	1    7238 3280
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5FA115AF
+P 7238 3580
+AR Path="/5F8CFBC4/5FA115AF" Ref="D?"  Part="1" 
+AR Path="/5F9B6E57/5FA115AF" Ref="D18"  Part="1" 
+F 0 "D18" V 7277 3463 50  0000 R CNN
+F 1 "LED" V 7186 3463 50  0000 R CNN
+F 2 "" H 7238 3580 50  0001 C CNN
+F 3 "~" H 7238 3580 50  0001 C CNN
+	1    7238 3580
+	0    -1   -1   0   
+$EndComp
+Connection ~ 6938 3930
+Wire Wire Line
+	6938 4230 6938 4282
+Wire Wire Line
+	6938 4282 7238 4282
+Wire Wire Line
+	7238 4282 7238 4130
+$Comp
+L power:GND #PWR?
+U 1 1 5FA115BD
+P 7238 4282
+AR Path="/5F8CFBC4/5FA115BD" Ref="#PWR?"  Part="1" 
+AR Path="/5F9B6E57/5FA115BD" Ref="#PWR023"  Part="1" 
+F 0 "#PWR023" H 7238 4032 50  0001 C CNN
+F 1 "GND" H 7243 4109 50  0000 C CNN
+F 2 "" H 7238 4282 50  0001 C CNN
+F 3 "" H 7238 4282 50  0001 C CNN
+	1    7238 4282
+	1    0    0    -1  
+$EndComp
+Connection ~ 7238 4282
+Text HLabel 7238 3130 0    50   Input ~ 0
+V_SOURCE
+$Comp
+L Transistor_FET:2N7002 Q?
+U 1 1 5FA1E6A7
+P 9010 3942
+AR Path="/5F8CFBC4/5FA1E6A7" Ref="Q?"  Part="1" 
+AR Path="/5F9B6E57/5FA1E6A7" Ref="Q21"  Part="1" 
+F 0 "Q21" H 9214 3988 50  0000 L CNN
+F 1 "2N7002" H 9214 3897 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 9210 3867 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 9010 3942 50  0001 L CNN
+	1    9010 3942
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FA1E6B1
+P 8660 3942
+AR Path="/5F8CFBC4/5FA1E6B1" Ref="R?"  Part="1" 
+AR Path="/5F9B6E57/5FA1E6B1" Ref="R61"  Part="1" 
+F 0 "R61" H 8730 3988 50  0000 L CNN
+F 1 "10" H 8730 3897 50  0000 L CNN
+F 2 "" V 8590 3942 50  0001 C CNN
+F 3 "~" H 8660 3942 50  0001 C CNN
+	1    8660 3942
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FA1E6BB
+P 8810 4092
+AR Path="/5F8CFBC4/5FA1E6BB" Ref="R?"  Part="1" 
+AR Path="/5F9B6E57/5FA1E6BB" Ref="R63"  Part="1" 
+F 0 "R63" H 8880 4138 50  0000 L CNN
+F 1 "10k" H 8880 4047 50  0000 L CNN
+F 2 "" V 8740 4092 50  0001 C CNN
+F 3 "~" H 8810 4092 50  0001 C CNN
+	1    8810 4092
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FA1E6C5
+P 9110 3292
+AR Path="/5F8CFBC4/5FA1E6C5" Ref="R?"  Part="1" 
+AR Path="/5F9B6E57/5FA1E6C5" Ref="R65"  Part="1" 
+F 0 "R65" H 9180 3338 50  0000 L CNN
+F 1 "330" H 9180 3247 50  0000 L CNN
+F 2 "" V 9040 3292 50  0001 C CNN
+F 3 "~" H 9110 3292 50  0001 C CNN
+	1    9110 3292
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5FA1E6CF
+P 9110 3592
+AR Path="/5F8CFBC4/5FA1E6CF" Ref="D?"  Part="1" 
+AR Path="/5F9B6E57/5FA1E6CF" Ref="D21"  Part="1" 
+F 0 "D21" V 9149 3475 50  0000 R CNN
+F 1 "LED" V 9058 3475 50  0000 R CNN
+F 2 "" H 9110 3592 50  0001 C CNN
+F 3 "~" H 9110 3592 50  0001 C CNN
+	1    9110 3592
+	0    -1   -1   0   
+$EndComp
+Connection ~ 8810 3942
+Wire Wire Line
+	8810 4242 8810 4294
+Wire Wire Line
+	8810 4294 9110 4294
+Wire Wire Line
+	9110 4294 9110 4142
+$Comp
+L power:GND #PWR?
+U 1 1 5FA1E6DD
+P 9110 4294
+AR Path="/5F8CFBC4/5FA1E6DD" Ref="#PWR?"  Part="1" 
+AR Path="/5F9B6E57/5FA1E6DD" Ref="#PWR026"  Part="1" 
+F 0 "#PWR026" H 9110 4044 50  0001 C CNN
+F 1 "GND" H 9115 4121 50  0000 C CNN
+F 2 "" H 9110 4294 50  0001 C CNN
+F 3 "" H 9110 4294 50  0001 C CNN
+	1    9110 4294
+	1    0    0    -1  
+$EndComp
+Connection ~ 9110 4294
+Text HLabel 9110 3142 0    50   Input ~ 0
+V_SOURCE
 $EndSCHEMATC
