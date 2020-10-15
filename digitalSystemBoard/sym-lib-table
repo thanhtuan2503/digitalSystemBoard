@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name digitalSystemBoard-rescue)(type Legacy)(uri ${KIPRJMOD}/digitalSystemBoard-rescue.lib)(options "")(descr ""))
+)

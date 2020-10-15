@@ -17,9 +17,11 @@ NoConn ~ 1126 1940
 NoConn ~ 1126 1240
 NoConn ~ 1376 1440
 $Comp
-L digitalSystemBoard:IO_Switch U5
+L digitalSystemBoard-rescue:IO_Switch-digitalSystemBoard U5
 U 1 1 5F8D12EE
 P 1176 1590
+AR Path="/5F8D12EE" Ref="U5"  Part="1" 
+AR Path="/5F8CFBC4/5F8D12EE" Ref="U5"  Part="1" 
 F 0 "U5" H 1176 1905 50  0000 C CNN
 F 1 "IO_Switch" H 1176 1814 50  0000 C CNN
 F 2 "" H 1176 1590 50  0001 C CNN
@@ -120,9 +122,11 @@ NoConn ~ 3410 1928
 NoConn ~ 3410 1228
 NoConn ~ 3660 1428
 $Comp
-L digitalSystemBoard:IO_Switch U6
+L digitalSystemBoard-rescue:IO_Switch-digitalSystemBoard U6
 U 1 1 5F942F24
 P 3460 1578
+AR Path="/5F942F24" Ref="U6"  Part="1" 
+AR Path="/5F8CFBC4/5F942F24" Ref="U6"  Part="1" 
 F 0 "U6" H 3460 1893 50  0000 C CNN
 F 1 "IO_Switch" H 3460 1802 50  0000 C CNN
 F 2 "" H 3460 1578 50  0001 C CNN
@@ -223,9 +227,11 @@ NoConn ~ 5638 1946
 NoConn ~ 5638 1246
 NoConn ~ 5888 1446
 $Comp
-L digitalSystemBoard:IO_Switch U7
+L digitalSystemBoard-rescue:IO_Switch-digitalSystemBoard U7
 U 1 1 5F944061
 P 5688 1596
+AR Path="/5F944061" Ref="U7"  Part="1" 
+AR Path="/5F8CFBC4/5F944061" Ref="U7"  Part="1" 
 F 0 "U7" H 5688 1911 50  0000 C CNN
 F 1 "IO_Switch" H 5688 1820 50  0000 C CNN
 F 2 "" H 5688 1596 50  0001 C CNN
@@ -326,9 +332,11 @@ NoConn ~ 7866 1962
 NoConn ~ 7866 1262
 NoConn ~ 8116 1462
 $Comp
-L digitalSystemBoard:IO_Switch U8
+L digitalSystemBoard-rescue:IO_Switch-digitalSystemBoard U8
 U 1 1 5F94461F
 P 7916 1612
+AR Path="/5F94461F" Ref="U8"  Part="1" 
+AR Path="/5F8CFBC4/5F94461F" Ref="U8"  Part="1" 
 F 0 "U8" H 7916 1927 50  0000 C CNN
 F 1 "IO_Switch" H 7916 1836 50  0000 C CNN
 F 2 "" H 7916 1612 50  0001 C CNN
@@ -429,9 +437,11 @@ NoConn ~ 1052 4322
 NoConn ~ 1052 3622
 NoConn ~ 1302 3822
 $Comp
-L digitalSystemBoard:IO_Switch U9
+L digitalSystemBoard-rescue:IO_Switch-digitalSystemBoard U9
 U 1 1 5F948861
 P 1102 3972
+AR Path="/5F948861" Ref="U9"  Part="1" 
+AR Path="/5F8CFBC4/5F948861" Ref="U9"  Part="1" 
 F 0 "U9" H 1102 4287 50  0000 C CNN
 F 1 "IO_Switch" H 1102 4196 50  0000 C CNN
 F 2 "" H 1102 3972 50  0001 C CNN
@@ -532,9 +542,11 @@ NoConn ~ 3296 4304
 NoConn ~ 3296 3604
 NoConn ~ 3546 3804
 $Comp
-L digitalSystemBoard:IO_Switch U10
+L digitalSystemBoard-rescue:IO_Switch-digitalSystemBoard U10
 U 1 1 5F94AB7C
 P 3346 3954
+AR Path="/5F94AB7C" Ref="U10"  Part="1" 
+AR Path="/5F8CFBC4/5F94AB7C" Ref="U10"  Part="1" 
 F 0 "U10" H 3346 4269 50  0000 C CNN
 F 1 "IO_Switch" H 3346 4178 50  0000 C CNN
 F 2 "" H 3346 3954 50  0001 C CNN
@@ -635,9 +647,11 @@ NoConn ~ 5638 4272
 NoConn ~ 5638 3572
 NoConn ~ 5888 3772
 $Comp
-L digitalSystemBoard:IO_Switch U11
+L digitalSystemBoard-rescue:IO_Switch-digitalSystemBoard U11
 U 1 1 5F94C7D4
 P 5688 3922
+AR Path="/5F94C7D4" Ref="U11"  Part="1" 
+AR Path="/5F8CFBC4/5F94C7D4" Ref="U11"  Part="1" 
 F 0 "U11" H 5688 4237 50  0000 C CNN
 F 1 "IO_Switch" H 5688 4146 50  0000 C CNN
 F 2 "" H 5688 3922 50  0001 C CNN
@@ -738,9 +752,11 @@ NoConn ~ 7784 4272
 NoConn ~ 7784 3572
 NoConn ~ 8034 3772
 $Comp
-L digitalSystemBoard:IO_Switch U12
+L digitalSystemBoard-rescue:IO_Switch-digitalSystemBoard U12
 U 1 1 5F950A04
 P 7834 3922
+AR Path="/5F950A04" Ref="U12"  Part="1" 
+AR Path="/5F8CFBC4/5F950A04" Ref="U12"  Part="1" 
 F 0 "U12" H 7834 4237 50  0000 C CNN
 F 1 "IO_Switch" H 7834 4146 50  0000 C CNN
 F 2 "" H 7834 3922 50  0001 C CNN
@@ -841,9 +857,11 @@ NoConn ~ 1048 6566
 NoConn ~ 1048 5866
 NoConn ~ 1298 6066
 $Comp
-L digitalSystemBoard:IO_Switch U13
+L digitalSystemBoard-rescue:IO_Switch-digitalSystemBoard U13
 U 1 1 5F9542D3
 P 1098 6216
+AR Path="/5F9542D3" Ref="U13"  Part="1" 
+AR Path="/5F8CFBC4/5F9542D3" Ref="U13"  Part="1" 
 F 0 "U13" H 1098 6531 50  0000 C CNN
 F 1 "IO_Switch" H 1098 6440 50  0000 C CNN
 F 2 "" H 1098 6216 50  0001 C CNN
@@ -944,9 +962,11 @@ NoConn ~ 3286 6546
 NoConn ~ 3286 5846
 NoConn ~ 3536 6046
 $Comp
-L digitalSystemBoard:IO_Switch U14
+L digitalSystemBoard-rescue:IO_Switch-digitalSystemBoard U14
 U 1 1 5F95718A
 P 3336 6196
+AR Path="/5F95718A" Ref="U14"  Part="1" 
+AR Path="/5F8CFBC4/5F95718A" Ref="U14"  Part="1" 
 F 0 "U14" H 3336 6511 50  0000 C CNN
 F 1 "IO_Switch" H 3336 6420 50  0000 C CNN
 F 2 "" H 3336 6196 50  0001 C CNN
