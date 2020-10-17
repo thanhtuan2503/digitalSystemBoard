@@ -350,40 +350,22 @@ Wire Wire Line
 	3536 6346 3680 6346
 Wire Wire Line
 	3680 6346 3680 6486
-Text HLabel 1520 1880 3    50   Input ~ 0
-I1
 Text HLabel 1524 1452 1    50   Input ~ 0
 O1
-Text HLabel 6118 1866 3    50   Input ~ 0
-I3
 Text HLabel 6122 1438 1    50   Input ~ 0
 O3
-Text HLabel 8260 1902 3    50   Input ~ 0
-I4
 Text HLabel 8264 1474 1    50   Input ~ 0
 O4
-Text HLabel 1446 4262 3    50   Input ~ 0
-I5
 Text HLabel 1450 3834 1    50   Input ~ 0
 O5
-Text HLabel 3690 4244 3    50   Input ~ 0
-I6
 Text HLabel 3694 3816 1    50   Input ~ 0
 O6
-Text HLabel 6032 4212 3    50   Input ~ 0
-I7
 Text HLabel 6036 3784 1    50   Input ~ 0
 O7
-Text HLabel 8178 4212 3    50   Input ~ 0
-I8
 Text HLabel 8182 3784 1    50   Input ~ 0
 O8
-Text HLabel 1442 6506 3    50   Input ~ 0
-I9
 Text HLabel 1446 6078 1    50   Input ~ 0
 O9
-Text HLabel 3680 6486 3    50   Input ~ 0
-I10
 Text HLabel 3684 6058 1    50   Input ~ 0
 O10
 $Comp
@@ -589,8 +571,6 @@ F 3 "~" H 3744 1522 50  0001 C CNN
 $EndComp
 Text HLabel 3484 1394 1    50   Input ~ 0
 O2
-Text HLabel 3480 1822 3    50   Input ~ 0
-I2
 NoConn ~ 3336 1382
 NoConn ~ 3086 1882
 NoConn ~ 3086 1182
@@ -1101,4 +1081,24 @@ F 3 "~" H 4394 5534 50  0001 C CNN
 	1    4394 5534
 	1    0    0    -1  
 $EndComp
+Text HLabel 1520 1880 3    50   Input ~ 0
+V_SOURCE
+Text HLabel 3480 1822 3    50   Input ~ 0
+V_SOURCE
+Text HLabel 6118 1866 3    50   Input ~ 0
+V_SOURCE
+Text HLabel 8260 1902 3    50   Input ~ 0
+V_SOURCE
+Text HLabel 1446 4262 3    50   Input ~ 0
+V_SOURCE
+Text HLabel 3690 4244 3    50   Input ~ 0
+V_SOURCE
+Text HLabel 6032 4212 3    50   Input ~ 0
+V_SOURCE
+Text HLabel 8178 4212 3    50   Input ~ 0
+V_SOURCE
+Text HLabel 1442 6506 3    50   Input ~ 0
+V_SOURCE
+Text HLabel 3680 6486 3    50   Input ~ 0
+V_SOURCE
 $EndSCHEMATC
