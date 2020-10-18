@@ -1,0 +1,1096 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MCU_Microchip_ATmega:ATmega32U2-AU U?
+U 1 1 5F9640C7
+P 4442 2604
+AR Path="/5F9640C7" Ref="U?"  Part="1" 
+AR Path="/5F94C37C/5F9640C7" Ref="U19"  Part="1" 
+F 0 "U19" V 4424 2620 50  0000 R CNN
+F 1 "ATmega32U2-AU" V 4212 2794 50  0000 R CNN
+F 2 "Package_QFP:TQFP-32_7x7mm_P0.8mm" H 4442 2604 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/doc7799.pdf" H 4442 2604 50  0001 C CNN
+	1    4442 2604
+	0    1    1    0   
+$EndComp
+NoConn ~ 2038 1630
+Wire Wire Line
+	2238 1630 2238 1226
+Wire Wire Line
+	4642 1766 4642 1904
+Text Label 2064 1326 0    50   ~ 0
+D-
+Text Label 4842 1904 1    50   ~ 0
+D-
+Text Label 4942 1904 1    50   ~ 0
+D+
+Text Label 2238 1226 0    50   ~ 0
+D+
+Wire Wire Line
+	5842 2370 6130 2370
+$Comp
+L Device:Ferrite_Bead_Small FB?
+U 1 1 5F964159
+P 6264 2206
+AR Path="/5F964159" Ref="FB?"  Part="1" 
+AR Path="/5F94C37C/5F964159" Ref="FB1"  Part="1" 
+F 0 "FB1" V 6310 2224 50  0000 L CNN
+F 1 "80Ohm" V 6268 1836 50  0000 L CNN
+F 2 "" V 6194 2206 50  0001 C CNN
+F 3 "~" H 6264 2206 50  0001 C CNN
+	1    6264 2206
+	0    1    1    0   
+$EndComp
+Text Label 5844 2308 0    50   ~ 0
+VBUS
+Wire Wire Line
+	4478 1766 4642 1766
+Wire Wire Line
+	4478 1732 4478 1766
+Connection ~ 4642 1766
+$Comp
+L Device:C C?
+U 1 1 5F964163
+P 4642 1616
+AR Path="/5F964163" Ref="C?"  Part="1" 
+AR Path="/5F94C37C/5F964163" Ref="C8"  Part="1" 
+F 0 "C8" V 4604 1472 50  0000 L CNN
+F 1 "0.1uF" V 4536 1502 50  0000 L CNN
+F 2 "" H 4680 1466 50  0001 C CNN
+F 3 "~" H 4642 1616 50  0001 C CNN
+	1    4642 1616
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5F964169
+P 4478 1532
+AR Path="/5F964169" Ref="#PWR?"  Part="1" 
+AR Path="/5F94C37C/5F964169" Ref="#PWR0108"  Part="1" 
+F 0 "#PWR0108" H 4478 1382 50  0001 C CNN
+F 1 "+5V" V 4472 1716 50  0000 C CNN
+F 2 "" H 4478 1532 50  0001 C CNN
+F 3 "" H 4478 1532 50  0001 C CNN
+	1    4478 1532
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Ferrite_Bead_Small FB?
+U 1 1 5F96416F
+P 4478 1632
+AR Path="/5F96416F" Ref="FB?"  Part="1" 
+AR Path="/5F94C37C/5F96416F" Ref="FB4"  Part="1" 
+F 0 "FB4" V 4524 1650 50  0000 L CNN
+F 1 "80Ohm" H 4330 1546 50  0000 L CNN
+F 2 "" V 4408 1632 50  0001 C CNN
+F 3 "~" H 4478 1632 50  0001 C CNN
+	1    4478 1632
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F964175
+P 4642 1466
+AR Path="/5F964175" Ref="#PWR?"  Part="1" 
+AR Path="/5F94C37C/5F964175" Ref="#PWR0109"  Part="1" 
+F 0 "#PWR0109" H 4642 1216 50  0001 C CNN
+F 1 "GND" V 4640 1254 50  0000 C CNN
+F 2 "" H 4642 1466 50  0001 C CNN
+F 3 "" H 4642 1466 50  0001 C CNN
+	1    4642 1466
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5958 2704 5958 3150
+Wire Wire Line
+	5842 2704 5958 2704
+Wire Wire Line
+	6096 3150 5958 3150
+Wire Wire Line
+	5986 2604 5986 2746
+Wire Wire Line
+	5842 2604 5986 2604
+Wire Wire Line
+	6096 2986 6096 3150
+Wire Wire Line
+	6130 2986 6096 2986
+Connection ~ 6096 3150
+$Comp
+L Device:C C?
+U 1 1 5F964183
+P 6246 3150
+AR Path="/5F964183" Ref="C?"  Part="1" 
+AR Path="/5F94C37C/5F964183" Ref="C7"  Part="1" 
+F 0 "C7" V 6208 3006 50  0000 L CNN
+F 1 "0.1uF" V 6140 3036 50  0000 L CNN
+F 2 "" H 6284 3000 50  0001 C CNN
+F 3 "~" H 6246 3150 50  0001 C CNN
+	1    6246 3150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5F964189
+P 6330 2986
+AR Path="/5F964189" Ref="#PWR?"  Part="1" 
+AR Path="/5F94C37C/5F964189" Ref="#PWR0110"  Part="1" 
+F 0 "#PWR0110" H 6330 2836 50  0001 C CNN
+F 1 "+5V" V 6324 3170 50  0000 C CNN
+F 2 "" H 6330 2986 50  0001 C CNN
+F 3 "" H 6330 2986 50  0001 C CNN
+	1    6330 2986
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Ferrite_Bead_Small FB?
+U 1 1 5F96418F
+P 6230 2986
+AR Path="/5F96418F" Ref="FB?"  Part="1" 
+AR Path="/5F94C37C/5F96418F" Ref="FB3"  Part="1" 
+F 0 "FB3" V 6276 3004 50  0000 L CNN
+F 1 "80Ohm" V 6234 2616 50  0000 L CNN
+F 2 "" V 6160 2986 50  0001 C CNN
+F 3 "~" H 6230 2986 50  0001 C CNN
+	1    6230 2986
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F964195
+P 6396 3150
+AR Path="/5F964195" Ref="#PWR?"  Part="1" 
+AR Path="/5F94C37C/5F964195" Ref="#PWR0111"  Part="1" 
+F 0 "#PWR0111" H 6396 2900 50  0001 C CNN
+F 1 "GND" V 6394 2938 50  0000 C CNN
+F 2 "" H 6396 3150 50  0001 C CNN
+F 3 "" H 6396 3150 50  0001 C CNN
+	1    6396 3150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6124 2746 5986 2746
+Wire Wire Line
+	6124 2582 6124 2746
+Wire Wire Line
+	6158 2582 6124 2582
+Connection ~ 6124 2746
+$Comp
+L Device:C C?
+U 1 1 5F96419F
+P 6274 2746
+AR Path="/5F96419F" Ref="C?"  Part="1" 
+AR Path="/5F94C37C/5F96419F" Ref="C6"  Part="1" 
+F 0 "C6" V 6236 2602 50  0000 L CNN
+F 1 "0.1uF" V 6168 2632 50  0000 L CNN
+F 2 "" H 6312 2596 50  0001 C CNN
+F 3 "~" H 6274 2746 50  0001 C CNN
+	1    6274 2746
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5F9641A5
+P 6358 2582
+AR Path="/5F9641A5" Ref="#PWR?"  Part="1" 
+AR Path="/5F94C37C/5F9641A5" Ref="#PWR0112"  Part="1" 
+F 0 "#PWR0112" H 6358 2432 50  0001 C CNN
+F 1 "+5V" V 6352 2766 50  0000 C CNN
+F 2 "" H 6358 2582 50  0001 C CNN
+F 3 "" H 6358 2582 50  0001 C CNN
+	1    6358 2582
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Ferrite_Bead_Small FB?
+U 1 1 5F9641AB
+P 6258 2582
+AR Path="/5F9641AB" Ref="FB?"  Part="1" 
+AR Path="/5F94C37C/5F9641AB" Ref="FB2"  Part="1" 
+F 0 "FB2" V 6304 2600 50  0000 L CNN
+F 1 "80Ohm" V 6262 2212 50  0000 L CNN
+F 2 "" V 6188 2582 50  0001 C CNN
+F 3 "~" H 6258 2582 50  0001 C CNN
+	1    6258 2582
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F9641B1
+P 6424 2746
+AR Path="/5F9641B1" Ref="#PWR?"  Part="1" 
+AR Path="/5F94C37C/5F9641B1" Ref="#PWR0113"  Part="1" 
+F 0 "#PWR0113" H 6424 2496 50  0001 C CNN
+F 1 "GND" V 6422 2534 50  0000 C CNN
+F 2 "" H 6424 2746 50  0001 C CNN
+F 3 "" H 6424 2746 50  0001 C CNN
+	1    6424 2746
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6130 2206 6130 2370
+Wire Wire Line
+	6164 2206 6130 2206
+Connection ~ 6130 2370
+$Comp
+L Device:C C?
+U 1 1 5F9641BA
+P 6280 2370
+AR Path="/5F9641BA" Ref="C?"  Part="1" 
+AR Path="/5F94C37C/5F9641BA" Ref="C5"  Part="1" 
+F 0 "C5" V 6242 2226 50  0000 L CNN
+F 1 "0.1uF" V 6174 2256 50  0000 L CNN
+F 2 "" H 6318 2220 50  0001 C CNN
+F 3 "~" H 6280 2370 50  0001 C CNN
+	1    6280 2370
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5F9641C0
+P 6364 2206
+AR Path="/5F9641C0" Ref="#PWR?"  Part="1" 
+AR Path="/5F94C37C/5F9641C0" Ref="#PWR0114"  Part="1" 
+F 0 "#PWR0114" H 6364 2056 50  0001 C CNN
+F 1 "+5V" V 6358 2390 50  0000 C CNN
+F 2 "" H 6364 2206 50  0001 C CNN
+F 3 "" H 6364 2206 50  0001 C CNN
+	1    6364 2206
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F9641C6
+P 6430 2370
+AR Path="/5F9641C6" Ref="#PWR?"  Part="1" 
+AR Path="/5F94C37C/5F9641C6" Ref="#PWR0115"  Part="1" 
+F 0 "#PWR0115" H 6430 2120 50  0001 C CNN
+F 1 "GND" V 6428 2158 50  0000 C CNN
+F 2 "" H 6430 2370 50  0001 C CNN
+F 3 "" H 6430 2370 50  0001 C CNN
+	1    6430 2370
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F9641CC
+P 6036 1488
+AR Path="/5F9641CC" Ref="#PWR?"  Part="1" 
+AR Path="/5F94C37C/5F9641CC" Ref="#PWR0116"  Part="1" 
+F 0 "#PWR0116" H 6036 1238 50  0001 C CNN
+F 1 "GND" V 5960 1356 50  0000 C CNN
+F 2 "" H 6036 1488 50  0001 C CNN
+F 3 "" H 6036 1488 50  0001 C CNN
+	1    6036 1488
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5736 1488 5736 1402
+$Comp
+L Device:C C?
+U 1 1 5F9641D3
+P 5886 1488
+AR Path="/5F9641D3" Ref="C?"  Part="1" 
+AR Path="/5F94C37C/5F9641D3" Ref="C9"  Part="1" 
+F 0 "C9" H 5892 1598 50  0000 L CNN
+F 1 "0.1uF" H 5670 1572 50  0000 L CNN
+F 2 "" H 5924 1338 50  0001 C CNN
+F 3 "~" H 5886 1488 50  0001 C CNN
+	1    5886 1488
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5238 1432 5126 1432
+Wire Wire Line
+	5238 1128 5238 1432
+Wire Wire Line
+	5238 1126 5238 1128
+Connection ~ 5238 1128
+Wire Wire Line
+	5238 1128 5422 1128
+Wire Wire Line
+	5036 1128 5238 1128
+Connection ~ 5238 1432
+Wire Wire Line
+	5326 1432 5238 1432
+Wire Wire Line
+	5036 1428 5036 1532
+Wire Wire Line
+	5036 1532 5076 1532
+Wire Wire Line
+	5422 1432 5422 1532
+Connection ~ 5736 1488
+Wire Wire Line
+	5736 1518 5736 1488
+Wire Wire Line
+	5736 1402 5836 1402
+$Comp
+L power:+5V #PWR?
+U 1 1 5F9641E7
+P 5836 1402
+AR Path="/5F9641E7" Ref="#PWR?"  Part="1" 
+AR Path="/5F94C37C/5F9641E7" Ref="#PWR0117"  Part="1" 
+F 0 "#PWR0117" H 5836 1252 50  0001 C CNN
+F 1 "+5V" H 5851 1575 50  0000 C CNN
+F 2 "" H 5836 1402 50  0001 C CNN
+F 3 "" H 5836 1402 50  0001 C CNN
+	1    5836 1402
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F9641ED
+P 6402 1842
+AR Path="/5F9641ED" Ref="#PWR?"  Part="1" 
+AR Path="/5F94C37C/5F9641ED" Ref="#PWR0118"  Part="1" 
+F 0 "#PWR0118" H 6402 1592 50  0001 C CNN
+F 1 "GND" H 6482 1842 50  0000 C CNN
+F 2 "" H 6402 1842 50  0001 C CNN
+F 3 "" H 6402 1842 50  0001 C CNN
+	1    6402 1842
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6402 1818 6402 1842
+Wire Wire Line
+	6358 1818 6402 1818
+NoConn ~ 6358 2018
+NoConn ~ 5858 2018
+Wire Wire Line
+	5736 1818 5858 1818
+$Comp
+L Device:R R?
+U 1 1 5F9641FA
+P 5736 1668
+AR Path="/5F9641FA" Ref="R?"  Part="1" 
+AR Path="/5F94C37C/5F9641FA" Ref="R70"  Part="1" 
+F 0 "R70" V 5734 1664 50  0000 C CNN
+F 1 "10k" V 5828 1670 50  0000 C CNN
+F 2 "" V 5666 1668 50  0001 C CNN
+F 3 "~" H 5736 1668 50  0001 C CNN
+	1    5736 1668
+	1    0    0    -1  
+$EndComp
+$Comp
+L digitalSystemBoard-rescue:ButtonFirst-project SW?
+U 1 1 5F964203
+P 6108 1918
+AR Path="/5F964203" Ref="SW?"  Part="1" 
+AR Path="/5F94C37C/5F964203" Ref="SW4"  Part="1" 
+F 0 "SW4" H 6114 1806 50  0000 C CNN
+F 1 "ButtonFirst" H 6110 1732 50  0000 C CNN
+F 2 "TE_4-1437565-9" H 6108 1918 50  0001 L BNN
+F 3 "4-1437565-9" H 6108 1918 50  0001 L BNN
+F 4 "50 mA" H 6108 1918 50  0001 L BNN "Field4"
+F 5 "Single Pole - Single Throw" H 6108 1918 50  0001 L BNN "Field5"
+F 6 "Compliant" H 6108 1918 50  0001 L BNN "Field6"
+	1    6108 1918
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F964209
+P 5238 1128
+AR Path="/5F964209" Ref="#PWR?"  Part="1" 
+AR Path="/5F94C37C/5F964209" Ref="#PWR0119"  Part="1" 
+F 0 "#PWR0119" H 5238 878 50  0001 C CNN
+F 1 "GND" H 5243 955 50  0000 C CNN
+F 2 "" H 5238 1128 50  0001 C CNN
+F 3 "" H 5238 1128 50  0001 C CNN
+	1    5238 1128
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5422 1128 5422 1132
+Wire Wire Line
+	5076 1736 5076 1532
+Wire Wire Line
+	5084 1736 5076 1736
+Connection ~ 5076 1532
+Wire Wire Line
+	5422 1532 5384 1532
+Wire Wire Line
+	5376 1532 5384 1532
+Connection ~ 5384 1532
+$Comp
+L digitalSystemBoard-rescue:Resonator-project Y?
+U 1 1 5F964216
+P 5226 1532
+AR Path="/5F964216" Ref="Y?"  Part="1" 
+AR Path="/5F94C37C/5F964216" Ref="Y1"  Part="1" 
+F 0 "Y1" H 5054 1600 50  0000 C CNN
+F 1 "16MHz" H 4966 1490 50  0000 C CNN
+F 2 "" H 5201 1532 50  0001 C CNN
+F 3 "" H 5201 1532 50  0001 C CNN
+	1    5226 1532
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5384 1904 5342 1904
+Wire Wire Line
+	5084 1904 5142 1904
+Wire Wire Line
+	5084 1736 5084 1904
+Connection ~ 5084 1736
+Wire Wire Line
+	5384 1532 5384 1736
+Wire Wire Line
+	5384 1736 5384 1904
+Connection ~ 5384 1736
+$Comp
+L Device:R R?
+U 1 1 5F964223
+P 5234 1736
+AR Path="/5F964223" Ref="R?"  Part="1" 
+AR Path="/5F94C37C/5F964223" Ref="R69"  Part="1" 
+F 0 "R69" V 5232 1756 50  0000 C CNN
+F 1 "1M" V 5326 1738 50  0000 C CNN
+F 2 "" V 5164 1736 50  0001 C CNN
+F 3 "~" H 5234 1736 50  0001 C CNN
+	1    5234 1736
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F964229
+P 5422 1282
+AR Path="/5F964229" Ref="C?"  Part="1" 
+AR Path="/5F94C37C/5F964229" Ref="C11"  Part="1" 
+F 0 "C11" H 5428 1392 50  0000 L CNN
+F 1 "22pF" H 5518 1314 50  0000 L CNN
+F 2 "" H 5460 1132 50  0001 C CNN
+F 3 "~" H 5422 1282 50  0001 C CNN
+	1    5422 1282
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F96422F
+P 5036 1278
+AR Path="/5F96422F" Ref="C?"  Part="1" 
+AR Path="/5F94C37C/5F96422F" Ref="C10"  Part="1" 
+F 0 "C10" H 4930 1360 50  0000 L CNN
+F 1 "22pF" H 4764 1276 50  0000 L CNN
+F 2 "" H 5074 1128 50  0001 C CNN
+F 3 "~" H 5036 1278 50  0001 C CNN
+	1    5036 1278
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F964235
+P 3342 3604
+AR Path="/5F964235" Ref="#PWR?"  Part="1" 
+AR Path="/5F94C37C/5F964235" Ref="#PWR0120"  Part="1" 
+F 0 "#PWR0120" H 3342 3354 50  0001 C CNN
+F 1 "GND" H 3347 3431 50  0000 C CNN
+F 2 "" H 3342 3604 50  0001 C CNN
+F 3 "" H 3342 3604 50  0001 C CNN
+	1    3342 3604
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F96423B
+P 3342 3454
+AR Path="/5F96423B" Ref="R?"  Part="1" 
+AR Path="/5F94C37C/5F96423B" Ref="R74"  Part="1" 
+F 0 "R74" H 3404 3312 50  0000 L CNN
+F 1 "10K" V 3254 3396 50  0000 L CNN
+F 2 "" V 3272 3454 50  0001 C CNN
+F 3 "~" H 3342 3454 50  0001 C CNN
+	1    3342 3454
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F964241
+P 2948 2604
+AR Path="/5F964241" Ref="#PWR?"  Part="1" 
+AR Path="/5F94C37C/5F964241" Ref="#PWR0121"  Part="1" 
+F 0 "#PWR0121" H 2948 2354 50  0001 C CNN
+F 1 "GND" H 2953 2431 50  0000 C CNN
+F 2 "" H 2948 2604 50  0001 C CNN
+F 3 "" H 2948 2604 50  0001 C CNN
+	1    2948 2604
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2948 2504 3042 2504
+Wire Wire Line
+	2948 2604 2948 2504
+Connection ~ 2948 2604
+Wire Wire Line
+	3042 2604 2948 2604
+$Comp
+L digitalSystemBoard-rescue:ICSP U18
+U 1 1 5F97639D
+P 10042 3972
+F 0 "U18" H 10570 3960 50  0000 L CNN
+F 1 "ICSP" H 10570 3869 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical_SMD" H 10292 4072 50  0001 C CNN
+F 3 "" H 10292 4072 50  0001 C CNN
+	1    10042 3972
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0122
+U 1 1 5F976B37
+P 9642 4222
+F 0 "#PWR0122" H 9642 4072 50  0001 C CNN
+F 1 "+5V" H 9657 4395 50  0000 C CNN
+F 2 "" H 9642 4222 50  0001 C CNN
+F 3 "" H 9642 4222 50  0001 C CNN
+	1    9642 4222
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0123
+U 1 1 5F9774F5
+P 9792 4222
+F 0 "#PWR0123" H 9792 3972 50  0001 C CNN
+F 1 "GND" H 9797 4049 50  0000 C CNN
+F 2 "" H 9792 4222 50  0001 C CNN
+F 3 "" H 9792 4222 50  0001 C CNN
+	1    9792 4222
+	1    0    0    -1  
+$EndComp
+Text Label 9942 4222 3    50   ~ 0
+MOSI
+Text Label 10092 4222 3    50   ~ 0
+MISO
+Text Label 10242 4222 3    50   ~ 0
+RST
+Text Label 10392 4222 3    50   ~ 0
+SCK
+Connection ~ 5736 1818
+Wire Wire Line
+	5542 1818 5736 1818
+Wire Wire Line
+	5542 1904 5542 1818
+Wire Wire Line
+	5542 1818 5542 1730
+Connection ~ 5542 1818
+Text Label 5542 1730 2    50   ~ 0
+RST
+Text Label 5442 3304 3    50   ~ 0
+SCK
+Text Label 5242 3304 3    50   ~ 0
+MISO
+Text Label 5342 3304 3    50   ~ 0
+MOSI
+$Comp
+L digitalSystemBoard-rescue:Potentiometer-digitalSystemBoard U17
+U 1 1 5F9A7CE1
+P 2438 6988
+F 0 "U17" V 2459 7116 50  0000 L CNN
+F 1 "Potentiometer-digitalSystemBoard" V 2790 6334 50  0000 L CNN
+F 2 "digitalSystemBoard:RV09S" H 2438 6988 50  0001 C CNN
+F 3 "" H 2438 6988 50  0001 C CNN
+	1    2438 6988
+	0    1    1    0   
+$EndComp
+NoConn ~ 2438 7238
+$Comp
+L power:+5V #PWR0124
+U 1 1 5F9C1892
+P 2438 6688
+F 0 "#PWR0124" H 2438 6538 50  0001 C CNN
+F 1 "+5V" H 2453 6861 50  0000 C CNN
+F 2 "" H 2438 6688 50  0001 C CNN
+F 3 "" H 2438 6688 50  0001 C CNN
+	1    2438 6688
+	1    0    0    -1  
+$EndComp
+Text Label 2088 6938 2    50   ~ 0
+CLOCK_WHEEL
+Text Label 3942 3304 3    50   ~ 0
+CLOCK_WHEEL
+Text Label 1996 5782 2    50   ~ 0
+UP_CLK
+$Comp
+L digitalSystemBoard-rescue:ButtonFirst-project SW?
+U 1 1 5F9A548F
+P 5348 7044
+AR Path="/5F9A548F" Ref="SW?"  Part="1" 
+AR Path="/5F94C37C/5F9A548F" Ref="SW7"  Part="1" 
+F 0 "SW7" H 5348 7359 50  0000 C CNN
+F 1 "ButtonFirst" H 5348 7268 50  0000 C CNN
+F 2 "TE_4-1437565-9" H 5348 7044 50  0001 L BNN
+F 3 "4-1437565-9" H 5348 7044 50  0001 L BNN
+F 4 "50 mA" H 5348 7044 50  0001 L BNN "Field4"
+F 5 "Single Pole - Single Throw" H 5348 7044 50  0001 L BNN "Field5"
+F 6 "Compliant" H 5348 7044 50  0001 L BNN "Field6"
+	1    5348 7044
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5598 6944 5658 6944
+$Comp
+L power:GND #PWR?
+U 1 1 5F9A5485
+P 5658 6944
+AR Path="/5F9A5485" Ref="#PWR?"  Part="1" 
+AR Path="/5F94C37C/5F9A5485" Ref="#PWR0125"  Part="1" 
+F 0 "#PWR0125" H 5658 6694 50  0001 C CNN
+F 1 "GND" H 5738 6944 50  0000 C CNN
+F 2 "" H 5658 6944 50  0001 C CNN
+F 3 "" H 5658 6944 50  0001 C CNN
+	1    5658 6944
+	1    0    0    -1  
+$EndComp
+NoConn ~ 5098 7144
+NoConn ~ 5598 7144
+$Comp
+L Device:R R?
+U 1 1 5F9A547D
+P 4962 6772
+AR Path="/5F9A547D" Ref="R?"  Part="1" 
+AR Path="/5F94C37C/5F9A547D" Ref="R73"  Part="1" 
+F 0 "R73" H 5032 6818 50  0000 L CNN
+F 1 "10K" V 4874 6714 50  0000 L CNN
+F 2 "" V 4892 6772 50  0001 C CNN
+F 3 "~" H 4962 6772 50  0001 C CNN
+	1    4962 6772
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5F9A5477
+P 4962 6622
+AR Path="/5F9A5477" Ref="#PWR?"  Part="1" 
+AR Path="/5F94C37C/5F9A5477" Ref="#PWR0126"  Part="1" 
+F 0 "#PWR0126" H 4962 6472 50  0001 C CNN
+F 1 "+5V" H 4977 6795 50  0000 C CNN
+F 2 "" H 4962 6622 50  0001 C CNN
+F 3 "" H 4962 6622 50  0001 C CNN
+	1    4962 6622
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4962 6944 4962 6922
+Connection ~ 4962 6944
+Wire Wire Line
+	5098 6944 4962 6944
+Wire Wire Line
+	4962 6944 4902 6944
+$Comp
+L digitalSystemBoard-rescue:ButtonFirst-project SW?
+U 1 1 5F964111
+P 2442 5882
+AR Path="/5F964111" Ref="SW?"  Part="1" 
+AR Path="/5F94C37C/5F964111" Ref="SW5"  Part="1" 
+F 0 "SW5" H 2442 6197 50  0000 C CNN
+F 1 "ButtonFirst" H 2442 6106 50  0000 C CNN
+F 2 "TE_4-1437565-9" H 2442 5882 50  0001 L BNN
+F 3 "4-1437565-9" H 2442 5882 50  0001 L BNN
+F 4 "50 mA" H 2442 5882 50  0001 L BNN "Field4"
+F 5 "Single Pole - Single Throw" H 2442 5882 50  0001 L BNN "Field5"
+F 6 "Compliant" H 2442 5882 50  0001 L BNN "Field6"
+	1    2442 5882
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2692 5782 2752 5782
+$Comp
+L power:GND #PWR?
+U 1 1 5F964107
+P 2752 5782
+AR Path="/5F964107" Ref="#PWR?"  Part="1" 
+AR Path="/5F94C37C/5F964107" Ref="#PWR0127"  Part="1" 
+F 0 "#PWR0127" H 2752 5532 50  0001 C CNN
+F 1 "GND" H 2832 5782 50  0000 C CNN
+F 2 "" H 2752 5782 50  0001 C CNN
+F 3 "" H 2752 5782 50  0001 C CNN
+	1    2752 5782
+	1    0    0    -1  
+$EndComp
+NoConn ~ 2192 5982
+NoConn ~ 2692 5982
+$Comp
+L Device:R R?
+U 1 1 5F9640FF
+P 2056 5610
+AR Path="/5F9640FF" Ref="R?"  Part="1" 
+AR Path="/5F94C37C/5F9640FF" Ref="R71"  Part="1" 
+F 0 "R71" H 2126 5656 50  0000 L CNN
+F 1 "10K" V 1968 5552 50  0000 L CNN
+F 2 "" V 1986 5610 50  0001 C CNN
+F 3 "~" H 2056 5610 50  0001 C CNN
+	1    2056 5610
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5F9640F9
+P 2056 5460
+AR Path="/5F9640F9" Ref="#PWR?"  Part="1" 
+AR Path="/5F94C37C/5F9640F9" Ref="#PWR0128"  Part="1" 
+F 0 "#PWR0128" H 2056 5310 50  0001 C CNN
+F 1 "+5V" H 2071 5633 50  0000 C CNN
+F 2 "" H 2056 5460 50  0001 C CNN
+F 3 "" H 2056 5460 50  0001 C CNN
+	1    2056 5460
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2056 5782 2056 5760
+Connection ~ 2056 5782
+Wire Wire Line
+	2192 5782 2056 5782
+Wire Wire Line
+	2056 5782 1996 5782
+Wire Wire Line
+	5602 5772 5662 5772
+$Comp
+L power:GND #PWR?
+U 1 1 5F9640E5
+P 5662 5772
+AR Path="/5F9640E5" Ref="#PWR?"  Part="1" 
+AR Path="/5F94C37C/5F9640E5" Ref="#PWR0129"  Part="1" 
+F 0 "#PWR0129" H 5662 5522 50  0001 C CNN
+F 1 "GND" H 5742 5772 50  0000 C CNN
+F 2 "" H 5662 5772 50  0001 C CNN
+F 3 "" H 5662 5772 50  0001 C CNN
+	1    5662 5772
+	1    0    0    -1  
+$EndComp
+NoConn ~ 5602 5972
+Wire Wire Line
+	4966 5772 4906 5772
+Wire Wire Line
+	5102 5772 4966 5772
+Connection ~ 4966 5772
+Wire Wire Line
+	4966 5772 4966 5750
+$Comp
+L power:+5V #PWR?
+U 1 1 5F9640D7
+P 4966 5450
+AR Path="/5F9640D7" Ref="#PWR?"  Part="1" 
+AR Path="/5F94C37C/5F9640D7" Ref="#PWR0130"  Part="1" 
+F 0 "#PWR0130" H 4966 5300 50  0001 C CNN
+F 1 "+5V" H 4981 5623 50  0000 C CNN
+F 2 "" H 4966 5450 50  0001 C CNN
+F 3 "" H 4966 5450 50  0001 C CNN
+	1    4966 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F9640DD
+P 4966 5600
+AR Path="/5F9640DD" Ref="R?"  Part="1" 
+AR Path="/5F94C37C/5F9640DD" Ref="R72"  Part="1" 
+F 0 "R72" H 5036 5646 50  0000 L CNN
+F 1 "10K" V 4878 5542 50  0000 L CNN
+F 2 "" V 4896 5600 50  0001 C CNN
+F 3 "~" H 4966 5600 50  0001 C CNN
+	1    4966 5600
+	1    0    0    -1  
+$EndComp
+NoConn ~ 5102 5972
+$Comp
+L digitalSystemBoard-rescue:ButtonFirst-project SW?
+U 1 1 5F9640EF
+P 5352 5872
+AR Path="/5F9640EF" Ref="SW?"  Part="1" 
+AR Path="/5F94C37C/5F9640EF" Ref="SW6"  Part="1" 
+F 0 "SW6" H 5352 6187 50  0000 C CNN
+F 1 "ButtonFirst" H 5352 6096 50  0000 C CNN
+F 2 "TE_4-1437565-9" H 5352 5872 50  0001 L BNN
+F 3 "4-1437565-9" H 5352 5872 50  0001 L BNN
+F 4 "50 mA" H 5352 5872 50  0001 L BNN "Field4"
+F 5 "Single Pole - Single Throw" H 5352 5872 50  0001 L BNN "Field5"
+F 6 "Compliant" H 5352 5872 50  0001 L BNN "Field6"
+	1    5352 5872
+	1    0    0    -1  
+$EndComp
+Text Label 5042 3304 3    50   ~ 0
+DOWN_CLK
+Text Label 4902 6944 2    50   ~ 0
+CHANGE_CLK_SRC
+Text Label 9628 1394 2    50   ~ 0
+RS
+Text Label 9628 1194 2    50   ~ 0
+LCD_ENABLE
+Text Label 4942 3304 3    50   ~ 0
+UP_CLK
+Text Label 4042 3304 3    50   ~ 0
+CHANGE_CLK_SRC
+Text Label 4906 5772 2    50   ~ 0
+DOWN_CLK
+$Comp
+L power:+5V #PWR0131
+U 1 1 5FA49EB2
+P 10428 1194
+F 0 "#PWR0131" H 10428 1044 50  0001 C CNN
+F 1 "+5V" H 10443 1367 50  0000 C CNN
+F 2 "" H 10428 1194 50  0001 C CNN
+F 3 "" H 10428 1194 50  0001 C CNN
+	1    10428 1194
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0132
+U 1 1 5FA4BF19
+P 10428 1594
+F 0 "#PWR0132" H 10428 1344 50  0001 C CNN
+F 1 "GND" H 10433 1421 50  0000 C CNN
+F 2 "" H 10428 1594 50  0001 C CNN
+F 3 "" H 10428 1594 50  0001 C CNN
+	1    10428 1594
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0133
+U 1 1 5FA4C91D
+P 10428 1494
+F 0 "#PWR0133" H 10428 1344 50  0001 C CNN
+F 1 "+5V" H 10443 1667 50  0000 C CNN
+F 2 "" H 10428 1494 50  0001 C CNN
+F 3 "" H 10428 1494 50  0001 C CNN
+	1    10428 1494
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0134
+U 1 1 5FA4F5C3
+P 10028 994
+F 0 "#PWR0134" H 10028 844 50  0001 C CNN
+F 1 "+5V" H 10043 1167 50  0000 C CNN
+F 2 "" H 10028 994 50  0001 C CNN
+F 3 "" H 10028 994 50  0001 C CNN
+	1    10028 994 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0135
+U 1 1 5FA504D0
+P 10028 2594
+F 0 "#PWR0135" H 10028 2344 50  0001 C CNN
+F 1 "GND" H 10033 2421 50  0000 C CNN
+F 2 "" H 10028 2594 50  0001 C CNN
+F 3 "" H 10028 2594 50  0001 C CNN
+	1    10028 2594
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0136
+U 1 1 5FA51E18
+P 9410 1342
+F 0 "#PWR0136" H 9410 1092 50  0001 C CNN
+F 1 "GND" H 9415 1169 50  0000 C CNN
+F 2 "" H 9410 1342 50  0001 C CNN
+F 3 "" H 9410 1342 50  0001 C CNN
+	1    9410 1342
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9410 1342 9410 1294
+Wire Wire Line
+	9410 1294 9628 1294
+Text HLabel 4342 3304 3    50   Input ~ 0
+CLOCK_OUT
+Text Label 5542 3304 3    50   ~ 0
+LCD_ENABLE
+Text Label 5142 3304 3    50   ~ 0
+RS
+Text Label 9628 1694 2    50   ~ 0
+D0
+Text Label 9628 1794 2    50   ~ 0
+D1
+Text Label 9628 1894 2    50   ~ 0
+D2
+$Comp
+L Display_Character:WC1602A DS?
+U 1 1 5F9640CD
+P 10028 1794
+AR Path="/5F9640CD" Ref="DS?"  Part="1" 
+AR Path="/5F94C37C/5F9640CD" Ref="DS1"  Part="1" 
+F 0 "DS1" H 10410 1484 50  0000 C CNN
+F 1 "WC1602A" H 10514 1396 50  0000 C CNN
+F 2 "Display:WC1602A" H 10028 894 50  0001 C CIN
+F 3 "http://www.wincomlcd.com/pdf/WC1602A-SFYLYHTC06.pdf" H 10728 1794 50  0001 C CNN
+	1    10028 1794
+	1    0    0    -1  
+$EndComp
+Text Label 9628 1994 2    50   ~ 0
+D3
+Text Label 9628 2094 2    50   ~ 0
+D4
+Text Label 9628 2194 2    50   ~ 0
+D5
+Text Label 9628 2294 2    50   ~ 0
+D6
+Text Label 9628 2394 2    50   ~ 0
+D7
+Text Label 4642 3304 3    50   ~ 0
+D0
+Text Label 4542 3304 3    50   ~ 0
+D1
+Text Label 4442 3304 3    50   ~ 0
+D2
+Text Label 4242 3304 3    50   ~ 0
+D3
+Text Label 3842 3304 3    50   ~ 0
+D4
+Text Label 3742 3304 3    50   ~ 0
+D5
+Text Label 3642 3304 3    50   ~ 0
+D6
+Text Label 3542 3304 3    50   ~ 0
+D7
+NoConn ~ 4842 3304
+NoConn ~ 3442 3304
+Wire Notes Line
+	8600 472  8600 6536
+Wire Notes Line
+	472  4848 11220 4848
+Wire Notes Line
+	8600 3202 11220 3202
+Wire Notes Line
+	11220 3202 11220 3200
+Text Notes 4118 4806 0    100  ~ 0
+MCU_BLOCK\n
+Text Notes 9652 3176 0    100  ~ 0
+LCD_BLOCK\n
+Text Notes 9570 4816 0    100  ~ 0
+CODE_INPUT\n
+$Comp
+L Device:R R?
+U 1 1 5F96414B
+P 1752 1226
+AR Path="/5F96414B" Ref="R?"  Part="1" 
+AR Path="/5F94C37C/5F96414B" Ref="R66"  Part="1" 
+F 0 "R66" V 1750 1246 50  0000 C CNN
+F 1 "22" V 1666 1242 50  0000 C CNN
+F 2 "" V 1682 1226 50  0001 C CNN
+F 3 "~" H 1752 1226 50  0001 C CNN
+	1    1752 1226
+	0    1    1    0   
+$EndComp
+NoConn ~ 1602 1426
+$Comp
+L power:GND #PWR?
+U 1 1 5F964144
+P 1202 1926
+AR Path="/5F964144" Ref="#PWR?"  Part="1" 
+AR Path="/5F94C37C/5F964144" Ref="#PWR0137"  Part="1" 
+F 0 "#PWR0137" H 1202 1676 50  0001 C CNN
+F 1 "GND" H 1200 1768 50  0000 C CNN
+F 2 "" H 1202 1926 50  0001 C CNN
+F 3 "" H 1202 1926 50  0001 C CNN
+	1    1202 1926
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F96413E
+P 1752 1326
+AR Path="/5F96413E" Ref="R?"  Part="1" 
+AR Path="/5F94C37C/5F96413E" Ref="R67"  Part="1" 
+F 0 "R67" V 1750 1346 50  0000 C CNN
+F 1 "22" V 1840 1340 50  0000 C CNN
+F 2 "" V 1682 1326 50  0001 C CNN
+F 3 "~" H 1752 1326 50  0001 C CNN
+	1    1752 1326
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F964138
+P 1202 1776
+AR Path="/5F964138" Ref="R?"  Part="1" 
+AR Path="/5F94C37C/5F964138" Ref="R68"  Part="1" 
+F 0 "R68" V 1200 1796 50  0000 C CNN
+F 1 "22" V 1294 1778 50  0000 C CNN
+F 2 "" V 1132 1776 50  0001 C CNN
+F 3 "~" H 1202 1776 50  0001 C CNN
+	1    1202 1776
+	-1   0    0    1   
+$EndComp
+Text Label 1602 1026 0    50   ~ 0
+VBUS
+$Comp
+L power:GND #PWR?
+U 1 1 5F964131
+P 1838 1976
+AR Path="/5F964131" Ref="#PWR?"  Part="1" 
+AR Path="/5F94C37C/5F964131" Ref="#PWR0138"  Part="1" 
+F 0 "#PWR0138" H 1838 1726 50  0001 C CNN
+F 1 "GND" H 1843 1803 50  0000 C CNN
+F 2 "" H 1838 1976 50  0001 C CNN
+F 3 "" H 1838 1976 50  0001 C CNN
+	1    1838 1976
+	1    0    0    -1  
+$EndComp
+$Comp
+L digitalSystemBoard-rescue:SMF05C.TCT-project D?
+U 1 1 5F96412B
+P 1738 1730
+AR Path="/5F96412B" Ref="D?"  Part="1" 
+AR Path="/5F94C37C/5F96412B" Ref="D22"  Part="1" 
+F 0 "D22" H 1754 1588 50  0000 R CNN
+F 1 "SMF05C.TCT" H 2318 1588 50  0000 R CNN
+F 2 "SC70-6" H 1738 1730 50  0001 L BNN
+F 3 "" H 1738 1730 59  0001 C CNN
+	1    1738 1730
+	1    0    0    -1  
+$EndComp
+Connection ~ 1838 1950
+Wire Wire Line
+	1838 1930 1838 1950
+Wire Wire Line
+	1838 1950 1838 1976
+$Comp
+L digitalSystemBoard-rescue:USB_OTG-project J?
+U 1 1 5F964122
+P 1302 1226
+AR Path="/5F964122" Ref="J?"  Part="1" 
+AR Path="/5F94C37C/5F964122" Ref="J12"  Part="1" 
+F 0 "J12" H 1370 1566 50  0000 C CNN
+F 1 "USB_OTG" V 1042 1316 50  0000 C CNN
+F 2 "" H 1452 1176 50  0001 C CNN
+F 3 "" H 1452 1176 50  0001 C CNN
+	1    1302 1226
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1902 1326 2064 1326
+Wire Wire Line
+	1302 1626 1302 1950
+Wire Wire Line
+	1302 1950 1838 1950
+Wire Wire Line
+	2064 1400 1838 1400
+Wire Wire Line
+	1838 1400 1838 1630
+Wire Wire Line
+	1902 1226 2238 1226
+NoConn ~ 1438 1630
+NoConn ~ 1638 1630
+Wire Wire Line
+	2064 1400 2064 1326
+Wire Wire Line
+	5842 2308 5844 2308
+Wire Wire Line
+	5842 2308 5842 2370
+Connection ~ 5842 2370
+Wire Wire Line
+	5842 2370 5842 2504
+Text Notes 6554 5786 0    100  ~ 0
+CONTROL_CLOCK\n
+$EndSCHEMATC

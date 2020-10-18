@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 3
+Sheet 2 4
 Title ""
 Date ""
 Rev ""
@@ -24,7 +24,7 @@ AR Path="/5F8D12EE" Ref="U5"  Part="1"
 AR Path="/5F8CFBC4/5F8D12EE" Ref="U5"  Part="1" 
 F 0 "U5" H 1176 1905 50  0000 C CNN
 F 1 "IO_Switch" H 1176 1814 50  0000 C CNN
-F 2 "" H 1176 1590 50  0001 C CNN
+F 2 "digitalSystemBoard:SS-12F44G5" H 1176 1590 50  0001 C CNN
 F 3 "" H 1176 1590 50  0001 C CNN
 	1    1176 1590
 	0    -1   -1   0   
@@ -129,7 +129,7 @@ AR Path="/5F944061" Ref="U7"  Part="1"
 AR Path="/5F8CFBC4/5F944061" Ref="U7"  Part="1" 
 F 0 "U7" H 5774 1891 50  0000 C CNN
 F 1 "IO_Switch" H 5774 1800 50  0000 C CNN
-F 2 "" H 5774 1576 50  0001 C CNN
+F 2 "digitalSystemBoard:SS-12F44G5" H 5774 1576 50  0001 C CNN
 F 3 "" H 5774 1576 50  0001 C CNN
 	1    5774 1576
 	0    -1   -1   0   
@@ -158,7 +158,7 @@ AR Path="/5F94461F" Ref="U8"  Part="1"
 AR Path="/5F8CFBC4/5F94461F" Ref="U8"  Part="1" 
 F 0 "U8" H 7916 1927 50  0000 C CNN
 F 1 "IO_Switch" H 7916 1836 50  0000 C CNN
-F 2 "" H 7916 1612 50  0001 C CNN
+F 2 "digitalSystemBoard:SS-12F44G5" H 7916 1612 50  0001 C CNN
 F 3 "" H 7916 1612 50  0001 C CNN
 	1    7916 1612
 	0    -1   -1   0   
@@ -187,7 +187,7 @@ AR Path="/5F948861" Ref="U9"  Part="1"
 AR Path="/5F8CFBC4/5F948861" Ref="U9"  Part="1" 
 F 0 "U9" H 1102 4287 50  0000 C CNN
 F 1 "IO_Switch" H 1102 4196 50  0000 C CNN
-F 2 "" H 1102 3972 50  0001 C CNN
+F 2 "digitalSystemBoard:SS-12F44G5" H 1102 3972 50  0001 C CNN
 F 3 "" H 1102 3972 50  0001 C CNN
 	1    1102 3972
 	0    -1   -1   0   
@@ -216,7 +216,7 @@ AR Path="/5F94AB7C" Ref="U10"  Part="1"
 AR Path="/5F8CFBC4/5F94AB7C" Ref="U10"  Part="1" 
 F 0 "U10" H 3346 4269 50  0000 C CNN
 F 1 "IO_Switch" H 3346 4178 50  0000 C CNN
-F 2 "" H 3346 3954 50  0001 C CNN
+F 2 "digitalSystemBoard:SS-12F44G5" H 3346 3954 50  0001 C CNN
 F 3 "" H 3346 3954 50  0001 C CNN
 	1    3346 3954
 	0    -1   -1   0   
@@ -245,7 +245,7 @@ AR Path="/5F94C7D4" Ref="U11"  Part="1"
 AR Path="/5F8CFBC4/5F94C7D4" Ref="U11"  Part="1" 
 F 0 "U11" H 5688 4237 50  0000 C CNN
 F 1 "IO_Switch" H 5688 4146 50  0000 C CNN
-F 2 "" H 5688 3922 50  0001 C CNN
+F 2 "digitalSystemBoard:SS-12F44G5" H 5688 3922 50  0001 C CNN
 F 3 "" H 5688 3922 50  0001 C CNN
 	1    5688 3922
 	0    -1   -1   0   
@@ -274,7 +274,7 @@ AR Path="/5F950A04" Ref="U12"  Part="1"
 AR Path="/5F8CFBC4/5F950A04" Ref="U12"  Part="1" 
 F 0 "U12" H 7834 4237 50  0000 C CNN
 F 1 "IO_Switch" H 7834 4146 50  0000 C CNN
-F 2 "" H 7834 3922 50  0001 C CNN
+F 2 "digitalSystemBoard:SS-12F44G5" H 7834 3922 50  0001 C CNN
 F 3 "" H 7834 3922 50  0001 C CNN
 	1    7834 3922
 	0    -1   -1   0   
@@ -303,7 +303,7 @@ AR Path="/5F9542D3" Ref="U13"  Part="1"
 AR Path="/5F8CFBC4/5F9542D3" Ref="U13"  Part="1" 
 F 0 "U13" H 1098 6531 50  0000 C CNN
 F 1 "IO_Switch" H 1098 6440 50  0000 C CNN
-F 2 "" H 1098 6216 50  0001 C CNN
+F 2 "digitalSystemBoard:SS-12F44G5" H 1098 6216 50  0001 C CNN
 F 3 "" H 1098 6216 50  0001 C CNN
 	1    1098 6216
 	0    -1   -1   0   
@@ -332,7 +332,7 @@ AR Path="/5F95718A" Ref="U14"  Part="1"
 AR Path="/5F8CFBC4/5F95718A" Ref="U14"  Part="1" 
 F 0 "U14" H 3336 6511 50  0000 C CNN
 F 1 "IO_Switch" H 3336 6420 50  0000 C CNN
-F 2 "" H 3336 6196 50  0001 C CNN
+F 2 "digitalSystemBoard:SS-12F44G5" H 3336 6196 50  0001 C CNN
 F 3 "" H 3336 6196 50  0001 C CNN
 	1    3336 6196
 	0    -1   -1   0   
@@ -340,12 +340,7 @@ $EndComp
 Wire Wire Line
 	3536 6196 3684 6196
 Wire Wire Line
-	3794 6196 3794 6186
-Wire Wire Line
 	3684 6196 3684 6058
-Connection ~ 3684 6196
-Wire Wire Line
-	3684 6196 3794 6196
 Wire Wire Line
 	3536 6346 3680 6346
 Wire Wire Line
@@ -439,8 +434,6 @@ Wire Wire Line
 	8674 1902 8674 1954
 Wire Wire Line
 	8674 1954 8974 1954
-Wire Wire Line
-	8976 1948 8976 1796
 $Comp
 L power:GND #PWR016
 U 1 1 5F8D9315
@@ -540,7 +533,7 @@ AR Path="/5F942F24" Ref="U6"  Part="1"
 AR Path="/5F8CFBC4/5F942F24" Ref="U6"  Part="1" 
 F 0 "U6" H 3136 1847 50  0000 C CNN
 F 1 "IO_Switch" H 3136 1756 50  0000 C CNN
-F 2 "" H 3136 1532 50  0001 C CNN
+F 2 "digitalSystemBoard:SS-12F44G5" H 3136 1532 50  0001 C CNN
 F 3 "" H 3136 1532 50  0001 C CNN
 	1    3136 1532
 	0    -1   -1   0   
@@ -1020,31 +1013,25 @@ $EndComp
 $Comp
 L Device:R R25
 U 1 1 5F9982BE
-P 3944 6186
-F 0 "R25" H 4014 6232 50  0000 L CNN
-F 1 "10" H 4014 6141 50  0000 L CNN
-F 2 "" V 3874 6186 50  0001 C CNN
-F 3 "~" H 3944 6186 50  0001 C CNN
-	1    3944 6186
+P 3896 6182
+F 0 "R25" H 3966 6228 50  0000 L CNN
+F 1 "10" H 3966 6137 50  0000 L CNN
+F 2 "" V 3826 6182 50  0001 C CNN
+F 3 "~" H 3896 6182 50  0001 C CNN
+	1    3896 6182
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R27
 U 1 1 5F9982C8
-P 4094 6336
-F 0 "R27" H 4164 6382 50  0000 L CNN
-F 1 "10k" H 4164 6291 50  0000 L CNN
-F 2 "" V 4024 6336 50  0001 C CNN
-F 3 "~" H 4094 6336 50  0001 C CNN
-	1    4094 6336
+P 4068 6390
+F 0 "R27" H 4138 6436 50  0000 L CNN
+F 1 "10k" H 4138 6345 50  0000 L CNN
+F 2 "" V 3998 6390 50  0001 C CNN
+F 3 "~" H 4068 6390 50  0001 C CNN
+	1    4068 6390
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4094 6486 4094 6538
-Wire Wire Line
-	4094 6538 4394 6538
-Wire Wire Line
-	4394 6538 4394 6386
 $Comp
 L power:GND #PWR011
 U 1 1 5F9982EA
@@ -1056,7 +1043,6 @@ F 3 "" H 4394 6538 50  0001 C CNN
 	1    4394 6538
 	1    0    0    -1  
 $EndComp
-Connection ~ 4394 6538
 Text HLabel 4394 5384 0    50   Input ~ 0
 V_SOURCE
 $Comp
@@ -1101,4 +1087,30 @@ Text HLabel 1442 6506 3    50   Input ~ 0
 V_SOURCE
 Text HLabel 3680 6486 3    50   Input ~ 0
 V_SOURCE
+Wire Wire Line
+	4394 6538 4394 6384
+Wire Wire Line
+	8974 1954 8974 1802
+Connection ~ 8974 1954
+Wire Wire Line
+	4068 6540 4394 6540
+Wire Wire Line
+	4394 6540 4394 6538
+Connection ~ 4394 6538
+Wire Wire Line
+	4046 6182 4068 6182
+Wire Wire Line
+	4094 6182 4094 6184
+Wire Wire Line
+	4068 6240 4068 6182
+Connection ~ 4068 6182
+Wire Wire Line
+	4068 6182 4094 6182
+Wire Wire Line
+	3684 6196 3746 6196
+Wire Wire Line
+	3746 6196 3746 6182
+Connection ~ 3684 6196
+Text Notes 6116 5736 0    139  ~ 0
+SWITCH_INPUT
 $EndSCHEMATC

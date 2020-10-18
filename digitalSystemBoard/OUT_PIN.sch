@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 3
+Sheet 3 4
 Title ""
 Date ""
 Rev ""
@@ -953,4 +953,6 @@ $EndComp
 Connection ~ 9110 4294
 Text HLabel 9110 3142 0    50   Input ~ 0
 V_SOURCE
+Text Notes 4842 5480 0    139  ~ 0
+LED_DISPLAY\n
 $EndSCHEMATC
