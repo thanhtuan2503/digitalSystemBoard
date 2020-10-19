@@ -1,4 +1,4 @@
-update=18/10/2020 7:45:52 AM
+update=10/18/2020 10:04:25 PM
 version=1
 last_client=kicad
 [general]
@@ -34,7 +34,7 @@ LibDir=
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=D:/quan/CE19/
+PlotDirectoryName=C:/Users/thanh/Desktop/
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=

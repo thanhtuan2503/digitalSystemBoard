@@ -1,4 +1,4 @@
-(module MJD122T4G (layer F.Cu) (tedit 5F86FAFB)
+(module MJD122T4G (layer F.Cu) (tedit 5F8DA862)
   (fp_text reference REF** (at 0.54 -4.308) (layer F.SilkS)
     (effects (font (size 0.8 0.8) (thickness 0.015)))
   )
@@ -26,7 +26,7 @@
   (fp_line (start 5.81 -3.52) (end -5.81 -3.52) (layer F.CrtYd) (width 0.05))
   (pad 1 smd rect (at -4.14 -2.29) (size 2.83 0.97) (layers F.Cu F.Paste F.Mask))
   (pad 3 smd rect (at -4.14 2.29) (size 2.83 0.97) (layers F.Cu F.Paste F.Mask))
-  (pad 4 smd rect (at 2.51 0) (size 6.09 5.63) (layers F.Cu F.Mask))
+  (pad 2 smd rect (at 2.51 0) (size 6.09 5.63) (layers F.Cu F.Mask))
   (model ${KIPRJMOD}/3dSymbol/MJD122T4G.STEP
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
