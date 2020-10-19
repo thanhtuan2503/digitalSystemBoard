@@ -64,7 +64,7 @@ U 1 1 5F9A7CE1
 P 2438 6988
 F 0 "U17" V 2459 7116 50  0000 L CNN
 F 1 "Potentiometer-digitalSystemBoard" V 2790 6334 50  0000 L CNN
-F 2 "digitalSystemBoard:TRIM_3296W-1-501" H 2438 6988 50  0001 C CNN
+F 2 "digitalSystemBoard:RK09D117000B" H 2438 6988 50  0001 C CNN
 F 3 "" H 2438 6988 50  0001 C CNN
 	1    2438 6988
 	0    1    1    0   

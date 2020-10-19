@@ -21,7 +21,7 @@ AR Path="/5F8CFBC4/5F9C00A8" Ref="Q?"  Part="1"
 AR Path="/5F9B6E57/5F9C00A8" Ref="Q13"  Part="1" 
 F 0 "Q13" H 2350 1668 50  0000 L CNN
 F 1 "2N7002" H 2350 1577 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 2346 1547 50  0001 L CIN
+F 2 "digitalSystemBoard:SO65P210X100-3N" H 2346 1547 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 2146 1622 50  0001 L CNN
 	1    2146 1622
 	1    0    0    -1  
@@ -214,7 +214,7 @@ AR Path="/5F8CFBC4/5F9B7401" Ref="Q?"  Part="1"
 AR Path="/5F9B6E57/5F9B7401" Ref="Q15"  Part="1" 
 F 0 "Q15" H 3842 1612 50  0000 L CNN
 F 1 "2N7002" H 3842 1521 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 3838 1491 50  0001 L CIN
+F 2 "digitalSystemBoard:SO65P210X100-3N" H 3838 1491 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 3638 1566 50  0001 L CNN
 	1    3638 1566
 	1    0    0    -1  
@@ -302,7 +302,7 @@ AR Path="/5F8CFBC4/5F9C9D4C" Ref="Q?"  Part="1"
 AR Path="/5F9B6E57/5F9C9D4C" Ref="Q17"  Part="1" 
 F 0 "Q17" H 5586 1588 50  0000 L CNN
 F 1 "2N7002" H 5586 1497 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 5582 1467 50  0001 L CIN
+F 2 "digitalSystemBoard:SO65P210X100-3N" H 5582 1467 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 5382 1542 50  0001 L CNN
 	1    5382 1542
 	1    0    0    -1  
@@ -390,7 +390,7 @@ AR Path="/5F8CFBC4/5F9CFEF2" Ref="Q?"  Part="1"
 AR Path="/5F9B6E57/5F9CFEF2" Ref="Q19"  Part="1" 
 F 0 "Q19" H 7368 1574 50  0000 L CNN
 F 1 "2N7002" H 7368 1483 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 7364 1453 50  0001 L CIN
+F 2 "digitalSystemBoard:SO65P210X100-3N" H 7364 1453 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 7164 1528 50  0001 L CNN
 	1    7164 1528
 	1    0    0    -1  
@@ -478,7 +478,7 @@ AR Path="/5F8CFBC4/5F9D8E90" Ref="Q?"  Part="1"
 AR Path="/5F9B6E57/5F9D8E90" Ref="Q20"  Part="1" 
 F 0 "Q20" H 9174 1522 50  0000 L CNN
 F 1 "2N7002" H 9174 1431 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 9170 1401 50  0001 L CIN
+F 2 "digitalSystemBoard:SO65P210X100-3N" H 9170 1401 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 8970 1476 50  0001 L CNN
 	1    8970 1476
 	1    0    0    -1  
@@ -519,7 +519,7 @@ AR Path="/5F8CFBC4/5F9ECC70" Ref="Q?"  Part="1"
 AR Path="/5F9B6E57/5F9ECC70" Ref="Q12"  Part="1" 
 F 0 "Q12" H 2254 4118 50  0000 L CNN
 F 1 "2N7002" H 2254 4027 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 2250 3997 50  0001 L CIN
+F 2 "digitalSystemBoard:SO65P210X100-3N" H 2250 3997 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 2050 4072 50  0001 L CNN
 	1    2050 4072
 	1    0    0    -1  
@@ -607,7 +607,7 @@ AR Path="/5F8CFBC4/5F9FA523" Ref="Q?"  Part="1"
 AR Path="/5F9B6E57/5F9FA523" Ref="Q14"  Part="1" 
 F 0 "Q14" H 3804 4040 50  0000 L CNN
 F 1 "2N7002" H 3804 3949 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 3800 3919 50  0001 L CIN
+F 2 "digitalSystemBoard:SO65P210X100-3N" H 3800 3919 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 3600 3994 50  0001 L CNN
 	1    3600 3994
 	1    0    0    -1  
@@ -695,7 +695,7 @@ AR Path="/5F8CFBC4/5FA04324" Ref="Q?"  Part="1"
 AR Path="/5F9B6E57/5FA04324" Ref="Q16"  Part="1" 
 F 0 "Q16" H 5534 3988 50  0000 L CNN
 F 1 "2N7002" H 5534 3897 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 5530 3867 50  0001 L CIN
+F 2 "digitalSystemBoard:SO65P210X100-3N" H 5530 3867 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 5330 3942 50  0001 L CNN
 	1    5330 3942
 	1    0    0    -1  
@@ -783,7 +783,7 @@ AR Path="/5F8CFBC4/5FA11587" Ref="Q?"  Part="1"
 AR Path="/5F9B6E57/5FA11587" Ref="Q18"  Part="1" 
 F 0 "Q18" H 7342 3976 50  0000 L CNN
 F 1 "2N7002" H 7342 3885 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 7338 3855 50  0001 L CIN
+F 2 "digitalSystemBoard:SO65P210X100-3N" H 7338 3855 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 7138 3930 50  0001 L CNN
 	1    7138 3930
 	1    0    0    -1  
@@ -871,7 +871,7 @@ AR Path="/5F8CFBC4/5FA1E6A7" Ref="Q?"  Part="1"
 AR Path="/5F9B6E57/5FA1E6A7" Ref="Q21"  Part="1" 
 F 0 "Q21" H 9214 3988 50  0000 L CNN
 F 1 "2N7002" H 9214 3897 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 9210 3867 50  0001 L CIN
+F 2 "digitalSystemBoard:SO65P210X100-3N" H 9210 3867 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 9010 3942 50  0001 L CNN
 	1    9010 3942
 	1    0    0    -1  
