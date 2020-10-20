@@ -461,7 +461,7 @@ CONTROL_CLOCK\n
 Wire Wire Line
 	1670 1806 1670 1912
 $Comp
-L digitalSystemBoard:USB-B-S-X-X-TH-TR J12
+L digitalSystemBoard-rescue:USB-B-S-X-X-TH-TR-digitalSystemBoard J12
 U 1 1 5F99974B
 P 1270 1406
 F 0 "J12" H 1163 839 50  0000 C CNN
