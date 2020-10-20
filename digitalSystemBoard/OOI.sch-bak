@@ -61,10 +61,10 @@ F 3 "~" H 2234 930 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED D4
+L Device:LED D2
 U 1 1 5F8E1743
 P 2234 1230
-F 0 "D4" V 2273 1113 50  0000 R CNN
+F 0 "D2" V 2273 1113 50  0000 R CNN
 F 1 "LED" V 2182 1113 50  0000 R CNN
 F 2 "LED_SMD:LED_0805_2012Metric" H 2234 1230 50  0001 C CNN
 F 3 "~" H 2234 1230 50  0001 C CNN
@@ -247,10 +247,10 @@ O9
 Text HLabel 3684 6058 1    50   Input ~ 0
 O10
 $Comp
-L Device:LED D9
+L Device:LED D4
 U 1 1 5F8AA477
 P 6832 1216
-F 0 "D9" V 6871 1099 50  0000 R CNN
+F 0 "D4" V 6871 1099 50  0000 R CNN
 F 1 "LED" V 6780 1099 50  0000 R CNN
 F 2 "LED_SMD:LED_0805_2012Metric" H 6832 1216 50  0001 C CNN
 F 3 "~" H 6832 1216 50  0001 C CNN
@@ -302,10 +302,10 @@ F 3 "~" H 8974 952 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED D11
+L Device:LED D5
 U 1 1 5F8D9307
 P 8974 1252
-F 0 "D11" V 9013 1135 50  0000 R CNN
+F 0 "D5" V 9013 1135 50  0000 R CNN
 F 1 "LED" V 8922 1135 50  0000 R CNN
 F 2 "LED_SMD:LED_0805_2012Metric" H 8974 1252 50  0001 C CNN
 F 3 "~" H 8974 1252 50  0001 C CNN
@@ -396,10 +396,10 @@ F 3 "~" H 4194 872 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED D5
+L Device:LED D3
 U 1 1 5F89C4DF
 P 4194 1172
-F 0 "D5" V 4233 1055 50  0000 R CNN
+F 0 "D3" V 4233 1055 50  0000 R CNN
 F 1 "LED" V 4142 1055 50  0000 R CNN
 F 2 "LED_SMD:LED_0805_2012Metric" H 4194 1172 50  0001 C CNN
 F 3 "~" H 4194 1172 50  0001 C CNN
@@ -490,10 +490,10 @@ Wire Wire Line
 	6532 1866 6532 1918
 Connection ~ 6532 1566
 $Comp
-L Transistor_FET:2N7002 Q7
+L Transistor_FET:2N7002 Q6
 U 1 1 5F95380F
 P 2060 3962
-F 0 "Q7" H 2264 4008 50  0000 L CNN
+F 0 "Q6" H 2264 4008 50  0000 L CNN
 F 1 "2N7002" H 2264 3917 50  0000 L CNN
 F 2 "digitalSystemBoard:SO65P210X100-3N" H 2260 3887 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 2060 3962 50  0001 L CNN
@@ -534,10 +534,10 @@ F 3 "~" H 2160 3312 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED D3
+L Device:LED D6
 U 1 1 5F953837
 P 2160 3612
-F 0 "D3" V 2199 3495 50  0000 R CNN
+F 0 "D6" V 2199 3495 50  0000 R CNN
 F 1 "LED" V 2108 3495 50  0000 R CNN
 F 2 "LED_SMD:LED_0805_2012Metric" H 2160 3612 50  0001 C CNN
 F 3 "~" H 2160 3612 50  0001 C CNN
@@ -566,10 +566,10 @@ Connection ~ 2160 4314
 Text HLabel 2160 3162 0    50   Input ~ 0
 V_SOURCE
 $Comp
-L Transistor_FET:2N7002 Q9
+L Transistor_FET:2N7002 Q7
 U 1 1 5F960BC2
 P 4304 3944
-F 0 "Q9" H 4508 3990 50  0000 L CNN
+F 0 "Q7" H 4508 3990 50  0000 L CNN
 F 1 "2N7002" H 4508 3899 50  0000 L CNN
 F 2 "digitalSystemBoard:SO65P210X100-3N" H 4504 3869 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 4304 3944 50  0001 L CNN
@@ -577,21 +577,10 @@ F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 4304 3944 50  000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R26
-U 1 1 5F960BCC
-P 3954 3944
-F 0 "R26" H 4024 3990 50  0000 L CNN
-F 1 "10" H 4024 3899 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 3884 3944 50  0001 C CNN
-F 3 "~" H 3954 3944 50  0001 C CNN
-	1    3954 3944
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R21
+L Device:R R22
 U 1 1 5F960BD6
 P 4104 4094
-F 0 "R21" H 4174 4140 50  0000 L CNN
+F 0 "R22" H 4174 4140 50  0000 L CNN
 F 1 "10k" H 4174 4049 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 4034 4094 50  0001 C CNN
 F 3 "~" H 4104 4094 50  0001 C CNN
@@ -599,10 +588,10 @@ F 3 "~" H 4104 4094 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R29
+L Device:R R23
 U 1 1 5F960BE0
 P 4404 3294
-F 0 "R29" H 4474 3340 50  0000 L CNN
+F 0 "R23" H 4474 3340 50  0000 L CNN
 F 1 "470" H 4474 3249 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 4334 3294 50  0001 C CNN
 F 3 "~" H 4404 3294 50  0001 C CNN
@@ -642,10 +631,10 @@ Connection ~ 4404 4296
 Text HLabel 4404 3144 0    50   Input ~ 0
 V_SOURCE
 $Comp
-L Transistor_FET:2N7002 Q10
+L Transistor_FET:2N7002 Q8
 U 1 1 5F96EE9C
 P 6646 3912
-F 0 "Q10" H 6850 3958 50  0000 L CNN
+F 0 "Q8" H 6850 3958 50  0000 L CNN
 F 1 "2N7002" H 6850 3867 50  0000 L CNN
 F 2 "digitalSystemBoard:SO65P210X100-3N" H 6846 3837 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 6646 3912 50  0001 L CNN
@@ -653,10 +642,10 @@ F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 6646 3912 50  000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R30
+L Device:R R24
 U 1 1 5F96EEA6
 P 6296 3912
-F 0 "R30" H 6366 3958 50  0000 L CNN
+F 0 "R24" H 6366 3958 50  0000 L CNN
 F 1 "10" H 6366 3867 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 6226 3912 50  0001 C CNN
 F 3 "~" H 6296 3912 50  0001 C CNN
@@ -664,10 +653,10 @@ F 3 "~" H 6296 3912 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R31
+L Device:R R25
 U 1 1 5F96EEB0
 P 6446 4062
-F 0 "R31" H 6516 4108 50  0000 L CNN
+F 0 "R25" H 6516 4108 50  0000 L CNN
 F 1 "10k" H 6516 4017 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 6376 4062 50  0001 C CNN
 F 3 "~" H 6446 4062 50  0001 C CNN
@@ -675,10 +664,10 @@ F 3 "~" H 6446 4062 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R32
+L Device:R R26
 U 1 1 5F96EEBA
 P 6746 3262
-F 0 "R32" H 6816 3308 50  0000 L CNN
+F 0 "R26" H 6816 3308 50  0000 L CNN
 F 1 "470" H 6816 3217 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 6676 3262 50  0001 C CNN
 F 3 "~" H 6746 3262 50  0001 C CNN
@@ -718,10 +707,10 @@ Connection ~ 6746 4264
 Text HLabel 6746 3112 0    50   Input ~ 0
 V_SOURCE
 $Comp
-L Transistor_FET:2N7002 Q11
+L Transistor_FET:2N7002 Q9
 U 1 1 5F97CE66
 P 8792 3912
-F 0 "Q11" H 8996 3958 50  0000 L CNN
+F 0 "Q9" H 8996 3958 50  0000 L CNN
 F 1 "2N7002" H 8996 3867 50  0000 L CNN
 F 2 "digitalSystemBoard:SO65P210X100-3N" H 8992 3837 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 8792 3912 50  0001 L CNN
@@ -729,10 +718,10 @@ F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 8792 3912 50  000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R33
+L Device:R R27
 U 1 1 5F97CE70
 P 8442 3912
-F 0 "R33" H 8512 3958 50  0000 L CNN
+F 0 "R27" H 8512 3958 50  0000 L CNN
 F 1 "10" H 8512 3867 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 8372 3912 50  0001 C CNN
 F 3 "~" H 8442 3912 50  0001 C CNN
@@ -740,21 +729,10 @@ F 3 "~" H 8442 3912 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R34
-U 1 1 5F97CE7A
-P 8592 4062
-F 0 "R34" H 8662 4108 50  0000 L CNN
-F 1 "10k" H 8662 4017 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 8522 4062 50  0001 C CNN
-F 3 "~" H 8592 4062 50  0001 C CNN
-	1    8592 4062
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R35
+L Device:R R29
 U 1 1 5F97CE84
 P 8892 3262
-F 0 "R35" H 8962 3308 50  0000 L CNN
+F 0 "R29" H 8962 3308 50  0000 L CNN
 F 1 "470" H 8962 3217 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 8822 3262 50  0001 C CNN
 F 3 "~" H 8892 3262 50  0001 C CNN
@@ -762,10 +740,10 @@ F 3 "~" H 8892 3262 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED D10
+L Device:LED D9
 U 1 1 5F97CE8E
 P 8892 3562
-F 0 "D10" V 8931 3445 50  0000 R CNN
+F 0 "D9" V 8931 3445 50  0000 R CNN
 F 1 "LED" V 8840 3445 50  0000 R CNN
 F 2 "LED_SMD:LED_0805_2012Metric" H 8892 3562 50  0001 C CNN
 F 3 "~" H 8892 3562 50  0001 C CNN
@@ -794,10 +772,10 @@ Connection ~ 8892 4264
 Text HLabel 8892 3112 0    50   Input ~ 0
 V_SOURCE
 $Comp
-L Transistor_FET:2N7002 Q6
+L Transistor_FET:2N7002 Q10
 U 1 1 5F98871C
 P 2056 6206
-F 0 "Q6" H 2260 6252 50  0000 L CNN
+F 0 "Q10" H 2260 6252 50  0000 L CNN
 F 1 "2N7002" H 2260 6161 50  0000 L CNN
 F 2 "digitalSystemBoard:SO65P210X100-3N" H 2256 6131 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 2056 6206 50  0001 L CNN
@@ -805,10 +783,10 @@ F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 2056 6206 50  000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R22
+L Device:R R30
 U 1 1 5F988726
 P 1706 6206
-F 0 "R22" H 1776 6252 50  0000 L CNN
+F 0 "R30" H 1776 6252 50  0000 L CNN
 F 1 "10" H 1776 6161 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 1636 6206 50  0001 C CNN
 F 3 "~" H 1706 6206 50  0001 C CNN
@@ -816,10 +794,10 @@ F 3 "~" H 1706 6206 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R23
+L Device:R R31
 U 1 1 5F988730
 P 1856 6356
-F 0 "R23" H 1926 6402 50  0000 L CNN
+F 0 "R31" H 1926 6402 50  0000 L CNN
 F 1 "10k" H 1926 6311 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 1786 6356 50  0001 C CNN
 F 3 "~" H 1856 6356 50  0001 C CNN
@@ -827,10 +805,10 @@ F 3 "~" H 1856 6356 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R24
+L Device:R R32
 U 1 1 5F98873A
 P 2156 5556
-F 0 "R24" H 2226 5602 50  0000 L CNN
+F 0 "R32" H 2226 5602 50  0000 L CNN
 F 1 "470" H 2226 5511 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 2086 5556 50  0001 C CNN
 F 3 "~" H 2156 5556 50  0001 C CNN
@@ -838,10 +816,10 @@ F 3 "~" H 2156 5556 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED D2
+L Device:LED D10
 U 1 1 5F988744
 P 2156 5856
-F 0 "D2" V 2195 5739 50  0000 R CNN
+F 0 "D10" V 2195 5739 50  0000 R CNN
 F 1 "LED" V 2104 5739 50  0000 R CNN
 F 2 "LED_SMD:LED_0805_2012Metric" H 2156 5856 50  0001 C CNN
 F 3 "~" H 2156 5856 50  0001 C CNN
@@ -870,10 +848,10 @@ Connection ~ 2156 6558
 Text HLabel 2156 5406 0    50   Input ~ 0
 V_SOURCE
 $Comp
-L Transistor_FET:2N7002 Q8
+L Transistor_FET:2N7002 Q11
 U 1 1 5F9982B4
 P 4294 6184
-F 0 "Q8" H 4498 6230 50  0000 L CNN
+F 0 "Q11" H 4498 6230 50  0000 L CNN
 F 1 "2N7002" H 4498 6139 50  0000 L CNN
 F 2 "digitalSystemBoard:SO65P210X100-3N" H 4494 6109 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 4294 6184 50  0001 L CNN
@@ -881,10 +859,10 @@ F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 4294 6184 50  000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R25
+L Device:R R33
 U 1 1 5F9982BE
 P 3896 6182
-F 0 "R25" H 3966 6228 50  0000 L CNN
+F 0 "R33" H 3966 6228 50  0000 L CNN
 F 1 "10" H 3966 6137 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 3826 6182 50  0001 C CNN
 F 3 "~" H 3896 6182 50  0001 C CNN
@@ -892,10 +870,10 @@ F 3 "~" H 3896 6182 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R27
+L Device:R R34
 U 1 1 5F9982C8
 P 4068 6390
-F 0 "R27" H 4138 6436 50  0000 L CNN
+F 0 "R34" H 4138 6436 50  0000 L CNN
 F 1 "10k" H 4138 6345 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 3998 6390 50  0001 C CNN
 F 3 "~" H 4068 6390 50  0001 C CNN
@@ -916,10 +894,10 @@ $EndComp
 Text HLabel 4394 5384 0    50   Input ~ 0
 V_SOURCE
 $Comp
-L Device:LED D6
+L Device:LED D11
 U 1 1 5F9982DC
 P 4394 5834
-F 0 "D6" V 4433 5717 50  0000 R CNN
+F 0 "D11" V 4433 5717 50  0000 R CNN
 F 1 "LED" V 4342 5717 50  0000 R CNN
 F 2 "LED_SMD:LED_0805_2012Metric" H 4394 5834 50  0001 C CNN
 F 3 "~" H 4394 5834 50  0001 C CNN
@@ -927,10 +905,10 @@ F 3 "~" H 4394 5834 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R28
+L Device:R R35
 U 1 1 5F9982D2
 P 4394 5534
-F 0 "R28" H 4464 5580 50  0000 L CNN
+F 0 "R35" H 4464 5580 50  0000 L CNN
 F 1 "470" H 4464 5489 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 4324 5534 50  0001 C CNN
 F 3 "~" H 4394 5534 50  0001 C CNN
@@ -984,20 +962,11 @@ Connection ~ 3684 6196
 Text Notes 6116 5736 0    139  ~ 0
 SWITCH_INPUT
 $Comp
-L digitalSystemBoard:IO_Switch U5
-U 1 1 5FA7D407
-P 1176 1590
-F 0 "U5" V 1222 1767 50  0000 L CNN
-F 1 "IO_Switch" V 1131 1767 50  0000 L CNN
-F 2 "digitalSystemBoard:SS-12F44G5" H 1176 1590 50  0001 C CNN
-F 3 "" H 1176 1590 50  0001 C CNN
-	1    1176 1590
-	0    -1   -1   0   
-$EndComp
-$Comp
-L digitalSystemBoard:IO_Switch U6
+L digitalSystemBoard-rescue:IO_Switch-digitalSystemBoard U6
 U 1 1 5FA7DE48
 P 3136 1532
+AR Path="/5FA7DE48" Ref="U6"  Part="1" 
+AR Path="/5F8CFBC4/5FA7DE48" Ref="U6"  Part="1" 
 F 0 "U6" V 3090 1709 50  0000 L CNN
 F 1 "IO_Switch" V 3181 1709 50  0000 L CNN
 F 2 "digitalSystemBoard:SS-12F44G5" H 3136 1532 50  0001 C CNN
@@ -1006,9 +975,11 @@ F 3 "" H 3136 1532 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L digitalSystemBoard:IO_Switch U7
+L digitalSystemBoard-rescue:IO_Switch-digitalSystemBoard U7
 U 1 1 5FA83231
 P 5774 1576
+AR Path="/5FA83231" Ref="U7"  Part="1" 
+AR Path="/5F8CFBC4/5FA83231" Ref="U7"  Part="1" 
 F 0 "U7" V 5728 1753 50  0000 L CNN
 F 1 "IO_Switch" V 5819 1753 50  0000 L CNN
 F 2 "digitalSystemBoard:SS-12F44G5" H 5774 1576 50  0001 C CNN
@@ -1017,9 +988,11 @@ F 3 "" H 5774 1576 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L digitalSystemBoard:IO_Switch U8
+L digitalSystemBoard-rescue:IO_Switch-digitalSystemBoard U8
 U 1 1 5FA84041
 P 7916 1612
+AR Path="/5FA84041" Ref="U8"  Part="1" 
+AR Path="/5F8CFBC4/5FA84041" Ref="U8"  Part="1" 
 F 0 "U8" V 7870 1789 50  0000 L CNN
 F 1 "IO_Switch" V 7961 1789 50  0000 L CNN
 F 2 "digitalSystemBoard:SS-12F44G5" H 7916 1612 50  0001 C CNN
@@ -1028,9 +1001,11 @@ F 3 "" H 7916 1612 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L digitalSystemBoard:IO_Switch U9
+L digitalSystemBoard-rescue:IO_Switch-digitalSystemBoard U9
 U 1 1 5FA84F0E
 P 1102 3972
+AR Path="/5FA84F0E" Ref="U9"  Part="1" 
+AR Path="/5F8CFBC4/5FA84F0E" Ref="U9"  Part="1" 
 F 0 "U9" V 1056 4149 50  0000 L CNN
 F 1 "IO_Switch" V 1147 4149 50  0000 L CNN
 F 2 "digitalSystemBoard:SS-12F44G5" H 1102 3972 50  0001 C CNN
@@ -1039,9 +1014,11 @@ F 3 "" H 1102 3972 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L digitalSystemBoard:IO_Switch U10
+L digitalSystemBoard-rescue:IO_Switch-digitalSystemBoard U10
 U 1 1 5FA8ABC8
 P 3346 3954
+AR Path="/5FA8ABC8" Ref="U10"  Part="1" 
+AR Path="/5F8CFBC4/5FA8ABC8" Ref="U10"  Part="1" 
 F 0 "U10" V 3300 4131 50  0000 L CNN
 F 1 "IO_Switch" V 3391 4131 50  0000 L CNN
 F 2 "digitalSystemBoard:SS-12F44G5" H 3346 3954 50  0001 C CNN
@@ -1050,9 +1027,11 @@ F 3 "" H 3346 3954 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L digitalSystemBoard:IO_Switch U11
+L digitalSystemBoard-rescue:IO_Switch-digitalSystemBoard U11
 U 1 1 5FA8BBA6
 P 5688 3922
+AR Path="/5FA8BBA6" Ref="U11"  Part="1" 
+AR Path="/5F8CFBC4/5FA8BBA6" Ref="U11"  Part="1" 
 F 0 "U11" V 5642 4099 50  0000 L CNN
 F 1 "IO_Switch" V 5733 4099 50  0000 L CNN
 F 2 "digitalSystemBoard:SS-12F44G5" H 5688 3922 50  0001 C CNN
@@ -1061,9 +1040,11 @@ F 3 "" H 5688 3922 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L digitalSystemBoard:IO_Switch U12
+L digitalSystemBoard-rescue:IO_Switch-digitalSystemBoard U12
 U 1 1 5FA8D4ED
 P 7834 3922
+AR Path="/5FA8D4ED" Ref="U12"  Part="1" 
+AR Path="/5F8CFBC4/5FA8D4ED" Ref="U12"  Part="1" 
 F 0 "U12" V 7788 4099 50  0000 L CNN
 F 1 "IO_Switch" V 7879 4099 50  0000 L CNN
 F 2 "digitalSystemBoard:SS-12F44G5" H 7834 3922 50  0001 C CNN
@@ -1072,9 +1053,11 @@ F 3 "" H 7834 3922 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L digitalSystemBoard:IO_Switch U13
+L digitalSystemBoard-rescue:IO_Switch-digitalSystemBoard U13
 U 1 1 5FA8E32F
 P 1098 6216
+AR Path="/5FA8E32F" Ref="U13"  Part="1" 
+AR Path="/5F8CFBC4/5FA8E32F" Ref="U13"  Part="1" 
 F 0 "U13" V 1052 6393 50  0000 L CNN
 F 1 "IO_Switch" V 1143 6393 50  0000 L CNN
 F 2 "digitalSystemBoard:SS-12F44G5" H 1098 6216 50  0001 C CNN
@@ -1083,14 +1066,51 @@ F 3 "" H 1098 6216 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L digitalSystemBoard:IO_Switch U14
+L digitalSystemBoard-rescue:IO_Switch-digitalSystemBoard U14
 U 1 1 5FA8F0FB
 P 3336 6196
+AR Path="/5FA8F0FB" Ref="U14"  Part="1" 
+AR Path="/5F8CFBC4/5FA8F0FB" Ref="U14"  Part="1" 
 F 0 "U14" V 3290 6373 50  0000 L CNN
 F 1 "IO_Switch" V 3381 6373 50  0000 L CNN
 F 2 "digitalSystemBoard:SS-12F44G5" H 3336 6196 50  0001 C CNN
 F 3 "" H 3336 6196 50  0001 C CNN
 	1    3336 6196
 	0    -1   1    0   
+$EndComp
+$Comp
+L digitalSystemBoard-rescue:IO_Switch-digitalSystemBoard U5
+U 1 1 5FA7D407
+P 1176 1590
+AR Path="/5FA7D407" Ref="U5"  Part="1" 
+AR Path="/5F8CFBC4/5FA7D407" Ref="U5"  Part="1" 
+F 0 "U5" V 1222 1767 50  0000 L CNN
+F 1 "IO_Switch" V 1131 1767 50  0000 L CNN
+F 2 "digitalSystemBoard:SS-12F44G5" H 1176 1590 50  0001 C CNN
+F 3 "" H 1176 1590 50  0001 C CNN
+	1    1176 1590
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R R21
+U 1 1 5F960BCC
+P 3954 3944
+F 0 "R21" H 4024 3990 50  0000 L CNN
+F 1 "10" H 4024 3899 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3884 3944 50  0001 C CNN
+F 3 "~" H 3954 3944 50  0001 C CNN
+	1    3954 3944
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R28
+U 1 1 5F97CE7A
+P 8592 4062
+F 0 "R28" H 8662 4108 50  0000 L CNN
+F 1 "10k" H 8662 4017 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8522 4062 50  0001 C CNN
+F 3 "~" H 8592 4062 50  0001 C CNN
+	1    8592 4062
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
