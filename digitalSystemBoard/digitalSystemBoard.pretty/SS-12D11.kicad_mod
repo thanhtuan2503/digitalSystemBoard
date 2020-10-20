@@ -1,4 +1,4 @@
-(module SS-12D11 (layer F.Cu) (tedit 5F87B69C)
+(module SS-12D11 (layer F.Cu) (tedit 5F8EDCF8)
   (fp_text reference REF** (at 0 7.62) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -13,4 +13,9 @@
   (pad 2 thru_hole circle (at 0 0) (size 1.524 1.524) (drill oval 0.85 1.35) (layers *.Cu *.Mask))
   (pad 1 thru_hole circle (at -4.7 0) (size 1.524 1.524) (drill oval 0.85 1.35) (layers *.Cu *.Mask))
   (pad 3 thru_hole circle (at 4.7 0) (size 1.524 1.524) (drill oval 0.85 1.35) (layers *.Cu *.Mask))
+  (model ${KIPRJMOD}/3dSymbol/Switch.stp
+    (offset (xyz 0.5 -6 4))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 180))
+  )
 )
