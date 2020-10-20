@@ -651,7 +651,7 @@ F 4 "50 mA" H 1872 4446 50  0001 L BNN "Field4"
 F 5 "Single Pole - Single Throw" H 1872 4446 50  0001 L BNN "Field5"
 F 6 "Compliant" H 1872 4446 50  0001 L BNN "Field6"
 	1    1872 4446
-	1    0    0    -1  
+	0    1    1    0   
 $EndComp
 Text Label 2350 4346 0    50   ~ 0
 IB1
@@ -675,8 +675,8 @@ F 3 "~" H 2248 4112 50  0001 C CNN
 	1    2248 4112
 	1    0    0    -1  
 $EndComp
-NoConn ~ 2122 4546
-NoConn ~ 1622 4546
+NoConn ~ 1772 4696
+NoConn ~ 1972 4196
 $Comp
 L power:GND #PWR0101
 U 1 1 5F8DA255
@@ -700,7 +700,7 @@ F 4 "50 mA" H 3178 4414 50  0001 L BNN "Field4"
 F 5 "Single Pole - Single Throw" H 3178 4414 50  0001 L BNN "Field5"
 F 6 "Compliant" H 3178 4414 50  0001 L BNN "Field6"
 	1    3178 4414
-	1    0    0    -1  
+	0    1    1    0   
 $EndComp
 Connection ~ 3554 4314
 Wire Wire Line
@@ -722,8 +722,8 @@ F 3 "~" H 3554 4080 50  0001 C CNN
 	1    3554 4080
 	1    0    0    -1  
 $EndComp
-NoConn ~ 3428 4514
-NoConn ~ 2928 4514
+NoConn ~ 3278 4164
+NoConn ~ 3078 4664
 $Comp
 L power:+5V #PWR0102
 U 1 1 5F94B1B2
@@ -1050,4 +1050,20 @@ Text Label 1226 3088 2    50   ~ 0
 O1
 Text Label 2026 3088 2    50   ~ 0
 O9
+Wire Wire Line
+	1772 4196 1622 4196
+Wire Wire Line
+	1622 4196 1622 4346
+Wire Wire Line
+	2122 4346 2122 4696
+Wire Wire Line
+	2122 4696 1972 4696
+Wire Wire Line
+	3078 4164 2928 4164
+Wire Wire Line
+	2928 4164 2928 4314
+Wire Wire Line
+	3428 4314 3428 4664
+Wire Wire Line
+	3428 4664 3278 4664
 $EndSCHEMATC
