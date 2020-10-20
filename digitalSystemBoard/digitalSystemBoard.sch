@@ -169,7 +169,7 @@ U 1 1 5F875556
 P 850 1166
 F 0 "J1" H 907 1491 50  0000 C CNN
 F 1 "Barrel_Jack" H 907 1400 50  0000 C CNN
-F 2 "Connector_BarrelJack:BarrelJack_Horizontal" H 900 1126 50  0001 C CNN
+F 2 "footprints:BARREL_JACK" H 900 1126 50  0001 C CNN
 F 3 "~" H 900 1126 50  0001 C CNN
 	1    850  1166
 	1    0    0    -1  
