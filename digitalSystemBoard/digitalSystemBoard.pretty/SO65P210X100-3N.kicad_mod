@@ -1,4 +1,4 @@
-(module SO65P210X100-3N (layer F.Cu) (tedit 5F8EDD5A)
+(module SO65P210X100-3N (layer F.Cu) (tedit 5F8EEDA6)
   (fp_text reference REF** (at 1.757875 -2.955265) (layer F.SilkS)
     (effects (font (size 1.644937 1.644937) (thickness 0.015)))
   )
