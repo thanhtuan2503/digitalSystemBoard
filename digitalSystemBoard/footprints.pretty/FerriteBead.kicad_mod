@@ -1,4 +1,4 @@
-(module FerriteBead (layer F.Cu) (tedit 5F57CE85)
+(module FerriteBead (layer F.Cu) (tedit 5F906A04)
   (fp_text reference REF** (at -0.46 -1.32) (layer F.SilkS)
     (effects (font (size 0.393701 0.393701) (thickness 0.015)))
   )
@@ -16,6 +16,11 @@
   (pad 2 smd rect (at 0.86 0) (size 1.2 1.47) (layers F.Cu F.Paste F.Mask))
   (pad 1 smd rect (at -0.86 0) (size 1.2 1.47) (layers F.Cu F.Paste F.Mask))
   (model D:/3Dshape/FBMH2012HM800-T.STEP
+    (offset (xyz 0 -1 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model ${KIPRJMOD}/3dSymbol/FBMH2012HM800-T.STEP
     (offset (xyz 0 -0.5 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

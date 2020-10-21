@@ -1,4 +1,4 @@
-(module SC70-6 (layer F.Cu) (tedit 5F57CF82)
+(module SC70-6 (layer F.Cu) (tedit 5F9069EB)
   (descr "<b>6-Lead Thin Shrink Small Outline Transistor Package SC70</b><p>Source: http://www.analog.com/static/imported-files/data_sheets/ADA4853-1_4853-2_4853-3.pdf")
   (fp_text reference REF** (at 1.781035 -2.162695) (layer F.SilkS)
     (effects (font (size 1.001709 1.001709) (thickness 0.015)))
@@ -40,5 +40,10 @@
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -95 0 0))
+  )
+  (model ${KIPRJMOD}/3dSymbol/SMF05C.STEP
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
   )
 )
