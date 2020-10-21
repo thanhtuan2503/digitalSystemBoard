@@ -1,4 +1,4 @@
-18660510203582243
+18747083347023315
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -82103,8 +82103,29 @@ LM317
 3
 3
 digitalSystemBoard
+LM358
+
+
+0
+8
+8
+digitalSystemBoard
+LP2985
+
+
+0
+5
+5
+digitalSystemBoard
 MJD122T4G
 
+
+0
+3
+3
+digitalSystemBoard
+P_SOURCE
+SuperSOT-3
 
 0
 3
@@ -82186,3 +82207,360 @@ TRIM_3296W-1-501
 0
 3
 3
+footprints
+2-SMD-5X3
+<b>2-SMD</b><p>5 x 3.2 mm
+
+0
+2
+2
+footprints
+AMS1117
+
+
+0
+4
+4
+footprints
+Arduino_Leonardo_Shield
+https://store.arduino.cc/arduino-leonardo-with-headers
+
+0
+38
+37
+footprints
+BARREL_JACK
+DC Barrel Jack
+Power Jack
+0
+3
+3
+footprints
+Button1
+
+
+0
+2
+2
+footprints
+ButtonFirst
+
+
+0
+4
+4
+footprints
+C_0603
+Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)
+capacitor 0603
+0
+2
+2
+footprints
+C_0805
+Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)
+capacitor 0805
+0
+2
+2
+footprints
+C_0805_HandSoldering
+Capacitor SMD 0805, hand soldering
+capacitor 0805
+0
+2
+2
+footprints
+C_1206_HandSoldering
+Capacitor SMD 1206, hand soldering
+capacitor 1206
+0
+2
+2
+footprints
+Crystal1
+
+
+0
+2
+2
+footprints
+D_SOD-123F
+D_SOD-123F
+D_SOD-123F
+0
+2
+2
+footprints
+Diode_Tws
+
+
+0
+2
+2
+footprints
+EVQ-P7A
+CK components KMR2 tactile switch http://www.ckswitches.com/media/1479/kmr2.pdf
+tactile switch kmr2
+0
+4
+2
+footprints
+FerriteBead
+
+
+0
+2
+2
+footprints
+Jumper
+
+
+0
+2
+2
+footprints
+KiCad-Logo2_8mm_SilkScreen
+KiCad Logo
+Logo KiCad
+0
+0
+0
+footprints
+LED_0603
+LED 0603 smd package
+LED led 0603 SMD smd SMT smt smdled SMDLED smtled SMTLED
+0
+2
+2
+footprints
+LED_0805_HandSoldering
+Resistor SMD 0805, hand soldering
+resistor 0805
+0
+2
+2
+footprints
+LIS3DH
+
+
+0
+16
+16
+footprints
+LM2596S-5V
+
+
+0
+6
+6
+footprints
+Leo_Front
+
+
+0
+0
+0
+footprints
+Leo_back
+
+
+0
+0
+0
+footprints
+Leo_font
+
+
+0
+0
+0
+footprints
+MadeInOregonRev25
+
+
+0
+0
+0
+footprints
+OSHW-Logo_5.7x6mm_SilkScreen
+Open Source Hardware Logo
+Logo OSHW
+0
+0
+0
+footprints
+Pin_Header_Straight_1x05_Pitch2.54mm
+Through hole straight pin header, 1x05, 2.54mm pitch, single row
+Through hole pin header THT 1x05 2.54mm single row
+0
+5
+5
+footprints
+Pin_Header_Straight_1x06_Pitch2.54mm
+Through hole straight pin header, 1x06, 2.54mm pitch, single row
+Through hole pin header THT 1x06 2.54mm single row
+0
+6
+6
+footprints
+Pin_Header_Straight_1x08_Pitch2.54mm
+Through hole straight pin header, 1x08, 2.54mm pitch, single row
+Through hole pin header THT 1x08 2.54mm single row
+0
+8
+8
+footprints
+Pin_Header_Straight_1x14_Pitch2.54mm
+Through hole straight pin header, 1x14, 2.54mm pitch, single row
+Through hole pin header THT 1x14 2.54mm single row
+0
+14
+14
+footprints
+Pin_Header_Straight_2x03_Pitch2.54mm
+Through hole straight pin header, 2x03, 2.54mm pitch, double rows
+Through hole pin header THT 2x03 2.54mm double row
+0
+6
+6
+footprints
+R_0603
+Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)
+resistor 0603
+0
+2
+2
+footprints
+R_0805_HandSoldering
+Resistor SMD 0805, hand soldering
+resistor 0805
+0
+2
+2
+footprints
+R_1206
+Resistor SMD 1206, reflow soldering, Vishay (see dcrcw.pdf)
+resistor 1206
+0
+2
+2
+footprints
+R_1206_HandSoldering
+Resistor SMD 1206, hand soldering
+resistor 1206
+0
+2
+2
+footprints
+Resonator_SMD_CTSC_1.3mmx3.2mm
+SMD Resomator/Filter Murata TPSKA, http://cdn-reichelt.de/documents/datenblatt/B400/SFECV-107.pdf, hand-soldering, 7.9x3.8mm^2 package
+SMD SMT ceramic resonator filter filter hand-soldering
+0
+3
+3
+footprints
+SC70-6
+<b>6-Lead Thin Shrink Small Outline Transistor Package SC70</b><p>Source: http://www.analog.com/static/imported-files/data_sheets/ADA4853-1_4853-2_4853-3.pdf
+
+0
+6
+6
+footprints
+SOT-23
+SOT-23, Standard
+SOT-23
+0
+3
+3
+footprints
+SOT-23-5
+5-pin SOT23 package
+SOT-23-5
+0
+5
+5
+footprints
+SOT-223-3_TabPin2
+module CMS SOT223 4 pins
+CMS SOT
+0
+4
+3
+footprints
+SS34_SMC
+
+
+0
+2
+2
+footprints
+SW_SPST_KMR2
+CK components KMR2 tactile switch http://www.ckswitches.com/media/1479/kmr2.pdf
+tactile switch kmr2
+0
+4
+2
+footprints
+SW_SPST_PTS645
+C&K Components SPST SMD PTS645 Series 6mm Tact Switch
+SPST Button Switch
+0
+4
+2
+footprints
+Switch
+
+
+0
+6
+6
+footprints
+SwitchPush
+
+
+0
+2
+2
+footprints
+TQFP-44_10x10mm_Pitch0.8mm
+44-Lead Plastic Thin Quad Flatpack (PT) - 10x10x1.0 mm Body [TQFP] (see Microchip Packaging Specification 00000049BS.pdf)
+QFP 0.8
+0
+44
+44
+footprints
+TSOP-5_1.65x3.05mm_Pitch0.95mm
+TSOP-5 package (comparable to TSOT-23), https://www.vishay.com/docs/71200/71200.pdf
+Jedec MO-193C TSOP-5L
+0
+5
+5
+footprints
+USB_Micro-B_Molex-105017-0001
+http://www.molex.com/pdm_docs/sd/1050170001_sd.pdf
+Micro-USB SMD Typ-B
+0
+13
+6
+footprints
+VSSOP-8_3.0x3.0mm_Pitch0.65mm
+VSSOP-8 3.0 x 3.0, http://www.ti.com/lit/ds/symlink/lm75b.pdf
+VSSOP-8 3.0 x 3.0
+0
+8
+8
+footprints
+graphic_SDA
+
+
+0
+0
+0
+footprints
+graphic_SDA - Copy
+
+
+0
+0
+0

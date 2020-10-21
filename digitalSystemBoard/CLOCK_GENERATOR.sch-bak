@@ -93,7 +93,7 @@ AR Path="/5F9A548F" Ref="SW?"  Part="1"
 AR Path="/5F94C37C/5F9A548F" Ref="SW7"  Part="1" 
 F 0 "SW7" H 5348 7359 50  0000 C CNN
 F 1 "ButtonFirst" H 5348 7268 50  0000 C CNN
-F 2 "digitalSystemBoard:Button" H 5348 7044 50  0001 L BNN
+F 2 "digitalSystemBoard:Button_CLOCK" H 5348 7044 50  0001 L BNN
 F 3 "4-1437565-9" H 5348 7044 50  0001 L BNN
 F 4 "50 mA" H 5348 7044 50  0001 L BNN "Field4"
 F 5 "Single Pole - Single Throw" H 5348 7044 50  0001 L BNN "Field5"
@@ -159,7 +159,7 @@ AR Path="/5F964111" Ref="SW?"  Part="1"
 AR Path="/5F94C37C/5F964111" Ref="SW5"  Part="1" 
 F 0 "SW5" H 2442 6197 50  0000 C CNN
 F 1 "ButtonFirst" H 2442 6106 50  0000 C CNN
-F 2 "digitalSystemBoard:Button" H 2442 5882 50  0001 L BNN
+F 2 "digitalSystemBoard:Button_CLOCK" H 2442 5882 50  0001 L BNN
 F 3 "4-1437565-9" H 2442 5882 50  0001 L BNN
 F 4 "50 mA" H 2442 5882 50  0001 L BNN "Field4"
 F 5 "Single Pole - Single Throw" H 2442 5882 50  0001 L BNN "Field5"
@@ -275,7 +275,7 @@ AR Path="/5F9640EF" Ref="SW?"  Part="1"
 AR Path="/5F94C37C/5F9640EF" Ref="SW6"  Part="1" 
 F 0 "SW6" H 5352 6187 50  0000 C CNN
 F 1 "ButtonFirst" H 5352 6096 50  0000 C CNN
-F 2 "digitalSystemBoard:Button" H 5352 5872 50  0001 L BNN
+F 2 "digitalSystemBoard:Button_CLOCK" H 5352 5872 50  0001 L BNN
 F 3 "4-1437565-9" H 5352 5872 50  0001 L BNN
 F 4 "50 mA" H 5352 5872 50  0001 L BNN "Field4"
 F 5 "Single Pole - Single Throw" H 5352 5872 50  0001 L BNN "Field5"
@@ -1217,7 +1217,7 @@ F 3 "~" H 1144 3458 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L project:LP2985-3.3 U19
+L digitalSystemBoard-rescue:LP2985-3.3-project U19
 U 1 1 5F9193C2
 P 1580 4376
 F 0 "U19" H 1580 4718 50  0000 C CNN
@@ -1452,9 +1452,11 @@ F 3 "~" H 2672 3258 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L digitalSystemBoard:LMV358IDGKR U4
+L digitalSystemBoard-rescue:LMV358IDGKR-digitalSystemBoard U4
 U 1 1 5F9D48CE
 P 1896 3200
+AR Path="/5F9D48CE" Ref="U4"  Part="1" 
+AR Path="/5F94C37C/5F9D48CE" Ref="U4"  Part="1" 
 F 0 "U4" H 1896 3767 50  0000 C CNN
 F 1 "LMV358IDGKR" H 1896 3676 50  0000 C CNN
 F 2 "digitalSystemBoard:LM358" H 1896 3200 50  0001 L BNN

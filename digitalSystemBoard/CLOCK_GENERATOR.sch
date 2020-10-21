@@ -1217,7 +1217,7 @@ F 3 "~" H 1144 3458 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L project:LP2985-3.3 U19
+L digitalSystemBoard-rescue:LP2985-3.3-project U19
 U 1 1 5F9193C2
 P 1580 4376
 F 0 "U19" H 1580 4718 50  0000 C CNN
@@ -1452,9 +1452,11 @@ F 3 "~" H 2672 3258 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L digitalSystemBoard:LMV358IDGKR U4
+L digitalSystemBoard-rescue:LMV358IDGKR-digitalSystemBoard U4
 U 1 1 5F9D48CE
 P 1896 3200
+AR Path="/5F9D48CE" Ref="U4"  Part="1" 
+AR Path="/5F94C37C/5F9D48CE" Ref="U4"  Part="1" 
 F 0 "U4" H 1896 3767 50  0000 C CNN
 F 1 "LMV358IDGKR" H 1896 3676 50  0000 C CNN
 F 2 "digitalSystemBoard:LM358" H 1896 3200 50  0001 L BNN
