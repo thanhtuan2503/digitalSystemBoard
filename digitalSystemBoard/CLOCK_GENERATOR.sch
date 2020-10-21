@@ -93,7 +93,7 @@ AR Path="/5F9A548F" Ref="SW?"  Part="1"
 AR Path="/5F94C37C/5F9A548F" Ref="SW7"  Part="1" 
 F 0 "SW7" H 5348 7359 50  0000 C CNN
 F 1 "ButtonFirst" H 5348 7268 50  0000 C CNN
-F 2 "digitalSystemBoard:Button" H 5348 7044 50  0001 L BNN
+F 2 "digitalSystemBoard:Button_CLOCK" H 5348 7044 50  0001 L BNN
 F 3 "4-1437565-9" H 5348 7044 50  0001 L BNN
 F 4 "50 mA" H 5348 7044 50  0001 L BNN "Field4"
 F 5 "Single Pole - Single Throw" H 5348 7044 50  0001 L BNN "Field5"
@@ -159,7 +159,7 @@ AR Path="/5F964111" Ref="SW?"  Part="1"
 AR Path="/5F94C37C/5F964111" Ref="SW5"  Part="1" 
 F 0 "SW5" H 2442 6197 50  0000 C CNN
 F 1 "ButtonFirst" H 2442 6106 50  0000 C CNN
-F 2 "digitalSystemBoard:Button" H 2442 5882 50  0001 L BNN
+F 2 "digitalSystemBoard:Button_CLOCK" H 2442 5882 50  0001 L BNN
 F 3 "4-1437565-9" H 2442 5882 50  0001 L BNN
 F 4 "50 mA" H 2442 5882 50  0001 L BNN "Field4"
 F 5 "Single Pole - Single Throw" H 2442 5882 50  0001 L BNN "Field5"
@@ -275,7 +275,7 @@ AR Path="/5F9640EF" Ref="SW?"  Part="1"
 AR Path="/5F94C37C/5F9640EF" Ref="SW6"  Part="1" 
 F 0 "SW6" H 5352 6187 50  0000 C CNN
 F 1 "ButtonFirst" H 5352 6096 50  0000 C CNN
-F 2 "digitalSystemBoard:Button" H 5352 5872 50  0001 L BNN
+F 2 "digitalSystemBoard:Button_CLOCK" H 5352 5872 50  0001 L BNN
 F 3 "4-1437565-9" H 5352 5872 50  0001 L BNN
 F 4 "50 mA" H 5352 5872 50  0001 L BNN "Field4"
 F 5 "Single Pole - Single Throw" H 5352 5872 50  0001 L BNN "Field5"
