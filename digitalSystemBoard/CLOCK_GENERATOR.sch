@@ -705,7 +705,7 @@ AR Path="/5F964203" Ref="SW?"  Part="1"
 AR Path="/5F94C37C/5F964203" Ref="SW4"  Part="1" 
 F 0 "SW4" H 7262 1936 50  0000 C CNN
 F 1 "ButtonFirst" H 7258 1862 50  0000 C CNN
-F 2 "digitalSystemBoard:Button" H 7256 2048 50  0001 L BNN
+F 2 "digitalSystemBoard:Button_CLOCK" H 7256 2048 50  0001 L BNN
 F 3 "4-1437565-9" H 7256 2048 50  0001 L BNN
 F 4 "50 mA" H 7256 2048 50  0001 L BNN "Field4"
 F 5 "Single Pole - Single Throw" H 7256 2048 50  0001 L BNN "Field5"
