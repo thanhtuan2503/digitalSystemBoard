@@ -13,88 +13,13 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Device:CP1 C1
-U 1 1 5F87280D
-P 2016 1424
-F 0 "C1" H 2131 1470 50  0000 L CNN
-F 1 "0.1uF" H 2131 1379 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 2016 1424 50  0001 C CNN
-F 3 "~" H 2016 1424 50  0001 C CNN
-	1    2016 1424
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:CP1 C2
-U 1 1 5F87304C
-P 3354 1328
-F 0 "C2" H 3236 1218 50  0000 L CNN
-F 1 "100uF_C" V 3398 1086 50  0000 L CNN
-F 2 "Capacitor_SMD:CP_Elec_5x5.8" H 3354 1328 50  0001 C CNN
-F 3 "~" H 3354 1328 50  0001 C CNN
-	1    3354 1328
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R1
-U 1 1 5F873392
-P 3032 1308
-F 0 "R1" H 3102 1354 50  0000 L CNN
-F 1 "220" H 3102 1263 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 2962 1308 50  0001 C CNN
-F 3 "~" H 3032 1308 50  0001 C CNN
-	1    3032 1308
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R2
-U 1 1 5F874194
-P 3924 1428
-F 0 "R2" H 3994 1474 50  0000 L CNN
-F 1 "0.22Ohm_5W" H 3754 1276 50  0000 L CNN
-F 2 "digitalSystemBoard:5W_0.22R" V 3854 1428 50  0001 C CNN
-F 3 "~" H 3924 1428 50  0001 C CNN
-	1    3924 1428
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Fuse F1
-U 1 1 5F874BDF
-P 3924 1918
-F 0 "F1" H 3984 1964 50  0000 L CNN
-F 1 "2A" H 3980 1866 50  0000 L CNN
-F 2 "digitalSystemBoard:Fuse" V 3854 1918 50  0001 C CNN
-F 3 "~" H 3924 1918 50  0001 C CNN
-	1    3924 1918
-	1    0    0    -1  
-$EndComp
-$Comp
-L digitalSystemBoard-rescue:LM317-digitalSystemBoard U1
-U 1 1 5F871BB7
-P 2556 1082
-F 0 "U1" H 2556 1397 50  0000 C CNN
-F 1 "LM317" H 2556 1306 50  0000 C CNN
-F 2 "digitalSystemBoard:LM317" H 2456 982 50  0001 C CNN
-F 3 "" H 2456 982 50  0001 C CNN
-	1    2556 1082
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2156 1082 2016 1082
 Wire Wire Line
-	1810 1266 1810 2108
-Wire Wire Line
-	1810 2108 2016 2108
-Wire Wire Line
 	2016 1274 2016 1082
 Connection ~ 2016 1082
-Wire Wire Line
-	2016 1574 2016 2108
-Connection ~ 2016 2108
 Wire Notes Line
 	472  3192 472  3190
-Text Notes 1056 2668 0    100  ~ 0
-SOURCE_BLOCK\n
 Wire Wire Line
 	2956 1082 3032 1082
 Wire Wire Line
@@ -105,51 +30,8 @@ Wire Wire Line
 	3354 1082 3354 1178
 Connection ~ 3032 1082
 Wire Wire Line
-	3354 1478 3354 2108
-Wire Wire Line
 	3502 1082 3354 1082
 Connection ~ 3354 1082
-Wire Wire Line
-	3502 1554 3504 1554
-Wire Wire Line
-	3504 1854 3504 2108
-Wire Wire Line
-	3504 2108 3354 2108
-Connection ~ 3354 2108
-$Comp
-L power:GND #PWR02
-U 1 1 5F8885ED
-P 1810 2108
-F 0 "#PWR02" H 1810 1858 50  0001 C CNN
-F 1 "GND" H 1815 1935 50  0000 C CNN
-F 2 "" H 1810 2108 50  0001 C CNN
-F 3 "" H 1810 2108 50  0001 C CNN
-	1    1810 2108
-	1    0    0    -1  
-$EndComp
-Connection ~ 1810 2108
-$Comp
-L digitalSystemBoard-rescue:Potentiometer-digitalSystemBoard U2
-U 1 1 5F873747
-P 2556 1632
-F 0 "U2" V 2577 1759 50  0000 L CNN
-F 1 "Potentiometer" V 2486 1759 50  0000 L CNN
-F 2 "digitalSystemBoard:TRIM_3296W-1-501" H 2556 1632 50  0001 C CNN
-F 3 "" H 2556 1632 50  0001 C CNN
-	1    2556 1632
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	2016 2108 2556 2108
-Wire Wire Line
-	3032 1458 3032 1682
-Wire Wire Line
-	3032 1682 2906 1682
-Wire Wire Line
-	2556 1932 2556 2108
-Connection ~ 2556 2108
-Wire Wire Line
-	2556 2108 3354 2108
 $Comp
 L Switch:SW_SPDT SW1
 U 1 1 5F890DBE
@@ -192,58 +74,10 @@ F 3 "~" H 4396 1122 50  0001 C CNN
 	1    4396 1122
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:LED D1
-U 1 1 5F8A5D1D
-P 4396 1422
-F 0 "D1" V 4435 1305 50  0000 R CNN
-F 1 "LED" V 4344 1305 50  0000 R CNN
-F 2 "LED_SMD:LED_0805_2012Metric" H 4396 1422 50  0001 C CNN
-F 3 "~" H 4396 1422 50  0001 C CNN
-	1    4396 1422
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	4396 972  4396 836 
-$Comp
-L power:GND #PWR04
-U 1 1 5F8A6ED8
-P 4396 1572
-F 0 "#PWR04" H 4396 1322 50  0001 C CNN
-F 1 "GND" H 4401 1399 50  0000 C CNN
-F 2 "" H 4396 1572 50  0001 C CNN
-F 3 "" H 4396 1572 50  0001 C CNN
-	1    4396 1572
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C3
-U 1 1 5F87456E
-P 3504 1704
-F 0 "C3" H 3376 1780 50  0000 L CNN
-F 1 "10uF" H 3396 1636 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 3542 1554 50  0001 C CNN
-F 3 "~" H 3504 1704 50  0001 C CNN
-	1    3504 1704
-	1    0    0    -1  
-$EndComp
 Wire Notes Line
 	472  2734 4836 2734
-$Comp
-L Device:C C4
-U 1 1 5F8AB7B2
-P 3748 1878
-F 0 "C4" H 3620 1954 50  0000 L CNN
-F 1 "10uF" H 3650 1808 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 3786 1728 50  0001 C CNN
-F 3 "~" H 3748 1878 50  0001 C CNN
-	1    3748 1878
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3924 1578 3924 1728
-Wire Wire Line
-	3502 1082 3502 1554
 $Comp
 L Device:Q_NPN_BCE Q1
 U 1 1 5F873C70
@@ -263,19 +97,6 @@ Wire Wire Line
 	3624 1078 3502 1078
 Wire Wire Line
 	3502 1078 3502 1082
-Connection ~ 3502 1082
-Wire Wire Line
-	3748 1728 3924 1728
-Connection ~ 3924 1728
-Wire Wire Line
-	3924 1728 3924 1768
-Wire Wire Line
-	3748 2028 3748 2108
-Wire Wire Line
-	3748 2108 3504 2108
-Connection ~ 3504 2108
-Wire Wire Line
-	3924 2068 3924 2114
 $Sheet
 S 1480 5318 2128 1716
 U 5F8CFBC4
@@ -328,19 +149,8 @@ F 3 "http://www.kingbright.com/attachments/file/psearch/000/00/00/KCSA02-105(Ver
 	1    5500 4512
 	-1   0    0    1   
 $EndComp
-Text Label 3656 4314 0    50   ~ 0
+Text Label 4256 4314 0    50   ~ 0
 IB2
-$Comp
-L Connector_Generic:Conn_02x04_Odd_Even J10
-U 1 1 5FA1DC73
-P 8748 4390
-F 0 "J10" H 8798 4707 50  0000 C CNN
-F 1 "BCD_1" H 8798 4616 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical_SMD" H 8748 4390 50  0001 C CNN
-F 3 "~" H 8748 4390 50  0001 C CNN
-	1    8748 4390
-	1    0    0    -1  
-$EndComp
 Text Label 7380 4794 2    50   ~ 0
 VCC
 Text Label 7880 4094 0    50   ~ 0
@@ -451,35 +261,16 @@ Text Label 6046 6082 2    50   ~ 0
 B_J
 Text Label 6046 6182 2    50   ~ 0
 A_J
-Text Label 8260 5986 2    50   ~ 0
-D2
-Text Label 8260 5886 2    50   ~ 0
-C2
-Text Label 8260 5786 2    50   ~ 0
-B2
-Text Label 8260 5686 2    50   ~ 0
-A2
-Text Label 8760 5986 0    50   ~ 0
-D2
-Text Label 8760 5886 0    50   ~ 0
-C2
-Text Label 8760 5786 0    50   ~ 0
-B2
-Text Label 8760 5686 0    50   ~ 0
-A2
+Text Label 6058 7054 0    50   ~ 0
+OD2
+Text Label 6058 6954 0    50   ~ 0
+OC2
+Text Label 6058 6854 0    50   ~ 0
+OB2
+Text Label 6058 6754 0    50   ~ 0
+OA2
 Text Label 7102 6202 2    50   ~ 0
 VCC
-$Comp
-L Connector_Generic:Conn_02x04_Odd_Even J9
-U 1 1 5FA5E43F
-P 8460 5786
-F 0 "J9" H 8510 6103 50  0000 C CNN
-F 1 "BCD_2" H 8510 6012 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical_SMD" H 8460 5786 50  0001 C CNN
-F 3 "~" H 8460 5786 50  0001 C CNN
-	1    8460 5786
-	1    0    0    -1  
-$EndComp
 $Comp
 L Display_Character:KCSA02-105 U15
 U 1 1 5F9B5346
@@ -557,57 +348,6 @@ Wire Wire Line
 Connection ~ 5116 5584
 NoConn ~ 5716 5484
 NoConn ~ 5800 4112
-$Comp
-L Connector_Generic:Conn_02x10_Odd_Even J2
-U 1 1 5FA919B7
-P 5748 6988
-F 0 "J2" H 5798 7605 50  0000 C CNN
-F 1 "OUTPUT_HEADER" H 5798 7514 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical_SMD" H 5748 6988 50  0001 C CNN
-F 3 "~" H 5748 6988 50  0001 C CNN
-	1    5748 6988
-	1    0    0    -1  
-$EndComp
-Text Label 5548 6588 2    50   ~ 0
-OLED1
-Text Label 5548 6688 2    50   ~ 0
-OLED2
-Text Label 5548 6788 2    50   ~ 0
-OLED3
-Text Label 5548 6888 2    50   ~ 0
-OLED4
-Text Label 5548 6988 2    50   ~ 0
-OLED5
-Text Label 5548 7088 2    50   ~ 0
-OLED6
-Text Label 5548 7188 2    50   ~ 0
-OLED7
-Text Label 5548 7288 2    50   ~ 0
-OLED8
-Text Label 5548 7388 2    50   ~ 0
-OLED9
-Text Label 5548 7488 2    50   ~ 0
-OLED10
-Text Label 6048 6588 0    50   ~ 0
-OLED1
-Text Label 6048 6688 0    50   ~ 0
-OLED2
-Text Label 6048 6788 0    50   ~ 0
-OLED3
-Text Label 6048 6888 0    50   ~ 0
-OLED4
-Text Label 6048 6988 0    50   ~ 0
-OLED5
-Text Label 6048 7088 0    50   ~ 0
-OLED6
-Text Label 6048 7188 0    50   ~ 0
-OLED7
-Text Label 6048 7288 0    50   ~ 0
-OLED8
-Text Label 6048 7388 0    50   ~ 0
-OLED9
-Text Label 6048 7488 0    50   ~ 0
-OLED10
 Text Label 9174 5008 2    50   ~ 0
 OLED1
 Text Label 9174 5128 2    50   ~ 0
@@ -624,10 +364,6 @@ Text Label 9174 5792 2    50   ~ 0
 OLED7
 Text Label 9174 5928 2    50   ~ 0
 OLED8
-Text Label 9174 6054 2    50   ~ 0
-OLED9
-Text Label 9174 6166 2    50   ~ 0
-OLED10
 $Comp
 L power:GND #PWR01
 U 1 1 5F9AA78E
@@ -736,17 +472,6 @@ F 3 "" H 4396 836 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR0103
-U 1 1 5F94C295
-P 3924 2114
-F 0 "#PWR0103" H 3924 1964 50  0001 C CNN
-F 1 "+5V" H 3939 2287 50  0000 C CNN
-F 2 "" H 3924 2114 50  0001 C CNN
-F 3 "" H 3924 2114 50  0001 C CNN
-	1    3924 2114
-	-1   0    0    1   
-$EndComp
-$Comp
 L power:+5V #PWR0104
 U 1 1 5F94DD72
 P 1480 5474
@@ -771,12 +496,12 @@ $EndComp
 $Comp
 L power:+5V #PWR0106
 U 1 1 5F95CF8C
-P 3554 3930
-F 0 "#PWR0106" H 3554 3780 50  0001 C CNN
-F 1 "+5V" H 3569 4103 50  0000 C CNN
-F 2 "" H 3554 3930 50  0001 C CNN
-F 3 "" H 3554 3930 50  0001 C CNN
-	1    3554 3930
+P 3554 3870
+F 0 "#PWR0106" H 3554 3720 50  0001 C CNN
+F 1 "+5V" H 3569 4043 50  0000 C CNN
+F 2 "" H 3554 3870 50  0001 C CNN
+F 3 "" H 3554 3870 50  0001 C CNN
+	1    3554 3870
 	1    0    0    -1  
 $EndComp
 $Sheet
@@ -793,8 +518,6 @@ F7 "OLED5" I L 9174 5502 50
 F8 "OLED6" I L 9174 5642 50 
 F9 "OLED7" I L 9174 5792 50 
 F10 "OLED8" I L 9174 5928 50 
-F11 "OLED9" I L 9174 6054 50 
-F12 "OLED10" I L 9174 6166 50 
 $EndSheet
 Wire Notes Line
 	4836 3538 11222 3538
@@ -825,15 +548,7 @@ Text Label 10374 1846 0    50   ~ 0
 CLK_OUT
 Text Label 10374 1946 0    50   ~ 0
 CLK_OUT
-$Sheet
-S 5470 800  3500 2000
-U 5F94C37C
-F0 "CLOCK_GENERATOR" 50
-F1 "CLOCK_GENERATOR.sch" 50
-F2 "CLOCK_OUT" I R 8970 1740 50 
-F3 "VIN" I L 5470 1258 50 
-$EndSheet
-Text Label 8970 1740 0    50   ~ 0
+Text Label 8956 880  0    50   ~ 0
 CLK_OUT
 Text Label 6680 5582 0    50   ~ 0
 G_K
@@ -865,22 +580,14 @@ Text Label 7380 4594 2    50   ~ 0
 B_Y
 Text Label 7380 4194 2    50   ~ 0
 F_Y
-Text Label 9048 4590 0    50   ~ 0
-D1
-Text Label 9048 4490 0    50   ~ 0
-C1
-Text Label 9048 4390 0    50   ~ 0
-B1
-Text Label 9048 4290 0    50   ~ 0
-A1
-Text Label 8548 4590 2    50   ~ 0
-D1
-Text Label 8548 4490 2    50   ~ 0
-C1
-Text Label 8548 4390 2    50   ~ 0
-B1
-Text Label 8548 4290 2    50   ~ 0
-A1
+Text Label 6058 7454 0    50   ~ 0
+OD1
+Text Label 6058 7354 0    50   ~ 0
+OC1
+Text Label 6058 7254 0    50   ~ 0
+OB1
+Text Label 6058 7154 0    50   ~ 0
+OA1
 Text Label 7880 4294 0    50   ~ 0
 D1
 Text Label 7880 4694 0    50   ~ 0
@@ -1069,6 +776,344 @@ Wire Wire Line
 	3428 4664 3278 4664
 Text Label 1690 1082 0    50   ~ 0
 VIN
-Text Label 5470 1258 2    50   ~ 0
+Text Label 5470 1074 2    50   ~ 0
 VIN
+$Comp
+L 74xx:74LS04 U20
+U 1 1 5F925F26
+P 3956 4314
+F 0 "U20" H 3956 4631 50  0000 C CNN
+F 1 "74LS04" H 3956 4540 50  0000 C CNN
+F 2 "" H 3956 4314 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 3956 4314 50  0001 C CNN
+	1    3956 4314
+	1    0    0    -1  
+$EndComp
+Connection ~ 3502 1082
+$Comp
+L power:+5V #PWR0103
+U 1 1 5F94C295
+P 3924 2114
+F 0 "#PWR0103" H 3924 1964 50  0001 C CNN
+F 1 "+5V" H 3939 2287 50  0000 C CNN
+F 2 "" H 3924 2114 50  0001 C CNN
+F 3 "" H 3924 2114 50  0001 C CNN
+	1    3924 2114
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3924 2068 3924 2114
+Connection ~ 3504 2108
+Wire Wire Line
+	3748 2108 3504 2108
+Wire Wire Line
+	3748 2028 3748 2108
+Wire Wire Line
+	3924 1728 3924 1768
+Connection ~ 3924 1728
+Wire Wire Line
+	3748 1728 3924 1728
+Wire Wire Line
+	3502 1082 3502 1554
+Wire Wire Line
+	3924 1578 3924 1728
+$Comp
+L Device:C C4
+U 1 1 5F8AB7B2
+P 3748 1878
+F 0 "C4" H 3620 1954 50  0000 L CNN
+F 1 "10uF" H 3650 1808 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3786 1728 50  0001 C CNN
+F 3 "~" H 3748 1878 50  0001 C CNN
+	1    3748 1878
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C3
+U 1 1 5F87456E
+P 3504 1704
+F 0 "C3" H 3376 1780 50  0000 L CNN
+F 1 "10uF" H 3396 1636 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3542 1554 50  0001 C CNN
+F 3 "~" H 3504 1704 50  0001 C CNN
+	1    3504 1704
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 5F8A6ED8
+P 4394 1634
+F 0 "#PWR04" H 4394 1384 50  0001 C CNN
+F 1 "GND" H 4399 1461 50  0000 C CNN
+F 2 "" H 4394 1634 50  0001 C CNN
+F 3 "" H 4394 1634 50  0001 C CNN
+	1    4394 1634
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D1
+U 1 1 5F8A5D1D
+P 4396 1422
+F 0 "D1" V 4435 1305 50  0000 R CNN
+F 1 "LED" V 4344 1305 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 4396 1422 50  0001 C CNN
+F 3 "~" H 4396 1422 50  0001 C CNN
+	1    4396 1422
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2556 2108 3354 2108
+Connection ~ 2556 2108
+Wire Wire Line
+	2556 1932 2556 2108
+Wire Wire Line
+	3032 1682 2906 1682
+Wire Wire Line
+	3032 1458 3032 1682
+Wire Wire Line
+	2016 2108 2556 2108
+$Comp
+L digitalSystemBoard-rescue:Potentiometer-digitalSystemBoard U2
+U 1 1 5F873747
+P 2556 1632
+F 0 "U2" V 2577 1759 50  0000 L CNN
+F 1 "Potentiometer" V 2486 1759 50  0000 L CNN
+F 2 "digitalSystemBoard:TRIM_3296W-1-501" H 2556 1632 50  0001 C CNN
+F 3 "" H 2556 1632 50  0001 C CNN
+	1    2556 1632
+	0    -1   -1   0   
+$EndComp
+Connection ~ 1810 2108
+$Comp
+L power:GND #PWR02
+U 1 1 5F8885ED
+P 1810 2108
+F 0 "#PWR02" H 1810 1858 50  0001 C CNN
+F 1 "GND" H 1815 1935 50  0000 C CNN
+F 2 "" H 1810 2108 50  0001 C CNN
+F 3 "" H 1810 2108 50  0001 C CNN
+	1    1810 2108
+	1    0    0    -1  
+$EndComp
+Connection ~ 3354 2108
+Wire Wire Line
+	3504 2108 3354 2108
+Wire Wire Line
+	3504 1854 3504 2108
+Wire Wire Line
+	3502 1554 3504 1554
+Wire Wire Line
+	3354 1478 3354 2108
+Text Notes 1056 2668 0    100  ~ 0
+SOURCE_BLOCK\n
+Connection ~ 2016 2108
+Wire Wire Line
+	2016 1574 2016 2108
+Wire Wire Line
+	1810 2108 2016 2108
+Wire Wire Line
+	1810 1266 1810 2108
+$Comp
+L digitalSystemBoard-rescue:LM317-digitalSystemBoard U1
+U 1 1 5F871BB7
+P 2556 1082
+F 0 "U1" H 2556 1397 50  0000 C CNN
+F 1 "LM317" H 2556 1306 50  0000 C CNN
+F 2 "digitalSystemBoard:TO228P991X255-3N" H 2456 982 50  0001 C CNN
+F 3 "" H 2456 982 50  0001 C CNN
+	1    2556 1082
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Fuse F1
+U 1 1 5F874BDF
+P 3924 1918
+F 0 "F1" H 3984 1964 50  0000 L CNN
+F 1 "2A" H 3980 1866 50  0000 L CNN
+F 2 "digitalSystemBoard:Fuse" V 3854 1918 50  0001 C CNN
+F 3 "~" H 3924 1918 50  0001 C CNN
+	1    3924 1918
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5F874194
+P 3924 1428
+F 0 "R2" H 3994 1474 50  0000 L CNN
+F 1 "0.22Ohm_5W" H 3754 1276 50  0000 L CNN
+F 2 "digitalSystemBoard:5W_0.22R" V 3854 1428 50  0001 C CNN
+F 3 "~" H 3924 1428 50  0001 C CNN
+	1    3924 1428
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5F873392
+P 3032 1308
+F 0 "R1" H 3102 1354 50  0000 L CNN
+F 1 "220" H 3102 1263 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2962 1308 50  0001 C CNN
+F 3 "~" H 3032 1308 50  0001 C CNN
+	1    3032 1308
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C2
+U 1 1 5F87304C
+P 3354 1328
+F 0 "C2" H 3236 1218 50  0000 L CNN
+F 1 "100uF_C" V 3398 1086 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_5x5.8" H 3354 1328 50  0001 C CNN
+F 3 "~" H 3354 1328 50  0001 C CNN
+	1    3354 1328
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C1
+U 1 1 5F87280D
+P 2016 1424
+F 0 "C1" H 2131 1470 50  0000 L CNN
+F 1 "0.1uF" H 2131 1379 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2016 1424 50  0001 C CNN
+F 3 "~" H 2016 1424 50  0001 C CNN
+	1    2016 1424
+	1    0    0    -1  
+$EndComp
+Text Label 8956 1882 0    50   ~ 0
+OLED1
+Text Label 8956 1974 0    50   ~ 0
+OLED2
+Text Label 8956 2060 0    50   ~ 0
+OLED3
+Text Label 8956 2142 0    50   ~ 0
+OLED4
+Text Label 8956 2224 0    50   ~ 0
+OLED5
+Text Label 8956 2312 0    50   ~ 0
+OLED6
+Text Label 8956 2410 0    50   ~ 0
+OLED7
+Text Label 8956 2504 0    50   ~ 0
+OLED8
+Text Label 8956 1282 0    50   ~ 0
+OD1
+Text Label 8956 1202 0    50   ~ 0
+OC1
+Text Label 8956 1128 0    50   ~ 0
+OB1
+Text Label 8956 1056 0    50   ~ 0
+OA1
+Text Label 8956 1632 0    50   ~ 0
+OD2
+Text Label 8956 1544 0    50   ~ 0
+OC2
+Text Label 8956 1460 0    50   ~ 0
+OB2
+Text Label 8956 1390 0    50   ~ 0
+OA2
+$Sheet
+S 5470 800  3486 2464
+U 5F94C37C
+F0 "CLOCK_GENERATOR" 50
+F1 "CLOCK_GENERATOR.sch" 50
+F2 "CLOCK_OUT" I R 8956 880 50 
+F3 "VIN" I L 5470 1074 50 
+F4 "TLED7" I L 5470 1346 50 
+F5 "TLED6" I L 5470 1462 50 
+F6 "TLED5" I L 5470 1598 50 
+F7 "TLED4" I L 5470 1716 50 
+F8 "TLED3" I L 5470 1854 50 
+F9 "TLED2" I L 5470 1984 50 
+F10 "TLED1" I L 5470 2108 50 
+F11 "TLED0" I L 5470 2230 50 
+F12 "OD2" I R 8956 1632 50 
+F13 "OC2" I R 8956 1544 50 
+F14 "OB2" I R 8956 1460 50 
+F15 "OA2" I R 8956 1390 50 
+F16 "OD1" I R 8956 1282 50 
+F17 "OC1" I R 8956 1202 50 
+F18 "OB1" I R 8956 1128 50 
+F19 "OA1" I R 8956 1056 50 
+F20 "OLED0" I R 8956 1882 50 
+F21 "OLED1" I R 8956 1974 50 
+F22 "OLED2" I R 8956 2060 50 
+F23 "OLED3" I R 8956 2142 50 
+F24 "OLED4" I R 8956 2224 50 
+F25 "OLED5" I R 8956 2312 50 
+F26 "OELD6" I R 8956 2410 50 
+F27 "OLED7" I R 8956 2504 50 
+F28 "A1" I L 5470 2886 50 
+F29 "A2" I L 5470 2470 50 
+F30 "B1" I L 5470 2968 50 
+F31 "C1" I L 5470 3046 50 
+F32 "D1" I L 5470 3118 50 
+F33 "B2" I L 5470 2542 50 
+F34 "C2" I L 5470 2614 50 
+F35 "D2" I L 5470 2688 50 
+$EndSheet
+Text Label 5470 2886 2    50   ~ 0
+A1
+Text Label 5470 2968 2    50   ~ 0
+B1
+Text Label 5470 3046 2    50   ~ 0
+C1
+Text Label 5470 3118 2    50   ~ 0
+D1
+Text Label 5470 2470 2    50   ~ 0
+A2
+Text Label 5470 2542 2    50   ~ 0
+B2
+Text Label 5470 2614 2    50   ~ 0
+C2
+Text Label 5470 2688 2    50   ~ 0
+D2
+$Comp
+L Connector_Generic:Conn_02x08_Counter_Clockwise J9
+U 1 1 5FB9AF61
+P 5758 7054
+F 0 "J9" H 5808 7571 50  0000 C CNN
+F 1 "Conn_02x08_Counter_Clockwise" H 5808 7480 50  0000 C CNN
+F 2 "" H 5758 7054 50  0001 C CNN
+F 3 "~" H 5758 7054 50  0001 C CNN
+	1    5758 7054
+	1    0    0    -1  
+$EndComp
+Text Label 5558 7454 2    50   ~ 0
+TLED8
+Text Label 5558 7354 2    50   ~ 0
+TLED7
+Text Label 5558 7254 2    50   ~ 0
+TLED6
+Text Label 5558 7154 2    50   ~ 0
+TLED5
+Text Label 5558 7054 2    50   ~ 0
+TLED4
+Text Label 5558 6954 2    50   ~ 0
+TLED3
+Text Label 5558 6854 2    50   ~ 0
+TLED2
+Text Label 5558 6754 2    50   ~ 0
+TLED1
+Text Label 5470 1346 2    50   ~ 0
+TLED8
+Text Label 5470 1462 2    50   ~ 0
+TLED7
+Text Label 5470 1598 2    50   ~ 0
+TLED6
+Text Label 5470 1716 2    50   ~ 0
+TLED5
+Text Label 5470 1854 2    50   ~ 0
+TLED4
+Text Label 5470 1984 2    50   ~ 0
+TLED3
+Text Label 5470 2108 2    50   ~ 0
+TLED2
+Text Label 5470 2230 2    50   ~ 0
+TLED1
+Wire Wire Line
+	4394 1634 4394 1572
+Wire Wire Line
+	4394 1572 4396 1572
+Wire Wire Line
+	3554 3930 3554 3870
 $EndSCHEMATC

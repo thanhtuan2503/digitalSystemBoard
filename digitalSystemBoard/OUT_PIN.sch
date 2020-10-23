@@ -104,10 +104,6 @@ Wire Wire Line
 Wire Wire Line
 	6554 1538 6664 1538
 Wire Wire Line
-	8470 1486 8470 1476
-Wire Wire Line
-	8360 1486 8470 1486
-Wire Wire Line
 	1550 4082 1550 4072
 Wire Wire Line
 	1440 4082 1550 4082
@@ -119,12 +115,6 @@ Wire Wire Line
 	4830 3952 4830 3942
 Wire Wire Line
 	4720 3952 4830 3952
-Wire Wire Line
-	6638 3940 6638 3930
-Wire Wire Line
-	8510 3952 8510 3942
-Wire Wire Line
-	8400 3952 8510 3952
 Text HLabel 1536 1632 0    50   Input ~ 0
 OLED1
 Text HLabel 3028 1576 0    50   Input ~ 0
@@ -133,18 +123,12 @@ Text HLabel 4772 1552 0    50   Input ~ 0
 OLED3
 Text HLabel 6554 1538 0    50   Input ~ 0
 OLED4
-Text HLabel 8360 1486 0    50   Input ~ 0
-OLED5
 Text HLabel 1440 4082 0    50   Input ~ 0
 OLED6
 Text HLabel 2990 4004 0    50   Input ~ 0
 OLED7
 Text HLabel 4720 3952 0    50   Input ~ 0
 OLED8
-Text HLabel 6528 3940 0    50   Input ~ 0
-OLED9
-Text HLabel 8400 3952 0    50   Input ~ 0
-OLED10
 Connection ~ 3738 1918
 $Comp
 L power:GND #PWR?
@@ -366,80 +350,6 @@ F 3 "~" H 7264 1178 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Text HLabel 7264 728  0    50   Input ~ 0
-V_SOURCE
-Connection ~ 9070 1828
-$Comp
-L power:GND #PWR?
-U 1 1 5F9D8E6E
-P 9070 1828
-AR Path="/5F8CFBC4/5F9D8E6E" Ref="#PWR?"  Part="1" 
-AR Path="/5F9B6E57/5F9D8E6E" Ref="#PWR025"  Part="1" 
-F 0 "#PWR025" H 9070 1578 50  0001 C CNN
-F 1 "GND" H 9075 1655 50  0000 C CNN
-F 2 "" H 9070 1828 50  0001 C CNN
-F 3 "" H 9070 1828 50  0001 C CNN
-	1    9070 1828
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9070 1828 9070 1676
-Wire Wire Line
-	8770 1828 9070 1828
-Wire Wire Line
-	8770 1776 8770 1828
-$Comp
-L Device:R R?
-U 1 1 5F9D8E7B
-P 8770 1626
-AR Path="/5F8CFBC4/5F9D8E7B" Ref="R?"  Part="1" 
-AR Path="/5F9B6E57/5F9D8E7B" Ref="R49"  Part="1" 
-F 0 "R49" H 8840 1672 50  0000 L CNN
-F 1 "1k8" H 8840 1581 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 8700 1626 50  0001 C CNN
-F 3 "~" H 8770 1626 50  0001 C CNN
-	1    8770 1626
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5F9D8E85
-P 8620 1476
-AR Path="/5F8CFBC4/5F9D8E85" Ref="R?"  Part="1" 
-AR Path="/5F9B6E57/5F9D8E85" Ref="R48"  Part="1" 
-F 0 "R48" H 8690 1522 50  0000 L CNN
-F 1 "10k" H 8690 1431 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 8550 1476 50  0001 C CNN
-F 3 "~" H 8620 1476 50  0001 C CNN
-	1    8620 1476
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5F9D8E9A
-P 9070 826
-AR Path="/5F8CFBC4/5F9D8E9A" Ref="R?"  Part="1" 
-AR Path="/5F9B6E57/5F9D8E9A" Ref="R50"  Part="1" 
-F 0 "R50" H 9140 872 50  0000 L CNN
-F 1 "330" H 9140 781 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 9000 826 50  0001 C CNN
-F 3 "~" H 9070 826 50  0001 C CNN
-	1    9070 826 
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:LED D?
-U 1 1 5F9D8EA4
-P 9070 1126
-AR Path="/5F8CFBC4/5F9D8EA4" Ref="D?"  Part="1" 
-AR Path="/5F9B6E57/5F9D8EA4" Ref="D16"  Part="1" 
-F 0 "D16" V 9109 1009 50  0000 R CNN
-F 1 "LED" V 9018 1009 50  0000 R CNN
-F 2 "digitalSystemBoard:LED_3528" H 9070 1126 50  0001 C CNN
-F 3 "~" H 9070 1126 50  0001 C CNN
-	1    9070 1126
-	0    -1   -1   0   
-$EndComp
-Text HLabel 9070 676  0    50   Input ~ 0
 V_SOURCE
 $Comp
 L Device:R R?
@@ -663,158 +573,8 @@ $EndComp
 Connection ~ 5430 4294
 Text HLabel 5430 3142 0    50   Input ~ 0
 V_SOURCE
-$Comp
-L Device:R R?
-U 1 1 5FA11591
-P 6788 3930
-AR Path="/5F8CFBC4/5FA11591" Ref="R?"  Part="1" 
-AR Path="/5F9B6E57/5FA11591" Ref="R60"  Part="1" 
-F 0 "R60" H 6858 3976 50  0000 L CNN
-F 1 "10k" H 6858 3885 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 6718 3930 50  0001 C CNN
-F 3 "~" H 6788 3930 50  0001 C CNN
-	1    6788 3930
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5FA1159B
-P 6938 4080
-AR Path="/5F8CFBC4/5FA1159B" Ref="R?"  Part="1" 
-AR Path="/5F9B6E57/5FA1159B" Ref="R61"  Part="1" 
-F 0 "R61" H 7008 4126 50  0000 L CNN
-F 1 "1k8" H 7008 4035 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 6868 4080 50  0001 C CNN
-F 3 "~" H 6938 4080 50  0001 C CNN
-	1    6938 4080
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5FA115A5
-P 7238 3280
-AR Path="/5F8CFBC4/5FA115A5" Ref="R?"  Part="1" 
-AR Path="/5F9B6E57/5FA115A5" Ref="R62"  Part="1" 
-F 0 "R62" H 7308 3326 50  0000 L CNN
-F 1 "330" H 7308 3235 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 7168 3280 50  0001 C CNN
-F 3 "~" H 7238 3280 50  0001 C CNN
-	1    7238 3280
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:LED D?
-U 1 1 5FA115AF
-P 7238 3580
-AR Path="/5F8CFBC4/5FA115AF" Ref="D?"  Part="1" 
-AR Path="/5F9B6E57/5FA115AF" Ref="D20"  Part="1" 
-F 0 "D20" V 7277 3463 50  0000 R CNN
-F 1 "LED" V 7186 3463 50  0000 R CNN
-F 2 "digitalSystemBoard:LED_3528" H 7238 3580 50  0001 C CNN
-F 3 "~" H 7238 3580 50  0001 C CNN
-	1    7238 3580
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	6938 4230 6938 4282
-Wire Wire Line
-	6938 4282 7238 4282
-Wire Wire Line
-	7238 4282 7238 4130
-$Comp
-L power:GND #PWR?
-U 1 1 5FA115BD
-P 7238 4282
-AR Path="/5F8CFBC4/5FA115BD" Ref="#PWR?"  Part="1" 
-AR Path="/5F9B6E57/5FA115BD" Ref="#PWR023"  Part="1" 
-F 0 "#PWR023" H 7238 4032 50  0001 C CNN
-F 1 "GND" H 7243 4109 50  0000 C CNN
-F 2 "" H 7238 4282 50  0001 C CNN
-F 3 "" H 7238 4282 50  0001 C CNN
-	1    7238 4282
-	1    0    0    -1  
-$EndComp
-Connection ~ 7238 4282
-Text HLabel 7238 3130 0    50   Input ~ 0
-V_SOURCE
-$Comp
-L Device:R R?
-U 1 1 5FA1E6B1
-P 8660 3942
-AR Path="/5F8CFBC4/5FA1E6B1" Ref="R?"  Part="1" 
-AR Path="/5F9B6E57/5FA1E6B1" Ref="R63"  Part="1" 
-F 0 "R63" H 8730 3988 50  0000 L CNN
-F 1 "10k" H 8730 3897 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 8590 3942 50  0001 C CNN
-F 3 "~" H 8660 3942 50  0001 C CNN
-	1    8660 3942
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5FA1E6BB
-P 8810 4092
-AR Path="/5F8CFBC4/5FA1E6BB" Ref="R?"  Part="1" 
-AR Path="/5F9B6E57/5FA1E6BB" Ref="R64"  Part="1" 
-F 0 "R64" H 8880 4138 50  0000 L CNN
-F 1 "1k8" H 8880 4047 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 8740 4092 50  0001 C CNN
-F 3 "~" H 8810 4092 50  0001 C CNN
-	1    8810 4092
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5FA1E6C5
-P 9110 3292
-AR Path="/5F8CFBC4/5FA1E6C5" Ref="R?"  Part="1" 
-AR Path="/5F9B6E57/5FA1E6C5" Ref="R65"  Part="1" 
-F 0 "R65" H 9180 3338 50  0000 L CNN
-F 1 "330" H 9180 3247 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 9040 3292 50  0001 C CNN
-F 3 "~" H 9110 3292 50  0001 C CNN
-	1    9110 3292
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:LED D?
-U 1 1 5FA1E6CF
-P 9110 3592
-AR Path="/5F8CFBC4/5FA1E6CF" Ref="D?"  Part="1" 
-AR Path="/5F9B6E57/5FA1E6CF" Ref="D21"  Part="1" 
-F 0 "D21" V 9149 3475 50  0000 R CNN
-F 1 "LED" V 9058 3475 50  0000 R CNN
-F 2 "digitalSystemBoard:LED_3528" H 9110 3592 50  0001 C CNN
-F 3 "~" H 9110 3592 50  0001 C CNN
-	1    9110 3592
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	8810 4242 8810 4294
-Wire Wire Line
-	8810 4294 9110 4294
-Wire Wire Line
-	9110 4294 9110 4142
-$Comp
-L power:GND #PWR?
-U 1 1 5FA1E6DD
-P 9110 4294
-AR Path="/5F8CFBC4/5FA1E6DD" Ref="#PWR?"  Part="1" 
-AR Path="/5F9B6E57/5FA1E6DD" Ref="#PWR026"  Part="1" 
-F 0 "#PWR026" H 9110 4044 50  0001 C CNN
-F 1 "GND" H 9115 4121 50  0000 C CNN
-F 2 "" H 9110 4294 50  0001 C CNN
-F 3 "" H 9110 4294 50  0001 C CNN
-	1    9110 4294
-	1    0    0    -1  
-$EndComp
-Connection ~ 9110 4294
-Text HLabel 9110 3142 0    50   Input ~ 0
-V_SOURCE
 Text Notes 4842 5480 0    139  ~ 0
 LED_DISPLAY\n
-Wire Wire Line
-	6528 3940 6638 3940
 $Comp
 L Transistor_BJT:BC847 Q12
 U 1 1 5F96FAEA
@@ -864,18 +624,6 @@ F 3 "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_B
 $EndComp
 Connection ~ 6964 1528
 $Comp
-L Transistor_BJT:BC847 Q16
-U 1 1 5F978A87
-P 8970 1476
-F 0 "Q16" H 9161 1522 50  0000 L CNN
-F 1 "BC847" H 9161 1431 50  0000 L CNN
-F 2 "digitalSystemBoard:SO65P210X100-3N" H 9170 1401 50  0001 L CIN
-F 3 "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657" H 8970 1476 50  0001 L CNN
-	1    8970 1476
-	1    0    0    -1  
-$EndComp
-Connection ~ 8770 1476
-$Comp
 L Transistor_BJT:BC847 Q17
 U 1 1 5F97AB07
 P 2050 4072
@@ -911,28 +659,98 @@ F 3 "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_B
 	1    0    0    -1  
 $EndComp
 Connection ~ 5130 3942
+Connection ~ 8770 1476
 $Comp
-L Transistor_BJT:BC847 Q20
-U 1 1 5F98125D
-P 7138 3930
-F 0 "Q20" H 7329 3976 50  0000 L CNN
-F 1 "BC847" H 7329 3885 50  0000 L CNN
-F 2 "digitalSystemBoard:SO65P210X100-3N" H 7338 3855 50  0001 L CIN
-F 3 "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657" H 7138 3930 50  0001 L CNN
-	1    7138 3930
+L Transistor_BJT:BC847 Q16
+U 1 1 5F978A87
+P 8970 1476
+F 0 "Q16" H 9161 1522 50  0000 L CNN
+F 1 "BC847" H 9161 1431 50  0000 L CNN
+F 2 "digitalSystemBoard:SO65P210X100-3N" H 9170 1401 50  0001 L CIN
+F 3 "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657" H 8970 1476 50  0001 L CNN
+	1    8970 1476
 	1    0    0    -1  
 $EndComp
-Connection ~ 6938 3930
+Text HLabel 9070 676  0    50   Input ~ 0
+V_SOURCE
 $Comp
-L Transistor_BJT:BC847 Q21
-U 1 1 5F983B9F
-P 9010 3942
-F 0 "Q21" H 9201 3988 50  0000 L CNN
-F 1 "BC847" H 9201 3897 50  0000 L CNN
-F 2 "digitalSystemBoard:SO65P210X100-3N" H 9210 3867 50  0001 L CIN
-F 3 "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657" H 9010 3942 50  0001 L CNN
-	1    9010 3942
+L Device:LED D?
+U 1 1 5F9D8EA4
+P 9070 1126
+AR Path="/5F8CFBC4/5F9D8EA4" Ref="D?"  Part="1" 
+AR Path="/5F9B6E57/5F9D8EA4" Ref="D16"  Part="1" 
+F 0 "D16" V 9109 1009 50  0000 R CNN
+F 1 "LED" V 9018 1009 50  0000 R CNN
+F 2 "digitalSystemBoard:LED_3528" H 9070 1126 50  0001 C CNN
+F 3 "~" H 9070 1126 50  0001 C CNN
+	1    9070 1126
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F9D8E9A
+P 9070 826
+AR Path="/5F8CFBC4/5F9D8E9A" Ref="R?"  Part="1" 
+AR Path="/5F9B6E57/5F9D8E9A" Ref="R50"  Part="1" 
+F 0 "R50" H 9140 872 50  0000 L CNN
+F 1 "330" H 9140 781 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 9000 826 50  0001 C CNN
+F 3 "~" H 9070 826 50  0001 C CNN
+	1    9070 826 
 	1    0    0    -1  
 $EndComp
-Connection ~ 8810 3942
+$Comp
+L Device:R R?
+U 1 1 5F9D8E85
+P 8620 1476
+AR Path="/5F8CFBC4/5F9D8E85" Ref="R?"  Part="1" 
+AR Path="/5F9B6E57/5F9D8E85" Ref="R48"  Part="1" 
+F 0 "R48" H 8690 1522 50  0000 L CNN
+F 1 "10k" H 8690 1431 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8550 1476 50  0001 C CNN
+F 3 "~" H 8620 1476 50  0001 C CNN
+	1    8620 1476
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F9D8E7B
+P 8770 1626
+AR Path="/5F8CFBC4/5F9D8E7B" Ref="R?"  Part="1" 
+AR Path="/5F9B6E57/5F9D8E7B" Ref="R49"  Part="1" 
+F 0 "R49" H 8840 1672 50  0000 L CNN
+F 1 "1k8" H 8840 1581 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8700 1626 50  0001 C CNN
+F 3 "~" H 8770 1626 50  0001 C CNN
+	1    8770 1626
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8770 1776 8770 1828
+Wire Wire Line
+	8770 1828 9070 1828
+Wire Wire Line
+	9070 1828 9070 1676
+$Comp
+L power:GND #PWR?
+U 1 1 5F9D8E6E
+P 9070 1858
+AR Path="/5F8CFBC4/5F9D8E6E" Ref="#PWR?"  Part="1" 
+AR Path="/5F9B6E57/5F9D8E6E" Ref="#PWR025"  Part="1" 
+F 0 "#PWR025" H 9070 1608 50  0001 C CNN
+F 1 "GND" H 9075 1685 50  0000 C CNN
+F 2 "" H 9070 1858 50  0001 C CNN
+F 3 "" H 9070 1858 50  0001 C CNN
+	1    9070 1858
+	1    0    0    -1  
+$EndComp
+Text HLabel 8360 1486 0    50   Input ~ 0
+OLED5
+Wire Wire Line
+	8360 1486 8470 1486
+Wire Wire Line
+	8470 1486 8470 1476
+Wire Wire Line
+	9070 1858 9070 1828
+Connection ~ 9070 1828
 $EndSCHEMATC
