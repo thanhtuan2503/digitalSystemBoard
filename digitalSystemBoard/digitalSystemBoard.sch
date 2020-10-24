@@ -261,13 +261,13 @@ Text Label 6046 6082 2    50   ~ 0
 B_J
 Text Label 6046 6182 2    50   ~ 0
 A_J
-Text Label 6058 7054 0    50   ~ 0
+Text Label 5558 7154 2    50   ~ 0
 OD2
-Text Label 6058 6954 0    50   ~ 0
+Text Label 5558 7254 2    50   ~ 0
 OC2
-Text Label 6058 6854 0    50   ~ 0
+Text Label 5558 7354 2    50   ~ 0
 OB2
-Text Label 6058 6754 0    50   ~ 0
+Text Label 5558 7454 2    50   ~ 0
 OA2
 Text Label 7102 6202 2    50   ~ 0
 VCC
@@ -580,13 +580,13 @@ Text Label 7380 4594 2    50   ~ 0
 B_Y
 Text Label 7380 4194 2    50   ~ 0
 F_Y
-Text Label 6058 7454 0    50   ~ 0
-OD1
-Text Label 6058 7354 0    50   ~ 0
-OC1
-Text Label 6058 7254 0    50   ~ 0
-OB1
 Text Label 6058 7154 0    50   ~ 0
+OD1
+Text Label 6058 7254 0    50   ~ 0
+OC1
+Text Label 6058 7354 0    50   ~ 0
+OB1
+Text Label 6058 7454 0    50   ~ 0
 OA1
 Text Label 7880 4294 0    50   ~ 0
 D1
@@ -778,17 +778,6 @@ Text Label 1690 1082 0    50   ~ 0
 VIN
 Text Label 5470 1074 2    50   ~ 0
 VIN
-$Comp
-L 74xx:74LS04 U20
-U 1 1 5F925F26
-P 3956 4314
-F 0 "U20" H 3956 4631 50  0000 C CNN
-F 1 "74LS04" H 3956 4540 50  0000 C CNN
-F 2 "" H 3956 4314 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 3956 4314 50  0001 C CNN
-	1    3956 4314
-	1    0    0    -1  
-$EndComp
 Connection ~ 3502 1082
 $Comp
 L power:+5V #PWR0103
@@ -1067,24 +1056,13 @@ Text Label 5470 2614 2    50   ~ 0
 C2
 Text Label 5470 2688 2    50   ~ 0
 D2
-$Comp
-L Connector_Generic:Conn_02x08_Counter_Clockwise J9
-U 1 1 5FB9AF61
-P 5758 7054
-F 0 "J9" H 5808 7571 50  0000 C CNN
-F 1 "Conn_02x08_Counter_Clockwise" H 5808 7480 50  0000 C CNN
-F 2 "" H 5758 7054 50  0001 C CNN
-F 3 "~" H 5758 7054 50  0001 C CNN
-	1    5758 7054
-	1    0    0    -1  
-$EndComp
-Text Label 5558 7454 2    50   ~ 0
+Text Label 6058 7054 0    50   ~ 0
 TLED8
-Text Label 5558 7354 2    50   ~ 0
+Text Label 6058 6954 0    50   ~ 0
 TLED7
-Text Label 5558 7254 2    50   ~ 0
+Text Label 6058 6854 0    50   ~ 0
 TLED6
-Text Label 5558 7154 2    50   ~ 0
+Text Label 6058 6754 0    50   ~ 0
 TLED5
 Text Label 5558 7054 2    50   ~ 0
 TLED4
@@ -1116,4 +1094,107 @@ Wire Wire Line
 	4394 1572 4396 1572
 Wire Wire Line
 	3554 3930 3554 3870
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5F976335
+P 10036 2838
+F 0 "H2" H 10136 2884 50  0000 L CNN
+F 1 "MountingHole" H 10136 2793 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 10036 2838 50  0001 C CNN
+F 3 "~" H 10036 2838 50  0001 C CNN
+	1    10036 2838
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5F976AFE
+P 10036 3030
+F 0 "H1" H 10136 3076 50  0000 L CNN
+F 1 "MountingHole" H 10136 2985 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 10036 3030 50  0001 C CNN
+F 3 "~" H 10036 3030 50  0001 C CNN
+	1    10036 3030
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H0
+U 1 1 5F97928D
+P 10036 2660
+F 0 "H0" H 10136 2706 50  0000 L CNN
+F 1 "MountingHole" H 10136 2615 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 10036 2660 50  0001 C CNN
+F 3 "~" H 10036 2660 50  0001 C CNN
+	1    10036 2660
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5F97B437
+P 10040 3216
+F 0 "H3" H 10140 3262 50  0000 L CNN
+F 1 "MountingHole" H 10140 3171 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 10040 3216 50  0001 C CNN
+F 3 "~" H 10040 3216 50  0001 C CNN
+	1    10040 3216
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x08_Odd_Even J9
+U 1 1 5FA24AF5
+P 5758 7054
+F 0 "J9" H 5808 7571 50  0000 C CNN
+F 1 "Conn_02x08_Odd_Even" H 5808 7480 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical_SMD" H 5758 7054 50  0001 C CNN
+F 3 "~" H 5758 7054 50  0001 C CNN
+	1    5758 7054
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC04 U20
+U 1 1 5F9D4EE8
+P 3956 4314
+F 0 "U20" H 3956 4631 50  0000 C CNN
+F 1 "74HC04" H 3956 4540 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 3956 4314 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 3956 4314 50  0001 C CNN
+	1    3956 4314
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC04 U20
+U 7 1 5F9E537A
+P 3948 3300
+F 0 "U20" V 4315 3300 50  0000 C CNN
+F 1 "74HC04" V 4224 3300 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 3948 3300 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 3948 3300 50  0001 C CNN
+	7    3948 3300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0153
+U 1 1 5F9EDC9A
+P 4502 3300
+F 0 "#PWR0153" H 4502 3050 50  0001 C CNN
+F 1 "GND" H 4507 3127 50  0000 C CNN
+F 2 "" H 4502 3300 50  0001 C CNN
+F 3 "" H 4502 3300 50  0001 C CNN
+	1    4502 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0154
+U 1 1 5F9EE990
+P 3382 3300
+F 0 "#PWR0154" H 3382 3150 50  0001 C CNN
+F 1 "+5V" H 3397 3473 50  0000 C CNN
+F 2 "" H 3382 3300 50  0001 C CNN
+F 3 "" H 3382 3300 50  0001 C CNN
+	1    3382 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3382 3300 3448 3300
+Wire Wire Line
+	4448 3300 4502 3300
 $EndSCHEMATC
