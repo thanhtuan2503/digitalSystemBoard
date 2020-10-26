@@ -61,27 +61,26 @@ SCK
 $Comp
 L digitalSystemBoard-rescue:Potentiometer-digitalSystemBoard U17
 U 1 1 5F9A7CE1
-P 1382 7140
-F 0 "U17" V 1403 7268 50  0000 L CNN
-F 1 "Potentiometer-digitalSystemBoard" V 1734 6486 50  0000 L CNN
-F 2 "digitalSystemBoard:RK09D117000B" H 1382 7140 50  0001 C CNN
-F 3 "" H 1382 7140 50  0001 C CNN
-	1    1382 7140
-	0    1    1    0   
+P 830 7082
+F 0 "U17" V 851 7210 50  0000 L CNN
+F 1 "Potentiometer-digitalSystemBoard" V 258 6102 50  0000 L CNN
+F 2 "digitalSystemBoard:RK09D117000B" H 830 7082 50  0001 C CNN
+F 3 "" H 830 7082 50  0001 C CNN
+	1    830  7082
+	0    -1   -1   0   
 $EndComp
-NoConn ~ 1382 7390
 $Comp
 L power:+5V #PWR0124
 U 1 1 5F9C1892
-P 1382 6784
-F 0 "#PWR0124" H 1382 6634 50  0001 C CNN
-F 1 "+5V" H 1397 6957 50  0000 C CNN
-F 2 "" H 1382 6784 50  0001 C CNN
-F 3 "" H 1382 6784 50  0001 C CNN
-	1    1382 6784
+P 830 6776
+F 0 "#PWR0124" H 830 6626 50  0001 C CNN
+F 1 "+5V" H 845 6949 50  0000 C CNN
+F 2 "" H 830 6776 50  0001 C CNN
+F 3 "" H 830 6776 50  0001 C CNN
+	1    830  6776
 	1    0    0    -1  
 $EndComp
-Text Label 1032 7090 2    50   ~ 0
+Text Label 1180 7132 0    50   ~ 0
 CLOCK_WHEEL
 Text Label 3628 6664 2    50   ~ 0
 UP_CLK
@@ -290,11 +289,11 @@ Wire Wire Line
 Wire Wire Line
 	9410 1294 9628 1294
 Text Label 9628 1694 2    50   ~ 0
-D0
+I0
 Text Label 9628 1794 2    50   ~ 0
-D1
+I1
 Text Label 9628 1894 2    50   ~ 0
-D2
+I2
 $Comp
 L Display_Character:WC1602A DS?
 U 1 1 5F9640CD
@@ -309,15 +308,15 @@ F 3 "http://www.wincomlcd.com/pdf/WC1602A-SFYLYHTC06.pdf" H 10728 1794 50  0001 
 	1    0    0    -1  
 $EndComp
 Text Label 9628 1994 2    50   ~ 0
-D3
+I3
 Text Label 9628 2094 2    50   ~ 0
-D4
+I4
 Text Label 9628 2194 2    50   ~ 0
-D5
+I5
 Text Label 9628 2294 2    50   ~ 0
-D6
+I6
 Text Label 9628 2394 2    50   ~ 0
-D7
+I7
 Text Notes 3096 6006 0    100  ~ 0
 MCU_BLOCK\n
 Text Notes 9652 3176 0    100  ~ 0
@@ -808,21 +807,19 @@ Wire Wire Line
 	3906 2284 3812 2284
 Connection ~ 3812 2284
 Text Label 4406 2884 3    50   ~ 0
-D7
-Text Label 4506 2884 3    50   ~ 0
-D6
+I7
 Text Label 4606 2884 3    50   ~ 0
-D5
+I5
 Text Label 4706 2884 3    50   ~ 0
-D4
+I4
 Text Label 4806 2884 3    50   ~ 0
-D3
+I3
 Text Label 5506 2884 3    50   ~ 0
-D2
-Text Label 6306 2884 3    50   ~ 0
-D1
+I2
 Text Label 6606 2884 3    50   ~ 0
-D0
+I1
+Text Label 7206 2884 3    50   ~ 0
+I0
 Text Label 5306 2884 3    50   ~ 0
 RS
 Text Label 6806 2884 3    50   ~ 0
@@ -1417,7 +1414,7 @@ Text Label 6506 2884 3    50   ~ 0
 IN_data
 Text Label 4868 5612 3    50   ~ 0
 IN_data
-Text Label 7206 2884 3    50   ~ 0
+Text Label 6194 3312 3    50   ~ 0
 IN_clk
 Text Label 1238 4616 1    50   ~ 0
 IN_clk
@@ -1561,11 +1558,11 @@ $EndComp
 Wire Wire Line
 	5168 5112 5168 5090
 NoConn ~ 4768 5612
-Text Label 5606 2884 3    50   ~ 0
+Text Label 6390 3312 3    50   ~ 0
 OUT_clk
 Text Label 5406 2884 3    50   ~ 0
 OUT_data
-Text Label 5006 2884 3    50   ~ 0
+Text Label 5606 2884 3    50   ~ 0
 OUT_ctrl
 Wire Wire Line
 	3268 5112 3268 5122
@@ -1803,7 +1800,7 @@ Wire Wire Line
 Wire Wire Line
 	2676 6816 2676 6774
 Wire Wire Line
-	1382 6784 1382 6840
+	830  6776 830  6832
 $Comp
 L Device:Ferrite_Bead_Small FB?
 U 1 1 5F9E2417
@@ -1863,7 +1860,7 @@ U 2 1 5F9FC02D
 P 3972 7138
 F 0 "U20" H 3972 6821 50  0000 C CNN
 F 1 "74HC04" H 3972 6912 50  0000 C CNN
-F 2 "" H 3972 7138 50  0001 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 3972 7138 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 3972 7138 50  0001 C CNN
 	2    3972 7138
 	-1   0    0    1   
@@ -1874,7 +1871,7 @@ U 3 1 5F9FF5F8
 P 5728 7118
 F 0 "U20" H 5728 6801 50  0000 C CNN
 F 1 "74HC04" H 5728 6892 50  0000 C CNN
-F 2 "" H 5728 7118 50  0001 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 5728 7118 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 5728 7118 50  0001 C CNN
 	3    5728 7118
 	-1   0    0    1   
@@ -1885,9 +1882,30 @@ U 4 1 5FA02700
 P 2182 7138
 F 0 "U20" H 2182 6821 50  0000 C CNN
 F 1 "74HC04" H 2182 6912 50  0000 C CNN
-F 2 "" H 2182 7138 50  0001 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 2182 7138 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 2182 7138 50  0001 C CNN
 	4    2182 7138
 	-1   0    0    1   
+$EndComp
+Text Label 4506 2884 3    50   ~ 0
+I6
+NoConn ~ 5006 2884
+Wire Wire Line
+	6306 2884 6306 3312
+Wire Wire Line
+	6306 3312 6390 3312
+Wire Wire Line
+	6306 3312 6194 3312
+Connection ~ 6306 3312
+$Comp
+L power:GND #PWR0155
+U 1 1 5F976784
+P 830 7382
+F 0 "#PWR0155" H 830 7132 50  0001 C CNN
+F 1 "GND" H 835 7209 50  0000 C CNN
+F 2 "" H 830 7382 50  0001 C CNN
+F 3 "" H 830 7382 50  0001 C CNN
+	1    830  7382
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
