@@ -77,7 +77,7 @@ $EndComp
 Wire Wire Line
 	4396 972  4396 836 
 Wire Notes Line
-	472  2734 4836 2734
+	476  3332 4840 3332
 $Comp
 L Device:Q_NPN_BCE Q1
 U 1 1 5F873C70
@@ -98,41 +98,41 @@ Wire Wire Line
 Wire Wire Line
 	3502 1078 3502 1082
 $Sheet
-S 1480 5318 2128 1716
+S 1488 5616 2128 1716
 U 5F8CFBC4
 F0 "OOI" 50
 F1 "OOI.sch" 50
-F2 "V_SOURCE" I L 1480 5474 50 
-F3 "O1" I R 3608 5572 50 
-F4 "O2" I R 3608 5730 50 
-F5 "O3" I R 3608 5898 50 
-F6 "O4" I R 3608 6042 50 
-F7 "O5" I R 3608 6206 50 
-F8 "O6" I R 3608 6372 50 
-F9 "O7" I R 3608 6500 50 
-F10 "O8" I R 3608 6646 50 
-F11 "O9" I R 3608 6802 50 
-F12 "O10" I R 3608 6958 50 
+F2 "V_SOURCE" I L 1488 5772 50 
+F3 "O1" I R 3616 5870 50 
+F4 "O2" I R 3616 6028 50 
+F5 "O3" I R 3616 6196 50 
+F6 "O4" I R 3616 6340 50 
+F7 "O5" I R 3616 6504 50 
+F8 "O6" I R 3616 6670 50 
+F9 "O7" I R 3616 6798 50 
+F10 "O8" I R 3616 6944 50 
+F11 "O9" I R 3616 7100 50 
+F12 "O10" I R 3616 7256 50 
 $EndSheet
-Text Label 3608 5572 0    50   ~ 0
+Text Label 3616 5870 0    50   ~ 0
 O1
-Text Label 3608 5730 0    50   ~ 0
+Text Label 3616 6028 0    50   ~ 0
 O2
-Text Label 3608 5898 0    50   ~ 0
+Text Label 3616 6196 0    50   ~ 0
 O3
-Text Label 3608 6042 0    50   ~ 0
+Text Label 3616 6340 0    50   ~ 0
 O4
-Text Label 3608 6206 0    50   ~ 0
+Text Label 3616 6504 0    50   ~ 0
 O5
-Text Label 3608 6372 0    50   ~ 0
+Text Label 3616 6670 0    50   ~ 0
 O6
-Text Label 3608 6500 0    50   ~ 0
+Text Label 3616 6798 0    50   ~ 0
 O7
-Text Label 3608 6646 0    50   ~ 0
+Text Label 3616 6944 0    50   ~ 0
 O8
-Text Label 3608 6802 0    50   ~ 0
+Text Label 3616 7100 0    50   ~ 0
 O9
-Text Label 3608 6958 0    50   ~ 0
+Text Label 3616 7256 0    50   ~ 0
 O10
 Text Notes 2030 7600 0    100  ~ 0
 INPUT_BLOCK
@@ -149,7 +149,7 @@ F 3 "http://www.kingbright.com/attachments/file/psearch/000/00/00/KCSA02-105(Ver
 	1    5500 4512
 	-1   0    0    1   
 $EndComp
-Text Label 4256 4314 0    50   ~ 0
+Text Label 4126 4968 0    50   ~ 0
 IB2
 Text Label 7380 4794 2    50   ~ 0
 VCC
@@ -261,13 +261,13 @@ Text Label 6046 6082 2    50   ~ 0
 B_J
 Text Label 6046 6182 2    50   ~ 0
 A_J
-Text Label 5558 7154 2    50   ~ 0
+Text Label 8354 4184 2    50   ~ 0
 OD2
-Text Label 5558 7254 2    50   ~ 0
+Text Label 8354 4284 2    50   ~ 0
 OC2
-Text Label 5558 7354 2    50   ~ 0
+Text Label 8354 4384 2    50   ~ 0
 OB2
-Text Label 5558 7454 2    50   ~ 0
+Text Label 8354 4484 2    50   ~ 0
 OA2
 Text Label 7102 6202 2    50   ~ 0
 VCC
@@ -367,99 +367,99 @@ OLED8
 $Comp
 L power:GND #PWR01
 U 1 1 5F9AA78E
-P 1362 4346
-F 0 "#PWR01" H 1362 4096 50  0001 C CNN
-F 1 "GND" H 1367 4173 50  0000 C CNN
-F 2 "" H 1362 4346 50  0001 C CNN
-F 3 "" H 1362 4346 50  0001 C CNN
-	1    1362 4346
+P 1232 5000
+F 0 "#PWR01" H 1232 4750 50  0001 C CNN
+F 1 "GND" H 1237 4827 50  0000 C CNN
+F 2 "" H 1232 5000 50  0001 C CNN
+F 3 "" H 1232 5000 50  0001 C CNN
+	1    1232 5000
 	1    0    0    -1  
 $EndComp
 $Comp
 L digitalSystemBoard-rescue:ButtonFirst-project SW2
 U 1 1 5F8C8A55
-P 1872 4446
-F 0 "SW2" H 1872 4761 50  0000 C CNN
-F 1 "ButtonFirst" H 1872 4670 50  0000 C CNN
-F 2 "digitalSystemBoard:Button" H 1872 4446 50  0001 L BNN
-F 3 "4-1437565-9" H 1872 4446 50  0001 L BNN
-F 4 "50 mA" H 1872 4446 50  0001 L BNN "Field4"
-F 5 "Single Pole - Single Throw" H 1872 4446 50  0001 L BNN "Field5"
-F 6 "Compliant" H 1872 4446 50  0001 L BNN "Field6"
-	1    1872 4446
+P 1742 5100
+F 0 "SW2" H 1742 5415 50  0000 C CNN
+F 1 "ButtonFirst" H 1742 5324 50  0000 C CNN
+F 2 "digitalSystemBoard:Button" H 1742 5100 50  0001 L BNN
+F 3 "4-1437565-9" H 1742 5100 50  0001 L BNN
+F 4 "50 mA" H 1742 5100 50  0001 L BNN "Field4"
+F 5 "Single Pole - Single Throw" H 1742 5100 50  0001 L BNN "Field5"
+F 6 "Compliant" H 1742 5100 50  0001 L BNN "Field6"
+	1    1742 5100
 	0    1    1    0   
 $EndComp
-Text Label 2350 4346 0    50   ~ 0
+Text Label 2220 5000 0    50   ~ 0
 IB1
-Connection ~ 2248 4346
+Connection ~ 2118 5000
 Wire Wire Line
-	2248 4346 2350 4346
+	2118 5000 2220 5000
 Wire Wire Line
-	1622 4346 1362 4346
+	1492 5000 1232 5000
 Wire Wire Line
-	2248 4262 2248 4346
+	2118 4916 2118 5000
 Wire Wire Line
-	2122 4346 2248 4346
+	1992 5000 2118 5000
 $Comp
 L Device:R R4
 U 1 1 5F98B21D
-P 2248 4112
-F 0 "R4" H 2318 4158 50  0000 L CNN
-F 1 "10K" V 2160 4054 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 2178 4112 50  0001 C CNN
-F 3 "~" H 2248 4112 50  0001 C CNN
-	1    2248 4112
+P 2118 4766
+F 0 "R4" H 2188 4812 50  0000 L CNN
+F 1 "10K" V 2030 4708 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2048 4766 50  0001 C CNN
+F 3 "~" H 2118 4766 50  0001 C CNN
+	1    2118 4766
 	1    0    0    -1  
 $EndComp
-NoConn ~ 1772 4696
-NoConn ~ 1972 4196
+NoConn ~ 1642 5350
+NoConn ~ 1842 4850
 $Comp
 L power:GND #PWR0101
 U 1 1 5F8DA255
-P 2668 4314
-F 0 "#PWR0101" H 2668 4064 50  0001 C CNN
-F 1 "GND" H 2673 4141 50  0000 C CNN
-F 2 "" H 2668 4314 50  0001 C CNN
-F 3 "" H 2668 4314 50  0001 C CNN
-	1    2668 4314
+P 2538 4968
+F 0 "#PWR0101" H 2538 4718 50  0001 C CNN
+F 1 "GND" H 2543 4795 50  0000 C CNN
+F 2 "" H 2538 4968 50  0001 C CNN
+F 3 "" H 2538 4968 50  0001 C CNN
+	1    2538 4968
 	1    0    0    -1  
 $EndComp
 $Comp
 L digitalSystemBoard-rescue:ButtonFirst-project SW3
 U 1 1 5F8DA262
-P 3178 4414
-F 0 "SW3" H 3178 4729 50  0000 C CNN
-F 1 "ButtonFirst" H 3178 4638 50  0000 C CNN
-F 2 "digitalSystemBoard:Button" H 3178 4414 50  0001 L BNN
-F 3 "4-1437565-9" H 3178 4414 50  0001 L BNN
-F 4 "50 mA" H 3178 4414 50  0001 L BNN "Field4"
-F 5 "Single Pole - Single Throw" H 3178 4414 50  0001 L BNN "Field5"
-F 6 "Compliant" H 3178 4414 50  0001 L BNN "Field6"
-	1    3178 4414
+P 3048 5068
+F 0 "SW3" H 3048 5383 50  0000 C CNN
+F 1 "ButtonFirst" H 3048 5292 50  0000 C CNN
+F 2 "digitalSystemBoard:Button" H 3048 5068 50  0001 L BNN
+F 3 "4-1437565-9" H 3048 5068 50  0001 L BNN
+F 4 "50 mA" H 3048 5068 50  0001 L BNN "Field4"
+F 5 "Single Pole - Single Throw" H 3048 5068 50  0001 L BNN "Field5"
+F 6 "Compliant" H 3048 5068 50  0001 L BNN "Field6"
+	1    3048 5068
 	0    1    1    0   
 $EndComp
-Connection ~ 3554 4314
+Connection ~ 3424 4968
 Wire Wire Line
-	3554 4314 3656 4314
+	3424 4968 3526 4968
 Wire Wire Line
-	2928 4314 2668 4314
+	2798 4968 2538 4968
 Wire Wire Line
-	3554 4230 3554 4314
+	3424 4884 3424 4968
 Wire Wire Line
-	3428 4314 3554 4314
+	3298 4968 3424 4968
 $Comp
 L Device:R R5
 U 1 1 5F8DA272
-P 3554 4080
-F 0 "R5" H 3624 4126 50  0000 L CNN
-F 1 "10K" V 3466 4022 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 3484 4080 50  0001 C CNN
-F 3 "~" H 3554 4080 50  0001 C CNN
-	1    3554 4080
+P 3424 4734
+F 0 "R5" H 3494 4780 50  0000 L CNN
+F 1 "10K" V 3336 4676 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3354 4734 50  0001 C CNN
+F 3 "~" H 3424 4734 50  0001 C CNN
+	1    3424 4734
 	1    0    0    -1  
 $EndComp
-NoConn ~ 3278 4164
-NoConn ~ 3078 4664
+NoConn ~ 3148 4818
+NoConn ~ 2948 5318
 $Comp
 L power:+5V #PWR0102
 U 1 1 5F94B1B2
@@ -474,34 +474,34 @@ $EndComp
 $Comp
 L power:+5V #PWR0104
 U 1 1 5F94DD72
-P 1480 5474
-F 0 "#PWR0104" H 1480 5324 50  0001 C CNN
-F 1 "+5V" V 1495 5602 50  0000 L CNN
-F 2 "" H 1480 5474 50  0001 C CNN
-F 3 "" H 1480 5474 50  0001 C CNN
-	1    1480 5474
+P 1488 5772
+F 0 "#PWR0104" H 1488 5622 50  0001 C CNN
+F 1 "+5V" V 1503 5900 50  0000 L CNN
+F 2 "" H 1488 5772 50  0001 C CNN
+F 3 "" H 1488 5772 50  0001 C CNN
+	1    1488 5772
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:+5V #PWR0105
 U 1 1 5F95BD0A
-P 2248 3962
-F 0 "#PWR0105" H 2248 3812 50  0001 C CNN
-F 1 "+5V" H 2263 4135 50  0000 C CNN
-F 2 "" H 2248 3962 50  0001 C CNN
-F 3 "" H 2248 3962 50  0001 C CNN
-	1    2248 3962
+P 2118 4616
+F 0 "#PWR0105" H 2118 4466 50  0001 C CNN
+F 1 "+5V" H 2133 4789 50  0000 C CNN
+F 2 "" H 2118 4616 50  0001 C CNN
+F 3 "" H 2118 4616 50  0001 C CNN
+	1    2118 4616
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+5V #PWR0106
 U 1 1 5F95CF8C
-P 3554 3870
-F 0 "#PWR0106" H 3554 3720 50  0001 C CNN
-F 1 "+5V" H 3569 4043 50  0000 C CNN
-F 2 "" H 3554 3870 50  0001 C CNN
-F 3 "" H 3554 3870 50  0001 C CNN
-	1    3554 3870
+P 3424 4524
+F 0 "#PWR0106" H 3424 4374 50  0001 C CNN
+F 1 "+5V" H 3439 4697 50  0000 C CNN
+F 2 "" H 3424 4524 50  0001 C CNN
+F 3 "" H 3424 4524 50  0001 C CNN
+	1    3424 4524
 	1    0    0    -1  
 $EndComp
 $Sheet
@@ -580,13 +580,13 @@ Text Label 7380 4594 2    50   ~ 0
 B_Y
 Text Label 7380 4194 2    50   ~ 0
 F_Y
-Text Label 6058 7154 0    50   ~ 0
+Text Label 8854 3784 0    50   ~ 0
 OD1
-Text Label 6058 7254 0    50   ~ 0
+Text Label 8854 3884 0    50   ~ 0
 OC1
-Text Label 6058 7354 0    50   ~ 0
+Text Label 8854 3984 0    50   ~ 0
 OB1
-Text Label 6058 7454 0    50   ~ 0
+Text Label 8854 4084 0    50   ~ 0
 OA1
 Text Label 7880 4294 0    50   ~ 0
 D1
@@ -682,98 +682,98 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_02x12_Odd_Even J5
 U 1 1 5FA3B588
-P 1826 3288
-F 0 "J5" V 1830 3868 50  0000 L CNN
-F 1 "INPUT_HEADER" V 1921 3868 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x12_P2.54mm_Vertical_SMD" H 1826 3288 50  0001 C CNN
-F 3 "~" H 1826 3288 50  0001 C CNN
-	1    1826 3288
+P 1696 3942
+F 0 "J5" V 1700 4522 50  0000 L CNN
+F 1 "INPUT_HEADER" V 1791 4522 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x12_P2.54mm_Vertical_SMD" H 1696 3942 50  0001 C CNN
+F 3 "~" H 1696 3942 50  0001 C CNN
+	1    1696 3942
 	0    1    1    0   
 $EndComp
-Text Label 2326 3588 3    50   ~ 0
+Text Label 2196 4242 3    50   ~ 0
 IB2
-Text Label 2226 3588 3    50   ~ 0
+Text Label 2096 4242 3    50   ~ 0
 IB1
 Wire Wire Line
-	2126 3588 2126 3678
-Text Label 2126 3678 2    50   ~ 0
+	1996 4242 1996 4332
+Text Label 1996 4332 2    50   ~ 0
 O10
 Wire Wire Line
-	2026 3588 2026 3678
-Text Label 2026 3678 2    50   ~ 0
+	1896 4242 1896 4332
+Text Label 1896 4332 2    50   ~ 0
 O9
 Wire Wire Line
-	1926 3588 1926 3678
-Text Label 1926 3678 2    50   ~ 0
+	1796 4242 1796 4332
+Text Label 1796 4332 2    50   ~ 0
 O8
 Wire Wire Line
-	1826 3588 1826 3678
-Text Label 1826 3678 2    50   ~ 0
+	1696 4242 1696 4332
+Text Label 1696 4332 2    50   ~ 0
 O7
 Wire Wire Line
-	1726 3588 1726 3678
-Text Label 1726 3678 2    50   ~ 0
+	1596 4242 1596 4332
+Text Label 1596 4332 2    50   ~ 0
 O6
 Wire Wire Line
-	1626 3588 1626 3678
-Text Label 1626 3678 2    50   ~ 0
+	1496 4242 1496 4332
+Text Label 1496 4332 2    50   ~ 0
 O5
 Wire Wire Line
-	1526 3588 1526 3678
-Text Label 1526 3678 2    50   ~ 0
+	1396 4242 1396 4332
+Text Label 1396 4332 2    50   ~ 0
 O4
 Wire Wire Line
-	1426 3588 1426 3678
-Text Label 1426 3678 2    50   ~ 0
+	1296 4242 1296 4332
+Text Label 1296 4332 2    50   ~ 0
 O3
 Wire Wire Line
-	1326 3588 1326 3678
-Text Label 1326 3678 2    50   ~ 0
+	1196 4242 1196 4332
+Text Label 1196 4332 2    50   ~ 0
 O2
 Wire Wire Line
-	1226 3588 1226 3678
-Text Label 1226 3678 2    50   ~ 0
+	1096 4242 1096 4332
+Text Label 1096 4332 2    50   ~ 0
 O1
-Text Label 2326 3088 1    50   ~ 0
+Text Label 2196 3742 1    50   ~ 0
 IB2
-Text Label 2226 3088 1    50   ~ 0
+Text Label 2096 3742 1    50   ~ 0
 IB1
-Text Label 2126 3088 2    50   ~ 0
+Text Label 1996 3742 2    50   ~ 0
 O10
-Text Label 1926 3088 2    50   ~ 0
+Text Label 1796 3742 2    50   ~ 0
 O8
-Text Label 1826 3088 2    50   ~ 0
+Text Label 1696 3742 2    50   ~ 0
 O7
-Text Label 1726 3088 2    50   ~ 0
+Text Label 1596 3742 2    50   ~ 0
 O6
-Text Label 1626 3088 2    50   ~ 0
+Text Label 1496 3742 2    50   ~ 0
 O5
-Text Label 1526 3088 2    50   ~ 0
+Text Label 1396 3742 2    50   ~ 0
 O4
-Text Label 1426 3088 2    50   ~ 0
+Text Label 1296 3742 2    50   ~ 0
 O3
-Text Label 1326 3088 2    50   ~ 0
+Text Label 1196 3742 2    50   ~ 0
 O2
-Text Label 1226 3088 2    50   ~ 0
+Text Label 1096 3742 2    50   ~ 0
 O1
-Text Label 2026 3088 2    50   ~ 0
+Text Label 1896 3742 2    50   ~ 0
 O9
 Wire Wire Line
-	1772 4196 1622 4196
+	1642 4850 1492 4850
 Wire Wire Line
-	1622 4196 1622 4346
+	1492 4850 1492 5000
 Wire Wire Line
-	2122 4346 2122 4696
+	1992 5000 1992 5350
 Wire Wire Line
-	2122 4696 1972 4696
+	1992 5350 1842 5350
 Wire Wire Line
-	3078 4164 2928 4164
+	2948 4818 2798 4818
 Wire Wire Line
-	2928 4164 2928 4314
+	2798 4818 2798 4968
 Wire Wire Line
-	3428 4314 3428 4664
+	3298 4968 3298 5318
 Wire Wire Line
-	3428 4664 3278 4664
+	3298 5318 3148 5318
 Text Label 1690 1082 0    50   ~ 0
 VIN
 Text Label 5470 1074 2    50   ~ 0
@@ -893,7 +893,7 @@ Wire Wire Line
 	3502 1554 3504 1554
 Wire Wire Line
 	3354 1478 3354 2108
-Text Notes 1056 2668 0    100  ~ 0
+Text Notes 1060 3266 0    100  ~ 0
 SOURCE_BLOCK\n
 Connection ~ 2016 2108
 Wire Wire Line
@@ -1056,13 +1056,13 @@ Text Label 5470 2614 2    50   ~ 0
 C2
 Text Label 5470 2688 2    50   ~ 0
 D2
-Text Label 6058 7054 0    50   ~ 0
+Text Label 6058 7454 0    50   ~ 0
 TLED8
-Text Label 6058 6954 0    50   ~ 0
+Text Label 6058 7354 0    50   ~ 0
 TLED7
-Text Label 6058 6854 0    50   ~ 0
+Text Label 6058 7254 0    50   ~ 0
 TLED6
-Text Label 6058 6754 0    50   ~ 0
+Text Label 6058 7154 0    50   ~ 0
 TLED5
 Text Label 5558 7054 2    50   ~ 0
 TLED4
@@ -1093,7 +1093,7 @@ Wire Wire Line
 Wire Wire Line
 	4394 1572 4396 1572
 Wire Wire Line
-	3554 3930 3554 3870
+	3424 4584 3424 4524
 $Comp
 L Mechanical:MountingHole H2
 U 1 1 5F976335
@@ -1152,49 +1152,238 @@ $EndComp
 $Comp
 L 74xx:74HC04 U20
 U 1 1 5F9D4EE8
-P 3956 4314
-F 0 "U20" H 3956 4631 50  0000 C CNN
-F 1 "74HC04" H 3956 4540 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 3956 4314 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 3956 4314 50  0001 C CNN
-	1    3956 4314
+P 3826 4968
+F 0 "U20" H 3826 5285 50  0000 C CNN
+F 1 "74HC04" H 3826 5194 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 3826 4968 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 3826 4968 50  0001 C CNN
+	1    3826 4968
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xx:74HC04 U20
 U 7 1 5F9E537A
-P 3948 3300
-F 0 "U20" V 4315 3300 50  0000 C CNN
-F 1 "74HC04" V 4224 3300 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 3948 3300 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 3948 3300 50  0001 C CNN
-	7    3948 3300
+P 3818 3954
+F 0 "U20" V 4185 3954 50  0000 C CNN
+F 1 "74HC04" V 4094 3954 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 3818 3954 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 3818 3954 50  0001 C CNN
+	7    3818 3954
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GND #PWR0153
 U 1 1 5F9EDC9A
-P 4502 3300
-F 0 "#PWR0153" H 4502 3050 50  0001 C CNN
-F 1 "GND" H 4507 3127 50  0000 C CNN
-F 2 "" H 4502 3300 50  0001 C CNN
-F 3 "" H 4502 3300 50  0001 C CNN
-	1    4502 3300
+P 4372 3954
+F 0 "#PWR0153" H 4372 3704 50  0001 C CNN
+F 1 "GND" H 4377 3781 50  0000 C CNN
+F 2 "" H 4372 3954 50  0001 C CNN
+F 3 "" H 4372 3954 50  0001 C CNN
+	1    4372 3954
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+5V #PWR0154
 U 1 1 5F9EE990
-P 3382 3300
-F 0 "#PWR0154" H 3382 3150 50  0001 C CNN
-F 1 "+5V" H 3397 3473 50  0000 C CNN
-F 2 "" H 3382 3300 50  0001 C CNN
-F 3 "" H 3382 3300 50  0001 C CNN
-	1    3382 3300
+P 3252 3954
+F 0 "#PWR0154" H 3252 3804 50  0001 C CNN
+F 1 "+5V" H 3267 4127 50  0000 C CNN
+F 2 "" H 3252 3954 50  0001 C CNN
+F 3 "" H 3252 3954 50  0001 C CNN
+	1    3252 3954
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3382 3300 3448 3300
+	3252 3954 3318 3954
 Wire Wire Line
-	4448 3300 4502 3300
+	4318 3954 4372 3954
+Text Label 6058 7054 0    50   ~ 0
+TLED4
+Text Label 6058 6954 0    50   ~ 0
+TLED3
+Text Label 6058 6854 0    50   ~ 0
+TLED2
+Text Label 6058 6754 0    50   ~ 0
+TLED1
+Text Label 5558 7454 2    50   ~ 0
+TLED8
+Text Label 5558 7354 2    50   ~ 0
+TLED7
+Text Label 5558 7254 2    50   ~ 0
+TLED6
+Text Label 5558 7154 2    50   ~ 0
+TLED5
+$Comp
+L Connector_Generic:Conn_02x08_Odd_Even J10
+U 1 1 5F9AA533
+P 8554 4084
+F 0 "J10" H 8604 4601 50  0000 C CNN
+F 1 "Conn_02x08_Odd_Even" H 8604 4510 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical_SMD" H 8554 4084 50  0001 C CNN
+F 3 "~" H 8554 4084 50  0001 C CNN
+	1    8554 4084
+	1    0    0    -1  
+$EndComp
+Text Label 8354 3784 2    50   ~ 0
+OD1
+Text Label 8354 3884 2    50   ~ 0
+OC1
+Text Label 8354 3984 2    50   ~ 0
+OB1
+Text Label 8354 4084 2    50   ~ 0
+OA1
+Text Label 8854 4184 0    50   ~ 0
+OD2
+Text Label 8854 4284 0    50   ~ 0
+OC2
+Text Label 8854 4384 0    50   ~ 0
+OB2
+Text Label 8854 4484 0    50   ~ 0
+OA2
+$Comp
+L Connector_Generic:Conn_02x03_Odd_Even J11
+U 1 1 5F9CC4F3
+P 3622 2832
+F 0 "J11" H 3672 3149 50  0000 C CNN
+F 1 "Conn_02x03_Odd_Even" H 3672 3058 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical_SMD" H 3622 2832 50  0001 C CNN
+F 3 "~" H 3622 2832 50  0001 C CNN
+	1    3622 2832
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0156
+U 1 1 5F9CF430
+P 4122 2678
+F 0 "#PWR0156" H 4122 2528 50  0001 C CNN
+F 1 "+5V" H 4137 2851 50  0000 C CNN
+F 2 "" H 4122 2678 50  0001 C CNN
+F 3 "" H 4122 2678 50  0001 C CNN
+	1    4122 2678
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0157
+U 1 1 5F9D12DA
+P 3202 2698
+F 0 "#PWR0157" H 3202 2548 50  0001 C CNN
+F 1 "+5V" H 3217 2871 50  0000 C CNN
+F 2 "" H 3202 2698 50  0001 C CNN
+F 3 "" H 3202 2698 50  0001 C CNN
+	1    3202 2698
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3202 2698 3202 2732
+Wire Wire Line
+	3202 2832 3422 2832
+Wire Wire Line
+	3422 2732 3202 2732
+Connection ~ 3202 2732
+Wire Wire Line
+	3202 2732 3202 2832
+Wire Wire Line
+	3922 2732 4122 2732
+Wire Wire Line
+	4122 2732 4122 2678
+Wire Wire Line
+	3922 2832 4122 2832
+Wire Wire Line
+	4122 2832 4122 2732
+Connection ~ 4122 2732
+$Comp
+L power:GND #PWR0158
+U 1 1 5F9DDD3F
+P 3972 2932
+F 0 "#PWR0158" H 3972 2682 50  0001 C CNN
+F 1 "GND" H 3977 2759 50  0000 C CNN
+F 2 "" H 3972 2932 50  0001 C CNN
+F 3 "" H 3972 2932 50  0001 C CNN
+	1    3972 2932
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0159
+U 1 1 5F9DEEBF
+P 3386 2932
+F 0 "#PWR0159" H 3386 2682 50  0001 C CNN
+F 1 "GND" H 3391 2759 50  0000 C CNN
+F 2 "" H 3386 2932 50  0001 C CNN
+F 3 "" H 3386 2932 50  0001 C CNN
+	1    3386 2932
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3386 2932 3422 2932
+Wire Wire Line
+	3922 2932 3972 2932
+$Comp
+L digitalSystemBoard-rescue:POWER_VIAS V0
+U 1 1 5F9A9094
+P 988 2716
+F 0 "V0" V 1092 2538 50  0000 R CNN
+F 1 "POWER_VIAS" V 1001 2538 50  0000 R CNN
+F 2 "digitalSystemBoard:POWER_VIA" H 988 2716 50  0001 C CNN
+F 3 "" H 988 2716 50  0001 C CNN
+	1    988  2716
+	0    -1   -1   0   
+$EndComp
+Text Label 988  2366 0    50   ~ 0
+VIA_0
+Text Label 3924 806  0    50   ~ 0
+VIA_0
+$Comp
+L digitalSystemBoard-rescue:POWER_VIAS V1
+U 1 1 5F9C57FC
+P 1758 2792
+F 0 "V1" V 1862 2614 50  0000 R CNN
+F 1 "POWER_VIAS" V 1771 2614 50  0000 R CNN
+F 2 "digitalSystemBoard:POWER_VIA" H 1758 2792 50  0001 C CNN
+F 3 "" H 1758 2792 50  0001 C CNN
+	1    1758 2792
+	0    -1   -1   0   
+$EndComp
+$Comp
+L digitalSystemBoard-rescue:POWER_VIAS V2
+U 1 1 5F9C895C
+P 2542 2764
+F 0 "V2" V 2646 2586 50  0000 R CNN
+F 1 "POWER_VIAS" V 2555 2586 50  0000 R CNN
+F 2 "digitalSystemBoard:POWER_VIA" H 2542 2764 50  0001 C CNN
+F 3 "" H 2542 2764 50  0001 C CNN
+	1    2542 2764
+	0    -1   -1   0   
+$EndComp
+Text Label 1758 2442 0    50   ~ 0
+VIA_0
+Text Label 2542 2414 0    50   ~ 0
+VIA_0
+$Comp
+L digitalSystemBoard-rescue:POWER_VIAS V3
+U 1 1 5FA14C14
+P 802 1888
+F 0 "V3" V 906 1710 50  0000 R CNN
+F 1 "POWER_VIAS" V 790 2122 50  0000 R CNN
+F 2 "digitalSystemBoard:POWER_VIA" H 802 1888 50  0001 C CNN
+F 3 "" H 802 1888 50  0001 C CNN
+	1    802  1888
+	0    -1   -1   0   
+$EndComp
+Text Label 3032 1680 0    50   ~ 0
+VIA_1
+Text Label 802  1538 0    50   ~ 0
+VIA_1
+$Comp
+L digitalSystemBoard-rescue:POWER_VIAS V4
+U 1 1 5FA1E10B
+P 1232 1874
+F 0 "V4" V 1336 1696 50  0000 R CNN
+F 1 "POWER_VIAS" V 1208 2102 50  0000 R CNN
+F 2 "digitalSystemBoard:POWER_VIA" H 1232 1874 50  0001 C CNN
+F 3 "" H 1232 1874 50  0001 C CNN
+	1    1232 1874
+	0    -1   -1   0   
+$EndComp
+Text Label 1232 1524 0    50   ~ 0
+VIA_1
 $EndSCHEMATC

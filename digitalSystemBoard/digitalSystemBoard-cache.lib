@@ -825,6 +825,19 @@ X VOUT 5 400 100 100 L 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #
+# digitalSystemBoard-rescue_POWER_VIAS
+#
+DEF digitalSystemBoard-rescue_POWER_VIAS V 0 40 Y Y 1 F N
+F0 "V" 0 200 50 H V C CNN
+F1 "digitalSystemBoard-rescue_POWER_VIAS" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 250 0 250 150 -250 150 -250 -150 250 -150 250 0 f
+X VIA 1 350 0 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # digitalSystemBoard-rescue_Potentiometer-digitalSystemBoard
 #
 DEF digitalSystemBoard-rescue_Potentiometer-digitalSystemBoard U 0 40 Y Y 1 F N

@@ -1,4 +1,4 @@
-18748687113417870
+18751895404128566
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -6341,6 +6341,13 @@ three-pin M8
 0
 5
 4
+Connector_Amphenol
+POWER_VIAS
+
+
+0
+5
+5
 Connector_Audio
 Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal
 3.5 mm, Stereo, Right Angle, Surface Mount (SMT), Audio Jack Connector (https://www.cui.com/product/resource/sj-352x-smt-series.pdf)
@@ -82124,6 +82131,13 @@ MJD122T4G
 3
 3
 digitalSystemBoard
+POWER_VIA
+
+
+0
+5
+1
+digitalSystemBoard
 P_SOURCE
 SuperSOT-3
 
@@ -82192,7 +82206,7 @@ SS-12F44G5
 
 0
 5
-4
+5
 digitalSystemBoard
 TO228P991X255-3N
 
