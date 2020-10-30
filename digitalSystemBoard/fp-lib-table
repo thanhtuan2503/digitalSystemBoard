@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name digitalSystemBoard)(type KiCad)(uri ${KIPRJMOD}/digitalSystemBoard.pretty)(options "")(descr ""))
+)
