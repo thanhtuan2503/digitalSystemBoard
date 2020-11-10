@@ -832,7 +832,7 @@ Connection ~ 3684 6196
 Text Notes 6116 5736 0    139  ~ 0
 SWITCH_INPUT
 $Comp
-L digitalSystemBoard-rescue:IO_Switch-digitalSystemBoard U6
+L digitalSystemBoard:IO_Switch U6
 U 1 1 5FA7DE48
 P 3136 1532
 AR Path="/5FA7DE48" Ref="U6"  Part="1" 
@@ -845,7 +845,7 @@ F 3 "" H 3136 1532 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L digitalSystemBoard-rescue:IO_Switch-digitalSystemBoard U7
+L digitalSystemBoard:IO_Switch U7
 U 1 1 5FA83231
 P 5774 1576
 AR Path="/5FA83231" Ref="U7"  Part="1" 
@@ -858,7 +858,7 @@ F 3 "" H 5774 1576 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L digitalSystemBoard-rescue:IO_Switch-digitalSystemBoard U8
+L digitalSystemBoard:IO_Switch U8
 U 1 1 5FA84041
 P 7916 1612
 AR Path="/5FA84041" Ref="U8"  Part="1" 
@@ -871,7 +871,7 @@ F 3 "" H 7916 1612 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L digitalSystemBoard-rescue:IO_Switch-digitalSystemBoard U9
+L digitalSystemBoard:IO_Switch U9
 U 1 1 5FA84F0E
 P 1102 3972
 AR Path="/5FA84F0E" Ref="U9"  Part="1" 
@@ -884,7 +884,7 @@ F 3 "" H 1102 3972 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L digitalSystemBoard-rescue:IO_Switch-digitalSystemBoard U10
+L digitalSystemBoard:IO_Switch U10
 U 1 1 5FA8ABC8
 P 3346 3954
 AR Path="/5FA8ABC8" Ref="U10"  Part="1" 
@@ -897,7 +897,7 @@ F 3 "" H 3346 3954 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L digitalSystemBoard-rescue:IO_Switch-digitalSystemBoard U11
+L digitalSystemBoard:IO_Switch U11
 U 1 1 5FA8BBA6
 P 5688 3922
 AR Path="/5FA8BBA6" Ref="U11"  Part="1" 
@@ -910,7 +910,7 @@ F 3 "" H 5688 3922 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L digitalSystemBoard-rescue:IO_Switch-digitalSystemBoard U12
+L digitalSystemBoard:IO_Switch U12
 U 1 1 5FA8D4ED
 P 7834 3922
 AR Path="/5FA8D4ED" Ref="U12"  Part="1" 
@@ -923,7 +923,7 @@ F 3 "" H 7834 3922 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L digitalSystemBoard-rescue:IO_Switch-digitalSystemBoard U13
+L digitalSystemBoard:IO_Switch U13
 U 1 1 5FA8E32F
 P 1098 6216
 AR Path="/5FA8E32F" Ref="U13"  Part="1" 
@@ -936,7 +936,7 @@ F 3 "" H 1098 6216 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L digitalSystemBoard-rescue:IO_Switch-digitalSystemBoard U14
+L digitalSystemBoard:IO_Switch U14
 U 1 1 5FA8F0FB
 P 3336 6196
 AR Path="/5FA8F0FB" Ref="U14"  Part="1" 
@@ -949,7 +949,7 @@ F 3 "" H 3336 6196 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L digitalSystemBoard-rescue:IO_Switch-digitalSystemBoard U5
+L digitalSystemBoard:IO_Switch U5
 U 1 1 5FA7D407
 P 1176 1590
 AR Path="/5FA7D407" Ref="U5"  Part="1" 

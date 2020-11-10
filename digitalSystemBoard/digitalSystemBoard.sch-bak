@@ -376,7 +376,7 @@ F 3 "" H 1232 5000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L digitalSystemBoard-rescue:ButtonFirst-project SW2
+L digitalSystemBoard:ButtonFirst SW2
 U 1 1 5F8C8A55
 P 1742 5100
 F 0 "SW2" H 1742 5415 50  0000 C CNN
@@ -425,7 +425,7 @@ F 3 "" H 2538 4968 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L digitalSystemBoard-rescue:ButtonFirst-project SW3
+L digitalSystemBoard:ButtonFirst SW3
 U 1 1 5F8DA262
 P 3048 5068
 F 0 "SW3" H 3048 5383 50  0000 C CNN
@@ -862,7 +862,7 @@ Wire Wire Line
 Wire Wire Line
 	2016 2108 2556 2108
 $Comp
-L digitalSystemBoard-rescue:Potentiometer-digitalSystemBoard U2
+L digitalSystemBoard:Potentiometer U2
 U 1 1 5F873747
 P 2556 1632
 F 0 "U2" V 2577 1759 50  0000 L CNN
@@ -903,7 +903,7 @@ Wire Wire Line
 Wire Wire Line
 	1810 1266 1810 2108
 $Comp
-L digitalSystemBoard-rescue:LM317-digitalSystemBoard U1
+L digitalSystemBoard:LM317 U1
 U 1 1 5F871BB7
 P 2556 1082
 F 0 "U1" H 2556 1397 50  0000 C CNN
@@ -1317,73 +1317,4 @@ Wire Wire Line
 	3386 2932 3422 2932
 Wire Wire Line
 	3922 2932 3972 2932
-$Comp
-L digitalSystemBoard-rescue:POWER_VIAS V0
-U 1 1 5F9A9094
-P 988 2716
-F 0 "V0" V 1092 2538 50  0000 R CNN
-F 1 "POWER_VIAS" V 1001 2538 50  0000 R CNN
-F 2 "digitalSystemBoard:POWER_VIA" H 988 2716 50  0001 C CNN
-F 3 "" H 988 2716 50  0001 C CNN
-	1    988  2716
-	0    -1   -1   0   
-$EndComp
-Text Label 988  2366 0    50   ~ 0
-VIA_0
-Text Label 3924 806  0    50   ~ 0
-VIA_0
-$Comp
-L digitalSystemBoard-rescue:POWER_VIAS V1
-U 1 1 5F9C57FC
-P 1758 2792
-F 0 "V1" V 1862 2614 50  0000 R CNN
-F 1 "POWER_VIAS" V 1771 2614 50  0000 R CNN
-F 2 "digitalSystemBoard:POWER_VIA" H 1758 2792 50  0001 C CNN
-F 3 "" H 1758 2792 50  0001 C CNN
-	1    1758 2792
-	0    -1   -1   0   
-$EndComp
-$Comp
-L digitalSystemBoard-rescue:POWER_VIAS V2
-U 1 1 5F9C895C
-P 2542 2764
-F 0 "V2" V 2646 2586 50  0000 R CNN
-F 1 "POWER_VIAS" V 2555 2586 50  0000 R CNN
-F 2 "digitalSystemBoard:POWER_VIA" H 2542 2764 50  0001 C CNN
-F 3 "" H 2542 2764 50  0001 C CNN
-	1    2542 2764
-	0    -1   -1   0   
-$EndComp
-Text Label 1758 2442 0    50   ~ 0
-VIA_0
-Text Label 2542 2414 0    50   ~ 0
-VIA_0
-$Comp
-L digitalSystemBoard-rescue:POWER_VIAS V3
-U 1 1 5FA14C14
-P 802 1888
-F 0 "V3" V 906 1710 50  0000 R CNN
-F 1 "POWER_VIAS" V 790 2122 50  0000 R CNN
-F 2 "digitalSystemBoard:POWER_VIA" H 802 1888 50  0001 C CNN
-F 3 "" H 802 1888 50  0001 C CNN
-	1    802  1888
-	0    -1   -1   0   
-$EndComp
-Text Label 3032 1680 0    50   ~ 0
-VIA_1
-Text Label 802  1538 0    50   ~ 0
-VIA_1
-$Comp
-L digitalSystemBoard-rescue:POWER_VIAS V4
-U 1 1 5FA1E10B
-P 1232 1874
-F 0 "V4" V 1336 1696 50  0000 R CNN
-F 1 "POWER_VIAS" V 1208 2102 50  0000 R CNN
-F 2 "digitalSystemBoard:POWER_VIA" H 1232 1874 50  0001 C CNN
-F 3 "" H 1232 1874 50  0001 C CNN
-	1    1232 1874
-	0    -1   -1   0   
-$EndComp
-Text Label 1232 1524 0    50   ~ 0
-VIA_1
 $EndSCHEMATC

@@ -657,11 +657,11 @@ X C 3 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# digitalSystemBoard-rescue_ButtonFirst-project
+# digitalSystemBoard_ButtonFirst
 #
-DEF digitalSystemBoard-rescue_ButtonFirst-project SW 0 40 Y N 1 L N
+DEF digitalSystemBoard_ButtonFirst SW 0 40 Y N 1 L N
 F0 "SW" -161 161 50 H V L BNN
-F1 "digitalSystemBoard-rescue_ButtonFirst-project" -160 -210 50 H V L BNN
+F1 "digitalSystemBoard_ButtonFirst" -160 -210 50 H V L BNN
 F2 "TE_4-1437565-9" 0 0 50 H I L BNN
 F3 "4-1437565-9" 0 0 50 H I L BNN
 F4 "50 mA" 0 0 50 H I L BNN
@@ -694,11 +694,11 @@ X ~ 4 250 -100 100 L 40 40 0 0 P
 ENDDRAW
 ENDDEF
 #
-# digitalSystemBoard-rescue_ICSP
+# digitalSystemBoard_ICSP
 #
-DEF digitalSystemBoard-rescue_ICSP U 0 40 Y Y 1 F N
+DEF digitalSystemBoard_ICSP U 0 40 Y Y 1 F N
 F0 "U" 450 100 50 H V C CNN
-F1 "digitalSystemBoard-rescue_ICSP" 0 200 50 H V C CNN
+F1 "digitalSystemBoard_ICSP" 0 200 50 H V C CNN
 F2 "" 250 100 50 H I C CNN
 F3 "" 250 100 50 H I C CNN
 DRAW
@@ -712,11 +712,11 @@ X SCK 6 350 -250 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# digitalSystemBoard-rescue_IO_Switch-digitalSystemBoard
+# digitalSystemBoard_IO_Switch
 #
-DEF digitalSystemBoard-rescue_IO_Switch-digitalSystemBoard U 0 40 Y Y 1 F N
+DEF digitalSystemBoard_IO_Switch U 0 40 Y Y 1 F N
 F0 "U" 300 -150 50 H V C CNN
-F1 "digitalSystemBoard-rescue_IO_Switch-digitalSystemBoard" 0 250 50 H V C CNN
+F1 "digitalSystemBoard_IO_Switch" 0 250 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -729,11 +729,11 @@ X SHD 4 350 50 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# digitalSystemBoard-rescue_LM317-digitalSystemBoard
+# digitalSystemBoard_LM317
 #
-DEF digitalSystemBoard-rescue_LM317-digitalSystemBoard U 0 40 Y Y 1 F N
+DEF digitalSystemBoard_LM317 U 0 40 Y Y 1 F N
 F0 "U" 250 -250 50 H V C CNN
-F1 "digitalSystemBoard-rescue_LM317-digitalSystemBoard" 0 100 50 H V C CNN
+F1 "digitalSystemBoard_LM317" 0 100 50 H V C CNN
 F2 "" -100 -100 50 H I C CNN
 F3 "" -100 -100 50 H I C CNN
 DRAW
@@ -744,11 +744,11 @@ X VIN 3 -400 0 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# digitalSystemBoard-rescue_LMV358IDGKR-digitalSystemBoard
+# digitalSystemBoard_LMV358IDGKR
 #
-DEF digitalSystemBoard-rescue_LMV358IDGKR-digitalSystemBoard U 0 40 Y Y 1 L N
+DEF digitalSystemBoard_LMV358IDGKR U 0 40 Y Y 1 L N
 F0 "U" -300 400 50 H V L BNN
-F1 "digitalSystemBoard-rescue_LMV358IDGKR-digitalSystemBoard" -300 -500 50 H V L BNN
+F1 "digitalSystemBoard_LMV358IDGKR" -300 -500 50 H V L BNN
 F2 "SOP65P490X110-8N" 0 0 50 H I L BNN
 F3 "1.1mm" 0 0 50 H I L BNN
 F4 "Texas Instruments" 0 0 50 H I L BNN
@@ -805,11 +805,11 @@ X VCC+ 8 500 300 200 L 40 40 0 0 W
 ENDDRAW
 ENDDEF
 #
-# digitalSystemBoard-rescue_LP2985-3.3-project
+# digitalSystemBoard_LP2985-3.3
 #
-DEF digitalSystemBoard-rescue_LP2985-3.3-project U 0 10 Y Y 1 F N
+DEF digitalSystemBoard_LP2985-3.3 U 0 10 Y Y 1 F N
 F0 "U" -250 225 50 H V C CNN
-F1 "digitalSystemBoard-rescue_LP2985-3.3-project" 0 225 50 H V L CNN
+F1 "digitalSystemBoard_LP2985-3.3" 0 225 50 H V L CNN
 F2 "TO_SOT_Packages_SMD:SOT-23-5" 0 325 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -825,24 +825,11 @@ X VOUT 5 400 100 100 L 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #
-# digitalSystemBoard-rescue_POWER_VIAS
+# digitalSystemBoard_Potentiometer
 #
-DEF digitalSystemBoard-rescue_POWER_VIAS V 0 40 Y Y 1 F N
-F0 "V" 0 200 50 H V C CNN
-F1 "digitalSystemBoard-rescue_POWER_VIAS" 0 -200 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 6 0 1 0 250 0 250 150 -250 150 -250 -150 250 -150 250 0 f
-X VIA 1 350 0 100 L 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
-# digitalSystemBoard-rescue_Potentiometer-digitalSystemBoard
-#
-DEF digitalSystemBoard-rescue_Potentiometer-digitalSystemBoard U 0 40 Y Y 1 F N
+DEF digitalSystemBoard_Potentiometer U 0 40 Y Y 1 F N
 F0 "U" 300 -250 50 H V C CNN
-F1 "digitalSystemBoard-rescue_Potentiometer-digitalSystemBoard" 0 250 50 H V C CNN
+F1 "digitalSystemBoard_Potentiometer" 0 250 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -855,11 +842,11 @@ X 3 3 250 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# digitalSystemBoard-rescue_Resonator-project
+# digitalSystemBoard_Resonator
 #
-DEF digitalSystemBoard-rescue_Resonator-project Y 0 40 Y N 1 F N
+DEF digitalSystemBoard_Resonator Y 0 40 Y N 1 F N
 F0 "Y" 0 225 50 H V C CNN
-F1 "digitalSystemBoard-rescue_Resonator-project" 0 150 50 H V C CNN
+F1 "digitalSystemBoard_Resonator" 0 150 50 H V C CNN
 F2 "" -25 0 50 H I C CNN
 F3 "" -25 0 50 H I C CNN
 $FPLIST
@@ -881,11 +868,11 @@ X GND 4 100 -100 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# digitalSystemBoard-rescue_SMF05C.TCT-project
+# digitalSystemBoard_SMF05C.TCT
 #
-DEF digitalSystemBoard-rescue_SMF05C.TCT-project D 0 40 N N 1 L N
+DEF digitalSystemBoard_SMF05C.TCT D 0 40 N N 1 L N
 F0 "D" -907 4 50 H V L BNN
-F1 "digitalSystemBoard-rescue_SMF05C.TCT-project" -908 -77 50 H V L BNN
+F1 "digitalSystemBoard_SMF05C.TCT" -908 -77 50 H V L BNN
 F2 "SC70-6" 0 0 50 H I L BNN
 F3 "" 0 0 59 H I C CNN
 DRAW
@@ -937,11 +924,11 @@ X IO5 6 500 100 100 D 40 40 0 0 P
 ENDDRAW
 ENDDEF
 #
-# digitalSystemBoard-rescue_USB-B-S-X-X-TH-TR-digitalSystemBoard
+# digitalSystemBoard_USB-B-S-X-X-TH-TR
 #
-DEF digitalSystemBoard-rescue_USB-B-S-X-X-TH-TR-digitalSystemBoard J 0 40 Y Y 1 L N
+DEF digitalSystemBoard_USB-B-S-X-X-TH-TR J 0 40 Y Y 1 L N
 F0 "J" -200 350 50 H V L BNN
-F1 "digitalSystemBoard-rescue_USB-B-S-X-X-TH-TR-digitalSystemBoard" -200 -500 50 H V L BNN
+F1 "digitalSystemBoard_USB-B-S-X-X-TH-TR" -200 -500 50 H V L BNN
 F2 "SAMTEC_USB-B-S-X-X-TH-TR" 0 0 50 H I L BNN
 F3 "Samtec" 0 0 50 H I L BNN
 F4 "Manufacturer Recommendations" 0 0 50 H I L BNN

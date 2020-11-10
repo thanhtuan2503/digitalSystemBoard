@@ -18,9 +18,11 @@ D-
 Text Label 2866 1130 0    50   ~ 0
 D+
 $Comp
-L digitalSystemBoard-rescue:ICSP U18
+L digitalSystemBoard:ICSP U18
 U 1 1 5F97639D
 P 10042 3574
+AR Path="/5F97639D" Ref="U18"  Part="1" 
+AR Path="/5F94C37C/5F97639D" Ref="U18"  Part="1" 
 F 0 "U18" H 10570 3562 50  0000 L CNN
 F 1 "ICSP" H 10570 3471 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical_SMD" H 10292 3674 50  0001 C CNN
@@ -59,9 +61,11 @@ RST
 Text Label 10392 3824 3    50   ~ 0
 SCK
 $Comp
-L digitalSystemBoard-rescue:Potentiometer-digitalSystemBoard U17
+L digitalSystemBoard:Potentiometer U17
 U 1 1 5F9A7CE1
 P 830 7082
+AR Path="/5F9A7CE1" Ref="U17"  Part="1" 
+AR Path="/5F94C37C/5F9A7CE1" Ref="U17"  Part="1" 
 F 0 "U17" V 851 7210 50  0000 L CNN
 F 1 "Potentiometer-digitalSystemBoard" V 258 6102 50  0000 L CNN
 F 2 "digitalSystemBoard:RK09D117000B" H 830 7082 50  0001 C CNN
@@ -85,7 +89,7 @@ CLOCK_WHEEL
 Text Label 3628 6664 2    50   ~ 0
 UP_CLK
 $Comp
-L digitalSystemBoard-rescue:ButtonFirst-project SW?
+L digitalSystemBoard:ButtonFirst SW?
 U 1 1 5F9A548F
 P 3062 7238
 AR Path="/5F9A548F" Ref="SW?"  Part="1" 
@@ -149,7 +153,7 @@ Connection ~ 2676 7138
 Wire Wire Line
 	2812 7138 2676 7138
 $Comp
-L digitalSystemBoard-rescue:ButtonFirst-project SW?
+L digitalSystemBoard:ButtonFirst SW?
 U 1 1 5F964111
 P 4754 7238
 AR Path="/5F964111" Ref="SW?"  Part="1" 
@@ -380,7 +384,7 @@ CONTROL_CLOCK\n
 NoConn ~ 1842 1356
 NoConn ~ 1642 1356
 $Comp
-L digitalSystemBoard-rescue:SMF05C.TCT-project D?
+L digitalSystemBoard:SMF05C.TCT D?
 U 1 1 5F96412B
 P 1942 1456
 AR Path="/5F96412B" Ref="D?"  Part="1" 
@@ -582,7 +586,7 @@ Wire Wire Line
 Connection ~ 7206 1598
 Connection ~ 7400 1598
 $Comp
-L digitalSystemBoard-rescue:ButtonFirst-project SW?
+L digitalSystemBoard:ButtonFirst SW?
 U 1 1 5F964203
 P 7772 1698
 AR Path="/5F964203" Ref="SW?"  Part="1" 
@@ -725,7 +729,7 @@ Wire Wire Line
 	7040 1312 7048 1312
 Connection ~ 7048 1312
 $Comp
-L digitalSystemBoard-rescue:Resonator-project Y?
+L digitalSystemBoard:Resonator Y?
 U 1 1 5F964216
 P 6890 1312
 AR Path="/5F964216" Ref="Y?"  Part="1" 
@@ -1097,9 +1101,11 @@ F 3 "~" H 1102 3612 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L digitalSystemBoard-rescue:LP2985-3.3-project U19
+L digitalSystemBoard:LP2985-3.3 U19
 U 1 1 5F9193C2
 P 4138 1088
+AR Path="/5F9193C2" Ref="U19"  Part="1" 
+AR Path="/5F94C37C/5F9193C2" Ref="U19"  Part="1" 
 F 0 "U19" H 4138 1430 50  0000 C CNN
 F 1 "LP2985-3.3" H 4138 1339 50  0000 C CNN
 F 2 "digitalSystemBoard:LP2985" H 4138 1413 50  0001 C CNN
@@ -1332,7 +1338,7 @@ F 3 "~" H 2630 3412 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L digitalSystemBoard-rescue:LMV358IDGKR-digitalSystemBoard U4
+L digitalSystemBoard:LMV358IDGKR U4
 U 1 1 5F9D48CE
 P 1854 3354
 AR Path="/5F9D48CE" Ref="U4"  Part="1" 
@@ -1442,7 +1448,7 @@ Wire Wire Line
 Text Label 5428 6680 2    50   ~ 0
 DOWN_CLK
 $Comp
-L digitalSystemBoard-rescue:ButtonFirst-project SW?
+L digitalSystemBoard:ButtonFirst SW?
 U 1 1 5F9640EF
 P 6504 7218
 AR Path="/5F9640EF" Ref="SW?"  Part="1" 
@@ -1815,9 +1821,11 @@ F 3 "~" H 1252 1448 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L digitalSystemBoard-rescue:USB-B-S-X-X-TH-TR-digitalSystemBoard J12
+L digitalSystemBoard:USB-B-S-X-X-TH-TR J12
 U 1 1 5F99974B
 P 852 1128
+AR Path="/5F99974B" Ref="J12"  Part="1" 
+AR Path="/5F94C37C/5F99974B" Ref="J12"  Part="1" 
 F 0 "J12" H 745 561 50  0000 C CNN
 F 1 "USB_OTG" H 745 652 50  0000 C CNN
 F 2 "digitalSystemBoard:SAMTEC_USB-B-S-X-X-TH-TR" H 852 1128 50  0001 L BNN
