@@ -903,21 +903,10 @@ F 6 "Compliant" H 2500 4500 50  0001 L BNN "Field6"
 $EndComp
 Text HLabel 3250 4500 2    50   Input ~ 0
 KEY0
-Text HLabel 3860 6550 2    50   Input ~ 0
+Text HLabel 3230 6550 2    50   Input ~ 0
 KEY2
 Text HLabel 3860 5425 2    50   Input ~ 0
 KEY1
-$Comp
-L 74xx:74LS04 U14
-U 2 1 5FC70EB0
-P 3560 6550
-F 0 "U14" H 3560 6867 50  0000 C CNN
-F 1 "74LS04" H 3560 6776 50  0000 C CNN
-F 2 "" H 3560 6550 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 3560 6550 50  0001 C CNN
-	2    3560 6550
-	1    0    0    -1  
-$EndComp
 Text HLabel 5340 5125 0    50   Input ~ 0
 VCC5V
 $Comp
@@ -1002,35 +991,9 @@ Wire Wire Line
 Connection ~ 2760 6550
 Wire Wire Line
 	2760 6550 2760 6650
-Wire Wire Line
-	3010 6550 3260 6550
 Connection ~ 3010 6550
-Text HLabel 6180 6550 2    50   Input ~ 0
+Text HLabel 5520 6550 2    50   Input ~ 0
 KEY4
-Text HLabel 6190 5425 2    50   Input ~ 0
-KEY3
-$Comp
-L 74xx:74LS04 U14
-U 4 1 5FC7346F
-P 5880 6550
-F 0 "U14" H 5880 6867 50  0000 C CNN
-F 1 "74LS04" H 5880 6776 50  0000 C CNN
-F 2 "" H 5880 6550 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 5880 6550 50  0001 C CNN
-	4    5880 6550
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74LS04 U14
-U 3 1 5FC72106
-P 5890 5425
-F 0 "U14" H 5890 5742 50  0000 C CNN
-F 1 "74LS04" H 5890 5651 50  0000 C CNN
-F 2 "" H 5890 5425 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 5890 5425 50  0001 C CNN
-	3    5890 5425
-	1    0    0    -1  
-$EndComp
 $Comp
 L digitalSystemBoard:ButtonFirst KEY3
 U 1 1 5FC5D3C2
@@ -1063,8 +1026,6 @@ Wire Wire Line
 Connection ~ 5090 5425
 Wire Wire Line
 	5090 5425 5090 5525
-Wire Wire Line
-	5340 5425 5590 5425
 Connection ~ 5340 5425
 $Comp
 L digitalSystemBoard:ButtonFirst KEY4
@@ -1100,8 +1061,6 @@ Wire Wire Line
 Connection ~ 5080 6550
 Wire Wire Line
 	5080 6550 5080 6650
-Wire Wire Line
-	5330 6550 5580 6550
 Connection ~ 5330 6550
 Text HLabel 8320 5040 0    50   Input ~ 0
 ADJ_CLOCK
@@ -1302,4 +1261,10 @@ F 3 "" H 4580 6950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 4580 6950
+Wire Wire Line
+	3230 6550 3010 6550
+Wire Wire Line
+	5520 6550 5330 6550
+Text HLabel 5481 5422 2    50   Input ~ 0
+KEY3
 $EndSCHEMATC
