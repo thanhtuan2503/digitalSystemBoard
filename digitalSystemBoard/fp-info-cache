@@ -1,4 +1,4 @@
-18751897857528357
+18761537384198927
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -54963,6 +54963,13 @@ solder jumper open
 0
 5
 3
+KF301-2P
+HANDSON_KF301-2P
+
+
+0
+2
+2
 LED_SMD
 LED-APA102-2020
 http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf
@@ -56083,6 +56090,13 @@ Yellow 5381 Series LED
 0
 2
 2
+LM4041DIZ-1
+LP_O-PBCY-W3
+<b>LP (O-PBCY-W3)</b> TO-92/TO-226<p>0.8mm holes, Source: http://focus.ti.com/lit/ds/slcs146e/slcs146e.pdf
+
+0
+3
+3
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -70091,6 +70105,13 @@ to-92
 2
 2
 Package_TO_SOT_THT
+LP_O-PBCY-W3
+<b>LP (O-PBCY-W3)</b> TO-92/TO-226<p>0.8mm holes, Source: http://focus.ti.com/lit/ds/slcs146e/slcs146e.pdf
+
+0
+3
+3
+Package_TO_SOT_THT
 NEC_Molded_7x4x9mm
 Molded Japan Transistor Package 7x4x9mm^3, http://rtellason.com/transdata/2sb734.pdf
 Japan transistor
@@ -70776,6 +70797,13 @@ to-92 sc-43 sc-43a sot54 PA33 diode SOD70
 0
 2
 2
+Package_TO_SOT_THT
+TO-92-3
+<b>LP (O-PBCY-W3)</b> TO-92/TO-226<p>0.8mm holes, Source: http://focus.ti.com/lit/ds/slcs146e/slcs146e.pdf
+
+0
+3
+3
 Package_TO_SOT_THT
 TO-92Flat
 TO-92Flat package, often used for hall sensors, drill 0.75mm (see e.g. http://www.ti.com/lit/ds/symlink/drv5023.pdf)
@@ -75431,6 +75459,13 @@ rotary encoder
 0
 5
 4
+SMF05C
+SC70-6
+<b>6-Lead Thin Shrink Small Outline Transistor Package SC70</b><p>Source: http://www.analog.com/static/imported-files/data_sheets/ADA4853-1_4853-2_4853-3.pdf
+
+0
+6
+6
 Sensor
 Aosong_DHT11_5.5x12.0_P2.54mm
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/DHT11.pdf
@@ -82168,6 +82203,13 @@ RV09S
 digitalSystemBoard
 SAMTEC_USB-B-S-X-X-TH-TR
 
+
+0
+6
+6
+digitalSystemBoard
+SC70-6
+<b>6-Lead Thin Shrink Small Outline Transistor Package SC70</b><p>Source: http://www.analog.com/static/imported-files/data_sheets/ADA4853-1_4853-2_4853-3.pdf
 
 0
 6
