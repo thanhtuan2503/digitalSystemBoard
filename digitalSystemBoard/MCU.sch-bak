@@ -374,17 +374,6 @@ F 3 "" H 4020 6140 50  0001 C CNN
 $EndComp
 Wire Notes Line
 	6970 6540 4330 6540
-$Comp
-L digitalSystemBoard:ICSP U17
-U 1 1 5FBFCD5C
-P 5440 6950
-F 0 "U17" H 5968 6938 50  0000 L CNN
-F 1 "ICSP" H 5968 6847 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical_SMD" H 5690 7050 50  0001 C CNN
-F 3 "" H 5690 7050 50  0001 C CNN
-	1    5440 6950
-	1    0    0    -1  
-$EndComp
 Text HLabel 5040 7200 3    50   Input ~ 0
 VCC5V
 $Comp
@@ -963,4 +952,15 @@ Text HLabel 3470 5040 2    50   Input ~ 0
 7SEGLED_TEST_OFF
 Wire Wire Line
 	1550 1690 1550 1720
+$Comp
+L digitalSystemBoard:ICSP U17
+U 1 1 5FCA6AE9
+P 5440 6950
+F 0 "U17" H 5968 6938 50  0000 L CNN
+F 1 "ICSP" H 5968 6847 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical_SMD" H 5690 7050 50  0001 C CNN
+F 3 "" H 5690 7050 50  0001 C CNN
+	1    5440 6950
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
