@@ -1,4 +1,4 @@
-18761537384198927
+18772827244039488
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -48754,6 +48754,13 @@ THT ceramic resonator filter DSS6
 0
 3
 3
+DIP_16_pin_Socket
+TE_2-1571552-4
+
+
+0
+16
+16
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
@@ -82124,6 +82131,48 @@ Button_CLOCK
 4
 4
 digitalSystemBoard
+DC3_2x03_PIN
+
+
+0
+6
+6
+digitalSystemBoard
+DC3_2x04_PIN
+
+
+0
+8
+8
+digitalSystemBoard
+DC3_2x07_PIN
+
+
+0
+14
+14
+digitalSystemBoard
+DC3_2x08_PIN
+
+
+0
+16
+16
+digitalSystemBoard
+DIP_16_PIN_SOCKET
+
+
+0
+16
+16
+digitalSystemBoard
+FerriteBead
+
+
+0
+2
+2
+digitalSystemBoard
 Fuse
 
 
@@ -82139,6 +82188,13 @@ LED_3528
 2
 digitalSystemBoard
 LM317
+
+
+0
+3
+3
+digitalSystemBoard
+LM317AMDT
 
 
 0
@@ -82165,6 +82221,13 @@ MJD122T4G
 0
 3
 3
+digitalSystemBoard
+Mountinghole_M3
+
+
+0
+0
+0
 digitalSystemBoard
 POWER_VIA
 
@@ -82244,20 +82307,6 @@ SS-12D11
 3
 digitalSystemBoard
 SS-12F44G5
-
-
-0
-5
-5
-digitalSystemBoard
-TO228P991X255-3N
-
-
-0
-3
-3
-digitalSystemBoard
-TO229P990X238-4N
 
 
 0

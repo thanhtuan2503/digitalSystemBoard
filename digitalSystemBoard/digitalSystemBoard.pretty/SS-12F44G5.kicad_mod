@@ -1,5 +1,5 @@
-(module SS-12F44G5 (layer F.Cu) (tedit 5F959F98)
-  (fp_text reference REF** (at 0 -3.81) (layer F.SilkS)
+(module SS-12F44G5 (layer F.Cu) (tedit 5FCB664A)
+  (fp_text reference REF** (at 0 1.55) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_text value SS-12F44G5 (at 0 3.81) (layer F.Fab)
@@ -12,8 +12,8 @@
   (pad 2 thru_hole circle (at 0 0) (size 1.524 1.524) (drill 0.8) (layers *.Cu *.Mask))
   (pad 3 thru_hole circle (at 3 0) (size 1.524 1.524) (drill 0.8) (layers *.Cu *.Mask))
   (pad 1 thru_hole circle (at -3 0) (size 1.524 1.524) (drill 0.8) (layers *.Cu *.Mask))
-  (pad 4 thru_hole circle (at 6 0) (size 1.524 1.524) (drill oval 0.41 1.21) (layers *.Cu *.Mask))
-  (pad 5 thru_hole circle (at -6 0) (size 1.524 1.524) (drill oval 0.41 1.21) (layers *.Cu *.Mask))
+  (pad "" np_thru_hole circle (at 6 0) (size 1.524 1.524) (drill oval 0.41 1.21) (layers *.Cu *.Mask))
+  (pad "" np_thru_hole circle (at -6 0) (size 1.524 1.524) (drill oval 0.41 1.21) (layers *.Cu *.Mask))
   (model ${KIPRJMOD}/3dSymbol/OS102011MS2QN1--3DModel-STEP-1.STEP
     (offset (xyz 0 0 4.5))
     (scale (xyz 1.4 1 1))

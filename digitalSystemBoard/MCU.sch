@@ -134,7 +134,7 @@ U 1 1 5FBBE5A9
 P 1090 5110
 F 0 "FB4" V 930 5110 50  0000 C CNN
 F 1 "80Ohm" V 860 5110 50  0000 C CNN
-F 2 "footprints:FerriteBead" V 1020 5110 50  0001 C CNN
+F 2 "digitalSystemBoard:FerriteBead" V 1020 5110 50  0001 C CNN
 F 3 "~" H 1090 5110 50  0001 C CNN
 	1    1090 5110
 	0    -1   -1   0   
@@ -180,7 +180,7 @@ U 1 1 5FBC4AB8
 P 1090 5870
 F 0 "FB5" V 930 5870 50  0000 C CNN
 F 1 "80Ohm" V 860 5870 50  0000 C CNN
-F 2 "footprints:FerriteBead" V 1020 5870 50  0001 C CNN
+F 2 "digitalSystemBoard:FerriteBead" V 1020 5870 50  0001 C CNN
 F 3 "~" H 1090 5870 50  0001 C CNN
 	1    1090 5870
 	0    -1   -1   0   
@@ -226,7 +226,7 @@ U 1 1 5FBC83F4
 P 1950 3350
 F 0 "FB1" V 1790 3350 50  0000 C CNN
 F 1 "80Ohm" V 1720 3350 50  0000 C CNN
-F 2 "footprints:FerriteBead" V 1880 3350 50  0001 C CNN
+F 2 "digitalSystemBoard:FerriteBead" V 1880 3350 50  0001 C CNN
 F 3 "~" H 1950 3350 50  0001 C CNN
 	1    1950 3350
 	1    0    0    -1  
@@ -261,7 +261,7 @@ U 1 1 5FBC8F94
 P 2760 3350
 F 0 "FB2" V 2600 3350 50  0000 C CNN
 F 1 "80Ohm" V 2530 3350 50  0000 C CNN
-F 2 "footprints:FerriteBead" V 2690 3350 50  0001 C CNN
+F 2 "digitalSystemBoard:FerriteBead" V 2690 3350 50  0001 C CNN
 F 3 "~" H 2760 3350 50  0001 C CNN
 	1    2760 3350
 	1    0    0    -1  
@@ -296,7 +296,7 @@ U 1 1 5FBC9C60
 P 3550 3360
 F 0 "FB3" V 3390 3360 50  0000 C CNN
 F 1 "80Ohm" V 3320 3360 50  0000 C CNN
-F 2 "footprints:FerriteBead" V 3480 3360 50  0001 C CNN
+F 2 "digitalSystemBoard:FerriteBead" V 3480 3360 50  0001 C CNN
 F 3 "~" H 3550 3360 50  0001 C CNN
 	1    3550 3360
 	1    0    0    -1  
@@ -374,24 +374,24 @@ F 3 "" H 4020 6140 50  0001 C CNN
 $EndComp
 Wire Notes Line
 	6970 6540 4330 6540
-Text HLabel 5040 7200 3    50   Input ~ 0
+Text HLabel 5190 7200 3    50   Input ~ 0
 VCC5V
 $Comp
 L power:GND #PWR0115
 U 1 1 5FC0153F
-P 5190 7200
-F 0 "#PWR0115" H 5190 6950 50  0001 C CNN
-F 1 "GND" H 5195 7027 50  0000 C CNN
-F 2 "" H 5190 7200 50  0001 C CNN
-F 3 "" H 5190 7200 50  0001 C CNN
-	1    5190 7200
+P 5790 7200
+F 0 "#PWR0115" H 5790 6950 50  0001 C CNN
+F 1 "GND" H 5795 7027 50  0000 C CNN
+F 2 "" H 5790 7200 50  0001 C CNN
+F 3 "" H 5790 7200 50  0001 C CNN
+	1    5790 7200
 	1    0    0    -1  
 $EndComp
-Text Label 5340 7200 3    50   ~ 0
-MOSI
 Text Label 5490 7200 3    50   ~ 0
+MOSI
+Text Label 5040 7200 3    50   ~ 0
 MISO
-Text Label 5790 7200 3    50   ~ 0
+Text Label 5340 7200 3    50   ~ 0
 SCK
 Text Label 3470 4140 0    50   ~ 0
 SCK
@@ -465,7 +465,7 @@ U 1 1 5FB97CE1
 P 9290 3590
 F 0 "U20" H 9405 2730 50  0000 C CNN
 F 1 "74LS165" H 9525 2650 50  0000 C CNN
-F 2 "" H 9290 3590 50  0001 C CNN
+F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 9290 3590 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS165" H 9290 3590 50  0001 C CNN
 	1    9290 3590
 	1    0    0    -1  
@@ -476,7 +476,7 @@ U 1 1 5FB9891A
 P 9290 5500
 F 0 "U21" H 9180 5955 50  0000 C CNN
 F 1 "74HC164" H 9055 6025 50  0000 C CNN
-F 2 "" H 10190 5200 50  0001 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 10190 5200 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT164.pdf" H 10190 5200 50  0001 C CNN
 	1    9290 5500
 	-1   0    0    1   
@@ -487,7 +487,7 @@ U 1 1 5FB99424
 P 6290 5500
 F 0 "U19" H 6165 5950 50  0000 C CNN
 F 1 "74HC164" H 6055 6030 50  0000 C CNN
-F 2 "" H 7190 5200 50  0001 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 7190 5200 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT164.pdf" H 7190 5200 50  0001 C CNN
 	1    6290 5500
 	-1   0    0    1   
@@ -782,7 +782,7 @@ U 1 1 5FBE302A
 P 1550 1870
 F 0 "FB0" V 1340 1870 50  0000 C CNN
 F 1 "80Ohm" V 1420 1870 50  0000 C CNN
-F 2 "footprints:FerriteBead" V 1480 1870 50  0001 C CNN
+F 2 "digitalSystemBoard:FerriteBead" V 1480 1870 50  0001 C CNN
 F 3 "~" H 1550 1870 50  0001 C CNN
 	1    1550 1870
 	-1   0    0    1   
@@ -930,7 +930,7 @@ U 1 1 5FB96DF9
 P 6290 3590
 F 0 "U18" H 6380 2720 50  0000 C CNN
 F 1 "74LS165" H 6500 2645 50  0000 C CNN
-F 2 "" H 6290 3590 50  0001 C CNN
+F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 6290 3590 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS165" H 6290 3590 50  0001 C CNN
 	1    6290 3590
 	1    0    0    -1  
