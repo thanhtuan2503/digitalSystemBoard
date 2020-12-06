@@ -19,7 +19,7 @@ U 1 1 5FC86773
 P 2200 2100
 F 0 "J3" H 2250 2417 50  0000 C CNN
 F 1 "Conn_02x04_Odd_Even" H 2250 2326 50  0000 C CNN
-F 2 "digitalSystemBoard:DC3_2x04_PIN" H 2200 2100 50  0001 C CNN
+F 2 "Connector_IDC:IDC-Header_2x04_P2.54mm_Vertical" H 2200 2100 50  0001 C CNN
 F 3 "~" H 2200 2100 50  0001 C CNN
 	1    2200 2100
 	1    0    0    -1  
@@ -30,20 +30,9 @@ U 1 1 5FC88FC0
 P 4000 2100
 F 0 "J4" H 4050 2417 50  0000 C CNN
 F 1 "Conn_02x04_Odd_Even" H 4050 2326 50  0000 C CNN
-F 2 "digitalSystemBoard:DC3_2x04_PIN" H 4000 2100 50  0001 C CNN
+F 2 "Connector_IDC:IDC-Header_2x04_P2.54mm_Vertical" H 4000 2100 50  0001 C CNN
 F 3 "~" H 4000 2100 50  0001 C CNN
 	1    4000 2100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_02x08_Odd_Even J8
-U 1 1 5FC8D8A2
-P 2200 6300
-F 0 "J8" H 2250 6817 50  0000 C CNN
-F 1 "Conn_02x08_Odd_Even" H 2250 6726 50  0000 C CNN
-F 2 "digitalSystemBoard:DC3_2x08_PIN" H 2200 6300 50  0001 C CNN
-F 3 "~" H 2200 6300 50  0001 C CNN
-	1    2200 6300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -52,7 +41,7 @@ U 1 1 5FC907A2
 P 9710 2100
 F 0 "J10" H 9760 2417 50  0000 C CNN
 F 1 "Conn_02x03_Odd_Even" H 9760 2326 50  0000 C CNN
-F 2 "digitalSystemBoard:DC3_2x03_PIN" H 9710 2100 50  0001 C CNN
+F 2 "Connector_IDC:IDC-Header_2x03_P2.54mm_Vertical" H 9710 2100 50  0001 C CNN
 F 3 "~" H 9710 2100 50  0001 C CNN
 	1    9710 2100
 	1    0    0    -1  
@@ -63,7 +52,7 @@ U 1 1 5FC928BF
 P 2200 3900
 F 0 "J6" H 2250 4417 50  0000 C CNN
 F 1 "Conn_02x07_Odd_Even" H 2250 4326 50  0000 C CNN
-F 2 "digitalSystemBoard:DC3_2x07_PIN" H 2200 3900 50  0001 C CNN
+F 2 "Connector_IDC:IDC-Header_2x07_P2.54mm_Vertical" H 2200 3900 50  0001 C CNN
 F 3 "~" H 2200 3900 50  0001 C CNN
 	1    2200 3900
 	1    0    0    -1  
@@ -74,7 +63,7 @@ U 1 1 5FC93EAD
 P 4000 3900
 F 0 "J7" H 4050 4417 50  0000 C CNN
 F 1 "Conn_02x07_Odd_Even" H 4050 4326 50  0000 C CNN
-F 2 "digitalSystemBoard:DC3_2x07_PIN" H 4000 3900 50  0001 C CNN
+F 2 "Connector_IDC:IDC-Header_2x07_P2.54mm_Vertical" H 4000 3900 50  0001 C CNN
 F 3 "~" H 4000 3900 50  0001 C CNN
 	1    4000 3900
 	1    0    0    -1  
@@ -133,7 +122,7 @@ U 1 1 5FC8A515
 P 6100 2300
 F 0 "J5" H 6150 2817 50  0000 C CNN
 F 1 "Conn_02x08_Odd_Even" H 6150 2726 50  0000 C CNN
-F 2 "digitalSystemBoard:DC3_2x08_PIN" H 6100 2300 50  0001 C CNN
+F 2 "Connector_IDC:IDC-Header_2x08_P2.54mm_Vertical" H 6100 2300 50  0001 C CNN
 F 3 "~" H 6100 2300 50  0001 C CNN
 	1    6100 2300
 	1    0    0    -1  
@@ -210,38 +199,6 @@ Text HLabel 3800 4100 0    50   Input ~ 0
 SEG_F_1
 Text HLabel 3800 4200 0    50   Input ~ 0
 SEG_G_1
-Text HLabel 2000 6000 0    50   Input ~ 0
-SW1
-Text HLabel 2000 6100 0    50   Input ~ 0
-SW2
-Text HLabel 2000 6200 0    50   Input ~ 0
-SW3
-Text HLabel 2000 6300 0    50   Input ~ 0
-SW4
-Text HLabel 2000 6400 0    50   Input ~ 0
-SW5
-Text HLabel 2000 6500 0    50   Input ~ 0
-SW6
-Text HLabel 2000 6600 0    50   Input ~ 0
-SW7
-Text HLabel 2000 6700 0    50   Input ~ 0
-SW8
-Text HLabel 2500 6000 2    50   Input ~ 0
-SW1
-Text HLabel 2500 6100 2    50   Input ~ 0
-SW2
-Text HLabel 2500 6200 2    50   Input ~ 0
-SW3
-Text HLabel 2500 6300 2    50   Input ~ 0
-SW4
-Text HLabel 2500 6400 2    50   Input ~ 0
-SW5
-Text HLabel 2500 6500 2    50   Input ~ 0
-SW6
-Text HLabel 2500 6600 2    50   Input ~ 0
-SW7
-Text HLabel 2500 6700 2    50   Input ~ 0
-SW8
 Text HLabel 3700 6000 0    50   Input ~ 0
 KEY0
 Text HLabel 3700 6100 0    50   Input ~ 0
@@ -268,7 +225,7 @@ U 1 1 5FD1AE53
 P 6930 4850
 F 0 "J11" H 6980 5167 50  0000 C CNN
 F 1 "Conn_02x03_Odd_Even" H 6980 5076 50  0000 C CNN
-F 2 "digitalSystemBoard:DC3_2x03_PIN" H 6930 4850 50  0001 C CNN
+F 2 "Connector_IDC:IDC-Header_2x03_P2.54mm_Vertical" H 6930 4850 50  0001 C CNN
 F 3 "~" H 6930 4850 50  0001 C CNN
 	1    6930 4850
 	1    0    0    -1  
@@ -279,7 +236,7 @@ U 1 1 5FD1B6CA
 P 6930 5850
 F 0 "J12" H 6980 6167 50  0000 C CNN
 F 1 "Conn_02x03_Odd_Even" H 6980 6076 50  0000 C CNN
-F 2 "digitalSystemBoard:DC3_2x03_PIN" H 6930 5850 50  0001 C CNN
+F 2 "Connector_IDC:IDC-Header_2x03_P2.54mm_Vertical" H 6930 5850 50  0001 C CNN
 F 3 "~" H 6930 5850 50  0001 C CNN
 	1    6930 5850
 	1    0    0    -1  
@@ -367,13 +324,13 @@ NoConn ~ 4200 6200
 $Comp
 L Connector_Generic:Conn_02x03_Odd_Even J9
 U 1 1 5FCBF79B
-P 3900 6100
-F 0 "J9" H 3950 6417 50  0000 C CNN
-F 1 "Conn_02x03_Odd_Even" H 3950 6326 50  0000 C CNN
-F 2 "digitalSystemBoard:DC3_2x03_PIN" H 3900 6100 50  0001 C CNN
-F 3 "~" H 3900 6100 50  0001 C CNN
-	1    3900 6100
-	1    0    0    -1  
+P 4000 6100
+F 0 "J9" H 4050 6417 50  0000 C CNN
+F 1 "Conn_02x03_Odd_Even" H 4050 6326 50  0000 C CNN
+F 2 "Connector_IDC:IDC-Header_2x03_P2.54mm_Vertical" H 4000 6100 50  0001 C CNN
+F 3 "~" H 4000 6100 50  0001 C CNN
+	1    4000 6100
+	-1   0    0    1   
 $EndComp
 $Comp
 L Mechanical:MountingHole H1
@@ -419,4 +376,47 @@ F 3 "~" H 9000 5000 50  0001 C CNN
 	1    9000 5000
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector_Generic:Conn_02x08_Odd_Even J8
+U 1 1 5FC8D8A2
+P 2300 6400
+F 0 "J8" H 2350 6917 50  0000 C CNN
+F 1 "Conn_02x08_Odd_Even" H 2350 6826 50  0000 C CNN
+F 2 "Connector_IDC:IDC-Header_2x08_P2.54mm_Vertical" H 2300 6400 50  0001 C CNN
+F 3 "~" H 2300 6400 50  0001 C CNN
+	1    2300 6400
+	-1   0    0    1   
+$EndComp
+Text HLabel 2500 6700 2    50   Input ~ 0
+SW8
+Text HLabel 2500 6600 2    50   Input ~ 0
+SW7
+Text HLabel 2500 6500 2    50   Input ~ 0
+SW6
+Text HLabel 2500 6400 2    50   Input ~ 0
+SW5
+Text HLabel 2500 6300 2    50   Input ~ 0
+SW4
+Text HLabel 2500 6200 2    50   Input ~ 0
+SW3
+Text HLabel 2500 6100 2    50   Input ~ 0
+SW2
+Text HLabel 2500 6000 2    50   Input ~ 0
+SW1
+Text HLabel 2000 6700 0    50   Input ~ 0
+SW8
+Text HLabel 2000 6600 0    50   Input ~ 0
+SW7
+Text HLabel 2000 6500 0    50   Input ~ 0
+SW6
+Text HLabel 2000 6400 0    50   Input ~ 0
+SW5
+Text HLabel 2000 6300 0    50   Input ~ 0
+SW4
+Text HLabel 2000 6200 0    50   Input ~ 0
+SW3
+Text HLabel 2000 6100 0    50   Input ~ 0
+SW2
+Text HLabel 2000 6000 0    50   Input ~ 0
+SW1
 $EndSCHEMATC
