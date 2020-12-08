@@ -152,8 +152,6 @@ Text HLabel 4300 2100 2    50   Input ~ 0
 GPIO_BCD_B_1
 Text HLabel 4300 2200 2    50   Input ~ 0
 GPIO_BCD_C_1
-Text HLabel 4300 2300 2    50   Input ~ 0
-GPIO_BCD_D_1
 Text HLabel 2500 3600 2    50   Input ~ 0
 SEG_A_0
 Text HLabel 2500 3700 2    50   Input ~ 0
@@ -244,11 +242,11 @@ Text HLabel 2500 6700 2    50   Input ~ 0
 SW8
 Text HLabel 3700 6000 0    50   Input ~ 0
 KEY0
-Text HLabel 3700 6100 0    50   Input ~ 0
+Text HLabel 3700 6200 0    50   Input ~ 0
 KEY1
 Text HLabel 4200 6000 2    50   Input ~ 0
 KEY0
-Text HLabel 4200 6100 2    50   Input ~ 0
+Text HLabel 4200 6200 2    50   Input ~ 0
 KEY1
 Text HLabel 9510 2000 0    50   Input ~ 0
 CLK_OUT
@@ -362,8 +360,6 @@ F 3 "" H 7230 5750 50  0001 C CNN
 	1    7230 5750
 	0    -1   -1   0   
 $EndComp
-NoConn ~ 3700 6200
-NoConn ~ 4200 6200
 $Comp
 L Connector_Generic:Conn_02x03_Odd_Even J9
 U 1 1 5FCBF79B
@@ -419,4 +415,8 @@ F 3 "~" H 9000 5000 50  0001 C CNN
 	1    9000 5000
 	1    0    0    -1  
 $EndComp
+Text HLabel 4300 2300 2    50   Input ~ 0
+GPIO_BCD_D_1
+NoConn ~ 4200 6100
+NoConn ~ 3700 6100
 $EndSCHEMATC

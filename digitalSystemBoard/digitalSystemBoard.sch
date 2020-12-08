@@ -26,9 +26,9 @@ LED7
 Text Label 8000 1990 2    50   ~ 0
 LED6
 Text Label 8000 1790 2    50   ~ 0
-LED5
-Text Label 8000 1590 2    50   ~ 0
 LED4
+Text Label 8000 1590 2    50   ~ 0
+LED5
 Text Label 8000 1390 2    50   ~ 0
 LED3
 Text Label 8000 1190 2    50   ~ 0
