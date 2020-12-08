@@ -16,24 +16,35 @@ $EndDescr
 $Comp
 L Connector_Generic:Conn_02x04_Odd_Even J3
 U 1 1 5FC86773
-P 2300 2200
-F 0 "J3" H 2350 2517 50  0000 C CNN
-F 1 "Conn_02x04_Odd_Even" H 2350 2426 50  0000 C CNN
-F 2 "Connector_IDC:IDC-Header_2x04_P2.54mm_Vertical" H 2300 2200 50  0001 C CNN
-F 3 "~" H 2300 2200 50  0001 C CNN
-	1    2300 2200
-	-1   0    0    1   
+P 2200 2100
+F 0 "J3" H 2250 2417 50  0000 C CNN
+F 1 "Conn_02x04_Odd_Even" H 2250 2326 50  0000 C CNN
+F 2 "Connector_IDC:IDC-Header_2x04_P2.54mm_Vertical" H 2200 2100 50  0001 C CNN
+F 3 "~" H 2200 2100 50  0001 C CNN
+	1    2200 2100
+	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_02x04_Odd_Even J4
 U 1 1 5FC88FC0
-P 4100 2200
-F 0 "J4" H 4150 2517 50  0000 C CNN
-F 1 "Conn_02x04_Odd_Even" H 4150 2426 50  0000 C CNN
-F 2 "Connector_IDC:IDC-Header_2x04_P2.54mm_Vertical" H 4100 2200 50  0001 C CNN
-F 3 "~" H 4100 2200 50  0001 C CNN
-	1    4100 2200
-	-1   0    0    1   
+P 4000 2100
+F 0 "J4" H 4050 2417 50  0000 C CNN
+F 1 "Conn_02x04_Odd_Even" H 4050 2326 50  0000 C CNN
+F 2 "Connector_IDC:IDC-Header_2x04_P2.54mm_Vertical" H 4000 2100 50  0001 C CNN
+F 3 "~" H 4000 2100 50  0001 C CNN
+	1    4000 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x08_Odd_Even J8
+U 1 1 5FC8D8A2
+P 2200 6300
+F 0 "J8" H 2250 6817 50  0000 C CNN
+F 1 "Conn_02x08_Odd_Even" H 2250 6726 50  0000 C CNN
+F 2 "Connector_IDC:IDC-Header_2x08_P2.54mm_Vertical" H 2200 6300 50  0001 C CNN
+F 3 "~" H 2200 6300 50  0001 C CNN
+	1    2200 6300
+	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_02x03_Odd_Even J10
@@ -141,8 +152,6 @@ Text HLabel 4300 2100 2    50   Input ~ 0
 GPIO_BCD_B_1
 Text HLabel 4300 2200 2    50   Input ~ 0
 GPIO_BCD_C_1
-Text HLabel 4300 2300 2    50   Input ~ 0
-GPIO_BCD_D_1
 Text HLabel 2500 3600 2    50   Input ~ 0
 SEG_A_0
 Text HLabel 2500 3700 2    50   Input ~ 0
@@ -199,13 +208,45 @@ Text HLabel 3800 4100 0    50   Input ~ 0
 SEG_F_1
 Text HLabel 3800 4200 0    50   Input ~ 0
 SEG_G_1
+Text HLabel 2000 6000 0    50   Input ~ 0
+SW1
+Text HLabel 2000 6100 0    50   Input ~ 0
+SW2
+Text HLabel 2000 6200 0    50   Input ~ 0
+SW3
+Text HLabel 2000 6300 0    50   Input ~ 0
+SW4
+Text HLabel 2000 6400 0    50   Input ~ 0
+SW5
+Text HLabel 2000 6500 0    50   Input ~ 0
+SW6
+Text HLabel 2000 6600 0    50   Input ~ 0
+SW7
+Text HLabel 2000 6700 0    50   Input ~ 0
+SW8
+Text HLabel 2500 6000 2    50   Input ~ 0
+SW1
+Text HLabel 2500 6100 2    50   Input ~ 0
+SW2
+Text HLabel 2500 6200 2    50   Input ~ 0
+SW3
+Text HLabel 2500 6300 2    50   Input ~ 0
+SW4
+Text HLabel 2500 6400 2    50   Input ~ 0
+SW5
+Text HLabel 2500 6500 2    50   Input ~ 0
+SW6
+Text HLabel 2500 6600 2    50   Input ~ 0
+SW7
+Text HLabel 2500 6700 2    50   Input ~ 0
+SW8
 Text HLabel 3700 6000 0    50   Input ~ 0
 KEY0
-Text HLabel 3700 6100 0    50   Input ~ 0
+Text HLabel 3700 6200 0    50   Input ~ 0
 KEY1
 Text HLabel 4200 6000 2    50   Input ~ 0
 KEY0
-Text HLabel 4200 6100 2    50   Input ~ 0
+Text HLabel 4200 6200 2    50   Input ~ 0
 KEY1
 Text HLabel 9510 2000 0    50   Input ~ 0
 CLK_OUT
@@ -319,18 +360,16 @@ F 3 "" H 7230 5750 50  0001 C CNN
 	1    7230 5750
 	0    -1   -1   0   
 $EndComp
-NoConn ~ 3700 6200
-NoConn ~ 4200 6200
 $Comp
 L Connector_Generic:Conn_02x03_Odd_Even J9
 U 1 1 5FCBF79B
-P 4000 6100
-F 0 "J9" H 4050 6417 50  0000 C CNN
-F 1 "Conn_02x03_Odd_Even" H 4050 6326 50  0000 C CNN
-F 2 "Connector_IDC:IDC-Header_2x03_P2.54mm_Vertical" H 4000 6100 50  0001 C CNN
-F 3 "~" H 4000 6100 50  0001 C CNN
-	1    4000 6100
-	-1   0    0    1   
+P 3900 6100
+F 0 "J9" H 3950 6417 50  0000 C CNN
+F 1 "Conn_02x03_Odd_Even" H 3950 6326 50  0000 C CNN
+F 2 "Connector_IDC:IDC-Header_2x03_P2.54mm_Vertical" H 3900 6100 50  0001 C CNN
+F 3 "~" H 3900 6100 50  0001 C CNN
+	1    3900 6100
+	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H1
@@ -376,47 +415,8 @@ F 3 "~" H 9000 5000 50  0001 C CNN
 	1    9000 5000
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector_Generic:Conn_02x08_Odd_Even J8
-U 1 1 5FC8D8A2
-P 2300 6400
-F 0 "J8" H 2350 6917 50  0000 C CNN
-F 1 "Conn_02x08_Odd_Even" H 2350 6826 50  0000 C CNN
-F 2 "Connector_IDC:IDC-Header_2x08_P2.54mm_Vertical" H 2300 6400 50  0001 C CNN
-F 3 "~" H 2300 6400 50  0001 C CNN
-	1    2300 6400
-	-1   0    0    1   
-$EndComp
-Text HLabel 2500 6700 2    50   Input ~ 0
-SW8
-Text HLabel 2500 6600 2    50   Input ~ 0
-SW7
-Text HLabel 2500 6500 2    50   Input ~ 0
-SW6
-Text HLabel 2500 6400 2    50   Input ~ 0
-SW5
-Text HLabel 2500 6300 2    50   Input ~ 0
-SW4
-Text HLabel 2500 6200 2    50   Input ~ 0
-SW3
-Text HLabel 2500 6100 2    50   Input ~ 0
-SW2
-Text HLabel 2500 6000 2    50   Input ~ 0
-SW1
-Text HLabel 2000 6700 0    50   Input ~ 0
-SW8
-Text HLabel 2000 6600 0    50   Input ~ 0
-SW7
-Text HLabel 2000 6500 0    50   Input ~ 0
-SW6
-Text HLabel 2000 6400 0    50   Input ~ 0
-SW5
-Text HLabel 2000 6300 0    50   Input ~ 0
-SW4
-Text HLabel 2000 6200 0    50   Input ~ 0
-SW3
-Text HLabel 2000 6100 0    50   Input ~ 0
-SW2
-Text HLabel 2000 6000 0    50   Input ~ 0
-SW1
+Text HLabel 4300 2300 2    50   Input ~ 0
+GPIO_BCD_D_1
+NoConn ~ 4200 6100
+NoConn ~ 3700 6100
 $EndSCHEMATC

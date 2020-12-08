@@ -26,9 +26,9 @@ LED7
 Text Label 8000 1990 2    50   ~ 0
 LED6
 Text Label 8000 1790 2    50   ~ 0
-LED5
-Text Label 8000 1590 2    50   ~ 0
 LED4
+Text Label 8000 1590 2    50   ~ 0
+LED5
 Text Label 8000 1390 2    50   ~ 0
 LED3
 Text Label 8000 1190 2    50   ~ 0
@@ -303,7 +303,7 @@ L Device:R R3
 U 1 1 5FB7DD09
 P 980 1970
 F 0 "R3" H 1050 2016 50  0000 L CNN
-F 1 "220" H 1050 1925 50  0000 L CNN
+F 1 "330" H 1050 1925 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 910 1970 50  0001 C CNN
 F 3 "~" H 980 1970 50  0001 C CNN
 	1    980  1970

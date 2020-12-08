@@ -869,8 +869,6 @@ F 3 "" H 1550 1390 50  0001 C CNN
 $EndComp
 NoConn ~ 2350 1700
 NoConn ~ 2750 1700
-Wire Wire Line
-	1550 1490 2950 1490
 $Comp
 L Device:R R58
 U 1 1 5FBF11A6
@@ -882,18 +880,6 @@ F 3 "~" H 3150 1490 50  0001 C CNN
 	1    3150 1490
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	3000 1590 2550 1590
-Wire Wire Line
-	2550 1700 2550 1590
-Connection ~ 2550 1590
-Wire Wire Line
-	2550 1590 1550 1590
-Wire Wire Line
-	2950 1700 2950 1490
-Connection ~ 2950 1490
-Wire Wire Line
-	2950 1490 3000 1490
 Wire Notes Line
 	4330 470  4330 7790
 Text Label 5460 920  1    50   ~ 0
@@ -963,4 +949,18 @@ F 3 "" H 5690 7050 50  0001 C CNN
 	1    5440 6950
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	1550 1590 2950 1590
+Wire Wire Line
+	1550 1490 2550 1490
+Wire Wire Line
+	2550 1700 2550 1490
+Connection ~ 2550 1490
+Wire Wire Line
+	2550 1490 3000 1490
+Wire Wire Line
+	2950 1700 2950 1590
+Connection ~ 2950 1590
+Wire Wire Line
+	2950 1590 3000 1590
 $EndSCHEMATC
