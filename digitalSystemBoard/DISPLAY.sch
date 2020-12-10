@@ -53,17 +53,17 @@ $EndComp
 $Comp
 L 74xx:74LS47 U4
 U 1 1 5FC6DBEE
-P 6630 5270
-F 0 "U4" H 6710 5740 50  0000 C CNN
-F 1 "74LS47" H 6630 5280 50  0000 C CNN
-F 2 "digitalSystemBoard:DIP_16_PIN_SOCKET" H 6630 5270 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS47" H 6630 5270 50  0001 C CNN
-	1    6630 5270
+P 5910 5310
+F 0 "U4" H 5990 5780 50  0000 C CNN
+F 1 "74LS47" H 5910 5320 50  0000 C CNN
+F 2 "digitalSystemBoard:DIP_16_PIN_SOCKET" H 5910 5310 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS47" H 5910 5310 50  0001 C CNN
+	1    5910 5310
 	1    0    0    -1  
 $EndComp
-Text HLabel 6130 5670 0    50   Input ~ 0
+Text HLabel 5410 5710 0    50   Input ~ 0
 VCC5V
-Text HLabel 6630 4670 0    50   Input ~ 0
+Text HLabel 5910 4710 0    50   Input ~ 0
 VCC5V
 Text HLabel 8350 5670 0    50   Input ~ 0
 VCC5V
@@ -72,12 +72,12 @@ VCC5V
 $Comp
 L power:GND #PWR0139
 U 1 1 5FB6F161
-P 6630 5970
-F 0 "#PWR0139" H 6630 5720 50  0001 C CNN
-F 1 "GND" H 6635 5797 50  0000 C CNN
-F 2 "" H 6630 5970 50  0001 C CNN
-F 3 "" H 6630 5970 50  0001 C CNN
-	1    6630 5970
+P 5910 6010
+F 0 "#PWR0139" H 5910 5760 50  0001 C CNN
+F 1 "GND" H 5915 5837 50  0000 C CNN
+F 2 "" H 5910 6010 50  0001 C CNN
+F 3 "" H 5910 6010 50  0001 C CNN
+	1    5910 6010
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -91,41 +91,41 @@ F 3 "" H 8850 5970 50  0001 C CNN
 	1    8850 5970
 	1    0    0    -1  
 $EndComp
-Text HLabel 7130 4970 2    50   Input ~ 0
+Text HLabel 6950 5010 2    50   Input ~ 0
 SEG_A_0
-Text HLabel 7130 5070 2    50   Input ~ 0
+Text HLabel 6950 5110 2    50   Input ~ 0
 SEG_B_0
-Text HLabel 7130 5170 2    50   Input ~ 0
+Text HLabel 6950 5210 2    50   Input ~ 0
 SEG_C_0
-Text HLabel 7130 5270 2    50   Input ~ 0
+Text HLabel 6950 5310 2    50   Input ~ 0
 SEG_D_0
-Text HLabel 7130 5370 2    50   Input ~ 0
+Text HLabel 6950 5410 2    50   Input ~ 0
 SEG_E_0
-Text HLabel 7130 5470 2    50   Input ~ 0
+Text HLabel 6950 5510 2    50   Input ~ 0
 SEG_F_0
-Text HLabel 7130 5570 2    50   Input ~ 0
+Text HLabel 6950 5610 2    50   Input ~ 0
 SEG_G_0
-Text HLabel 9350 4970 2    50   Input ~ 0
+Text HLabel 9800 4970 2    50   Input ~ 0
 SEG_A_1
-Text HLabel 9350 5070 2    50   Input ~ 0
+Text HLabel 9800 5070 2    50   Input ~ 0
 SEG_B_1
-Text HLabel 9350 5170 2    50   Input ~ 0
+Text HLabel 9800 5170 2    50   Input ~ 0
 SEG_C_1
-Text HLabel 9350 5270 2    50   Input ~ 0
+Text HLabel 9800 5270 2    50   Input ~ 0
 SEG_D_1
-Text HLabel 9350 5370 2    50   Input ~ 0
+Text HLabel 9800 5370 2    50   Input ~ 0
 SEG_E_1
-Text HLabel 9350 5470 2    50   Input ~ 0
+Text HLabel 9800 5470 2    50   Input ~ 0
 SEG_F_1
-Text HLabel 9350 5570 2    50   Input ~ 0
+Text HLabel 9800 5570 2    50   Input ~ 0
 SEG_G_1
-Text HLabel 6130 4970 0    50   Input ~ 0
+Text HLabel 5410 5010 0    50   Input ~ 0
 BCD_A_0
-Text HLabel 6130 5070 0    50   Input ~ 0
+Text HLabel 5410 5110 0    50   Input ~ 0
 BCD_B_0
-Text HLabel 6130 5170 0    50   Input ~ 0
+Text HLabel 5410 5210 0    50   Input ~ 0
 BCD_C_0
-Text HLabel 6130 5270 0    50   Input ~ 0
+Text HLabel 5410 5310 0    50   Input ~ 0
 BCD_D_0
 Text HLabel 8350 4970 0    50   Input ~ 0
 BCD_A_1
@@ -171,91 +171,91 @@ $EndComp
 $Comp
 L Display_Character:KCSA02-105 U2
 U 1 1 5FC4AFE7
-P 3170 5340
-F 0 "U2" H 3170 6007 50  0000 C CNN
-F 1 "KCSA02-105" H 3170 5916 50  0000 C CNN
-F 2 "Display_7Segment:7SegmentLED_LTS6760_LTS6780" H 3170 4740 50  0001 C CNN
-F 3 "http://www.kingbright.com/attachments/file/psearch/000/00/00/KCSA02-105(Ver.10A).pdf" H 2670 5815 50  0001 L CNN
-	1    3170 5340
+P 2100 5390
+F 0 "U2" H 2100 6057 50  0000 C CNN
+F 1 "KCSA02-105" H 2100 5966 50  0000 C CNN
+F 2 "Display_7Segment:7SegmentLED_LTS6760_LTS6780" H 2100 4790 50  0001 C CNN
+F 3 "http://www.kingbright.com/attachments/file/psearch/000/00/00/KCSA02-105(Ver.10A).pdf" H 1600 5865 50  0001 L CNN
+	1    2100 5390
 	1    0    0    -1  
 $EndComp
-Text HLabel 2870 5040 0    50   Input ~ 0
+Text HLabel 1800 5090 0    50   Input ~ 0
 SEG_A_0
-Text HLabel 2870 5140 0    50   Input ~ 0
+Text HLabel 1800 5190 0    50   Input ~ 0
 SEG_B_0
-Text HLabel 2870 5240 0    50   Input ~ 0
+Text HLabel 1800 5290 0    50   Input ~ 0
 SEG_C_0
-Text HLabel 2870 5340 0    50   Input ~ 0
+Text HLabel 1800 5390 0    50   Input ~ 0
 SEG_D_0
-Text HLabel 2870 5440 0    50   Input ~ 0
+Text HLabel 1800 5490 0    50   Input ~ 0
 SEG_E_0
-Text HLabel 2870 5540 0    50   Input ~ 0
+Text HLabel 1800 5590 0    50   Input ~ 0
 SEG_F_0
-Text HLabel 2870 5640 0    50   Input ~ 0
+Text HLabel 1800 5690 0    50   Input ~ 0
 SEG_G_0
-NoConn ~ 2870 5740
+NoConn ~ 1800 5790
 $Comp
 L power:GND #PWR0101
 U 1 1 5FCA686C
-P 3530 5740
-F 0 "#PWR0101" H 3530 5490 50  0001 C CNN
-F 1 "GND" H 3535 5567 50  0000 C CNN
-F 2 "" H 3530 5740 50  0001 C CNN
-F 3 "" H 3530 5740 50  0001 C CNN
-	1    3530 5740
+P 2460 5790
+F 0 "#PWR0101" H 2460 5540 50  0001 C CNN
+F 1 "GND" H 2465 5617 50  0000 C CNN
+F 2 "" H 2460 5790 50  0001 C CNN
+F 3 "" H 2460 5790 50  0001 C CNN
+	1    2460 5790
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3470 5740 3530 5740
+	2400 5790 2460 5790
 Wire Wire Line
-	3470 5640 3530 5640
+	2400 5690 2460 5690
 Wire Wire Line
-	3530 5640 3530 5740
-Connection ~ 3530 5740
+	2460 5690 2460 5790
+Connection ~ 2460 5790
 $Comp
 L Display_Character:KCSA02-105 U3
 U 1 1 5FCBD1F5
-P 4820 5320
-F 0 "U3" H 4820 5987 50  0000 C CNN
-F 1 "KCSA02-105" H 4820 5896 50  0000 C CNN
-F 2 "Display_7Segment:7SegmentLED_LTS6760_LTS6780" H 4820 4720 50  0001 C CNN
-F 3 "http://www.kingbright.com/attachments/file/psearch/000/00/00/KCSA02-105(Ver.10A).pdf" H 4320 5795 50  0001 L CNN
-	1    4820 5320
+P 3750 5370
+F 0 "U3" H 3750 6037 50  0000 C CNN
+F 1 "KCSA02-105" H 3750 5946 50  0000 C CNN
+F 2 "Display_7Segment:7SegmentLED_LTS6760_LTS6780" H 3750 4770 50  0001 C CNN
+F 3 "http://www.kingbright.com/attachments/file/psearch/000/00/00/KCSA02-105(Ver.10A).pdf" H 3250 5845 50  0001 L CNN
+	1    3750 5370
 	1    0    0    -1  
 $EndComp
-Text HLabel 4520 5020 0    50   Input ~ 0
+Text HLabel 3450 5070 0    50   Input ~ 0
 SEG_A_1
-Text HLabel 4520 5120 0    50   Input ~ 0
+Text HLabel 3450 5170 0    50   Input ~ 0
 SEG_B_1
-Text HLabel 4520 5220 0    50   Input ~ 0
+Text HLabel 3450 5270 0    50   Input ~ 0
 SEG_C_1
-Text HLabel 4520 5320 0    50   Input ~ 0
+Text HLabel 3450 5370 0    50   Input ~ 0
 SEG_D_1
-Text HLabel 4520 5420 0    50   Input ~ 0
+Text HLabel 3450 5470 0    50   Input ~ 0
 SEG_E_1
-Text HLabel 4520 5520 0    50   Input ~ 0
+Text HLabel 3450 5570 0    50   Input ~ 0
 SEG_F_1
-Text HLabel 4520 5620 0    50   Input ~ 0
+Text HLabel 3450 5670 0    50   Input ~ 0
 SEG_G_1
-NoConn ~ 4520 5720
+NoConn ~ 3450 5770
 $Comp
 L power:GND #PWR0102
 U 1 1 5FCBD203
-P 5180 5720
-F 0 "#PWR0102" H 5180 5470 50  0001 C CNN
-F 1 "GND" H 5185 5547 50  0000 C CNN
-F 2 "" H 5180 5720 50  0001 C CNN
-F 3 "" H 5180 5720 50  0001 C CNN
-	1    5180 5720
+P 4110 5770
+F 0 "#PWR0102" H 4110 5520 50  0001 C CNN
+F 1 "GND" H 4115 5597 50  0000 C CNN
+F 2 "" H 4110 5770 50  0001 C CNN
+F 3 "" H 4110 5770 50  0001 C CNN
+	1    4110 5770
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5120 5720 5180 5720
+	4050 5770 4110 5770
 Wire Wire Line
-	5120 5620 5180 5620
+	4050 5670 4110 5670
 Wire Wire Line
-	5180 5620 5180 5720
-Connection ~ 5180 5720
+	4110 5670 4110 5770
+Connection ~ 4110 5770
 $Comp
 L Transistor_BJT:BC847 Q2
 U 1 1 5FBB4CCB
@@ -853,12 +853,222 @@ Wire Wire Line
 Wire Wire Line
 	7460 3650 7460 3500
 Connection ~ 7460 3650
-Text HLabel 6130 5470 0    50   Input ~ 0
+Text HLabel 5410 5510 0    50   Input ~ 0
 7SEGLED_TEST_ON
-Text HLabel 6130 5570 0    50   Input ~ 0
+Text HLabel 5410 5610 0    50   Input ~ 0
 7SEGLED_TEST_OFF
 Text HLabel 8350 5470 0    50   Input ~ 0
 7SEGLED_TEST_ON
 Text HLabel 8350 5570 0    50   Input ~ 0
 7SEGLED_TEST_OFF
+$Comp
+L Device:R R63
+U 1 1 5FD1F1BB
+P 6610 5010
+F 0 "R63" V 6650 5210 50  0000 C CNN
+F 1 "330" V 6610 5010 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6540 5010 50  0001 C CNN
+F 3 "~" H 6610 5010 50  0001 C CNN
+	1    6610 5010
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R64
+U 1 1 5FD2017C
+P 6610 5110
+F 0 "R64" V 6660 5300 50  0000 C CNN
+F 1 "330" V 6610 5110 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6540 5110 50  0001 C CNN
+F 3 "~" H 6610 5110 50  0001 C CNN
+	1    6610 5110
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R65
+U 1 1 5FD208E5
+P 6610 5210
+F 0 "R65" V 6650 5400 50  0000 C CNN
+F 1 "330" V 6610 5210 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6540 5210 50  0001 C CNN
+F 3 "~" H 6610 5210 50  0001 C CNN
+	1    6610 5210
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R66
+U 1 1 5FD21E32
+P 6610 5310
+F 0 "R66" V 6660 5500 50  0000 C CNN
+F 1 "330" V 6610 5310 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6540 5310 50  0001 C CNN
+F 3 "~" H 6610 5310 50  0001 C CNN
+	1    6610 5310
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R67
+U 1 1 5FD21E3C
+P 6610 5410
+F 0 "R67" V 6660 5600 50  0000 C CNN
+F 1 "330" V 6610 5410 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6540 5410 50  0001 C CNN
+F 3 "~" H 6610 5410 50  0001 C CNN
+	1    6610 5410
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R68
+U 1 1 5FD21E46
+P 6610 5510
+F 0 "R68" V 6670 5700 50  0000 C CNN
+F 1 "330" V 6610 5510 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6540 5510 50  0001 C CNN
+F 3 "~" H 6610 5510 50  0001 C CNN
+	1    6610 5510
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R69
+U 1 1 5FD23AAB
+P 6610 5610
+F 0 "R69" V 6670 5800 50  0000 C CNN
+F 1 "330" V 6610 5610 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6540 5610 50  0001 C CNN
+F 3 "~" H 6610 5610 50  0001 C CNN
+	1    6610 5610
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6460 5010 6410 5010
+Wire Wire Line
+	6410 5110 6460 5110
+Wire Wire Line
+	6460 5210 6410 5210
+Wire Wire Line
+	6460 5310 6410 5310
+Wire Wire Line
+	6410 5410 6460 5410
+Wire Wire Line
+	6460 5510 6410 5510
+Wire Wire Line
+	6460 5610 6410 5610
+$Comp
+L Device:R R70
+U 1 1 5FD3A8A0
+P 9540 4970
+F 0 "R70" V 9600 5160 50  0000 C CNN
+F 1 "330" V 9540 4970 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 9470 4970 50  0001 C CNN
+F 3 "~" H 9540 4970 50  0001 C CNN
+	1    9540 4970
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R71
+U 1 1 5FD3A8AA
+P 9540 5070
+F 0 "R71" V 9600 5260 50  0000 C CNN
+F 1 "330" V 9540 5070 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 9470 5070 50  0001 C CNN
+F 3 "~" H 9540 5070 50  0001 C CNN
+	1    9540 5070
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R72
+U 1 1 5FD3A8B4
+P 9540 5170
+F 0 "R72" V 9590 5360 50  0000 C CNN
+F 1 "330" V 9540 5170 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 9470 5170 50  0001 C CNN
+F 3 "~" H 9540 5170 50  0001 C CNN
+	1    9540 5170
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R73
+U 1 1 5FD3A8BE
+P 9540 5270
+F 0 "R73" V 9600 5460 50  0000 C CNN
+F 1 "330" V 9540 5270 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 9470 5270 50  0001 C CNN
+F 3 "~" H 9540 5270 50  0001 C CNN
+	1    9540 5270
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R74
+U 1 1 5FD3A8C8
+P 9540 5370
+F 0 "R74" V 9590 5560 50  0000 C CNN
+F 1 "330" V 9540 5370 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 9470 5370 50  0001 C CNN
+F 3 "~" H 9540 5370 50  0001 C CNN
+	1    9540 5370
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R75
+U 1 1 5FD3A8D2
+P 9540 5470
+F 0 "R75" V 9590 5660 50  0000 C CNN
+F 1 "330" V 9540 5470 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 9470 5470 50  0001 C CNN
+F 3 "~" H 9540 5470 50  0001 C CNN
+	1    9540 5470
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R76
+U 1 1 5FD3A8DC
+P 9540 5570
+F 0 "R76" V 9590 5760 50  0000 C CNN
+F 1 "330" V 9540 5570 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 9470 5570 50  0001 C CNN
+F 3 "~" H 9540 5570 50  0001 C CNN
+	1    9540 5570
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9350 4970 9390 4970
+Wire Wire Line
+	9350 5070 9390 5070
+Wire Wire Line
+	9350 5170 9390 5170
+Wire Wire Line
+	9350 5270 9390 5270
+Wire Wire Line
+	9350 5370 9390 5370
+Wire Wire Line
+	9350 5470 9390 5470
+Wire Wire Line
+	9350 5570 9390 5570
+Wire Wire Line
+	9690 5570 9800 5570
+Wire Wire Line
+	9690 5470 9800 5470
+Wire Wire Line
+	9690 5370 9800 5370
+Wire Wire Line
+	9690 5270 9800 5270
+Wire Wire Line
+	9690 5170 9800 5170
+Wire Wire Line
+	9690 5070 9800 5070
+Wire Wire Line
+	9690 4970 9800 4970
+Wire Wire Line
+	6760 5610 6950 5610
+Wire Wire Line
+	6760 5510 6950 5510
+Wire Wire Line
+	6760 5410 6950 5410
+Wire Wire Line
+	6760 5310 6950 5310
+Wire Wire Line
+	6760 5210 6950 5210
+Wire Wire Line
+	6760 5110 6950 5110
+Wire Wire Line
+	6760 5010 6950 5010
 $EndSCHEMATC

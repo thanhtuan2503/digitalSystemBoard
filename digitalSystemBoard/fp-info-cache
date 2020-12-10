@@ -1,4 +1,4 @@
-18760272671754785
+18772849421174614
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -6341,6 +6341,13 @@ three-pin M8
 0
 5
 4
+Connector_Amphenol
+POWER_VIAS
+
+
+0
+5
+5
 Connector_Audio
 Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal
 3.5 mm, Stereo, Right Angle, Surface Mount (SMT), Audio Jack Connector (https://www.cui.com/product/resource/sj-352x-smt-series.pdf)
@@ -48747,6 +48754,13 @@ THT ceramic resonator filter DSS6
 0
 3
 3
+DIP_16_pin_Socket
+TE_2-1571552-4
+
+
+0
+16
+16
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
@@ -54956,6 +54970,13 @@ solder jumper open
 0
 5
 3
+KF301-2P
+HANDSON_KF301-2P
+
+
+0
+2
+2
 LED_SMD
 LED-APA102-2020
 http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf
@@ -56076,6 +56097,13 @@ Yellow 5381 Series LED
 0
 2
 2
+LM4041DIZ-1
+LP_O-PBCY-W3
+<b>LP (O-PBCY-W3)</b> TO-92/TO-226<p>0.8mm holes, Source: http://focus.ti.com/lit/ds/slcs146e/slcs146e.pdf
+
+0
+3
+3
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -70084,6 +70112,13 @@ to-92
 2
 2
 Package_TO_SOT_THT
+LP_O-PBCY-W3
+<b>LP (O-PBCY-W3)</b> TO-92/TO-226<p>0.8mm holes, Source: http://focus.ti.com/lit/ds/slcs146e/slcs146e.pdf
+
+0
+3
+3
+Package_TO_SOT_THT
 NEC_Molded_7x4x9mm
 Molded Japan Transistor Package 7x4x9mm^3, http://rtellason.com/transdata/2sb734.pdf
 Japan transistor
@@ -70769,6 +70804,13 @@ to-92 sc-43 sc-43a sot54 PA33 diode SOD70
 0
 2
 2
+Package_TO_SOT_THT
+TO-92-3
+<b>LP (O-PBCY-W3)</b> TO-92/TO-226<p>0.8mm holes, Source: http://focus.ti.com/lit/ds/slcs146e/slcs146e.pdf
+
+0
+3
+3
 Package_TO_SOT_THT
 TO-92Flat
 TO-92Flat package, often used for hall sensors, drill 0.75mm (see e.g. http://www.ti.com/lit/ds/symlink/drv5023.pdf)
@@ -75424,6 +75466,13 @@ rotary encoder
 0
 5
 4
+SMF05C
+SC70-6
+<b>6-Lead Thin Shrink Small Outline Transistor Package SC70</b><p>Source: http://www.analog.com/static/imported-files/data_sheets/ADA4853-1_4853-2_4853-3.pdf
+
+0
+6
+6
 Sensor
 Aosong_DHT11_5.5x12.0_P2.54mm
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/DHT11.pdf
@@ -76831,6 +76880,13 @@ Logo WEEE
 0
 0
 0
+TCRT5000
+OPTO_TCRT5000
+
+
+0
+4
+4
 TerminalBlock
 TerminalBlock_Altech_AK300-2_P5.00mm
 Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf

@@ -397,7 +397,6 @@ Wire Wire Line
 	980  1780 980  1820
 Wire Wire Line
 	2000 1570 2040 1570
-NoConn ~ 2440 1470
 Wire Wire Line
 	3910 1970 3910 2050
 Wire Wire Line
@@ -466,13 +465,11 @@ Wire Wire Line
 	3210 1820 3210 1670
 Connection ~ 3210 1670
 Wire Wire Line
-	2440 1670 3210 1670
-Wire Wire Line
 	6180 1470 6180 1130
 Wire Wire Line
 	6180 1130 3210 1130
 Wire Wire Line
-	3210 1130 3210 1670
+	3210 1130 3210 1470
 Text Label 8000 4480 2    50   ~ 0
 SW1
 Text Label 8000 4680 2    50   ~ 0
@@ -697,4 +694,10 @@ F41 "KEY1" I R 6300 6700 50
 F42 "CLK_OUT" I L 4710 4000 50 
 F43 "VCC5V" I L 4710 3800 50 
 $EndSheet
+Wire Wire Line
+	2440 1470 3210 1470
+Connection ~ 3210 1470
+Wire Wire Line
+	3210 1470 3210 1670
+NoConn ~ 2440 1670
 $EndSCHEMATC
