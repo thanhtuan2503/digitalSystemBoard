@@ -471,18 +471,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS165" H 9290 3590 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74HC164 U21
-U 1 1 5FB9891A
-P 9290 5500
-F 0 "U21" H 9180 5955 50  0000 C CNN
-F 1 "74HC164" H 9055 6025 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 10190 5200 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT164.pdf" H 10190 5200 50  0001 C CNN
-	1    9290 5500
-	-1   0    0    1   
-$EndComp
-$Comp
-L 74xx:74HC164 U19
+L digitalSystemBoard:74HC164 U19
 U 1 1 5FB99424
 P 6290 5500
 F 0 "U19" H 6165 5950 50  0000 C CNN
@@ -925,6 +914,8 @@ $Comp
 L MCU_Microchip_ATmega:ATmega32U4-AU U16
 U 1 1 5FBA4BA5
 P 2870 5540
+AR Path="/5FBA4BA5" Ref="U16"  Part="1" 
+AR Path="/5FBA4597/5FBA4BA5" Ref="U16"  Part="1" 
 F 0 "U16" H 2870 5540 50  0000 C CNN
 F 1 "ATmega32U4-AU" H 2770 5460 50  0000 C CNN
 F 2 "Package_QFP:TQFP-44_10x10mm_P0.8mm" H 2870 5540 50  0001 C CIN
@@ -963,4 +954,15 @@ Wire Wire Line
 Connection ~ 2950 1590
 Wire Wire Line
 	2950 1590 3000 1590
+$Comp
+L digitalSystemBoard:74HC164 U21
+U 1 1 5FB9891A
+P 9290 5500
+F 0 "U21" H 9180 5955 50  0000 C CNN
+F 1 "74HC164" H 9055 6025 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 10190 5200 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT164.pdf" H 10190 5200 50  0001 C CNN
+	1    9290 5500
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC

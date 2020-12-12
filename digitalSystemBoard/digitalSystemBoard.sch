@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:digitalSystemBoard-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -344,7 +343,7 @@ F 3 "~" H 2240 1570 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Barrel_Jack J1
+L Connector:Barrel_Jack_Switch J1
 U 1 1 5FB7408F
 P 1700 1670
 F 0 "J1" H 1757 1995 50  0000 C CNN
@@ -701,4 +700,7 @@ Connection ~ 3210 1470
 Wire Wire Line
 	3210 1470 3210 1670
 NoConn ~ 2440 1670
+Wire Wire Line
+	2000 1670 2000 1770
+Connection ~ 2000 1770
 $EndSCHEMATC

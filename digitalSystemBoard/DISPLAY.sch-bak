@@ -91,33 +91,33 @@ F 3 "" H 8850 5970 50  0001 C CNN
 	1    8850 5970
 	1    0    0    -1  
 $EndComp
-Text HLabel 6950 5010 2    50   Input ~ 0
+Text HLabel 6460 5010 2    50   Input ~ 0
 SEG_A_0
-Text HLabel 6950 5110 2    50   Input ~ 0
+Text HLabel 6460 5110 2    50   Input ~ 0
 SEG_B_0
-Text HLabel 6950 5210 2    50   Input ~ 0
+Text HLabel 6460 5210 2    50   Input ~ 0
 SEG_C_0
-Text HLabel 6950 5310 2    50   Input ~ 0
+Text HLabel 6460 5310 2    50   Input ~ 0
 SEG_D_0
-Text HLabel 6950 5410 2    50   Input ~ 0
+Text HLabel 6460 5410 2    50   Input ~ 0
 SEG_E_0
-Text HLabel 6950 5510 2    50   Input ~ 0
+Text HLabel 6460 5510 2    50   Input ~ 0
 SEG_F_0
-Text HLabel 6950 5610 2    50   Input ~ 0
+Text HLabel 6460 5610 2    50   Input ~ 0
 SEG_G_0
-Text HLabel 9800 4970 2    50   Input ~ 0
+Text HLabel 9390 4970 2    50   Input ~ 0
 SEG_A_1
-Text HLabel 9800 5070 2    50   Input ~ 0
+Text HLabel 9390 5070 2    50   Input ~ 0
 SEG_B_1
-Text HLabel 9800 5170 2    50   Input ~ 0
+Text HLabel 9390 5170 2    50   Input ~ 0
 SEG_C_1
-Text HLabel 9800 5270 2    50   Input ~ 0
+Text HLabel 9390 5270 2    50   Input ~ 0
 SEG_D_1
-Text HLabel 9800 5370 2    50   Input ~ 0
+Text HLabel 9390 5370 2    50   Input ~ 0
 SEG_E_1
-Text HLabel 9800 5470 2    50   Input ~ 0
+Text HLabel 9390 5470 2    50   Input ~ 0
 SEG_F_1
-Text HLabel 9800 5570 2    50   Input ~ 0
+Text HLabel 9390 5570 2    50   Input ~ 0
 SEG_G_1
 Text HLabel 5410 5010 0    50   Input ~ 0
 BCD_A_0
@@ -179,19 +179,19 @@ F 3 "http://www.kingbright.com/attachments/file/psearch/000/00/00/KCSA02-105(Ver
 	1    2100 5390
 	1    0    0    -1  
 $EndComp
-Text HLabel 1800 5090 0    50   Input ~ 0
+Text HLabel 1310 5090 0    50   Input ~ 0
 SEG_A_0
-Text HLabel 1800 5190 0    50   Input ~ 0
+Text HLabel 1310 5190 0    50   Input ~ 0
 SEG_B_0
-Text HLabel 1800 5290 0    50   Input ~ 0
+Text HLabel 1310 5290 0    50   Input ~ 0
 SEG_C_0
-Text HLabel 1800 5390 0    50   Input ~ 0
+Text HLabel 1310 5390 0    50   Input ~ 0
 SEG_D_0
-Text HLabel 1800 5490 0    50   Input ~ 0
+Text HLabel 1310 5490 0    50   Input ~ 0
 SEG_E_0
-Text HLabel 1800 5590 0    50   Input ~ 0
+Text HLabel 1310 5590 0    50   Input ~ 0
 SEG_F_0
-Text HLabel 1800 5690 0    50   Input ~ 0
+Text HLabel 1310 5690 0    50   Input ~ 0
 SEG_G_0
 NoConn ~ 1800 5790
 $Comp
@@ -223,19 +223,19 @@ F 3 "http://www.kingbright.com/attachments/file/psearch/000/00/00/KCSA02-105(Ver
 	1    3750 5370
 	1    0    0    -1  
 $EndComp
-Text HLabel 3450 5070 0    50   Input ~ 0
+Text HLabel 3040 5070 0    50   Input ~ 0
 SEG_A_1
-Text HLabel 3450 5170 0    50   Input ~ 0
+Text HLabel 3040 5170 0    50   Input ~ 0
 SEG_B_1
-Text HLabel 3450 5270 0    50   Input ~ 0
+Text HLabel 3040 5270 0    50   Input ~ 0
 SEG_C_1
-Text HLabel 3450 5370 0    50   Input ~ 0
+Text HLabel 3040 5370 0    50   Input ~ 0
 SEG_D_1
-Text HLabel 3450 5470 0    50   Input ~ 0
+Text HLabel 3040 5470 0    50   Input ~ 0
 SEG_E_1
-Text HLabel 3450 5570 0    50   Input ~ 0
+Text HLabel 3040 5570 0    50   Input ~ 0
 SEG_F_1
-Text HLabel 3450 5670 0    50   Input ~ 0
+Text HLabel 3040 5670 0    50   Input ~ 0
 SEG_G_1
 NoConn ~ 3450 5770
 $Comp
@@ -861,83 +861,6 @@ Text HLabel 8350 5470 0    50   Input ~ 0
 7SEGLED_TEST_ON
 Text HLabel 8350 5570 0    50   Input ~ 0
 7SEGLED_TEST_OFF
-$Comp
-L Device:R R63
-U 1 1 5FD1F1BB
-P 6610 5010
-F 0 "R63" V 6650 5210 50  0000 C CNN
-F 1 "330" V 6610 5010 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 6540 5010 50  0001 C CNN
-F 3 "~" H 6610 5010 50  0001 C CNN
-	1    6610 5010
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R64
-U 1 1 5FD2017C
-P 6610 5110
-F 0 "R64" V 6660 5300 50  0000 C CNN
-F 1 "330" V 6610 5110 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 6540 5110 50  0001 C CNN
-F 3 "~" H 6610 5110 50  0001 C CNN
-	1    6610 5110
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R65
-U 1 1 5FD208E5
-P 6610 5210
-F 0 "R65" V 6650 5400 50  0000 C CNN
-F 1 "330" V 6610 5210 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 6540 5210 50  0001 C CNN
-F 3 "~" H 6610 5210 50  0001 C CNN
-	1    6610 5210
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R66
-U 1 1 5FD21E32
-P 6610 5310
-F 0 "R66" V 6660 5500 50  0000 C CNN
-F 1 "330" V 6610 5310 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 6540 5310 50  0001 C CNN
-F 3 "~" H 6610 5310 50  0001 C CNN
-	1    6610 5310
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R67
-U 1 1 5FD21E3C
-P 6610 5410
-F 0 "R67" V 6660 5600 50  0000 C CNN
-F 1 "330" V 6610 5410 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 6540 5410 50  0001 C CNN
-F 3 "~" H 6610 5410 50  0001 C CNN
-	1    6610 5410
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R68
-U 1 1 5FD21E46
-P 6610 5510
-F 0 "R68" V 6670 5700 50  0000 C CNN
-F 1 "330" V 6610 5510 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 6540 5510 50  0001 C CNN
-F 3 "~" H 6610 5510 50  0001 C CNN
-	1    6610 5510
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R69
-U 1 1 5FD23AAB
-P 6610 5610
-F 0 "R69" V 6670 5800 50  0000 C CNN
-F 1 "330" V 6610 5610 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 6540 5610 50  0001 C CNN
-F 3 "~" H 6610 5610 50  0001 C CNN
-	1    6610 5610
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	6460 5010 6410 5010
 Wire Wire Line
@@ -955,78 +878,78 @@ Wire Wire Line
 $Comp
 L Device:R R70
 U 1 1 5FD3A8A0
-P 9540 4970
-F 0 "R70" V 9600 5160 50  0000 C CNN
-F 1 "330" V 9540 4970 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 9470 4970 50  0001 C CNN
-F 3 "~" H 9540 4970 50  0001 C CNN
-	1    9540 4970
+P 3190 5070
+F 0 "R70" V 3250 5260 50  0000 C CNN
+F 1 "330" V 3190 5070 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3120 5070 50  0001 C CNN
+F 3 "~" H 3190 5070 50  0001 C CNN
+	1    3190 5070
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R71
 U 1 1 5FD3A8AA
-P 9540 5070
-F 0 "R71" V 9600 5260 50  0000 C CNN
-F 1 "330" V 9540 5070 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 9470 5070 50  0001 C CNN
-F 3 "~" H 9540 5070 50  0001 C CNN
-	1    9540 5070
+P 3190 5170
+F 0 "R71" V 3250 5360 50  0000 C CNN
+F 1 "330" V 3190 5170 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3120 5170 50  0001 C CNN
+F 3 "~" H 3190 5170 50  0001 C CNN
+	1    3190 5170
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R72
 U 1 1 5FD3A8B4
-P 9540 5170
-F 0 "R72" V 9590 5360 50  0000 C CNN
-F 1 "330" V 9540 5170 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 9470 5170 50  0001 C CNN
-F 3 "~" H 9540 5170 50  0001 C CNN
-	1    9540 5170
+P 3190 5270
+F 0 "R72" V 3240 5460 50  0000 C CNN
+F 1 "330" V 3190 5270 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3120 5270 50  0001 C CNN
+F 3 "~" H 3190 5270 50  0001 C CNN
+	1    3190 5270
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R73
 U 1 1 5FD3A8BE
-P 9540 5270
-F 0 "R73" V 9600 5460 50  0000 C CNN
-F 1 "330" V 9540 5270 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 9470 5270 50  0001 C CNN
-F 3 "~" H 9540 5270 50  0001 C CNN
-	1    9540 5270
+P 3190 5370
+F 0 "R73" V 3250 5560 50  0000 C CNN
+F 1 "330" V 3190 5370 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3120 5370 50  0001 C CNN
+F 3 "~" H 3190 5370 50  0001 C CNN
+	1    3190 5370
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R74
 U 1 1 5FD3A8C8
-P 9540 5370
-F 0 "R74" V 9590 5560 50  0000 C CNN
-F 1 "330" V 9540 5370 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 9470 5370 50  0001 C CNN
-F 3 "~" H 9540 5370 50  0001 C CNN
-	1    9540 5370
+P 3190 5470
+F 0 "R74" V 3240 5660 50  0000 C CNN
+F 1 "330" V 3190 5470 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3120 5470 50  0001 C CNN
+F 3 "~" H 3190 5470 50  0001 C CNN
+	1    3190 5470
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R75
 U 1 1 5FD3A8D2
-P 9540 5470
-F 0 "R75" V 9590 5660 50  0000 C CNN
-F 1 "330" V 9540 5470 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 9470 5470 50  0001 C CNN
-F 3 "~" H 9540 5470 50  0001 C CNN
-	1    9540 5470
+P 3190 5570
+F 0 "R75" V 3240 5760 50  0000 C CNN
+F 1 "330" V 3190 5570 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3120 5570 50  0001 C CNN
+F 3 "~" H 3190 5570 50  0001 C CNN
+	1    3190 5570
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R76
 U 1 1 5FD3A8DC
-P 9540 5570
-F 0 "R76" V 9590 5760 50  0000 C CNN
-F 1 "330" V 9540 5570 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 9470 5570 50  0001 C CNN
-F 3 "~" H 9540 5570 50  0001 C CNN
-	1    9540 5570
+P 3190 5670
+F 0 "R76" V 3240 5860 50  0000 C CNN
+F 1 "330" V 3190 5670 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3120 5670 50  0001 C CNN
+F 3 "~" H 3190 5670 50  0001 C CNN
+	1    3190 5670
 	0    1    1    0   
 $EndComp
 Wire Wire Line
@@ -1044,31 +967,108 @@ Wire Wire Line
 Wire Wire Line
 	9350 5570 9390 5570
 Wire Wire Line
-	9690 5570 9800 5570
+	3340 5670 3450 5670
 Wire Wire Line
-	9690 5470 9800 5470
+	3340 5570 3450 5570
 Wire Wire Line
-	9690 5370 9800 5370
+	3340 5470 3450 5470
 Wire Wire Line
-	9690 5270 9800 5270
+	3340 5370 3450 5370
 Wire Wire Line
-	9690 5170 9800 5170
+	3340 5270 3450 5270
 Wire Wire Line
-	9690 5070 9800 5070
+	3340 5170 3450 5170
 Wire Wire Line
-	9690 4970 9800 4970
+	3340 5070 3450 5070
 Wire Wire Line
-	6760 5610 6950 5610
+	1610 5090 1800 5090
 Wire Wire Line
-	6760 5510 6950 5510
+	1610 5190 1800 5190
 Wire Wire Line
-	6760 5410 6950 5410
+	1610 5290 1800 5290
 Wire Wire Line
-	6760 5310 6950 5310
+	1610 5390 1800 5390
 Wire Wire Line
-	6760 5210 6950 5210
+	1610 5490 1800 5490
 Wire Wire Line
-	6760 5110 6950 5110
+	1610 5590 1800 5590
 Wire Wire Line
-	6760 5010 6950 5010
+	1610 5690 1800 5690
+$Comp
+L Device:R R69
+U 1 1 5FD23AAB
+P 1460 5690
+F 0 "R69" V 1520 5880 50  0000 C CNN
+F 1 "330" V 1460 5690 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 1390 5690 50  0001 C CNN
+F 3 "~" H 1460 5690 50  0001 C CNN
+	1    1460 5690
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R68
+U 1 1 5FD21E46
+P 1460 5590
+F 0 "R68" V 1520 5780 50  0000 C CNN
+F 1 "330" V 1460 5590 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 1390 5590 50  0001 C CNN
+F 3 "~" H 1460 5590 50  0001 C CNN
+	1    1460 5590
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R67
+U 1 1 5FD21E3C
+P 1460 5490
+F 0 "R67" V 1510 5680 50  0000 C CNN
+F 1 "330" V 1460 5490 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 1390 5490 50  0001 C CNN
+F 3 "~" H 1460 5490 50  0001 C CNN
+	1    1460 5490
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R66
+U 1 1 5FD21E32
+P 1460 5390
+F 0 "R66" V 1510 5580 50  0000 C CNN
+F 1 "330" V 1460 5390 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 1390 5390 50  0001 C CNN
+F 3 "~" H 1460 5390 50  0001 C CNN
+	1    1460 5390
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R65
+U 1 1 5FD208E5
+P 1460 5290
+F 0 "R65" V 1500 5480 50  0000 C CNN
+F 1 "330" V 1460 5290 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 1390 5290 50  0001 C CNN
+F 3 "~" H 1460 5290 50  0001 C CNN
+	1    1460 5290
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R64
+U 1 1 5FD2017C
+P 1460 5190
+F 0 "R64" V 1510 5380 50  0000 C CNN
+F 1 "330" V 1460 5190 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 1390 5190 50  0001 C CNN
+F 3 "~" H 1460 5190 50  0001 C CNN
+	1    1460 5190
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R63
+U 1 1 5FD1F1BB
+P 1460 5090
+F 0 "R63" V 1500 5290 50  0000 C CNN
+F 1 "330" V 1460 5090 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 1390 5090 50  0001 C CNN
+F 3 "~" H 1460 5090 50  0001 C CNN
+	1    1460 5090
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC

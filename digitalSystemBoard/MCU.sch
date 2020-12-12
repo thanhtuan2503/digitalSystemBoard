@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:digitalSystemBoard-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -915,6 +914,8 @@ $Comp
 L MCU_Microchip_ATmega:ATmega32U4-AU U16
 U 1 1 5FBA4BA5
 P 2870 5540
+AR Path="/5FBA4BA5" Ref="U16"  Part="1" 
+AR Path="/5FBA4597/5FBA4BA5" Ref="U16"  Part="1" 
 F 0 "U16" H 2870 5540 50  0000 C CNN
 F 1 "ATmega32U4-AU" H 2770 5460 50  0000 C CNN
 F 2 "Package_QFP:TQFP-44_10x10mm_P0.8mm" H 2870 5540 50  0001 C CIN
