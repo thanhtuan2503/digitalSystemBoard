@@ -7888,6 +7888,10 @@
     )
   )
 
+  (gr_line (start 230 160) (end 50 160) (layer Edge.Cuts) (width 0.05) (tstamp 5FD47BE9))
+  (gr_line (start 230 30) (end 230 160) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 50 30) (end 230 30) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 50 160) (end 50 30) (layer Edge.Cuts) (width 0.05))
   (gr_text 0 (at 125.566 153.162) (layer F.SilkS) (tstamp 5FD17C96)
     (effects (font (size 1.2 1.5) (thickness 0.2)))
   )
@@ -8315,10 +8319,6 @@
   (gr_text SW7 (at 80 158.8) (layer F.SilkS)
     (effects (font (size 1.2 1.5) (thickness 0.2)))
   )
-  (gr_line (start 50 160) (end 50 30) (layer F.SilkS) (width 0.25) (tstamp 5FCBA191))
-  (gr_line (start 50 160) (end 230 160) (layer F.SilkS) (width 0.25))
-  (gr_line (start 230 30) (end 230 160) (layer F.SilkS) (width 0.25))
-  (gr_line (start 50 30) (end 230 30) (layer F.SilkS) (width 0.25))
 
   (via (at 100.5 81) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 1))
   (via (at 100.5 85) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 1))
