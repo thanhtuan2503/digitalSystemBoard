@@ -180,8 +180,6 @@ Text HLabel 2000 4100 0    50   Input ~ 0
 SEG_F_0
 Text HLabel 2000 4200 0    50   Input ~ 0
 SEG_G_0
-Text HLabel 4300 3600 2    50   Input ~ 0
-SEG_A_1
 Text HLabel 4300 3700 2    50   Input ~ 0
 SEG_B_1
 Text HLabel 4300 3800 2    50   Input ~ 0
@@ -419,4 +417,6 @@ Text HLabel 4300 2300 2    50   Input ~ 0
 GPIO_BCD_D_1
 NoConn ~ 4200 6100
 NoConn ~ 3700 6100
+Text HLabel 4300 3600 2    50   Input ~ 0
+SEG_A_1
 $EndSCHEMATC
