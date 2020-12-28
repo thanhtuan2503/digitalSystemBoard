@@ -288,17 +288,6 @@ F 3 "~" H 6180 2110 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R1
-U 1 1 5FB7DFDC
-P 4490 2050
-F 0 "R1" H 4560 2096 50  0000 L CNN
-F 1 "220" H 4560 2005 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 4420 2050 50  0001 C CNN
-F 3 "~" H 4490 2050 50  0001 C CNN
-	1    4490 2050
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R R3
 U 1 1 5FB7DD09
 P 980 1970
@@ -398,7 +387,7 @@ Wire Wire Line
 Wire Wire Line
 	2000 1570 2040 1570
 Wire Wire Line
-	3910 1970 3910 2050
+	3910 1970 3910 2000
 Wire Wire Line
 	3210 2120 3210 2690
 Wire Wire Line
@@ -407,22 +396,11 @@ Wire Wire Line
 	3910 2690 3910 2600
 Connection ~ 3210 2690
 Wire Wire Line
-	4490 2200 4490 2350
-Wire Wire Line
-	4490 2350 4260 2350
-Wire Wire Line
-	4310 1670 4490 1670
-Wire Wire Line
 	6180 1870 6180 1960
 Wire Wire Line
 	6180 2260 6180 2290
 Wire Wire Line
 	6180 2620 6180 2680
-Wire Wire Line
-	4490 1900 4490 1670
-Connection ~ 4490 1670
-Wire Wire Line
-	4490 1670 4900 1670
 Wire Wire Line
 	4900 1900 4900 1670
 Connection ~ 4900 1670
@@ -703,4 +681,32 @@ NoConn ~ 2440 1670
 Wire Wire Line
 	2000 1670 2000 1770
 Connection ~ 2000 1770
+$Comp
+L Device:R R1
+U 1 1 5FB7DFDC
+P 4470 1850
+F 0 "R1" H 4540 1896 50  0000 L CNN
+F 1 "220" H 4540 1805 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4400 1850 50  0001 C CNN
+F 3 "~" H 4470 1850 50  0001 C CNN
+	1    4470 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4310 1670 4470 1670
+Wire Wire Line
+	4470 2000 3910 2000
+Connection ~ 3910 2000
+Wire Wire Line
+	3910 2000 3910 2050
+Wire Wire Line
+	4470 1700 4470 1670
+Connection ~ 4470 1670
+Wire Wire Line
+	4470 1670 4900 1670
+Wire Wire Line
+	4470 2000 4470 2350
+Wire Wire Line
+	4470 2350 4260 2350
+Connection ~ 4470 2000
 $EndSCHEMATC
