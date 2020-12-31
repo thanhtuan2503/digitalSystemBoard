@@ -288,17 +288,6 @@ F 3 "~" H 6180 2110 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R3
-U 1 1 5FB7DD09
-P 980 1970
-F 0 "R3" H 1050 2016 50  0000 L CNN
-F 1 "330" H 1050 1925 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 910 1970 50  0001 C CNN
-F 3 "~" H 980 1970 50  0001 C CNN
-	1    980  1970
-	1    0    0    -1  
-$EndComp
-$Comp
 L digitalSystemBoard:Potentiometer TRIM1
 U 1 1 5FB7C02F
 P 3910 2300
@@ -709,4 +698,15 @@ Wire Wire Line
 Wire Wire Line
 	4470 2350 4260 2350
 Connection ~ 4470 2000
+$Comp
+L Device:R R3
+U 1 1 5FB7DD09
+P 980 1970
+F 0 "R3" H 1050 2016 50  0000 L CNN
+F 1 "470" H 1050 1925 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 910 1970 50  0001 C CNN
+F 3 "~" H 980 1970 50  0001 C CNN
+	1    980  1970
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
