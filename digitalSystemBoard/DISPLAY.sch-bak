@@ -194,24 +194,12 @@ SEG_F_0
 Text HLabel 1310 5690 0    50   Input ~ 0
 SEG_G_0
 NoConn ~ 1800 5790
-$Comp
-L power:GND #PWR0101
-U 1 1 5FCA686C
-P 2460 5790
-F 0 "#PWR0101" H 2460 5540 50  0001 C CNN
-F 1 "GND" H 2465 5617 50  0000 C CNN
-F 2 "" H 2460 5790 50  0001 C CNN
-F 3 "" H 2460 5790 50  0001 C CNN
-	1    2460 5790
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2400 5790 2460 5790
 Wire Wire Line
 	2400 5690 2460 5690
 Wire Wire Line
 	2460 5690 2460 5790
-Connection ~ 2460 5790
 $Comp
 L Display_Character:KCSA02-105 U3
 U 1 1 5FCBD1F5
@@ -238,24 +226,12 @@ SEG_F_1
 Text HLabel 3040 5670 0    50   Input ~ 0
 SEG_G_1
 NoConn ~ 3450 5770
-$Comp
-L power:GND #PWR0102
-U 1 1 5FCBD203
-P 4110 5770
-F 0 "#PWR0102" H 4110 5520 50  0001 C CNN
-F 1 "GND" H 4115 5597 50  0000 C CNN
-F 2 "" H 4110 5770 50  0001 C CNN
-F 3 "" H 4110 5770 50  0001 C CNN
-	1    4110 5770
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4050 5770 4110 5770
 Wire Wire Line
 	4050 5670 4110 5670
 Wire Wire Line
 	4110 5670 4110 5770
-Connection ~ 4110 5770
 $Comp
 L Transistor_BJT:BC847 Q2
 U 1 1 5FBB4CCB
@@ -1071,4 +1047,8 @@ F 3 "~" H 1460 5090 50  0001 C CNN
 	1    1460 5090
 	0    1    1    0   
 $EndComp
+Text HLabel 4110 5670 2    50   Input ~ 0
+VCC5V
+Text HLabel 2460 5690 2    50   Input ~ 0
+VCC5V
 $EndSCHEMATC

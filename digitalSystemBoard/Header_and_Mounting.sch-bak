@@ -419,4 +419,26 @@ NoConn ~ 4200 6100
 NoConn ~ 3700 6100
 Text HLabel 4300 3600 2    50   Input ~ 0
 SEG_A_1
+$Comp
+L Device:R_Pack08 RN1
+U 1 1 6033D84A
+P 7465 3315
+F 0 "RN1" H 7853 3361 50  0000 L CNN
+F 1 "R_Pack08" H 7853 3270 50  0000 L CNN
+F 2 "digitalSystemBoard:Resistor Bar 06030 8P4R" V 7940 3315 50  0001 C CNN
+F 3 "~" H 7465 3315 50  0001 C CNN
+	1    7465 3315
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Pack08 RN2
+U 1 1 6033EE65
+P 8930 3340
+F 0 "RN2" H 9318 3386 50  0000 L CNN
+F 1 "R_Pack08" H 9318 3295 50  0000 L CNN
+F 2 "digitalSystemBoard:Resistor Bar 06030 8P4R" V 9405 3340 50  0001 C CNN
+F 3 "~" H 8930 3340 50  0001 C CNN
+	1    8930 3340
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
