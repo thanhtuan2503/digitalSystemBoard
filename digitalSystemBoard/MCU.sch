@@ -431,7 +431,7 @@ Text HLabel 6860 1320 2    50   Input ~ 0
 VCC5V
 Text HLabel 6660 1720 3    50   Input ~ 0
 VCC5V
-Text HLabel 6360 1720 3    50   Input ~ 0
+Text HLabel 6360 2020 3    50   Input ~ 0
 VCC5V
 $Comp
 L power:GND #PWR0117
@@ -963,4 +963,15 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT164.pdf" H 10190 5
 $EndComp
 NoConn ~ 9600 1620
 NoConn ~ 10100 1420
+$Comp
+L Device:R R78
+U 1 1 6048C364
+P 6360 1870
+F 0 "R78" H 6430 1916 50  0000 L CNN
+F 1 "R" H 6430 1825 50  0000 L CNN
+F 2 "" V 6290 1870 50  0001 C CNN
+F 3 "~" H 6360 1870 50  0001 C CNN
+	1    6360 1870
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
