@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 5
+Sheet 5 5
 Title ""
 Date ""
 Rev ""
@@ -406,17 +406,6 @@ RESET
 Wire Notes Line
 	470  2360 11220 2360
 $Comp
-L Display_Character:WC1602A DS1
-U 1 1 5FC0BB5E
-P 6060 1320
-F 0 "DS1" V 6410 620 50  0000 L CNN
-F 1 "WC1602A" V 6480 620 50  0000 L CNN
-F 2 "digitalSystemBoard:WC1602A" H 6060 420 50  0001 C CIN
-F 3 "http://www.wincomlcd.com/pdf/WC1602A-SFYLYHTC06.pdf" H 6760 1320 50  0001 C CNN
-	1    6060 1320
-	0    1    1    0   
-$EndComp
-$Comp
 L power:GND #PWR0116
 U 1 1 5FC0D995
 P 5260 1320
@@ -428,8 +417,6 @@ F 3 "" H 5260 1320 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text HLabel 6860 1320 2    50   Input ~ 0
-VCC5V
-Text HLabel 6660 1720 3    50   Input ~ 0
 VCC5V
 Text HLabel 6360 2020 3    50   Input ~ 0
 VCC5V
@@ -974,4 +961,45 @@ F 3 "~" H 6360 1870 50  0001 C CNN
 	1    6360 1870
 	1    0    0    -1  
 $EndComp
+$Comp
+L digitalSystemBoard:Potentiometer TRIM?
+U 1 1 6040D0E5
+P 7240 1910
+AR Path="/6040D0E5" Ref="TRIM?"  Part="1" 
+AR Path="/5FBA4597/6040D0E5" Ref="TRIM2"  Part="1" 
+F 0 "TRIM2" V 7261 2037 50  0000 L CNN
+F 1 "Potentiometer" V 7170 2037 50  0000 L CNN
+F 2 "digitalSystemBoard:TRIM_3296W-1-501" H 7240 1910 50  0001 C CNN
+F 3 "" H 7240 1910 50  0001 C CNN
+	1    7240 1910
+	0    1    1    0   
+$EndComp
+$Comp
+L Display_Character:WC1602A DS1
+U 1 1 5FC0BB5E
+P 6060 1320
+F 0 "DS1" V 6410 620 50  0000 L CNN
+F 1 "WC1602A" V 6480 620 50  0000 L CNN
+F 2 "digitalSystemBoard:WC1602A" H 6060 420 50  0001 C CIN
+F 3 "http://www.wincomlcd.com/pdf/WC1602A-SFYLYHTC06.pdf" H 6760 1320 50  0001 C CNN
+	1    6060 1320
+	0    1    1    0   
+$EndComp
+Text HLabel 7240 1610 1    50   Input ~ 0
+VCC5V
+$Comp
+L power:GND #PWR?
+U 1 1 604177C1
+P 7240 2160
+F 0 "#PWR?" H 7240 1910 50  0001 C CNN
+F 1 "GND" H 7245 1987 50  0000 C CNN
+F 2 "" H 7240 2160 50  0001 C CNN
+F 3 "" H 7240 2160 50  0001 C CNN
+	1    7240 2160
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6660 1720 6660 1860
+Wire Wire Line
+	6660 1860 6890 1860
 $EndSCHEMATC

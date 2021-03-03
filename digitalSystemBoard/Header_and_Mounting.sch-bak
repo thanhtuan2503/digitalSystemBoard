@@ -422,23 +422,119 @@ SEG_A_1
 $Comp
 L Device:R_Pack08 RN1
 U 1 1 6033D84A
-P 7465 3315
-F 0 "RN1" H 7853 3361 50  0000 L CNN
-F 1 "R_Pack08" H 7853 3270 50  0000 L CNN
-F 2 "digitalSystemBoard:Resistor Bar 06030 8P4R" V 7940 3315 50  0001 C CNN
-F 3 "~" H 7465 3315 50  0001 C CNN
-	1    7465 3315
-	1    0    0    -1  
+P 7915 2300
+F 0 "RN1" H 8303 2346 50  0000 L CNN
+F 1 "R_Pack08" H 8303 2255 50  0000 L CNN
+F 2 "digitalSystemBoard:Resistor Bar 06030 8P4R" V 8390 2300 50  0001 C CNN
+F 3 "~" H 7915 2300 50  0001 C CNN
+	1    7915 2300
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R_Pack08 RN2
 U 1 1 6033EE65
-P 8930 3340
-F 0 "RN2" H 9318 3386 50  0000 L CNN
-F 1 "R_Pack08" H 9318 3295 50  0000 L CNN
-F 2 "digitalSystemBoard:Resistor Bar 06030 8P4R" V 9405 3340 50  0001 C CNN
-F 3 "~" H 8930 3340 50  0001 C CNN
-	1    8930 3340
+P 4060 2815
+F 0 "RN2" V 4215 2425 50  0000 L CNN
+F 1 "R_Pack08" V 4115 2220 50  0000 L CNN
+F 2 "digitalSystemBoard:Resistor Bar 06030 8P4R" V 4535 2815 50  0001 C CNN
+F 3 "~" H 4060 2815 50  0001 C CNN
+	1    4060 2815
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 6049CAFD
+P 8115 2000
+F 0 "#PWR?" H 8115 1850 50  0001 C CNN
+F 1 "+5V" H 8130 2173 50  0000 C CNN
+F 2 "" H 8115 2000 50  0001 C CNN
+F 3 "" H 8115 2000 50  0001 C CNN
+	1    8115 2000
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	8115 2000 8115 2100
+Connection ~ 8115 2000
+Wire Wire Line
+	8115 2100 8115 2200
+Connection ~ 8115 2100
+Wire Wire Line
+	8115 2200 8115 2300
+Connection ~ 8115 2200
+Wire Wire Line
+	8115 2300 8115 2400
+Connection ~ 8115 2300
+Wire Wire Line
+	8115 2400 8115 2500
+Connection ~ 8115 2400
+Wire Wire Line
+	8115 2500 8115 2600
+Connection ~ 8115 2500
+Wire Wire Line
+	8115 2600 8115 2700
+Connection ~ 8115 2600
+Text HLabel 7715 2700 0    50   Input ~ 0
+GPIO_LED_8
+Text HLabel 7715 2600 0    50   Input ~ 0
+GPIO_LED_7
+Text HLabel 7715 2500 0    50   Input ~ 0
+GPIO_LED_6
+Text HLabel 7715 2400 0    50   Input ~ 0
+GPIO_LED_5
+Text HLabel 7715 2200 0    50   Input ~ 0
+GPIO_LED_3
+Text HLabel 7715 2300 0    50   Input ~ 0
+GPIO_LED_4
+Text HLabel 7715 2100 0    50   Input ~ 0
+GPIO_LED_2
+Text HLabel 7715 2000 0    50   Input ~ 0
+GPIO_LED_1
+$Comp
+L power:Earth #PWR?
+U 1 1 604ACAC7
+P 4260 3215
+F 0 "#PWR?" H 4260 2965 50  0001 C CNN
+F 1 "Earth" H 4260 3065 50  0001 C CNN
+F 2 "" H 4260 3215 50  0001 C CNN
+F 3 "~" H 4260 3215 50  0001 C CNN
+	1    4260 3215
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4260 2515 4260 2615
+Wire Wire Line
+	4260 2615 4260 2715
+Connection ~ 4260 2615
+Wire Wire Line
+	4260 2715 4260 2815
+Connection ~ 4260 2715
+Wire Wire Line
+	4260 2815 4260 2915
+Connection ~ 4260 2815
+Wire Wire Line
+	4260 2915 4260 3015
+Connection ~ 4260 2915
+Wire Wire Line
+	4260 3015 4260 3115
+Connection ~ 4260 3015
+Wire Wire Line
+	4260 3115 4260 3215
+Connection ~ 4260 3115
+Connection ~ 4260 3215
+Text HLabel 3860 2515 0    50   Input ~ 0
+GPIO_BCD_A_0
+Text HLabel 3860 2615 0    50   Input ~ 0
+GPIO_BCD_B_0
+Text HLabel 3860 2715 0    50   Input ~ 0
+GPIO_BCD_C_0
+Text HLabel 3860 2815 0    50   Input ~ 0
+GPIO_BCD_D_0
+Text HLabel 3860 2915 0    50   Input ~ 0
+GPIO_BCD_A_1
+Text HLabel 3860 3015 0    50   Input ~ 0
+GPIO_BCD_B_1
+Text HLabel 3860 3115 0    50   Input ~ 0
+GPIO_BCD_C_1
+Text HLabel 3860 3215 0    50   Input ~ 0
+GPIO_BCD_D_1
 $EndSCHEMATC
