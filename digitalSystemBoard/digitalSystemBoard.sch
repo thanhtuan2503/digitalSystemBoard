@@ -688,7 +688,7 @@ Wire Wire Line
 Wire Wire Line
 	6570 2290 6570 2320
 Text Label 10100 2865 0    50   ~ 0
-BCD_C_0
+BCD_D_0
 $Sheet
 S 1240 3740 2010 3900
 U 5FBA4597

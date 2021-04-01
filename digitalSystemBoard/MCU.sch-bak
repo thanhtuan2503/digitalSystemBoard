@@ -446,28 +446,6 @@ F 3 "" H 6560 920 50  0001 C CNN
 $EndComp
 Text Label 6660 920  0    50   ~ 0
 LCD_ENABLE
-$Comp
-L 74xx:74LS165 U20
-U 1 1 5FB97CE1
-P 9290 3590
-F 0 "U20" H 9405 2730 50  0000 C CNN
-F 1 "74LS165" H 9525 2650 50  0000 C CNN
-F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 9290 3590 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS165" H 9290 3590 50  0001 C CNN
-	1    9290 3590
-	1    0    0    -1  
-$EndComp
-$Comp
-L digitalSystemBoard:74HC164 U19
-U 1 1 5FB99424
-P 6290 5500
-F 0 "U19" H 6165 5950 50  0000 C CNN
-F 1 "74HC164" H 6055 6030 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 7190 5200 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT164.pdf" H 7190 5200 50  0001 C CNN
-	1    6290 5500
-	-1   0    0    1   
-$EndComp
 Text Label 6060 920  1    50   ~ 0
 LCD_1
 Text Label 5960 920  1    50   ~ 0
@@ -482,22 +460,10 @@ Text Label 5560 920  1    50   ~ 0
 LCD_6
 Text Label 6160 920  1    50   ~ 0
 LCD_0
-Text HLabel 6690 5400 2    50   Input ~ 0
-VCC5V
-Text HLabel 9690 5400 2    50   Input ~ 0
-VCC5V
-Text HLabel 6290 6000 3    50   Input ~ 0
-VCC5V
-Text HLabel 9290 6000 3    50   Input ~ 0
-VCC5V
 Text HLabel 6290 2690 1    50   Input ~ 0
 VCC5V
 Text HLabel 9290 2690 1    50   Input ~ 0
 VCC5V
-Text Label 6690 5200 0    50   ~ 0
-IC_CLOCK
-Text Label 9690 5200 0    50   ~ 0
-IC_CLOCK
 Text Label 8790 4190 2    50   ~ 0
 IC_CLOCK
 Text Label 5790 4190 2    50   ~ 0
@@ -524,38 +490,17 @@ F 3 "" H 8790 4290 50  0001 C CNN
 	1    8790 4290
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6290 4900 6290 4740
-Wire Wire Line
-	6290 4740 6290 4590
-Connection ~ 6290 4740
 $Comp
 L power:GND #PWR0121
 U 1 1 5FC75B8B
-P 6290 4740
-F 0 "#PWR0121" H 6290 4490 50  0001 C CNN
-F 1 "GND" V 6295 4612 50  0000 R CNN
-F 2 "" H 6290 4740 50  0001 C CNN
-F 3 "" H 6290 4740 50  0001 C CNN
-	1    6290 4740
-	0    1    1    0   
+P 6290 4590
+F 0 "#PWR0121" H 6290 4340 50  0001 C CNN
+F 1 "GND" H 6210 4520 50  0000 R CNN
+F 2 "" H 6290 4590 50  0001 C CNN
+F 3 "" H 6290 4590 50  0001 C CNN
+	1    6290 4590
+	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9290 4725 9290 4590
-$Comp
-L power:GND #PWR0122
-U 1 1 5FC7F38D
-P 9290 4725
-F 0 "#PWR0122" H 9290 4475 50  0001 C CNN
-F 1 "GND" V 9295 4597 50  0000 R CNN
-F 2 "" H 9290 4725 50  0001 C CNN
-F 3 "" H 9290 4725 50  0001 C CNN
-	1    9290 4725
-	0    1    1    0   
-$EndComp
-Connection ~ 9290 4725
-Wire Wire Line
-	9290 4900 9290 4725
 $Comp
 L power:GND #PWR0123
 U 1 1 5FC8B7E4
@@ -603,51 +548,27 @@ Wire Wire Line
 	6790 2990 8790 2990
 Text Label 9790 2990 0    50   ~ 0
 IC_165_TO_MCU
-Text Label 6690 5500 0    50   ~ 0
-MCU_TO_IC_164
-Text Label 6690 5700 0    50   ~ 0
-IC_164_CTRL
-Text Label 9690 5700 0    50   ~ 0
-IC_164_CTRL
 Text HLabel 5790 3590 0    50   Input ~ 0
 GPIO_LED_6
 Text HLabel 5790 3490 0    50   Input ~ 0
 GPIO_LED_5
 Text HLabel 8790 3490 0    50   Input ~ 0
 GPIO_BCD_A_1
-Text HLabel 5890 5800 0    50   Input ~ 0
-LED1
-Text HLabel 5890 5700 0    50   Input ~ 0
-LED2
-Text HLabel 5890 5600 0    50   Input ~ 0
-LED3
-Text HLabel 5890 5500 0    50   Input ~ 0
-LED4
-Text HLabel 5890 5400 0    50   Input ~ 0
-LED5
-Text HLabel 5890 5300 0    50   Input ~ 0
-LED6
-Text HLabel 5890 5200 0    50   Input ~ 0
-LED7
-Text HLabel 5890 5100 0    50   Input ~ 0
-LED8
-Text HLabel 9690 5500 2    50   Input ~ 0
-LED8
-Text HLabel 8890 5800 0    50   Input ~ 0
+Text HLabel 9710 5120 2    50   Input ~ 0
 BCD_A_0
-Text HLabel 8890 5700 0    50   Input ~ 0
+Text HLabel 9710 5220 2    50   Input ~ 0
 BCD_B_0
-Text HLabel 8890 5600 0    50   Input ~ 0
+Text HLabel 9710 5320 2    50   Input ~ 0
 BCD_C_0
-Text HLabel 8890 5500 0    50   Input ~ 0
+Text HLabel 9710 5420 2    50   Input ~ 0
 BCD_D_0
-Text HLabel 8890 5400 0    50   Input ~ 0
+Text HLabel 9710 5520 2    50   Input ~ 0
 BCD_A_1
-Text HLabel 8890 5300 0    50   Input ~ 0
+Text HLabel 9710 5620 2    50   Input ~ 0
 BCD_B_1
-Text HLabel 8890 5200 0    50   Input ~ 0
+Text HLabel 9710 5720 2    50   Input ~ 0
 BCD_C_1
-Text HLabel 8890 5100 0    50   Input ~ 0
+Text HLabel 9710 5820 2    50   Input ~ 0
 BCD_D_1
 $Comp
 L power:GND #PWR0124
@@ -790,11 +711,11 @@ CHANGE_CLK_SRC
 Text Label 3470 4740 0    50   ~ 0
 IC_CLOCK
 Text Label 3470 4040 0    50   ~ 0
-MCU_TO_IC_164
+MCU_TO_IC_595
 Text Label 3470 5540 0    50   ~ 0
 IC_165_TO_MCU
 Text Label 3470 5640 0    50   ~ 0
-IC_164_CTRL
+IC_595_CTRL
 Text Label 3470 5940 0    50   ~ 0
 IC_165_CTRL
 Text Label 3470 6540 0    50   ~ 0
@@ -937,17 +858,6 @@ Wire Wire Line
 Connection ~ 2950 1590
 Wire Wire Line
 	2950 1590 3000 1590
-$Comp
-L digitalSystemBoard:74HC164 U21
-U 1 1 5FB9891A
-P 9290 5500
-F 0 "U21" H 9180 5955 50  0000 C CNN
-F 1 "74HC164" H 9055 6025 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 10190 5200 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT164.pdf" H 10190 5200 50  0001 C CNN
-	1    9290 5500
-	-1   0    0    1   
-$EndComp
 NoConn ~ 9600 1620
 NoConn ~ 10100 1420
 $Comp
@@ -1002,4 +912,137 @@ Wire Wire Line
 	6660 1720 6660 1860
 Wire Wire Line
 	6660 1860 6890 1860
+$Comp
+L 74xx:74LS165 U20
+U 1 1 5FB97CE1
+P 9290 3590
+F 0 "U20" H 9405 2730 50  0000 C CNN
+F 1 "74LS165" H 9525 2650 50  0000 C CNN
+F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 9290 3590 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS165" H 9290 3590 50  0001 C CNN
+	1    9290 3590
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0122
+U 1 1 60666149
+P 9290 4590
+F 0 "#PWR0122" H 9290 4340 50  0001 C CNN
+F 1 "GND" H 9210 4520 50  0000 R CNN
+F 2 "" H 9290 4590 50  0001 C CNN
+F 3 "" H 9290 4590 50  0001 C CNN
+	1    9290 4590
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC595 U21
+U 1 1 60679472
+P 9310 5520
+F 0 "U21" H 9560 4850 50  0000 C CNN
+F 1 "74HC595" H 9660 4760 50  0000 C CNN
+F 2 "" H 9310 5520 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 9310 5520 50  0001 C CNN
+	1    9310 5520
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0168
+U 1 1 6067E3F0
+P 6290 6230
+F 0 "#PWR0168" H 6290 5980 50  0001 C CNN
+F 1 "GND" H 6295 6057 50  0000 C CNN
+F 2 "" H 6290 6230 50  0001 C CNN
+F 3 "" H 6290 6230 50  0001 C CNN
+	1    6290 6230
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0169
+U 1 1 6067EDB8
+P 9310 6220
+F 0 "#PWR0169" H 9310 5970 50  0001 C CNN
+F 1 "GND" H 9315 6047 50  0000 C CNN
+F 2 "" H 9310 6220 50  0001 C CNN
+F 3 "" H 9310 6220 50  0001 C CNN
+	1    9310 6220
+	1    0    0    -1  
+$EndComp
+Text Label 5890 5130 2    50   ~ 0
+MCU_TO_IC_595
+$Comp
+L power:GND #PWR0170
+U 1 1 606883B2
+P 8810 5720
+F 0 "#PWR0170" H 8810 5470 50  0001 C CNN
+F 1 "GND" H 8660 5680 50  0000 C CNN
+F 2 "" H 8810 5720 50  0001 C CNN
+F 3 "" H 8810 5720 50  0001 C CNN
+	1    8810 5720
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8910 5720 8810 5720
+Wire Wire Line
+	5890 5730 5790 5730
+$Comp
+L power:GND #PWR0171
+U 1 1 60683491
+P 5790 5730
+F 0 "#PWR0171" H 5790 5480 50  0001 C CNN
+F 1 "GND" H 5640 5690 50  0000 C CNN
+F 2 "" H 5790 5730 50  0001 C CNN
+F 3 "" H 5790 5730 50  0001 C CNN
+	1    5790 5730
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC595 U19
+U 1 1 60667CC7
+P 6290 5530
+F 0 "U19" H 6460 4860 50  0000 C CNN
+F 1 "74HC595" H 6550 4780 50  0000 C CNN
+F 2 "" H 6290 5530 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 6290 5530 50  0001 C CNN
+	1    6290 5530
+	1    0    0    -1  
+$EndComp
+Text HLabel 6690 5130 2    50   Input ~ 0
+LED1
+Text HLabel 6690 5230 2    50   Input ~ 0
+LED2
+Text HLabel 6690 5330 2    50   Input ~ 0
+LED3
+Text HLabel 6690 5430 2    50   Input ~ 0
+LED4
+Text HLabel 6690 5530 2    50   Input ~ 0
+LED5
+Text HLabel 6690 5630 2    50   Input ~ 0
+LED6
+Text HLabel 6690 5730 2    50   Input ~ 0
+LED7
+Text HLabel 6690 5830 2    50   Input ~ 0
+LED8
+Text HLabel 6290 4930 2    50   Input ~ 0
+VCC5V
+Text HLabel 9310 4920 2    50   Input ~ 0
+VCC5V
+Text HLabel 5890 5430 0    50   Input ~ 0
+VCC5V
+Text HLabel 8910 5420 0    50   Input ~ 0
+VCC5V
+Text Label 5890 5630 2    50   ~ 0
+IC_595_CTRL
+Text Label 8910 5620 2    50   ~ 0
+IC_595_CTRL
+Text Label 5890 5330 2    50   ~ 0
+IC_CLOCK
+Text Label 8910 5320 2    50   ~ 0
+IC_CLOCK
+Wire Wire Line
+	8910 5120 7760 5120
+Wire Wire Line
+	7760 5120 7760 6030
+Wire Wire Line
+	7760 6030 6690 6030
+NoConn ~ 9710 6020
 $EndSCHEMATC
