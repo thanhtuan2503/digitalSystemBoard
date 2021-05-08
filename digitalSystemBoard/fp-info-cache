@@ -1,4 +1,4 @@
-18766198871048189
+18751895404128566
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -6341,6 +6341,13 @@ three-pin M8
 0
 5
 4
+Connector_Amphenol
+POWER_VIAS
+
+
+0
+5
+5
 Connector_Audio
 Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal
 3.5 mm, Stereo, Right Angle, Surface Mount (SMT), Audio Jack Connector (https://www.cui.com/product/resource/sj-352x-smt-series.pdf)
@@ -76831,6 +76838,13 @@ Logo WEEE
 0
 0
 0
+TCRT5000
+OPTO_TCRT5000
+
+
+0
+4
+4
 TerminalBlock
 TerminalBlock_Altech_AK300-2_P5.00mm
 Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf
@@ -82075,48 +82089,6 @@ Button_CLOCK
 4
 4
 digitalSystemBoard
-DC3_2x03_PIN
-
-
-0
-6
-6
-digitalSystemBoard
-DC3_2x04_PIN
-
-
-0
-8
-8
-digitalSystemBoard
-DC3_2x07_PIN
-
-
-0
-14
-14
-digitalSystemBoard
-DC3_2x08_PIN
-
-
-0
-16
-16
-digitalSystemBoard
-DIP_16_PIN_SOCKET
-
-
-0
-16
-16
-digitalSystemBoard
-FerriteBead
-
-
-0
-2
-2
-digitalSystemBoard
 Fuse
 
 
@@ -82132,13 +82104,6 @@ LED_3528
 2
 digitalSystemBoard
 LM317
-
-
-0
-3
-3
-digitalSystemBoard
-LM317AMDT
 
 
 0
@@ -82166,13 +82131,6 @@ MJD122T4G
 3
 3
 digitalSystemBoard
-Mountinghole_M3
-
-
-0
-0
-0
-digitalSystemBoard
 POWER_VIA
 
 
@@ -82182,13 +82140,6 @@ POWER_VIA
 digitalSystemBoard
 P_SOURCE
 SuperSOT-3
-
-0
-3
-3
-digitalSystemBoard
-Power_Module
-
 
 0
 3
@@ -82215,22 +82166,8 @@ RV09S
 5
 4
 digitalSystemBoard
-Resistor Bar 06030 8P4R
-
-
-0
-16
-16
-digitalSystemBoard
 SAMTEC_USB-B-S-X-X-TH-TR
 
-
-0
-6
-6
-digitalSystemBoard
-SC70-6
-<b>6-Lead Thin Shrink Small Outline Transistor Package SC70</b><p>Source: http://www.analog.com/static/imported-files/data_sheets/ADA4853-1_4853-2_4853-3.pdf
 
 0
 6
@@ -82268,6 +82205,20 @@ SS-12F44G5
 
 
 0
+5
+5
+digitalSystemBoard
+TO228P991X255-3N
+
+
+0
+3
+3
+digitalSystemBoard
+TO229P990X238-4N
+
+
+0
 3
 3
 digitalSystemBoard
@@ -82277,13 +82228,6 @@ TRIM_3296W-1-501
 0
 3
 3
-digitalSystemBoard
-WC1602A
-LCD 16x2 http://www.wincomlcd.com/pdf/WC1602A-SFYLYHTC06.pdf
-LCD 16x2 Alphanumeric 16pin
-0
-16
-16
 footprints
 2-SMD-5X3
 <b>2-SMD</b><p>5 x 3.2 mm
