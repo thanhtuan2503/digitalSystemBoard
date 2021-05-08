@@ -139,10 +139,10 @@ F33 "7SEGLED_TEST_ON" I L 8000 2900 50
 F34 "7SEGLED_TEST_OFF" I L 8000 3100 50 
 $EndSheet
 $Comp
-L Switch:SW_SPDT SW1
+L Switch:SW_SPDT SW0
 U 1 1 5FB75652
 P 2730 1910
-F 0 "SW1" H 2730 2195 50  0000 C CNN
+F 0 "SW0" H 2730 2195 50  0000 C CNN
 F 1 "SW_SPDT" H 2730 2104 50  0000 C CNN
 F 2 "digitalSystemBoard:SS-12D11" H 2730 1910 50  0001 C CNN
 F 3 "~" H 2730 1910 50  0001 C CNN
@@ -464,10 +464,10 @@ NoConn ~ 1570 3330
 Wire Wire Line
 	2930 1810 3180 1810
 $Comp
-L Device:Fuse F1
+L Device:Fuse F0
 U 1 1 5FB8596A
 P 4450 1960
-F 0 "F1" H 4510 2006 50  0000 L CNN
+F 0 "F0" H 4510 2006 50  0000 L CNN
 F 1 "3A" H 4510 1915 50  0000 L CNN
 F 2 "digitalSystemBoard:Fuse" V 4380 1960 50  0001 C CNN
 F 3 "~" H 4450 1960 50  0001 C CNN
@@ -477,10 +477,10 @@ $EndComp
 Wire Wire Line
 	4180 1810 4450 1810
 $Comp
-L Connector:Barrel_Jack_Switch J1
+L Connector:Barrel_Jack_Switch J0
 U 1 1 5FB7408F
 P 2190 2010
-F 0 "J1" H 2247 2335 50  0000 C CNN
+F 0 "J0" H 2247 2335 50  0000 C CNN
 F 1 "Barrel_Jack" H 2247 2244 50  0000 C CNN
 F 2 "Connector_BarrelJack:BarrelJack_Horizontal" H 2240 1970 50  0001 C CNN
 F 3 "~" H 2240 1970 50  0001 C CNN
@@ -498,10 +498,10 @@ Connection ~ 3190 2360
 Wire Wire Line
 	3190 2360 3680 2360
 $Comp
-L digitalSystemBoard:Power_Module PW1
+L digitalSystemBoard:Power_Module PM0
 U 1 1 6094F958
 P 3680 1810
-F 0 "PW1" H 3680 2375 50  0000 C CNN
+F 0 "PM0" H 3680 2375 50  0000 C CNN
 F 1 "Power_Module" H 3680 2284 50  0000 C CNN
 F 2 "digitalSystemBoard:Power_Module" H 3680 1810 50  0001 C CNN
 F 3 "" H 3680 1810 50  0001 C CNN

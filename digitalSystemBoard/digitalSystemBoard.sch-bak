@@ -97,21 +97,8 @@ Text Label 10110 5080 0    50   ~ 0
 DOWN_CLOCK
 Text Label 10110 4880 0    50   ~ 0
 UP_CLOCK
-Text Label 870  1260 0    50   ~ 0
-VCC5V
 Wire Notes Line
 	4000 7790 4000 3590
-$Comp
-L power:GND #PWR0104
-U 1 1 5FC92B09
-P 3100 2170
-F 0 "#PWR0104" H 3100 1920 50  0001 C CNN
-F 1 "GND" H 3105 1997 50  0000 C CNN
-F 2 "" H 3100 2170 50  0001 C CNN
-F 3 "" H 3100 2170 50  0001 C CNN
-	1    3100 2170
-	1    0    0    -1  
-$EndComp
 $Sheet
 S 8000 600  2100 2865
 U 5FB71076
@@ -152,146 +139,14 @@ F33 "7SEGLED_TEST_ON" I L 8000 2900 50
 F34 "7SEGLED_TEST_OFF" I L 8000 3100 50 
 $EndSheet
 $Comp
-L power:GND #PWR0105
-U 1 1 5FB9643C
-P 870 1990
-F 0 "#PWR0105" H 870 1740 50  0001 C CNN
-F 1 "GND" H 875 1817 50  0000 C CNN
-F 2 "" H 870 1990 50  0001 C CNN
-F 3 "" H 870 1990 50  0001 C CNN
-	1    870  1990
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:LED D1
-U 1 1 5FB926DA
-P 870 1790
-F 0 "D1" V 909 1672 50  0000 R CNN
-F 1 "LED" V 818 1672 50  0000 R CNN
-F 2 "LED_SMD:LED_0603_1608Metric" H 870 1790 50  0001 C CNN
-F 3 "~" H 870 1790 50  0001 C CNN
-	1    870  1790
-	0    -1   -1   0   
-$EndComp
-$Comp
-L digitalSystemBoard:MJD122T4G Q1
-U 1 1 5FB79636
-P 5970 1150
-F 0 "Q1" H 6160 1196 50  0000 L CNN
-F 1 "MJD122T4G" H 6160 1105 50  0000 L CNN
-F 2 "digitalSystemBoard:MJD122T4G" H 5970 1150 50  0001 C CNN
-F 3 "" H 5970 1150 50  0001 C CNN
-	1    5970 1150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Fuse F1
-U 1 1 5FB8596A
-P 6070 1950
-F 0 "F1" H 6130 1996 50  0000 L CNN
-F 1 "2A" H 6130 1905 50  0000 L CNN
-F 2 "digitalSystemBoard:Fuse" V 6000 1950 50  0001 C CNN
-F 3 "~" H 6070 1950 50  0001 C CNN
-	1    6070 1950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C4
-U 1 1 5FB7F5B7
-P 5620 1960
-F 0 "C4" H 5735 2006 50  0000 L CNN
-F 1 "10uF" H 5735 1915 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 5658 1810 50  0001 C CNN
-F 3 "~" H 5620 1960 50  0001 C CNN
-	1    5620 1960
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C3
-U 1 1 5FB7EE7E
-P 5250 1530
-F 0 "C3" H 5365 1576 50  0000 L CNN
-F 1 "10uF" H 5365 1485 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 5288 1380 50  0001 C CNN
-F 3 "~" H 5250 1530 50  0001 C CNN
-	1    5250 1530
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:CP1 C2
-U 1 1 5FB7E866
-P 4790 1530
-F 0 "C2" H 4905 1576 50  0000 L CNN
-F 1 "100uF" H 4905 1485 50  0000 L CNN
-F 2 "Capacitor_SMD:CP_Elec_6.3x7.7" H 4790 1530 50  0001 C CNN
-F 3 "~" H 4790 1530 50  0001 C CNN
-	1    4790 1530
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R2
-U 1 1 5FB7E4AC
-P 6070 1590
-F 0 "R2" H 6140 1636 50  0000 L CNN
-F 1 "0.22_5W" H 6140 1545 50  0000 L CNN
-F 2 "digitalSystemBoard:5W_0.22R" V 6000 1590 50  0001 C CNN
-F 3 "~" H 6070 1590 50  0001 C CNN
-	1    6070 1590
-	1    0    0    -1  
-$EndComp
-$Comp
-L digitalSystemBoard:Potentiometer TRIM1
-U 1 1 5FB7C02F
-P 3800 1780
-F 0 "TRIM1" V 3821 1907 50  0000 L CNN
-F 1 "Potentiometer" V 3730 1907 50  0000 L CNN
-F 2 "digitalSystemBoard:TRIM_3296W-1-501" H 3800 1780 50  0001 C CNN
-F 3 "" H 3800 1780 50  0001 C CNN
-	1    3800 1780
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:CP1 C1
-U 1 1 5FB7B525
-P 3100 1450
-F 0 "C1" H 3215 1496 50  0000 L CNN
-F 1 "0.1uF" H 3215 1405 50  0000 L CNN
-F 2 "Capacitor_SMD:CP_Elec_5x5.8" H 3100 1450 50  0001 C CNN
-F 3 "~" H 3100 1450 50  0001 C CNN
-	1    3100 1450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_SPDT SW1
+L Switch:SW_SPDT SW0
 U 1 1 5FB75652
-P 2130 1050
-F 0 "SW1" H 2130 1335 50  0000 C CNN
-F 1 "SW_SPDT" H 2130 1244 50  0000 C CNN
-F 2 "digitalSystemBoard:SS-12D11" H 2130 1050 50  0001 C CNN
-F 3 "~" H 2130 1050 50  0001 C CNN
-	1    2130 1050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Barrel_Jack_Switch J1
-U 1 1 5FB7408F
-P 1590 1150
-F 0 "J1" H 1647 1475 50  0000 C CNN
-F 1 "Barrel_Jack" H 1647 1384 50  0000 C CNN
-F 2 "Connector_BarrelJack:BarrelJack_Horizontal" H 1640 1110 50  0001 C CNN
-F 3 "~" H 1640 1110 50  0001 C CNN
-	1    1590 1150
-	1    0    0    -1  
-$EndComp
-$Comp
-L digitalSystemBoard:LM317 U1
-U 1 1 5FB71453
-P 3800 1150
-F 0 "U1" H 3800 1465 50  0000 C CNN
-F 1 "LM317" H 3800 1374 50  0000 C CNN
-F 2 "digitalSystemBoard:LM317AMDT" H 3700 1050 50  0001 C CNN
-F 3 "" H 3700 1050 50  0001 C CNN
-	1    3800 1150
+P 2730 1910
+F 0 "SW0" H 2730 2195 50  0000 C CNN
+F 1 "SW_SPDT" H 2730 2104 50  0000 C CNN
+F 2 "digitalSystemBoard:SS-12D11" H 2730 1910 50  0001 C CNN
+F 3 "~" H 2730 1910 50  0001 C CNN
+	1    2730 1910
 	1    0    0    -1  
 $EndComp
 $Sheet
@@ -320,75 +175,7 @@ Wire Notes Line
 Wire Notes Line
 	11230 3590 490  3590
 Wire Wire Line
-	870  1640 870  1600
-Wire Wire Line
-	870  1990 870  1940
-Wire Wire Line
-	870  1260 870  1300
-Wire Wire Line
-	1890 1050 1930 1050
-Wire Wire Line
-	3800 1450 3800 1480
-Wire Wire Line
-	3100 1600 3100 2170
-Wire Wire Line
-	3100 2170 3800 2170
-Wire Wire Line
-	3800 2170 3800 2080
-Connection ~ 3100 2170
-Wire Wire Line
-	6070 1350 6070 1440
-Wire Wire Line
-	6070 1740 6070 1770
-Wire Wire Line
-	6070 2100 6070 2160
-Wire Wire Line
-	4790 1380 4790 1150
-Connection ~ 4790 1150
-Wire Wire Line
-	4790 1150 5250 1150
-Wire Wire Line
-	5250 1380 5250 1150
-Connection ~ 5250 1150
-Wire Wire Line
-	5250 1150 5770 1150
-Wire Wire Line
-	6070 1770 5620 1770
-Wire Wire Line
-	5620 1770 5620 1810
-Connection ~ 6070 1770
-Wire Wire Line
-	6070 1770 6070 1800
-Wire Wire Line
-	3800 2170 4790 2170
-Wire Wire Line
-	5620 2170 5620 2110
-Connection ~ 3800 2170
-Wire Wire Line
-	5250 1680 5250 2170
-Connection ~ 5250 2170
-Wire Wire Line
-	5250 2170 5620 2170
-Wire Wire Line
-	4790 1680 4790 2170
-Connection ~ 4790 2170
-Wire Wire Line
-	4790 2170 5250 2170
-Wire Wire Line
-	1890 1250 1890 2170
-Wire Wire Line
-	1890 2170 3100 2170
-Wire Wire Line
-	3100 1150 3400 1150
-Wire Wire Line
-	3100 1300 3100 1150
-Connection ~ 3100 1150
-Wire Wire Line
-	6070 950  6070 610 
-Wire Wire Line
-	6070 610  3100 610 
-Wire Wire Line
-	3100 610  3100 950 
+	2490 1910 2530 1910
 Text Label 8000 4480 2    50   ~ 0
 SW1
 Text Label 8000 4680 2    50   ~ 0
@@ -413,8 +200,6 @@ Text Label 8000 2900 2    50   ~ 0
 7SEGLED_TEST_ON
 Text Label 8000 3100 2    50   ~ 0
 7SEGLED_TEST_OFF
-Text Label 6070 2160 0    50   ~ 0
-VCC5V
 Text Label 4710 3800 2    50   ~ 0
 VCC5V
 Text Label 3250 3840 0    50   ~ 0
@@ -565,65 +350,9 @@ Text Label 10110 4480 0    50   ~ 0
 KEY0
 Text Label 10110 4680 0    50   ~ 0
 KEY1
+NoConn ~ 2930 2010
 Wire Wire Line
-	2330 950  3100 950 
-Connection ~ 3100 950 
-Wire Wire Line
-	3100 950  3100 1150
-NoConn ~ 2330 1150
-Wire Wire Line
-	1890 1150 1890 1250
-Connection ~ 1890 1250
-$Comp
-L Device:R R1
-U 1 1 5FB7DFDC
-P 4360 1330
-F 0 "R1" H 4430 1376 50  0000 L CNN
-F 1 "220" H 4430 1285 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 4290 1330 50  0001 C CNN
-F 3 "~" H 4360 1330 50  0001 C CNN
-	1    4360 1330
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4200 1150 4360 1150
-Wire Wire Line
-	4360 1480 3800 1480
-Connection ~ 3800 1480
-Wire Wire Line
-	3800 1480 3800 1530
-Wire Wire Line
-	4360 1180 4360 1150
-Connection ~ 4360 1150
-Wire Wire Line
-	4360 1150 4790 1150
-Wire Wire Line
-	4360 1480 4360 1830
-Wire Wire Line
-	4360 1830 4150 1830
-Connection ~ 4360 1480
-$Comp
-L Device:R R3
-U 1 1 5FB7DD09
-P 870 1450
-F 0 "R3" H 940 1496 50  0000 L CNN
-F 1 "470" H 940 1405 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 800 1450 50  0001 C CNN
-F 3 "~" H 870 1450 50  0001 C CNN
-	1    870  1450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R77
-U 1 1 601177E6
-P 6460 1950
-F 0 "R77" H 6390 1904 50  0000 R CNN
-F 1 "1k" H 6390 1995 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 6390 1950 50  0001 C CNN
-F 3 "~" H 6460 1950 50  0001 C CNN
-	1    6460 1950
-	-1   0    0    1   
-$EndComp
+	2490 2010 2490 2110
 $Sheet
 S 4710 3740 1590 3910
 U 5FBA3F95
@@ -675,18 +404,14 @@ $EndSheet
 $Comp
 L power:GND #PWR0166
 U 1 1 6011F9E2
-P 6460 2100
-F 0 "#PWR0166" H 6460 1850 50  0001 C CNN
-F 1 "GND" H 6465 1927 50  0000 C CNN
-F 2 "" H 6460 2100 50  0001 C CNN
-F 3 "" H 6460 2100 50  0001 C CNN
-	1    6460 2100
+P 3190 2360
+F 0 "#PWR0166" H 3190 2110 50  0001 C CNN
+F 1 "GND" H 3195 2187 50  0000 C CNN
+F 2 "" H 3190 2360 50  0001 C CNN
+F 3 "" H 3190 2360 50  0001 C CNN
+	1    3190 2360
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6070 1770 6460 1770
-Wire Wire Line
-	6460 1770 6460 1800
 Text Label 10100 2865 0    50   ~ 0
 BCD_D_0
 $Sheet
@@ -735,18 +460,56 @@ F39 "CHANGE_CLK_SRC" I L 1240 7090 50
 F40 "7SEGLED_TEST_ON" I R 3250 6800 50 
 F41 "7SEGLED_TEST_OFF" I R 3250 7000 50 
 $EndSheet
+NoConn ~ 1570 3330
+Wire Wire Line
+	2930 1810 3180 1810
 $Comp
-L digitalSystemBoard:Power_Module PW1
-U 1 1 6094F958
-P 1570 2830
-F 0 "PW1" H 1570 3395 50  0000 C CNN
-F 1 "Power_Module" H 1570 3304 50  0000 C CNN
-F 2 "digitalSystemBoard:Power_Module" H 1570 2830 50  0001 C CNN
-F 3 "" H 1570 2830 50  0001 C CNN
-	1    1570 2830
+L Device:Fuse F0
+U 1 1 5FB8596A
+P 4450 1960
+F 0 "F0" H 4510 2006 50  0000 L CNN
+F 1 "3A" H 4510 1915 50  0000 L CNN
+F 2 "digitalSystemBoard:Fuse" V 4380 1960 50  0001 C CNN
+F 3 "~" H 4450 1960 50  0001 C CNN
+	1    4450 1960
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4180 1810 4450 1810
+$Comp
+L Connector:Barrel_Jack_Switch J0
+U 1 1 5FB7408F
+P 2190 2010
+F 0 "J0" H 2247 2335 50  0000 C CNN
+F 1 "Barrel_Jack" H 2247 2244 50  0000 C CNN
+F 2 "Connector_BarrelJack:BarrelJack_Horizontal" H 2240 1970 50  0001 C CNN
+F 3 "~" H 2240 1970 50  0001 C CNN
+	1    2190 2010
 	1    0    0    -1  
 $EndComp
-NoConn ~ 2070 2830
-NoConn ~ 1570 3330
-NoConn ~ 1070 2830
+Wire Wire Line
+	2490 2110 2490 2360
+Wire Wire Line
+	2490 2360 3190 2360
+Wire Wire Line
+	3680 2360 3680 2310
+Connection ~ 2490 2110
+Connection ~ 3190 2360
+Wire Wire Line
+	3190 2360 3680 2360
+$Comp
+L digitalSystemBoard:Power_Module PM0
+U 1 1 6094F958
+P 3680 1810
+F 0 "PM0" H 3680 2375 50  0000 C CNN
+F 1 "Power_Module" H 3680 2284 50  0000 C CNN
+F 2 "digitalSystemBoard:Power_Module" H 3680 1810 50  0001 C CNN
+F 3 "" H 3680 1810 50  0001 C CNN
+	1    3680 1810
+	-1   0    0    -1  
+$EndComp
+Text Label 4450 2230 0    50   ~ 0
+VCC5V
+Wire Wire Line
+	4450 2110 4450 2230
 $EndSCHEMATC
