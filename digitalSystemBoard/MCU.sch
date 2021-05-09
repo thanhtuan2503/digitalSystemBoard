@@ -691,20 +691,6 @@ F 3 "~" H 1550 1870 50  0001 C CNN
 	1    1550 1870
 	-1   0    0    1   
 $EndComp
-$Comp
-L digitalSystemBoard:USB-B-S-X-X-TH-TR J1
-U 1 1 5FBE04C8
-P 1150 1490
-F 0 "J1" H 1043 923 50  0000 C CNN
-F 1 "USB-B" H 1043 1014 50  0000 C CNN
-F 2 "digitalSystemBoard:SAMTEC_USB-B-S-X-X-TH-TR" H 1150 1490 50  0001 L BNN
-F 3 "Samtec" H 1150 1490 50  0001 L BNN
-F 4 "Manufacturer Recommendations" H 1150 1490 50  0001 L BNN "Field4"
-F 5 "Q" H 1150 1490 50  0001 L BNN "Field5"
-F 6 "10.95 mm" H 1150 1490 50  0001 L BNN "Field6"
-	1    1150 1490
-	-1   0    0    1   
-$EndComp
 Text HLabel 3470 4540 2    50   Input ~ 0
 CLK_OUT
 Text HLabel 3470 6940 2    50   Input ~ 0
@@ -749,17 +735,6 @@ Text Label 3470 4940 0    50   ~ 0
 LCD_ENABLE
 Text Label 2150 1700 2    50   ~ 0
 VBUS
-$Comp
-L digitalSystemBoard:SMF05C.TCT TD0
-U 1 1 5FBEABB6
-P 2450 1800
-F 0 "TD0" H 2500 1650 50  0000 R CNN
-F 1 "SMF05C.TCT" H 3040 1650 50  0000 R CNN
-F 2 "digitalSystemBoard:SC70-6" H 2450 1800 50  0001 L BNN
-F 3 "" H 2450 1800 59  0001 C CNN
-	1    2450 1800
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR0129
 U 1 1 5FBE6449
@@ -820,19 +795,6 @@ F 1 "74LS165" H 6500 2645 50  0000 C CNN
 F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 6290 3590 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS165" H 6290 3590 50  0001 C CNN
 	1    6290 3590
-	1    0    0    -1  
-$EndComp
-$Comp
-L MCU_Microchip_ATmega:ATmega32U4-AU U16
-U 1 1 5FBA4BA5
-P 2870 5540
-AR Path="/5FBA4BA5" Ref="U16"  Part="1" 
-AR Path="/5FBA4597/5FBA4BA5" Ref="U6"  Part="1" 
-F 0 "U6" H 2870 5540 50  0000 C CNN
-F 1 "ATmega32U4-AU" H 2770 5460 50  0000 C CNN
-F 2 "Package_QFP:TQFP-44_10x10mm_P0.8mm" H 2870 5540 50  0001 C CIN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 2870 5540 50  0001 C CNN
-	1    2870 5540
 	1    0    0    -1  
 $EndComp
 Text HLabel 3470 4640 2    50   Input ~ 0
@@ -1053,4 +1015,42 @@ Wire Wire Line
 Wire Wire Line
 	7760 6030 6690 6030
 NoConn ~ 9710 6020
+$Comp
+L digitalSystemBoard:USB-B-S-X-X-TH-TR J1
+U 1 1 5FBE04C8
+P 1150 1490
+F 0 "J1" H 1043 923 50  0000 C CNN
+F 1 "USB-B" H 1043 1014 50  0000 C CNN
+F 2 "digitalSystemBoard:SAMTEC_USB-B-S-X-X-TH-TR" H 1150 1490 50  0001 L BNN
+F 3 "Samtec" H 1150 1490 50  0001 L BNN
+F 4 "Manufacturer Recommendations" H 1150 1490 50  0001 L BNN "Field4"
+F 5 "Q" H 1150 1490 50  0001 L BNN "Field5"
+F 6 "10.95 mm" H 1150 1490 50  0001 L BNN "Field6"
+	1    1150 1490
+	-1   0    0    1   
+$EndComp
+$Comp
+L digitalSystemBoard:SMF05C.TCT TD0
+U 1 1 5FBEABB6
+P 2450 1800
+F 0 "TD0" H 2500 1650 50  0000 R CNN
+F 1 "SMF05C.TCT" H 3040 1650 50  0000 R CNN
+F 2 "digitalSystemBoard:SC70-6" H 2450 1800 50  0001 L BNN
+F 3 "" H 2450 1800 59  0001 C CNN
+	1    2450 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L MCU_Microchip_ATmega:ATmega32U4-AU U16
+U 1 1 5FBA4BA5
+P 2870 5540
+AR Path="/5FBA4BA5" Ref="U16"  Part="1" 
+AR Path="/5FBA4597/5FBA4BA5" Ref="U6"  Part="1" 
+F 0 "U6" H 2870 5540 50  0000 C CNN
+F 1 "ATmega32U4-AU" H 2770 5460 50  0000 C CNN
+F 2 "Package_QFP:TQFP-44_10x10mm_P0.8mm" H 2870 5540 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 2870 5540 50  0001 C CNN
+	1    2870 5540
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
