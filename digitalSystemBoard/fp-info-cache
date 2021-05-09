@@ -1,4 +1,4 @@
-18751895404128566
+18782589910993104
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -1553,6 +1553,13 @@ Push Button
 0
 4
 4
+Button_Switch_THT
+SS-12D11
+
+
+0
+3
+3
 Button_Switch_THT
 SW_CW_GPTS203211B
 SPST Off-On Pushbutton, 1A, 30V, CW Industries P/N GPTS203211B, http://switches-connectors-custom.cwind.com/Asset/GPTS203211BR2.pdf
@@ -48754,6 +48761,13 @@ THT ceramic resonator filter DSS6
 0
 3
 3
+DIP_16_pin_Socket
+TE_2-1571552-4
+
+
+0
+16
+16
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
@@ -53193,6 +53207,13 @@ chokes schaffner tht
 4
 4
 Inductor_THT
+Iductor_UU9.8-502
+
+
+0
+4
+4
+Inductor_THT
 L_Axial_L5.0mm_D3.6mm_P10.00mm_Horizontal_Murata_BL01RN1A2A2
 Inductor, Murata BL01RN1A2A2, Axial, Horizontal, pin pitch=10.00mm, length*diameter=5*3.6mm, https://www.murata.com/en-global/products/productdetail?partno=BL01RN1A2A2%23
 inductor axial horizontal
@@ -54963,6 +54984,13 @@ solder jumper open
 0
 5
 3
+KF301-2P
+HANDSON_KF301-2P
+
+
+0
+2
+2
 LED_SMD
 LED-APA102-2020
 http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf
@@ -56083,6 +56111,13 @@ Yellow 5381 Series LED
 0
 2
 2
+LM4041DIZ-1
+LP_O-PBCY-W3
+<b>LP (O-PBCY-W3)</b> TO-92/TO-226<p>0.8mm holes, Source: http://focus.ti.com/lit/ds/slcs146e/slcs146e.pdf
+
+0
+3
+3
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -69727,6 +69762,13 @@ SOT-1334-1
 14
 14
 Package_TO_SOT_SMD
+STD10PF06T4
+
+
+0
+3
+3
+Package_TO_SOT_SMD
 SuperSOT-3
 3-pin SuperSOT package https://www.fairchildsemi.com/package-drawings/MA/MA03B.pdf
 SuperSOT-3 SSOT-3
@@ -70090,6 +70132,13 @@ to-92
 0
 2
 2
+Package_TO_SOT_THT
+LP_O-PBCY-W3
+<b>LP (O-PBCY-W3)</b> TO-92/TO-226<p>0.8mm holes, Source: http://focus.ti.com/lit/ds/slcs146e/slcs146e.pdf
+
+0
+3
+3
 Package_TO_SOT_THT
 NEC_Molded_7x4x9mm
 Molded Japan Transistor Package 7x4x9mm^3, http://rtellason.com/transdata/2sb734.pdf
@@ -70776,6 +70825,13 @@ to-92 sc-43 sc-43a sot54 PA33 diode SOD70
 0
 2
 2
+Package_TO_SOT_THT
+TO-92-3
+<b>LP (O-PBCY-W3)</b> TO-92/TO-226<p>0.8mm holes, Source: http://focus.ti.com/lit/ds/slcs146e/slcs146e.pdf
+
+0
+3
+3
 Package_TO_SOT_THT
 TO-92Flat
 TO-92Flat package, often used for hall sensors, drill 0.75mm (see e.g. http://www.ti.com/lit/ds/symlink/drv5023.pdf)
@@ -75431,6 +75487,13 @@ rotary encoder
 0
 5
 4
+SMF05C
+SC70-6
+<b>6-Lead Thin Shrink Small Outline Transistor Package SC70</b><p>Source: http://www.analog.com/static/imported-files/data_sheets/ADA4853-1_4853-2_4853-3.pdf
+
+0
+6
+6
 Sensor
 Aosong_DHT11_5.5x12.0_P2.54mm
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/DHT11.pdf
@@ -82089,6 +82152,48 @@ Button_CLOCK
 4
 4
 digitalSystemBoard
+DC3_2x03_PIN
+
+
+0
+6
+6
+digitalSystemBoard
+DC3_2x04_PIN
+
+
+0
+8
+8
+digitalSystemBoard
+DC3_2x07_PIN
+
+
+0
+14
+14
+digitalSystemBoard
+DC3_2x08_PIN
+
+
+0
+16
+16
+digitalSystemBoard
+DIP_16_PIN_SOCKET
+
+
+0
+16
+16
+digitalSystemBoard
+FerriteBead
+
+
+0
+2
+2
+digitalSystemBoard
 Fuse
 
 
@@ -82104,6 +82209,13 @@ LED_3528
 2
 digitalSystemBoard
 LM317
+
+
+0
+3
+3
+digitalSystemBoard
+LM317AMDT
 
 
 0
@@ -82131,6 +82243,13 @@ MJD122T4G
 3
 3
 digitalSystemBoard
+Mountinghole_M3
+
+
+0
+0
+0
+digitalSystemBoard
 POWER_VIA
 
 
@@ -82140,6 +82259,13 @@ POWER_VIA
 digitalSystemBoard
 P_SOURCE
 SuperSOT-3
+
+0
+3
+3
+digitalSystemBoard
+Power_Module
+
 
 0
 3
@@ -82166,8 +82292,22 @@ RV09S
 5
 4
 digitalSystemBoard
+Resistor Bar 06030 8P4R
+
+
+0
+16
+16
+digitalSystemBoard
 SAMTEC_USB-B-S-X-X-TH-TR
 
+
+0
+6
+6
+digitalSystemBoard
+SC70-6
+<b>6-Lead Thin Shrink Small Outline Transistor Package SC70</b><p>Source: http://www.analog.com/static/imported-files/data_sheets/ADA4853-1_4853-2_4853-3.pdf
 
 0
 6
@@ -82205,20 +82345,6 @@ SS-12F44G5
 
 
 0
-5
-5
-digitalSystemBoard
-TO228P991X255-3N
-
-
-0
-3
-3
-digitalSystemBoard
-TO229P990X238-4N
-
-
-0
 3
 3
 digitalSystemBoard
@@ -82228,6 +82354,13 @@ TRIM_3296W-1-501
 0
 3
 3
+digitalSystemBoard
+WC1602A
+LCD 16x2 http://www.wincomlcd.com/pdf/WC1602A-SFYLYHTC06.pdf
+LCD 16x2 Alphanumeric 16pin
+0
+16
+16
 footprints
 2-SMD-5X3
 <b>2-SMD</b><p>5 x 3.2 mm
