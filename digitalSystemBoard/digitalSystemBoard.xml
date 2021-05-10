@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>C:\Users\Asus\Desktop\PCBPrj\digitalSystemBoard\digitalSystemBoard\digitalSystemBoard.sch</source>
-    <date>5/8/2021 7:13:08 AM</date>
+    <source>D:\quan\CE19\digitalSystemBoard\digitalSystemBoard\digitalSystemBoard.sch</source>
+    <date>10/5/2021 12:58:13 PM</date>
     <tool>Eeschema (5.1.6)-1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -103,9 +103,12 @@
       <tstamp>6094F958</tstamp>
     </comp>
     <comp ref="R6">
-      <value>330</value>
+      <value>2.49k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C22908</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/DISPLAY/" tstamps="/5FB71076/"/>
       <tstamp>5FBB783A</tstamp>
@@ -130,22 +133,31 @@
       <value>LED</value>
       <footprint>digitalSystemBoard:LED_3528</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C73545</field>
+      </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <sheetpath names="/DISPLAY/" tstamps="/5FB71076/"/>
       <tstamp>5FBB6D3B</tstamp>
     </comp>
-    <comp ref="R5">
-      <value>1k8</value>
+    <comp ref="E1">
+      <value>2.49k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C22908</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/DISPLAY/" tstamps="/5FB71076/"/>
       <tstamp>5FBB8D71</tstamp>
     </comp>
     <comp ref="R4">
-      <value>10k</value>
+      <value>15k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C100780</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/DISPLAY/" tstamps="/5FB71076/"/>
       <tstamp>5FBB816B</tstamp>
@@ -170,14 +182,20 @@
       <value>BC847</value>
       <footprint>digitalSystemBoard:SO65P210X100-3N</footprint>
       <datasheet>http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657</datasheet>
+      <fields>
+        <field name="LCSC">C8659</field>
+      </fields>
       <libsource lib="Transistor_BJT" part="BC847" description="0.1A Ic, 45V Vce, NPN Transistor, SOT-23"/>
       <sheetpath names="/DISPLAY/" tstamps="/5FB71076/"/>
       <tstamp>5FBB4CCB</tstamp>
     </comp>
     <comp ref="R9">
-      <value>330</value>
+      <value>2.49k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C22908</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/DISPLAY/" tstamps="/5FB71076/"/>
       <tstamp>5FCE92C1</tstamp>
@@ -186,22 +204,31 @@
       <value>LED</value>
       <footprint>digitalSystemBoard:LED_3528</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C73545</field>
+      </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <sheetpath names="/DISPLAY/" tstamps="/5FB71076/"/>
       <tstamp>5FCE92CF</tstamp>
     </comp>
     <comp ref="R8">
-      <value>1k8</value>
+      <value>2.49k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C22908</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/DISPLAY/" tstamps="/5FB71076/"/>
       <tstamp>5FCE92D5</tstamp>
     </comp>
     <comp ref="R7">
-      <value>10k</value>
+      <value>15k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C100780</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/DISPLAY/" tstamps="/5FB71076/"/>
       <tstamp>5FCE92DB</tstamp>
@@ -210,14 +237,20 @@
       <value>BC847</value>
       <footprint>digitalSystemBoard:SO65P210X100-3N</footprint>
       <datasheet>http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657</datasheet>
+      <fields>
+        <field name="LCSC">C8659</field>
+      </fields>
       <libsource lib="Transistor_BJT" part="BC847" description="0.1A Ic, 45V Vce, NPN Transistor, SOT-23"/>
       <sheetpath names="/DISPLAY/" tstamps="/5FB71076/"/>
       <tstamp>5FCE92E1</tstamp>
     </comp>
     <comp ref="R12">
-      <value>330</value>
+      <value>2.49k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C22908</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/DISPLAY/" tstamps="/5FB71076/"/>
       <tstamp>5FCEB74E</tstamp>
@@ -226,22 +259,31 @@
       <value>LED</value>
       <footprint>digitalSystemBoard:LED_3528</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C73545</field>
+      </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <sheetpath names="/DISPLAY/" tstamps="/5FB71076/"/>
       <tstamp>5FCEB75C</tstamp>
     </comp>
     <comp ref="R11">
-      <value>1k8</value>
+      <value>2.49k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C22908</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/DISPLAY/" tstamps="/5FB71076/"/>
       <tstamp>5FCEB762</tstamp>
     </comp>
     <comp ref="R10">
-      <value>10k</value>
+      <value>15k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C100780</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/DISPLAY/" tstamps="/5FB71076/"/>
       <tstamp>5FCEB768</tstamp>
@@ -250,14 +292,20 @@
       <value>BC847</value>
       <footprint>digitalSystemBoard:SO65P210X100-3N</footprint>
       <datasheet>http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657</datasheet>
+      <fields>
+        <field name="LCSC">C8659</field>
+      </fields>
       <libsource lib="Transistor_BJT" part="BC847" description="0.1A Ic, 45V Vce, NPN Transistor, SOT-23"/>
       <sheetpath names="/DISPLAY/" tstamps="/5FB71076/"/>
       <tstamp>5FCEB76E</tstamp>
     </comp>
     <comp ref="R15">
-      <value>330</value>
+      <value>2.49k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C22908</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/DISPLAY/" tstamps="/5FB71076/"/>
       <tstamp>5FCED7C2</tstamp>
@@ -266,22 +314,31 @@
       <value>LED</value>
       <footprint>digitalSystemBoard:LED_3528</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C73545</field>
+      </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <sheetpath names="/DISPLAY/" tstamps="/5FB71076/"/>
       <tstamp>5FCED7D0</tstamp>
     </comp>
     <comp ref="R14">
-      <value>1k8</value>
+      <value>2.49k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C22908</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/DISPLAY/" tstamps="/5FB71076/"/>
       <tstamp>5FCED7D6</tstamp>
     </comp>
     <comp ref="R13">
-      <value>10k</value>
+      <value>15k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C100780</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/DISPLAY/" tstamps="/5FB71076/"/>
       <tstamp>5FCED7DC</tstamp>
@@ -290,14 +347,20 @@
       <value>BC847</value>
       <footprint>digitalSystemBoard:SO65P210X100-3N</footprint>
       <datasheet>http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657</datasheet>
+      <fields>
+        <field name="LCSC">C8659</field>
+      </fields>
       <libsource lib="Transistor_BJT" part="BC847" description="0.1A Ic, 45V Vce, NPN Transistor, SOT-23"/>
       <sheetpath names="/DISPLAY/" tstamps="/5FB71076/"/>
       <tstamp>5FCED7E2</tstamp>
     </comp>
     <comp ref="R18">
-      <value>330</value>
+      <value>2.49k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C22908</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/DISPLAY/" tstamps="/5FB71076/"/>
       <tstamp>5FCF25CB</tstamp>
@@ -306,22 +369,31 @@
       <value>LED</value>
       <footprint>digitalSystemBoard:LED_3528</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C73545</field>
+      </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <sheetpath names="/DISPLAY/" tstamps="/5FB71076/"/>
       <tstamp>5FCF25D9</tstamp>
     </comp>
     <comp ref="R17">
-      <value>1k8</value>
+      <value>2.49k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C22908</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/DISPLAY/" tstamps="/5FB71076/"/>
       <tstamp>5FCF25DF</tstamp>
     </comp>
     <comp ref="R16">
-      <value>10k</value>
+      <value>15k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C100780</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/DISPLAY/" tstamps="/5FB71076/"/>
       <tstamp>5FCF25E5</tstamp>
@@ -330,14 +402,20 @@
       <value>BC847</value>
       <footprint>digitalSystemBoard:SO65P210X100-3N</footprint>
       <datasheet>http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657</datasheet>
+      <fields>
+        <field name="LCSC">C8659</field>
+      </fields>
       <libsource lib="Transistor_BJT" part="BC847" description="0.1A Ic, 45V Vce, NPN Transistor, SOT-23"/>
       <sheetpath names="/DISPLAY/" tstamps="/5FB71076/"/>
       <tstamp>5FCF25EB</tstamp>
     </comp>
     <comp ref="R21">
-      <value>330</value>
+      <value>2.49k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C22908</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/DISPLAY/" tstamps="/5FB71076/"/>
       <tstamp>5FCF636E</tstamp>
@@ -346,22 +424,31 @@
       <value>LED</value>
       <footprint>digitalSystemBoard:LED_3528</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C73545</field>
+      </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <sheetpath names="/DISPLAY/" tstamps="/5FB71076/"/>
       <tstamp>5FCF637C</tstamp>
     </comp>
     <comp ref="R20">
-      <value>1k8</value>
+      <value>2.49k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C22908</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/DISPLAY/" tstamps="/5FB71076/"/>
       <tstamp>5FCF6382</tstamp>
     </comp>
     <comp ref="R19">
-      <value>10k</value>
+      <value>15k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C100780</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/DISPLAY/" tstamps="/5FB71076/"/>
       <tstamp>5FCF6388</tstamp>
@@ -370,14 +457,20 @@
       <value>BC847</value>
       <footprint>digitalSystemBoard:SO65P210X100-3N</footprint>
       <datasheet>http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657</datasheet>
+      <fields>
+        <field name="LCSC">C8659</field>
+      </fields>
       <libsource lib="Transistor_BJT" part="BC847" description="0.1A Ic, 45V Vce, NPN Transistor, SOT-23"/>
       <sheetpath names="/DISPLAY/" tstamps="/5FB71076/"/>
       <tstamp>5FCF638E</tstamp>
     </comp>
     <comp ref="R24">
-      <value>330</value>
+      <value>2.49k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C22908</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/DISPLAY/" tstamps="/5FB71076/"/>
       <tstamp>5FCF8A27</tstamp>
@@ -386,22 +479,31 @@
       <value>LED</value>
       <footprint>digitalSystemBoard:LED_3528</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C73545</field>
+      </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <sheetpath names="/DISPLAY/" tstamps="/5FB71076/"/>
       <tstamp>5FCF8A35</tstamp>
     </comp>
     <comp ref="R23">
-      <value>1k8</value>
+      <value>2.49k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C22908</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/DISPLAY/" tstamps="/5FB71076/"/>
       <tstamp>5FCF8A3B</tstamp>
     </comp>
     <comp ref="R22">
-      <value>10k</value>
+      <value>15k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C100780</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/DISPLAY/" tstamps="/5FB71076/"/>
       <tstamp>5FCF8A41</tstamp>
@@ -410,14 +512,20 @@
       <value>BC847</value>
       <footprint>digitalSystemBoard:SO65P210X100-3N</footprint>
       <datasheet>http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657</datasheet>
+      <fields>
+        <field name="LCSC">C8659</field>
+      </fields>
       <libsource lib="Transistor_BJT" part="BC847" description="0.1A Ic, 45V Vce, NPN Transistor, SOT-23"/>
       <sheetpath names="/DISPLAY/" tstamps="/5FB71076/"/>
       <tstamp>5FCF8A47</tstamp>
     </comp>
     <comp ref="R27">
-      <value>330</value>
+      <value>2.49k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C22908</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/DISPLAY/" tstamps="/5FB71076/"/>
       <tstamp>5FCFA520</tstamp>
@@ -426,22 +534,31 @@
       <value>LED</value>
       <footprint>digitalSystemBoard:LED_3528</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C73545</field>
+      </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <sheetpath names="/DISPLAY/" tstamps="/5FB71076/"/>
       <tstamp>5FCFA52E</tstamp>
     </comp>
     <comp ref="R26">
-      <value>1k8</value>
+      <value>2.49k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C22908</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/DISPLAY/" tstamps="/5FB71076/"/>
       <tstamp>5FCFA534</tstamp>
     </comp>
     <comp ref="R25">
-      <value>10k</value>
+      <value>15k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C100780</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/DISPLAY/" tstamps="/5FB71076/"/>
       <tstamp>5FCFA53A</tstamp>
@@ -450,6 +567,9 @@
       <value>BC847</value>
       <footprint>digitalSystemBoard:SO65P210X100-3N</footprint>
       <datasheet>http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657</datasheet>
+      <fields>
+        <field name="LCSC">C8659</field>
+      </fields>
       <libsource lib="Transistor_BJT" part="BC847" description="0.1A Ic, 45V Vce, NPN Transistor, SOT-23"/>
       <sheetpath names="/DISPLAY/" tstamps="/5FB71076/"/>
       <tstamp>5FCFA540</tstamp>
@@ -458,6 +578,9 @@
       <value>330</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23138</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/DISPLAY/" tstamps="/5FB71076/"/>
       <tstamp>5FD3A8A0</tstamp>
@@ -466,6 +589,9 @@
       <value>330</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23138</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/DISPLAY/" tstamps="/5FB71076/"/>
       <tstamp>5FD3A8AA</tstamp>
@@ -474,6 +600,9 @@
       <value>330</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23138</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/DISPLAY/" tstamps="/5FB71076/"/>
       <tstamp>5FD3A8B4</tstamp>
@@ -482,6 +611,9 @@
       <value>330</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23138</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/DISPLAY/" tstamps="/5FB71076/"/>
       <tstamp>5FD3A8BE</tstamp>
@@ -490,6 +622,9 @@
       <value>330</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23138</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/DISPLAY/" tstamps="/5FB71076/"/>
       <tstamp>5FD3A8C8</tstamp>
@@ -498,6 +633,9 @@
       <value>330</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23138</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/DISPLAY/" tstamps="/5FB71076/"/>
       <tstamp>5FD3A8D2</tstamp>
@@ -506,6 +644,9 @@
       <value>330</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23138</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/DISPLAY/" tstamps="/5FB71076/"/>
       <tstamp>5FD3A8DC</tstamp>
@@ -514,6 +655,9 @@
       <value>330</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23138</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/DISPLAY/" tstamps="/5FB71076/"/>
       <tstamp>5FD23AAB</tstamp>
@@ -522,6 +666,9 @@
       <value>330</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23138</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/DISPLAY/" tstamps="/5FB71076/"/>
       <tstamp>5FD21E46</tstamp>
@@ -530,6 +677,9 @@
       <value>330</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23138</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/DISPLAY/" tstamps="/5FB71076/"/>
       <tstamp>5FD21E3C</tstamp>
@@ -538,6 +688,9 @@
       <value>330</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23138</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/DISPLAY/" tstamps="/5FB71076/"/>
       <tstamp>5FD21E32</tstamp>
@@ -546,6 +699,9 @@
       <value>330</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23138</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/DISPLAY/" tstamps="/5FB71076/"/>
       <tstamp>5FD208E5</tstamp>
@@ -554,6 +710,9 @@
       <value>330</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23138</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/DISPLAY/" tstamps="/5FB71076/"/>
       <tstamp>5FD2017C</tstamp>
@@ -562,14 +721,20 @@
       <value>330</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23138</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/DISPLAY/" tstamps="/5FB71076/"/>
       <tstamp>5FD1F1BB</tstamp>
     </comp>
     <comp ref="R28">
-      <value>10k</value>
+      <value>27k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C25589</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/SWITCH_AND_BUTTON/" tstamps="/5FB7130A/"/>
       <tstamp>5FBA09F9</tstamp>
@@ -578,6 +743,9 @@
       <value>BC847</value>
       <footprint>digitalSystemBoard:SO65P210X100-3N</footprint>
       <datasheet>http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657</datasheet>
+      <fields>
+        <field name="LCSC">C8659</field>
+      </fields>
       <libsource lib="Transistor_BJT" part="BC847" description="0.1A Ic, 45V Vce, NPN Transistor, SOT-23"/>
       <sheetpath names="/SWITCH_AND_BUTTON/" tstamps="/5FB7130A/"/>
       <tstamp>5FBA1887</tstamp>
@@ -586,14 +754,20 @@
       <value>LED</value>
       <footprint>LED_SMD:LED_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <sheetpath names="/SWITCH_AND_BUTTON/" tstamps="/5FB7130A/"/>
       <tstamp>5FBA4054</tstamp>
     </comp>
     <comp ref="R30">
-      <value>470</value>
+      <value>1.8k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C103360</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/SWITCH_AND_BUTTON/" tstamps="/5FB7130A/"/>
       <tstamp>5FBA4D02</tstamp>
@@ -602,6 +776,9 @@
       <value>10k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C98220</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/SWITCH_AND_BUTTON/" tstamps="/5FB7130A/"/>
       <tstamp>5FC61AE5</tstamp>
@@ -636,6 +813,9 @@
       <value>10k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C98220</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/SWITCH_AND_BUTTON/" tstamps="/5FB7130A/"/>
       <tstamp>5FC37B3C</tstamp>
@@ -644,6 +824,9 @@
       <value>74LS04</value>
       <footprint>Package_SO:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
       <datasheet>http://www.ti.com/lit/gpn/sn74LS04</datasheet>
+      <fields>
+        <field name="LCSC">C6796</field>
+      </fields>
       <libsource lib="74xx" part="74LS04" description="Hex Inverter"/>
       <sheetpath names="/SWITCH_AND_BUTTON/" tstamps="/5FB7130A/"/>
       <tstamp>5FC456A7</tstamp>
@@ -665,6 +848,9 @@
       <value>10k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C98220</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/SWITCH_AND_BUTTON/" tstamps="/5FB7130A/"/>
       <tstamp>5FC4C857</tstamp>
@@ -686,6 +872,9 @@
       <value>10k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C98220</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/SWITCH_AND_BUTTON/" tstamps="/5FB7130A/"/>
       <tstamp>5FC5D3B9</tstamp>
@@ -694,6 +883,9 @@
       <value>10k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C98220</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/SWITCH_AND_BUTTON/" tstamps="/5FB7130A/"/>
       <tstamp>5FC5D393</tstamp>
@@ -757,17 +949,23 @@
       <tstamp>5FB9F2DF</tstamp>
     </comp>
     <comp ref="R29">
-      <value>1k8</value>
+      <value>4.7k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C105428</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/SWITCH_AND_BUTTON/" tstamps="/5FB7130A/"/>
       <tstamp>5FCC8710</tstamp>
     </comp>
     <comp ref="R31">
-      <value>10k</value>
+      <value>27k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C25589</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/SWITCH_AND_BUTTON/" tstamps="/5FB7130A/"/>
       <tstamp>5FD23292</tstamp>
@@ -776,6 +974,9 @@
       <value>BC847</value>
       <footprint>digitalSystemBoard:SO65P210X100-3N</footprint>
       <datasheet>http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657</datasheet>
+      <fields>
+        <field name="LCSC">C8659</field>
+      </fields>
       <libsource lib="Transistor_BJT" part="BC847" description="0.1A Ic, 45V Vce, NPN Transistor, SOT-23"/>
       <sheetpath names="/SWITCH_AND_BUTTON/" tstamps="/5FB7130A/"/>
       <tstamp>5FD23298</tstamp>
@@ -784,14 +985,20 @@
       <value>LED</value>
       <footprint>LED_SMD:LED_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <sheetpath names="/SWITCH_AND_BUTTON/" tstamps="/5FB7130A/"/>
       <tstamp>5FD2329E</tstamp>
     </comp>
     <comp ref="R33">
-      <value>470</value>
+      <value>1.8k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C103360</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/SWITCH_AND_BUTTON/" tstamps="/5FB7130A/"/>
       <tstamp>5FD232A4</tstamp>
@@ -804,17 +1011,23 @@
       <tstamp>5FD232B0</tstamp>
     </comp>
     <comp ref="R32">
-      <value>1k8</value>
+      <value>4.7k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C105428</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/SWITCH_AND_BUTTON/" tstamps="/5FB7130A/"/>
       <tstamp>5FD232B8</tstamp>
     </comp>
     <comp ref="R34">
-      <value>10k</value>
+      <value>27k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C25589</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/SWITCH_AND_BUTTON/" tstamps="/5FB7130A/"/>
       <tstamp>5FD2AB11</tstamp>
@@ -823,6 +1036,9 @@
       <value>BC847</value>
       <footprint>digitalSystemBoard:SO65P210X100-3N</footprint>
       <datasheet>http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657</datasheet>
+      <fields>
+        <field name="LCSC">C8659</field>
+      </fields>
       <libsource lib="Transistor_BJT" part="BC847" description="0.1A Ic, 45V Vce, NPN Transistor, SOT-23"/>
       <sheetpath names="/SWITCH_AND_BUTTON/" tstamps="/5FB7130A/"/>
       <tstamp>5FD2AB17</tstamp>
@@ -831,14 +1047,20 @@
       <value>LED</value>
       <footprint>LED_SMD:LED_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <sheetpath names="/SWITCH_AND_BUTTON/" tstamps="/5FB7130A/"/>
       <tstamp>5FD2AB1D</tstamp>
     </comp>
     <comp ref="R36">
-      <value>470</value>
+      <value>1.8k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C103360</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/SWITCH_AND_BUTTON/" tstamps="/5FB7130A/"/>
       <tstamp>5FD2AB23</tstamp>
@@ -851,17 +1073,23 @@
       <tstamp>5FD2AB2F</tstamp>
     </comp>
     <comp ref="R35">
-      <value>1k8</value>
+      <value>4.7k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C105428</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/SWITCH_AND_BUTTON/" tstamps="/5FB7130A/"/>
       <tstamp>5FD2AB37</tstamp>
     </comp>
     <comp ref="R37">
-      <value>10k</value>
+      <value>27k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C25589</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/SWITCH_AND_BUTTON/" tstamps="/5FB7130A/"/>
       <tstamp>5FD327BA</tstamp>
@@ -870,6 +1098,9 @@
       <value>BC847</value>
       <footprint>digitalSystemBoard:SO65P210X100-3N</footprint>
       <datasheet>http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657</datasheet>
+      <fields>
+        <field name="LCSC">C8659</field>
+      </fields>
       <libsource lib="Transistor_BJT" part="BC847" description="0.1A Ic, 45V Vce, NPN Transistor, SOT-23"/>
       <sheetpath names="/SWITCH_AND_BUTTON/" tstamps="/5FB7130A/"/>
       <tstamp>5FD327C0</tstamp>
@@ -878,14 +1109,20 @@
       <value>LED</value>
       <footprint>LED_SMD:LED_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <sheetpath names="/SWITCH_AND_BUTTON/" tstamps="/5FB7130A/"/>
       <tstamp>5FD327C6</tstamp>
     </comp>
     <comp ref="R39">
-      <value>470</value>
+      <value>1.8k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C103360</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/SWITCH_AND_BUTTON/" tstamps="/5FB7130A/"/>
       <tstamp>5FD327CC</tstamp>
@@ -898,17 +1135,23 @@
       <tstamp>5FD327D8</tstamp>
     </comp>
     <comp ref="R38">
-      <value>1k8</value>
+      <value>4.7k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C105428</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/SWITCH_AND_BUTTON/" tstamps="/5FB7130A/"/>
       <tstamp>5FD327E0</tstamp>
     </comp>
     <comp ref="R40">
-      <value>10k</value>
+      <value>27k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C25589</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/SWITCH_AND_BUTTON/" tstamps="/5FB7130A/"/>
       <tstamp>5FD3713B</tstamp>
@@ -917,6 +1160,9 @@
       <value>BC847</value>
       <footprint>digitalSystemBoard:SO65P210X100-3N</footprint>
       <datasheet>http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657</datasheet>
+      <fields>
+        <field name="LCSC">C8659</field>
+      </fields>
       <libsource lib="Transistor_BJT" part="BC847" description="0.1A Ic, 45V Vce, NPN Transistor, SOT-23"/>
       <sheetpath names="/SWITCH_AND_BUTTON/" tstamps="/5FB7130A/"/>
       <tstamp>5FD37141</tstamp>
@@ -925,14 +1171,20 @@
       <value>LED</value>
       <footprint>LED_SMD:LED_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <sheetpath names="/SWITCH_AND_BUTTON/" tstamps="/5FB7130A/"/>
       <tstamp>5FD37147</tstamp>
     </comp>
     <comp ref="R42">
-      <value>470</value>
+      <value>1.8k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C103360</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/SWITCH_AND_BUTTON/" tstamps="/5FB7130A/"/>
       <tstamp>5FD3714D</tstamp>
@@ -945,17 +1197,23 @@
       <tstamp>5FD37159</tstamp>
     </comp>
     <comp ref="R41">
-      <value>1k8</value>
+      <value>4.7k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C105428</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/SWITCH_AND_BUTTON/" tstamps="/5FB7130A/"/>
       <tstamp>5FD37161</tstamp>
     </comp>
     <comp ref="R43">
-      <value>10k</value>
+      <value>27k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C25589</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/SWITCH_AND_BUTTON/" tstamps="/5FB7130A/"/>
       <tstamp>5FD3CD43</tstamp>
@@ -964,6 +1222,9 @@
       <value>BC847</value>
       <footprint>digitalSystemBoard:SO65P210X100-3N</footprint>
       <datasheet>http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657</datasheet>
+      <fields>
+        <field name="LCSC">C8659</field>
+      </fields>
       <libsource lib="Transistor_BJT" part="BC847" description="0.1A Ic, 45V Vce, NPN Transistor, SOT-23"/>
       <sheetpath names="/SWITCH_AND_BUTTON/" tstamps="/5FB7130A/"/>
       <tstamp>5FD3CD49</tstamp>
@@ -972,14 +1233,20 @@
       <value>LED</value>
       <footprint>LED_SMD:LED_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <sheetpath names="/SWITCH_AND_BUTTON/" tstamps="/5FB7130A/"/>
       <tstamp>5FD3CD4F</tstamp>
     </comp>
     <comp ref="R45">
-      <value>470</value>
+      <value>1.8k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C103360</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/SWITCH_AND_BUTTON/" tstamps="/5FB7130A/"/>
       <tstamp>5FD3CD55</tstamp>
@@ -992,17 +1259,23 @@
       <tstamp>5FD3CD61</tstamp>
     </comp>
     <comp ref="R44">
-      <value>1k8</value>
+      <value>4.7k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C105428</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/SWITCH_AND_BUTTON/" tstamps="/5FB7130A/"/>
       <tstamp>5FD3CD69</tstamp>
     </comp>
     <comp ref="R46">
-      <value>10k</value>
+      <value>27k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C25589</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/SWITCH_AND_BUTTON/" tstamps="/5FB7130A/"/>
       <tstamp>5FD43009</tstamp>
@@ -1011,6 +1284,9 @@
       <value>BC847</value>
       <footprint>digitalSystemBoard:SO65P210X100-3N</footprint>
       <datasheet>http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657</datasheet>
+      <fields>
+        <field name="LCSC">C8659</field>
+      </fields>
       <libsource lib="Transistor_BJT" part="BC847" description="0.1A Ic, 45V Vce, NPN Transistor, SOT-23"/>
       <sheetpath names="/SWITCH_AND_BUTTON/" tstamps="/5FB7130A/"/>
       <tstamp>5FD4300F</tstamp>
@@ -1019,14 +1295,20 @@
       <value>LED</value>
       <footprint>LED_SMD:LED_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <sheetpath names="/SWITCH_AND_BUTTON/" tstamps="/5FB7130A/"/>
       <tstamp>5FD43015</tstamp>
     </comp>
     <comp ref="R48">
-      <value>470</value>
+      <value>1.8k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C103360</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/SWITCH_AND_BUTTON/" tstamps="/5FB7130A/"/>
       <tstamp>5FD4301B</tstamp>
@@ -1039,17 +1321,23 @@
       <tstamp>5FD43027</tstamp>
     </comp>
     <comp ref="R47">
-      <value>1k8</value>
+      <value>4.7k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C105428</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/SWITCH_AND_BUTTON/" tstamps="/5FB7130A/"/>
       <tstamp>5FD4302F</tstamp>
     </comp>
     <comp ref="R49">
-      <value>10k</value>
+      <value>27k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C25589</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/SWITCH_AND_BUTTON/" tstamps="/5FB7130A/"/>
       <tstamp>5FD486DD</tstamp>
@@ -1058,6 +1346,9 @@
       <value>BC847</value>
       <footprint>digitalSystemBoard:SO65P210X100-3N</footprint>
       <datasheet>http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657</datasheet>
+      <fields>
+        <field name="LCSC">C8659</field>
+      </fields>
       <libsource lib="Transistor_BJT" part="BC847" description="0.1A Ic, 45V Vce, NPN Transistor, SOT-23"/>
       <sheetpath names="/SWITCH_AND_BUTTON/" tstamps="/5FB7130A/"/>
       <tstamp>5FD486E3</tstamp>
@@ -1066,14 +1357,20 @@
       <value>LED</value>
       <footprint>LED_SMD:LED_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <sheetpath names="/SWITCH_AND_BUTTON/" tstamps="/5FB7130A/"/>
       <tstamp>5FD486E9</tstamp>
     </comp>
     <comp ref="R51">
-      <value>470</value>
+      <value>1.8k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C103360</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/SWITCH_AND_BUTTON/" tstamps="/5FB7130A/"/>
       <tstamp>5FD486EF</tstamp>
@@ -1086,9 +1383,12 @@
       <tstamp>5FD486FB</tstamp>
     </comp>
     <comp ref="R50">
-      <value>1k8</value>
+      <value>4.7k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C105428</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/SWITCH_AND_BUTTON/" tstamps="/5FB7130A/"/>
       <tstamp>5FD48703</tstamp>
@@ -1233,6 +1533,9 @@
       <value>10k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C98220</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Header and Mounting/" tstamps="/5FBA3F95/"/>
       <tstamp>606D777B</tstamp>
@@ -1241,6 +1544,9 @@
       <value>10k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C98220</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Header and Mounting/" tstamps="/5FBA3F95/"/>
       <tstamp>606DB14E</tstamp>
@@ -1249,6 +1555,9 @@
       <value>10k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C98220</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Header and Mounting/" tstamps="/5FBA3F95/"/>
       <tstamp>606DB388</tstamp>
@@ -1257,6 +1566,9 @@
       <value>10k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C98220</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Header and Mounting/" tstamps="/5FBA3F95/"/>
       <tstamp>606DBE31</tstamp>
@@ -1265,6 +1577,9 @@
       <value>10k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C98220</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Header and Mounting/" tstamps="/5FBA3F95/"/>
       <tstamp>606DBE37</tstamp>
@@ -1273,6 +1588,9 @@
       <value>10k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C98220</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Header and Mounting/" tstamps="/5FBA3F95/"/>
       <tstamp>606DBE3D</tstamp>
@@ -1281,6 +1599,9 @@
       <value>10k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C98220</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Header and Mounting/" tstamps="/5FBA3F95/"/>
       <tstamp>606DC7D3</tstamp>
@@ -1289,6 +1610,9 @@
       <value>10k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C98220</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Header and Mounting/" tstamps="/5FBA3F95/"/>
       <tstamp>606DC7D9</tstamp>
@@ -1297,6 +1621,9 @@
       <value>10k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C98220</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Header and Mounting/" tstamps="/5FBA3F95/"/>
       <tstamp>606E0AB8</tstamp>
@@ -1305,6 +1632,9 @@
       <value>10k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C98220</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Header and Mounting/" tstamps="/5FBA3F95/"/>
       <tstamp>606E0ABE</tstamp>
@@ -1313,6 +1643,9 @@
       <value>10k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C98220</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Header and Mounting/" tstamps="/5FBA3F95/"/>
       <tstamp>606E0AC4</tstamp>
@@ -1321,6 +1654,9 @@
       <value>10k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C98220</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Header and Mounting/" tstamps="/5FBA3F95/"/>
       <tstamp>606E0ACA</tstamp>
@@ -1329,6 +1665,9 @@
       <value>10k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C98220</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Header and Mounting/" tstamps="/5FBA3F95/"/>
       <tstamp>606E0AD0</tstamp>
@@ -1337,6 +1676,9 @@
       <value>10k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C98220</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Header and Mounting/" tstamps="/5FBA3F95/"/>
       <tstamp>606E0AD6</tstamp>
@@ -1345,6 +1687,9 @@
       <value>10k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C98220</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Header and Mounting/" tstamps="/5FBA3F95/"/>
       <tstamp>606E0ADC</tstamp>
@@ -1353,56 +1698,68 @@
       <value>10k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C98220</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Header and Mounting/" tstamps="/5FBA3F95/"/>
       <tstamp>606E0AE2</tstamp>
     </comp>
-    <comp ref="R59">
+    <comp ref="R2">
       <value>1M</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C26098</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/MCU/" tstamps="/5FBA4597/"/>
       <tstamp>5FBAC76A</tstamp>
     </comp>
-    <comp ref="Y0">
+    <comp ref="Y1">
       <value>16MHz</value>
       <footprint>Crystal:Crystal_SMD_Abracon_ABM3B-4Pin_5.0x3.2mm</footprint>
+      <fields>
+        <field name="LCSC">C258963</field>
+      </fields>
       <libsource lib="digitalSystemBoard" part="Resonator" description=""/>
       <sheetpath names="/MCU/" tstamps="/5FBA4597/"/>
       <tstamp>5FBACC99</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>22pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C105620</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/MCU/" tstamps="/5FBA4597/"/>
+      <tstamp>5FBAD313</tstamp>
     </comp>
     <comp ref="C7">
       <value>22pF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="LCSC">C527592</field>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/MCU/" tstamps="/5FBA4597/"/>
-      <tstamp>5FBAD313</tstamp>
-    </comp>
-    <comp ref="C6">
-      <value>22pF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="LCSC">C527592</field>
+        <field name="LCSC">C105620</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/MCU/" tstamps="/5FBA4597/"/>
       <tstamp>5FBAD67B</tstamp>
     </comp>
-    <comp ref="FB4">
+    <comp ref="FB1">
       <value>80Ohm</value>
       <footprint>digitalSystemBoard:FerriteBead</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C141982</field>
+      </fields>
       <libsource lib="Device" part="Ferrite_Bead" description="Ferrite bead"/>
       <sheetpath names="/MCU/" tstamps="/5FBA4597/"/>
       <tstamp>5FBBE5A9</tstamp>
     </comp>
-    <comp ref="C8">
+    <comp ref="C5">
       <value>0.1uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
@@ -1413,15 +1770,18 @@
       <sheetpath names="/MCU/" tstamps="/5FBA4597/"/>
       <tstamp>5FBBEEB7</tstamp>
     </comp>
-    <comp ref="FB5">
+    <comp ref="FB2">
       <value>80Ohm</value>
       <footprint>digitalSystemBoard:FerriteBead</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C141982</field>
+      </fields>
       <libsource lib="Device" part="Ferrite_Bead" description="Ferrite bead"/>
       <sheetpath names="/MCU/" tstamps="/5FBA4597/"/>
       <tstamp>5FBC4AB8</tstamp>
     </comp>
-    <comp ref="C9">
+    <comp ref="C6">
       <value>0.1uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
@@ -1432,15 +1792,18 @@
       <sheetpath names="/MCU/" tstamps="/5FBA4597/"/>
       <tstamp>5FBC4ABE</tstamp>
     </comp>
-    <comp ref="FB1">
+    <comp ref="FB4">
       <value>80Ohm</value>
       <footprint>digitalSystemBoard:FerriteBead</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C141982</field>
+      </fields>
       <libsource lib="Device" part="Ferrite_Bead" description="Ferrite bead"/>
       <sheetpath names="/MCU/" tstamps="/5FBA4597/"/>
       <tstamp>5FBC83F4</tstamp>
     </comp>
-    <comp ref="C10">
+    <comp ref="C9">
       <value>0.1uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
@@ -1451,15 +1814,18 @@
       <sheetpath names="/MCU/" tstamps="/5FBA4597/"/>
       <tstamp>5FBC83FA</tstamp>
     </comp>
-    <comp ref="FB2">
+    <comp ref="FB5">
       <value>80Ohm</value>
       <footprint>digitalSystemBoard:FerriteBead</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C141982</field>
+      </fields>
       <libsource lib="Device" part="Ferrite_Bead" description="Ferrite bead"/>
       <sheetpath names="/MCU/" tstamps="/5FBA4597/"/>
       <tstamp>5FBC8F94</tstamp>
     </comp>
-    <comp ref="C11">
+    <comp ref="C10">
       <value>0.1uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
@@ -1470,15 +1836,18 @@
       <sheetpath names="/MCU/" tstamps="/5FBA4597/"/>
       <tstamp>5FBC8F9A</tstamp>
     </comp>
-    <comp ref="FB3">
+    <comp ref="FB6">
       <value>80Ohm</value>
       <footprint>digitalSystemBoard:FerriteBead</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C141982</field>
+      </fields>
       <libsource lib="Device" part="Ferrite_Bead" description="Ferrite bead"/>
       <sheetpath names="/MCU/" tstamps="/5FBA4597/"/>
       <tstamp>5FBC9C60</tstamp>
     </comp>
-    <comp ref="C12">
+    <comp ref="C11">
       <value>0.1uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
@@ -1489,18 +1858,24 @@
       <sheetpath names="/MCU/" tstamps="/5FBA4597/"/>
       <tstamp>5FBC9C66</tstamp>
     </comp>
-    <comp ref="R58">
-      <value>10k</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/MCU/" tstamps="/5FBA4597/"/>
-      <tstamp>5FBDAE81</tstamp>
-    </comp>
     <comp ref="R57">
       <value>10k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C98220</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/MCU/" tstamps="/5FBA4597/"/>
+      <tstamp>5FBDAE81</tstamp>
+    </comp>
+    <comp ref="R59">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C98220</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/MCU/" tstamps="/5FBA4597/"/>
       <tstamp>5FBBEA10</tstamp>
@@ -1518,10 +1893,13 @@
       <sheetpath names="/MCU/" tstamps="/5FBA4597/"/>
       <tstamp>5FBB7037</tstamp>
     </comp>
-    <comp ref="R3">
+    <comp ref="R5">
       <value>22</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C108405</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/MCU/" tstamps="/5FBA4597/"/>
       <tstamp>5FBF198E</tstamp>
@@ -1530,47 +1908,36 @@
       <value>22</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C108405</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/MCU/" tstamps="/5FBA4597/"/>
       <tstamp>5FBE7ED3</tstamp>
     </comp>
-    <comp ref="FB0">
+    <comp ref="FB3">
       <value>80Ohm</value>
       <footprint>digitalSystemBoard:FerriteBead</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C141982</field>
+      </fields>
       <libsource lib="Device" part="Ferrite_Bead" description="Ferrite bead"/>
       <sheetpath names="/MCU/" tstamps="/5FBA4597/"/>
       <tstamp>5FBE302A</tstamp>
     </comp>
-    <comp ref="J1">
-      <value>USB-B</value>
-      <footprint>digitalSystemBoard:SAMTEC_USB-B-S-X-X-TH-TR</footprint>
-      <datasheet>Samtec</datasheet>
-      <fields>
-        <field name="Field4">Manufacturer Recommendations</field>
-        <field name="Field5">Q</field>
-        <field name="Field6">10.95 mm</field>
-      </fields>
-      <libsource lib="digitalSystemBoard" part="USB-B-S-X-X-TH-TR" description=""/>
-      <sheetpath names="/MCU/" tstamps="/5FBA4597/"/>
-      <tstamp>5FBE04C8</tstamp>
-    </comp>
-    <comp ref="TD0">
-      <value>SMF05C.TCT</value>
-      <footprint>digitalSystemBoard:SC70-6</footprint>
-      <libsource lib="digitalSystemBoard" part="SMF05C.TCT" description=""/>
-      <sheetpath names="/MCU/" tstamps="/5FBA4597/"/>
-      <tstamp>5FBEABB6</tstamp>
-    </comp>
-    <comp ref="R2">
+    <comp ref="R3">
       <value>22</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C108405</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/MCU/" tstamps="/5FBA4597/"/>
       <tstamp>5FBF11A6</tstamp>
     </comp>
-    <comp ref="C5">
+    <comp ref="C12">
       <value>0.1uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
@@ -1585,17 +1952,12 @@
       <value>74LS165</value>
       <footprint>Package_SO:SOIC-16_3.9x9.9mm_P1.27mm</footprint>
       <datasheet>http://www.ti.com/lit/gpn/sn74LS165</datasheet>
+      <fields>
+        <field name="LCSC">C7742</field>
+      </fields>
       <libsource lib="74xx" part="74LS165" description="Shift Register 8-bit, parallel load"/>
       <sheetpath names="/MCU/" tstamps="/5FBA4597/"/>
       <tstamp>5FB96DF9</tstamp>
-    </comp>
-    <comp ref="U6">
-      <value>ATmega32U4-AU</value>
-      <footprint>Package_QFP:TQFP-44_10x10mm_P0.8mm</footprint>
-      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf</datasheet>
-      <libsource lib="MCU_Microchip_ATmega" part="ATmega32U4-AU" description="16MHz, 32kB Flash, 2.5kB SRAM, 1kB EEPROM, USB 2.0, TQFP-44"/>
-      <sheetpath names="/MCU/" tstamps="/5FBA4597/"/>
-      <tstamp>5FBA4BA5</tstamp>
     </comp>
     <comp ref="U7">
       <value>ICSP</value>
@@ -1604,10 +1966,13 @@
       <sheetpath names="/MCU/" tstamps="/5FBA4597/"/>
       <tstamp>5FCA6AE9</tstamp>
     </comp>
-    <comp ref="R0">
+    <comp ref="R58">
       <value>220</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C22962</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/MCU/" tstamps="/5FBA4597/"/>
       <tstamp>6048C364</tstamp>
@@ -1619,7 +1984,7 @@
       <sheetpath names="/MCU/" tstamps="/5FBA4597/"/>
       <tstamp>6040D0E5</tstamp>
     </comp>
-    <comp ref="DS0">
+    <comp ref="DS1">
       <value>WC1602A</value>
       <footprint>digitalSystemBoard:WC1602A</footprint>
       <datasheet>http://www.wincomlcd.com/pdf/WC1602A-SFYLYHTC06.pdf</datasheet>
@@ -1631,6 +1996,9 @@
       <value>74LS165</value>
       <footprint>Package_SO:SOIC-16_3.9x9.9mm_P1.27mm</footprint>
       <datasheet>http://www.ti.com/lit/gpn/sn74LS165</datasheet>
+      <fields>
+        <field name="LCSC">C7742</field>
+      </fields>
       <libsource lib="74xx" part="74LS165" description="Shift Register 8-bit, parallel load"/>
       <sheetpath names="/MCU/" tstamps="/5FBA4597/"/>
       <tstamp>5FB97CE1</tstamp>
@@ -1639,6 +2007,9 @@
       <value>74HC595</value>
       <footprint>Package_SO:SOIC-16_3.9x9.9mm_P1.27mm</footprint>
       <datasheet>http://www.ti.com/lit/ds/symlink/sn74hc595.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C10092</field>
+      </fields>
       <libsource lib="74xx" part="74HC595" description="8-bit serial in/out Shift Register 3-State Outputs"/>
       <sheetpath names="/MCU/" tstamps="/5FBA4597/"/>
       <tstamp>60679472</tstamp>
@@ -1647,9 +2018,46 @@
       <value>74HC595</value>
       <footprint>Package_SO:SOIC-16_3.9x9.9mm_P1.27mm</footprint>
       <datasheet>http://www.ti.com/lit/ds/symlink/sn74hc595.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C10092</field>
+      </fields>
       <libsource lib="74xx" part="74HC595" description="8-bit serial in/out Shift Register 3-State Outputs"/>
       <sheetpath names="/MCU/" tstamps="/5FBA4597/"/>
       <tstamp>60667CC7</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>USB-B</value>
+      <footprint>digitalSystemBoard:SAMTEC_USB-B-S-X-X-TH-TR</footprint>
+      <datasheet>Samtec</datasheet>
+      <fields>
+        <field name="Field4">Manufacturer Recommendations</field>
+        <field name="Field5">Q</field>
+        <field name="Field6">10.95 mm</field>
+      </fields>
+      <libsource lib="digitalSystemBoard" part="USB-B-S-X-X-TH-TR" description=""/>
+      <sheetpath names="/MCU/" tstamps="/5FBA4597/"/>
+      <tstamp>5FBE04C8</tstamp>
+    </comp>
+    <comp ref="TD1">
+      <value>SMF05C.TCT</value>
+      <footprint>digitalSystemBoard:SC70-6</footprint>
+      <fields>
+        <field name="LCSC">C85191</field>
+      </fields>
+      <libsource lib="digitalSystemBoard" part="SMF05C.TCT" description=""/>
+      <sheetpath names="/MCU/" tstamps="/5FBA4597/"/>
+      <tstamp>5FBEABB6</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>ATmega32U4-AU</value>
+      <footprint>Package_QFP:TQFP-44_10x10mm_P0.8mm</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C44854</field>
+      </fields>
+      <libsource lib="MCU_Microchip_ATmega" part="ATmega32U4-AU" description="16MHz, 32kB Flash, 2.5kB SRAM, 1kB EEPROM, USB 2.0, TQFP-44"/>
+      <sheetpath names="/MCU/" tstamps="/5FBA4597/"/>
+      <tstamp>5FBA4BA5</tstamp>
     </comp>
   </components>
   <libparts>
@@ -2265,34 +2673,34 @@
   </libparts>
   <libraries>
     <library logical="74xx">
-      <uri>C:\Program Files\KiCad\share\kicad\library/74xx.lib</uri>
+      <uri>D:\quan\KiCad\share\kicad\library/74xx.lib</uri>
     </library>
     <library logical="Connector">
-      <uri>C:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+      <uri>D:\quan\KiCad\share\kicad\library/Connector.lib</uri>
     </library>
     <library logical="Connector_Generic">
-      <uri>C:\Program Files\KiCad\share\kicad\library/Connector_Generic.lib</uri>
+      <uri>D:\quan\KiCad\share\kicad\library/Connector_Generic.lib</uri>
     </library>
     <library logical="Device">
-      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+      <uri>D:\quan\KiCad\share\kicad\library/Device.lib</uri>
     </library>
     <library logical="Display_Character">
-      <uri>C:\Program Files\KiCad\share\kicad\library/Display_Character.lib</uri>
+      <uri>D:\quan\KiCad\share\kicad\library/Display_Character.lib</uri>
     </library>
     <library logical="MCU_Microchip_ATmega">
-      <uri>C:\Program Files\KiCad\share\kicad\library/MCU_Microchip_ATmega.lib</uri>
+      <uri>D:\quan\KiCad\share\kicad\library/MCU_Microchip_ATmega.lib</uri>
     </library>
     <library logical="Mechanical">
-      <uri>C:\Program Files\KiCad\share\kicad\library/Mechanical.lib</uri>
+      <uri>D:\quan\KiCad\share\kicad\library/Mechanical.lib</uri>
     </library>
     <library logical="Switch">
-      <uri>C:\Program Files\KiCad\share\kicad\library/Switch.lib</uri>
+      <uri>D:\quan\KiCad\share\kicad\library/Switch.lib</uri>
     </library>
     <library logical="Transistor_BJT">
-      <uri>C:\Program Files\KiCad\share\kicad\library/Transistor_BJT.lib</uri>
+      <uri>D:\quan\KiCad\share\kicad\library/Transistor_BJT.lib</uri>
     </library>
     <library logical="digitalSystemBoard">
-      <uri>C:\Users\Asus\Desktop\PCBPrj\digitalSystemBoard\digitalSystemBoard/digitalSystemBoard.lib</uri>
+      <uri>D:\quan\CE19\digitalSystemBoard\digitalSystemBoard/digitalSystemBoard.lib</uri>
     </library>
   </libraries>
   <nets>
@@ -2300,77 +2708,77 @@
       <node ref="SW0" pin="3"/>
     </net>
     <net code="2" name="/SW3">
-      <node ref="R34" pin="2"/>
       <node ref="J7" pin="5"/>
       <node ref="J7" pin="6"/>
+      <node ref="R34" pin="2"/>
       <node ref="SW3" pin="2"/>
     </net>
     <net code="3" name="/SW2">
-      <node ref="J7" pin="3"/>
       <node ref="SW2" pin="2"/>
       <node ref="R31" pin="2"/>
+      <node ref="J7" pin="3"/>
       <node ref="J7" pin="4"/>
     </net>
     <net code="4" name="/SW1">
-      <node ref="R28" pin="2"/>
-      <node ref="J7" pin="2"/>
-      <node ref="J7" pin="1"/>
       <node ref="SW1" pin="2"/>
+      <node ref="R28" pin="2"/>
+      <node ref="J7" pin="1"/>
+      <node ref="J7" pin="2"/>
     </net>
     <net code="5" name="/SW4">
       <node ref="J7" pin="8"/>
-      <node ref="J7" pin="7"/>
-      <node ref="SW4" pin="2"/>
       <node ref="R37" pin="2"/>
+      <node ref="SW4" pin="2"/>
+      <node ref="J7" pin="7"/>
     </net>
     <net code="6" name="/CLK_OUT">
       <node ref="J9" pin="1"/>
-      <node ref="J9" pin="2"/>
-      <node ref="J9" pin="4"/>
-      <node ref="J9" pin="5"/>
       <node ref="J9" pin="6"/>
       <node ref="J9" pin="3"/>
+      <node ref="J9" pin="5"/>
+      <node ref="J9" pin="4"/>
       <node ref="U6" pin="29"/>
+      <node ref="J9" pin="2"/>
     </net>
     <net code="7" name="Net-(PM0-Pad1)">
-      <node ref="SW0" pin="1"/>
       <node ref="PM0" pin="1"/>
+      <node ref="SW0" pin="1"/>
     </net>
     <net code="9" name="Net-(F0-Pad2)">
       <node ref="PM0" pin="3"/>
       <node ref="F0" pin="2"/>
     </net>
     <net code="10" name="GND">
-      <node ref="Q11" pin="2"/>
-      <node ref="R8" pin="1"/>
-      <node ref="Q1" pin="2"/>
-      <node ref="R35" pin="1"/>
-      <node ref="R74" pin="1"/>
-      <node ref="R79" pin="1"/>
-      <node ref="R32" pin="1"/>
-      <node ref="Q10" pin="2"/>
-      <node ref="R11" pin="1"/>
-      <node ref="Q2" pin="2"/>
-      <node ref="Q4" pin="2"/>
-      <node ref="R17" pin="1"/>
-      <node ref="SW3" pin="3"/>
       <node ref="R78" pin="1"/>
       <node ref="J11" pin="4"/>
-      <node ref="R80" pin="1"/>
       <node ref="U2" pin="8"/>
+      <node ref="R80" pin="1"/>
+      <node ref="R8" pin="1"/>
+      <node ref="R81" pin="1"/>
+      <node ref="R79" pin="1"/>
+      <node ref="R35" pin="1"/>
+      <node ref="R74" pin="1"/>
+      <node ref="Q2" pin="2"/>
+      <node ref="Q10" pin="2"/>
+      <node ref="R11" pin="1"/>
+      <node ref="R32" pin="1"/>
+      <node ref="Q11" pin="2"/>
+      <node ref="SW3" pin="3"/>
+      <node ref="Q4" pin="2"/>
+      <node ref="R17" pin="1"/>
       <node ref="Q7" pin="2"/>
       <node ref="R26" pin="1"/>
+      <node ref="E1" pin="1"/>
       <node ref="R77" pin="1"/>
       <node ref="R76" pin="1"/>
       <node ref="R75" pin="1"/>
       <node ref="J11" pin="5"/>
-      <node ref="R81" pin="1"/>
       <node ref="J11" pin="3"/>
       <node ref="J11" pin="2"/>
       <node ref="J11" pin="1"/>
       <node ref="U3" pin="8"/>
       <node ref="J11" pin="6"/>
-      <node ref="R5" pin="1"/>
+      <node ref="Q1" pin="2"/>
       <node ref="SW2" pin="3"/>
       <node ref="Q9" pin="2"/>
       <node ref="C3" pin="1"/>
@@ -2408,49 +2816,49 @@
       <node ref="KEY0" pin="4"/>
       <node ref="KEY1" pin="1"/>
       <node ref="Q15" pin="2"/>
-      <node ref="U10" pin="15"/>
-      <node ref="C10" pin="2"/>
-      <node ref="C11" pin="2"/>
+      <node ref="U11" pin="8"/>
       <node ref="C9" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="U9" pin="8"/>
+      <node ref="Y1" pin="2"/>
+      <node ref="Y1" pin="4"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="R57" pin="1"/>
+      <node ref="C6" pin="2"/>
+      <node ref="R20" pin="1"/>
+      <node ref="U8" pin="15"/>
+      <node ref="C12" pin="2"/>
+      <node ref="U8" pin="10"/>
+      <node ref="U10" pin="15"/>
       <node ref="U10" pin="8"/>
+      <node ref="U7" pin="6"/>
       <node ref="U11" pin="13"/>
       <node ref="TRIM0" pin="3"/>
-      <node ref="C12" pin="2"/>
-      <node ref="Y0" pin="2"/>
-      <node ref="Y0" pin="4"/>
-      <node ref="C7" pin="2"/>
-      <node ref="C6" pin="2"/>
-      <node ref="R58" pin="1"/>
-      <node ref="R20" pin="1"/>
-      <node ref="C5" pin="2"/>
-      <node ref="U9" pin="13"/>
-      <node ref="U8" pin="10"/>
-      <node ref="U8" pin="15"/>
+      <node ref="DS1" pin="1"/>
+      <node ref="DS1" pin="16"/>
+      <node ref="DS1" pin="5"/>
       <node ref="U8" pin="8"/>
-      <node ref="TD0" pin="2"/>
-      <node ref="U6" pin="43"/>
-      <node ref="U6" pin="5"/>
-      <node ref="U7" pin="6"/>
-      <node ref="U6" pin="15"/>
       <node ref="U6" pin="23"/>
+      <node ref="U6" pin="15"/>
+      <node ref="TD1" pin="2"/>
+      <node ref="J1" pin="4"/>
+      <node ref="U6" pin="5"/>
+      <node ref="U6" pin="43"/>
       <node ref="U6" pin="35"/>
-      <node ref="U11" pin="8"/>
-      <node ref="U9" pin="8"/>
+      <node ref="U9" pin="13"/>
       <node ref="Q5" pin="2"/>
-      <node ref="DS0" pin="5"/>
-      <node ref="DS0" pin="16"/>
-      <node ref="DS0" pin="1"/>
       <node ref="R23" pin="1"/>
       <node ref="R1" pin="1"/>
-      <node ref="J1" pin="4"/>
+      <node ref="SW9" pin="3"/>
       <node ref="R14" pin="1"/>
       <node ref="Q3" pin="2"/>
-      <node ref="SW9" pin="3"/>
       <node ref="J0" pin="2"/>
-      <node ref="J0" pin="3"/>
       <node ref="PM0" pin="2"/>
-      <node ref="C8" pin="2"/>
+      <node ref="J0" pin="3"/>
       <node ref="Q6" pin="2"/>
+      <node ref="C5" pin="2"/>
     </net>
     <net code="11" name="/LED8">
       <node ref="U9" pin="7"/>
@@ -2463,54 +2871,53 @@
       <node ref="U8" pin="5"/>
     </net>
     <net code="13" name="/GPIO_LED_4">
-      <node ref="U8" pin="14"/>
-      <node ref="J4" pin="7"/>
       <node ref="R77" pin="2"/>
+      <node ref="J4" pin="7"/>
+      <node ref="U8" pin="14"/>
       <node ref="J4" pin="8"/>
     </net>
     <net code="14" name="/GPIO_LED_3">
       <node ref="U8" pin="13"/>
-      <node ref="R76" pin="2"/>
-      <node ref="J4" pin="6"/>
       <node ref="J4" pin="5"/>
+      <node ref="J4" pin="6"/>
+      <node ref="R76" pin="2"/>
     </net>
     <net code="15" name="/GPIO_LED_2">
-      <node ref="U8" pin="12"/>
       <node ref="J4" pin="4"/>
       <node ref="J4" pin="3"/>
       <node ref="R75" pin="2"/>
+      <node ref="U8" pin="12"/>
     </net>
     <net code="16" name="/GPIO_LED_1">
-      <node ref="U8" pin="11"/>
       <node ref="J4" pin="2"/>
+      <node ref="U8" pin="11"/>
       <node ref="J4" pin="1"/>
       <node ref="R74" pin="2"/>
     </net>
     <net code="17" name="/VCC5V">
-      <node ref="U10" pin="16"/>
+      <node ref="FB4" pin="1"/>
       <node ref="R54" pin="2"/>
-      <node ref="FB1" pin="1"/>
-      <node ref="R55" pin="2"/>
       <node ref="R56" pin="2"/>
-      <node ref="SW5" pin="1"/>
-      <node ref="R42" pin="1"/>
-      <node ref="FB3" pin="1"/>
+      <node ref="R55" pin="2"/>
       <node ref="R27" pin="1"/>
+      <node ref="SW5" pin="1"/>
       <node ref="FB2" pin="1"/>
-      <node ref="FB5" pin="1"/>
       <node ref="R52" pin="2"/>
+      <node ref="R42" pin="1"/>
+      <node ref="FB6" pin="1"/>
+      <node ref="FB5" pin="1"/>
       <node ref="R89" pin="1"/>
       <node ref="U5" pin="1"/>
       <node ref="R88" pin="1"/>
       <node ref="R87" pin="1"/>
       <node ref="R86" pin="1"/>
       <node ref="R85" pin="1"/>
-      <node ref="FB4" pin="1"/>
+      <node ref="FB1" pin="1"/>
       <node ref="R24" pin="1"/>
       <node ref="R84" pin="1"/>
       <node ref="F0" pin="1"/>
       <node ref="SW8" pin="1"/>
-      <node ref="R57" pin="1"/>
+      <node ref="R59" pin="1"/>
       <node ref="R33" pin="1"/>
       <node ref="SW7" pin="1"/>
       <node ref="R48" pin="1"/>
@@ -2519,74 +2926,75 @@
       <node ref="R30" pin="1"/>
       <node ref="R53" pin="2"/>
       <node ref="R51" pin="1"/>
+      <node ref="R21" pin="1"/>
+      <node ref="U2" pin="5"/>
+      <node ref="R15" pin="1"/>
       <node ref="U2" pin="16"/>
+      <node ref="U10" pin="16"/>
       <node ref="R82" pin="1"/>
       <node ref="R83" pin="1"/>
       <node ref="R12" pin="1"/>
       <node ref="R18" pin="1"/>
-      <node ref="R21" pin="1"/>
-      <node ref="R15" pin="1"/>
       <node ref="R39" pin="1"/>
-      <node ref="U9" pin="16"/>
-      <node ref="U9" pin="10"/>
-      <node ref="U3" pin="16"/>
-      <node ref="U0" pin="3"/>
-      <node ref="U0" pin="8"/>
-      <node ref="J10" pin="1"/>
       <node ref="U7" pin="2"/>
+      <node ref="U4" pin="14"/>
+      <node ref="U0" pin="3"/>
+      <node ref="DS1" pin="2"/>
+      <node ref="J10" pin="1"/>
+      <node ref="U0" pin="8"/>
       <node ref="J10" pin="3"/>
       <node ref="J10" pin="4"/>
       <node ref="J10" pin="5"/>
       <node ref="J10" pin="6"/>
       <node ref="U3" pin="5"/>
+      <node ref="TRIM0" pin="1"/>
+      <node ref="U3" pin="16"/>
+      <node ref="R58" pin="2"/>
+      <node ref="U11" pin="16"/>
       <node ref="J10" pin="2"/>
-      <node ref="U8" pin="16"/>
+      <node ref="U11" pin="10"/>
       <node ref="R6" pin="1"/>
       <node ref="SW1" pin="1"/>
-      <node ref="U2" pin="5"/>
-      <node ref="R45" pin="1"/>
-      <node ref="SW3" pin="1"/>
-      <node ref="U1" pin="3"/>
-      <node ref="U11" pin="10"/>
-      <node ref="R0" pin="2"/>
-      <node ref="TRIM0" pin="1"/>
-      <node ref="DS0" pin="2"/>
       <node ref="R9" pin="1"/>
-      <node ref="U4" pin="14"/>
-      <node ref="SW4" pin="1"/>
-      <node ref="U11" pin="16"/>
       <node ref="U1" pin="8"/>
+      <node ref="SW3" pin="1"/>
+      <node ref="R45" pin="1"/>
+      <node ref="U1" pin="3"/>
+      <node ref="U9" pin="10"/>
+      <node ref="U9" pin="16"/>
+      <node ref="U8" pin="16"/>
+      <node ref="SW4" pin="1"/>
       <node ref="R36" pin="1"/>
     </net>
     <net code="18" name="/GPIO_LED_8">
-      <node ref="J4" pin="15"/>
+      <node ref="U8" pin="6"/>
       <node ref="J4" pin="16"/>
       <node ref="R81" pin="2"/>
-      <node ref="U8" pin="6"/>
+      <node ref="J4" pin="15"/>
     </net>
     <net code="19" name="/SW8">
       <node ref="J7" pin="16"/>
       <node ref="J7" pin="15"/>
-      <node ref="R49" pin="2"/>
       <node ref="SW8" pin="2"/>
+      <node ref="R49" pin="2"/>
     </net>
     <net code="20" name="/SW7">
       <node ref="R46" pin="2"/>
-      <node ref="SW7" pin="2"/>
       <node ref="J7" pin="13"/>
       <node ref="J7" pin="14"/>
+      <node ref="SW7" pin="2"/>
     </net>
     <net code="21" name="/SW6">
+      <node ref="SW6" pin="2"/>
       <node ref="J7" pin="11"/>
       <node ref="J7" pin="12"/>
-      <node ref="SW6" pin="2"/>
       <node ref="R43" pin="2"/>
     </net>
     <net code="22" name="/SW5">
       <node ref="J7" pin="10"/>
-      <node ref="J7" pin="9"/>
-      <node ref="SW5" pin="2"/>
       <node ref="R40" pin="2"/>
+      <node ref="SW5" pin="2"/>
+      <node ref="J7" pin="9"/>
     </net>
     <net code="23" name="/GPIO_LED_5">
       <node ref="U8" pin="3"/>
@@ -2597,55 +3005,55 @@
     <net code="24" name="/GPIO_BCD_A_1">
       <node ref="J3" pin="2"/>
       <node ref="J3" pin="1"/>
-      <node ref="U10" pin="3"/>
       <node ref="R86" pin="2"/>
+      <node ref="U10" pin="3"/>
     </net>
     <net code="25" name="/GPIO_LED_6">
-      <node ref="U8" pin="4"/>
       <node ref="R79" pin="2"/>
-      <node ref="J4" pin="11"/>
       <node ref="J4" pin="12"/>
+      <node ref="U8" pin="4"/>
+      <node ref="J4" pin="11"/>
     </net>
     <net code="26" name="/GPIO_BCD_D_1">
-      <node ref="R89" pin="2"/>
-      <node ref="U10" pin="6"/>
       <node ref="J3" pin="7"/>
+      <node ref="U10" pin="6"/>
+      <node ref="R89" pin="2"/>
       <node ref="J3" pin="8"/>
     </net>
     <net code="27" name="/GPIO_BCD_C_1">
       <node ref="U10" pin="5"/>
-      <node ref="J3" pin="5"/>
       <node ref="R88" pin="2"/>
+      <node ref="J3" pin="5"/>
       <node ref="J3" pin="6"/>
     </net>
     <net code="28" name="/GPIO_BCD_B_1">
-      <node ref="R87" pin="2"/>
       <node ref="U10" pin="4"/>
+      <node ref="R87" pin="2"/>
       <node ref="J3" pin="3"/>
       <node ref="J3" pin="4"/>
     </net>
     <net code="29" name="/GPIO_BCD_D_0">
-      <node ref="J2" pin="7"/>
       <node ref="J2" pin="8"/>
+      <node ref="J2" pin="7"/>
       <node ref="U10" pin="14"/>
       <node ref="R85" pin="2"/>
     </net>
     <net code="30" name="/GPIO_BCD_C_0">
-      <node ref="U10" pin="13"/>
       <node ref="J2" pin="5"/>
-      <node ref="J2" pin="6"/>
       <node ref="R84" pin="2"/>
+      <node ref="J2" pin="6"/>
+      <node ref="U10" pin="13"/>
     </net>
     <net code="31" name="/GPIO_BCD_B_0">
-      <node ref="J2" pin="4"/>
       <node ref="U10" pin="12"/>
+      <node ref="J2" pin="4"/>
       <node ref="J2" pin="3"/>
       <node ref="R83" pin="2"/>
     </net>
     <net code="32" name="/GPIO_BCD_A_0">
-      <node ref="J2" pin="1"/>
-      <node ref="J2" pin="2"/>
       <node ref="U10" pin="11"/>
+      <node ref="J2" pin="2"/>
+      <node ref="J2" pin="1"/>
       <node ref="R82" pin="2"/>
     </net>
     <net code="33" name="/LED3">
@@ -2653,30 +3061,30 @@
       <node ref="R10" pin="2"/>
     </net>
     <net code="34" name="/SEG_C_0">
-      <node ref="J5" pin="5"/>
       <node ref="R62" pin="2"/>
-      <node ref="J5" pin="6"/>
       <node ref="U2" pin="11"/>
+      <node ref="J5" pin="6"/>
+      <node ref="J5" pin="5"/>
     </net>
     <net code="35" name="/SEG_B_0">
+      <node ref="U2" pin="12"/>
       <node ref="R61" pin="2"/>
       <node ref="J5" pin="4"/>
-      <node ref="U2" pin="12"/>
       <node ref="J5" pin="3"/>
     </net>
     <net code="36" name="/SEG_A_0">
-      <node ref="R60" pin="2"/>
-      <node ref="J5" pin="1"/>
       <node ref="J5" pin="2"/>
       <node ref="U2" pin="13"/>
+      <node ref="J5" pin="1"/>
+      <node ref="R60" pin="2"/>
     </net>
     <net code="37" name="/LED7">
-      <node ref="R22" pin="2"/>
       <node ref="U9" pin="6"/>
+      <node ref="R22" pin="2"/>
     </net>
     <net code="38" name="/LED6">
-      <node ref="U9" pin="5"/>
       <node ref="R19" pin="2"/>
+      <node ref="U9" pin="5"/>
     </net>
     <net code="39" name="/LED4">
       <node ref="U9" pin="3"/>
@@ -2687,10 +3095,10 @@
       <node ref="R16" pin="2"/>
     </net>
     <net code="41" name="/SEG_D_0">
+      <node ref="J5" pin="8"/>
       <node ref="U2" pin="10"/>
       <node ref="R63" pin="2"/>
       <node ref="J5" pin="7"/>
-      <node ref="J5" pin="8"/>
     </net>
     <net code="42" name="/LED2">
       <node ref="R7" pin="2"/>
@@ -2701,9 +3109,9 @@
       <node ref="R4" pin="2"/>
     </net>
     <net code="44" name="/SEG_F_1">
+      <node ref="J6" pin="11"/>
       <node ref="J6" pin="12"/>
       <node ref="U3" pin="15"/>
-      <node ref="J6" pin="11"/>
       <node ref="R72" pin="2"/>
     </net>
     <net code="45" name="/BCD_C_1">
@@ -2715,77 +3123,77 @@
       <node ref="U11" pin="5"/>
     </net>
     <net code="47" name="/BCD_A_1">
-      <node ref="U11" pin="4"/>
       <node ref="U3" pin="7"/>
+      <node ref="U11" pin="4"/>
     </net>
     <net code="48" name="/BCD_D_0">
-      <node ref="U2" pin="6"/>
       <node ref="U11" pin="3"/>
+      <node ref="U2" pin="6"/>
     </net>
     <net code="49" name="/BCD_C_0">
       <node ref="U11" pin="2"/>
       <node ref="U2" pin="2"/>
     </net>
     <net code="50" name="/BCD_B_0">
-      <node ref="U2" pin="1"/>
       <node ref="U11" pin="1"/>
+      <node ref="U2" pin="1"/>
     </net>
     <net code="51" name="/BCD_A_0">
       <node ref="U2" pin="7"/>
       <node ref="U11" pin="15"/>
     </net>
     <net code="52" name="/SEG_G_1">
-      <node ref="U3" pin="14"/>
       <node ref="R73" pin="2"/>
       <node ref="J6" pin="14"/>
       <node ref="J6" pin="13"/>
+      <node ref="U3" pin="14"/>
     </net>
     <net code="53" name="/SEG_E_1">
-      <node ref="R71" pin="2"/>
-      <node ref="U3" pin="9"/>
-      <node ref="J6" pin="9"/>
       <node ref="J6" pin="10"/>
+      <node ref="R71" pin="2"/>
+      <node ref="J6" pin="9"/>
+      <node ref="U3" pin="9"/>
     </net>
     <net code="54" name="/SEG_D_1">
-      <node ref="R70" pin="2"/>
-      <node ref="J6" pin="7"/>
       <node ref="J6" pin="8"/>
       <node ref="U3" pin="10"/>
+      <node ref="R70" pin="2"/>
+      <node ref="J6" pin="7"/>
     </net>
     <net code="55" name="/SEG_C_1">
-      <node ref="J6" pin="5"/>
-      <node ref="R69" pin="2"/>
       <node ref="U3" pin="11"/>
       <node ref="J6" pin="6"/>
+      <node ref="J6" pin="5"/>
+      <node ref="R69" pin="2"/>
     </net>
     <net code="56" name="/SEG_B_1">
-      <node ref="J6" pin="3"/>
       <node ref="R68" pin="2"/>
       <node ref="U3" pin="12"/>
+      <node ref="J6" pin="3"/>
       <node ref="J6" pin="4"/>
     </net>
     <net code="57" name="/SEG_A_1">
-      <node ref="R67" pin="2"/>
-      <node ref="U3" pin="13"/>
       <node ref="J6" pin="1"/>
       <node ref="J6" pin="2"/>
+      <node ref="R67" pin="2"/>
+      <node ref="U3" pin="13"/>
     </net>
     <net code="58" name="/SEG_G_0">
-      <node ref="U2" pin="14"/>
-      <node ref="R66" pin="2"/>
       <node ref="J5" pin="13"/>
       <node ref="J5" pin="14"/>
+      <node ref="R66" pin="2"/>
+      <node ref="U2" pin="14"/>
     </net>
     <net code="59" name="/SEG_F_0">
+      <node ref="J5" pin="12"/>
       <node ref="R65" pin="2"/>
       <node ref="J5" pin="11"/>
-      <node ref="J5" pin="12"/>
       <node ref="U2" pin="15"/>
     </net>
     <net code="60" name="/SEG_E_0">
       <node ref="J5" pin="9"/>
-      <node ref="U2" pin="9"/>
       <node ref="J5" pin="10"/>
+      <node ref="U2" pin="9"/>
       <node ref="R64" pin="2"/>
     </net>
     <net code="61" name="/BCD_D_1">
@@ -2794,28 +3202,28 @@
     </net>
     <net code="62" name="/7SEGLED_TEST_ON">
       <node ref="U6" pin="30"/>
-      <node ref="U3" pin="3"/>
       <node ref="U2" pin="3"/>
+      <node ref="U3" pin="3"/>
     </net>
     <net code="63" name="/UP_CLOCK">
-      <node ref="R54" pin="1"/>
+      <node ref="KEY2" pin="3"/>
+      <node ref="KEY2" pin="2"/>
       <node ref="U6" pin="18"/>
       <node ref="C2" pin="1"/>
-      <node ref="KEY2" pin="2"/>
-      <node ref="KEY2" pin="3"/>
+      <node ref="R54" pin="1"/>
     </net>
     <net code="64" name="/KEY1">
+      <node ref="J8" pin="6"/>
       <node ref="U4" pin="2"/>
       <node ref="J8" pin="5"/>
-      <node ref="J8" pin="6"/>
     </net>
     <net code="65" name="/KEY0">
-      <node ref="KEY0" pin="2"/>
-      <node ref="R53" pin="1"/>
-      <node ref="J8" pin="1"/>
-      <node ref="J8" pin="2"/>
       <node ref="KEY0" pin="3"/>
+      <node ref="J8" pin="2"/>
+      <node ref="J8" pin="1"/>
       <node ref="C1" pin="1"/>
+      <node ref="R53" pin="1"/>
+      <node ref="KEY0" pin="2"/>
     </net>
     <net code="66" name="Net-(J0-Pad1)">
       <node ref="SW0" pin="2"/>
@@ -2827,17 +3235,17 @@
       <node ref="U3" pin="4"/>
     </net>
     <net code="68" name="/CHANGE_CLK_SRC">
-      <node ref="R56" pin="1"/>
       <node ref="KEY4" pin="3"/>
-      <node ref="KEY4" pin="2"/>
-      <node ref="C4" pin="1"/>
       <node ref="U6" pin="20"/>
+      <node ref="C4" pin="1"/>
+      <node ref="KEY4" pin="2"/>
+      <node ref="R56" pin="1"/>
     </net>
     <net code="69" name="/DOWN_CLOCK">
-      <node ref="C3" pin="2"/>
-      <node ref="R55" pin="1"/>
       <node ref="KEY3" pin="2"/>
+      <node ref="R55" pin="1"/>
       <node ref="KEY3" pin="3"/>
+      <node ref="C3" pin="2"/>
       <node ref="U6" pin="19"/>
     </net>
     <net code="70" name="/ADJ_CLOCK">
@@ -2859,29 +3267,29 @@
     </net>
     <net code="74" name="Net-(Q6-Pad1)">
       <node ref="R23" pin="2"/>
-      <node ref="Q6" pin="1"/>
       <node ref="R22" pin="1"/>
+      <node ref="Q6" pin="1"/>
     </net>
     <net code="75" name="Net-(LED6-Pad1)">
-      <node ref="Q6" pin="3"/>
       <node ref="LED6" pin="1"/>
+      <node ref="Q6" pin="3"/>
     </net>
     <net code="76" name="Net-(LED6-Pad2)">
-      <node ref="R24" pin="2"/>
       <node ref="LED6" pin="2"/>
+      <node ref="R24" pin="2"/>
     </net>
     <net code="77" name="Net-(Q3-Pad1)">
+      <node ref="R14" pin="2"/>
       <node ref="R13" pin="1"/>
       <node ref="Q3" pin="1"/>
-      <node ref="R14" pin="2"/>
     </net>
     <net code="78" name="Net-(LED3-Pad1)">
-      <node ref="LED3" pin="1"/>
       <node ref="Q3" pin="3"/>
+      <node ref="LED3" pin="1"/>
     </net>
     <net code="79" name="Net-(LED4-Pad2)">
-      <node ref="R18" pin="2"/>
       <node ref="LED4" pin="2"/>
+      <node ref="R18" pin="2"/>
     </net>
     <net code="80" name="Net-(LED3-Pad2)">
       <node ref="R15" pin="2"/>
@@ -2889,24 +3297,24 @@
     </net>
     <net code="81" name="Net-(Q4-Pad1)">
       <node ref="R17" pin="2"/>
-      <node ref="Q4" pin="1"/>
       <node ref="R16" pin="1"/>
+      <node ref="Q4" pin="1"/>
     </net>
     <net code="82" name="Net-(LED4-Pad1)">
-      <node ref="LED4" pin="1"/>
       <node ref="Q4" pin="3"/>
+      <node ref="LED4" pin="1"/>
     </net>
     <net code="83" name="Net-(R62-Pad1)">
-      <node ref="R62" pin="1"/>
       <node ref="U0" pin="4"/>
+      <node ref="R62" pin="1"/>
     </net>
     <net code="84" name="Net-(R61-Pad1)">
       <node ref="R61" pin="1"/>
       <node ref="U0" pin="6"/>
     </net>
     <net code="85" name="Net-(R60-Pad1)">
-      <node ref="R60" pin="1"/>
       <node ref="U0" pin="7"/>
+      <node ref="R60" pin="1"/>
     </net>
     <net code="86" name="Net-(R67-Pad1)">
       <node ref="U1" pin="7"/>
@@ -2925,16 +3333,16 @@
       <node ref="R70" pin="1"/>
     </net>
     <net code="90" name="Net-(R71-Pad1)">
-      <node ref="R71" pin="1"/>
       <node ref="U1" pin="1"/>
+      <node ref="R71" pin="1"/>
     </net>
     <net code="91" name="Net-(R72-Pad1)">
       <node ref="R72" pin="1"/>
       <node ref="U1" pin="9"/>
     </net>
     <net code="92" name="Net-(R73-Pad1)">
-      <node ref="R73" pin="1"/>
       <node ref="U1" pin="10"/>
+      <node ref="R73" pin="1"/>
     </net>
     <net code="93" name="Net-(R63-Pad1)">
       <node ref="U0" pin="2"/>
@@ -2953,17 +3361,17 @@
       <node ref="R66" pin="1"/>
     </net>
     <net code="97" name="Net-(Q7-Pad1)">
+      <node ref="Q7" pin="1"/>
       <node ref="R25" pin="1"/>
       <node ref="R26" pin="2"/>
-      <node ref="Q7" pin="1"/>
     </net>
     <net code="98" name="Net-(LED7-Pad1)">
-      <node ref="LED7" pin="1"/>
       <node ref="Q7" pin="3"/>
+      <node ref="LED7" pin="1"/>
     </net>
     <net code="99" name="Net-(LED7-Pad2)">
-      <node ref="R27" pin="2"/>
       <node ref="LED7" pin="2"/>
+      <node ref="R27" pin="2"/>
     </net>
     <net code="100" name="Net-(U0-Pad5)">
       <node ref="U0" pin="5"/>
@@ -2981,13 +3389,13 @@
       <node ref="LED2" pin="2"/>
     </net>
     <net code="104" name="Net-(Q1-Pad1)">
-      <node ref="R7" pin="1"/>
       <node ref="Q1" pin="1"/>
       <node ref="R8" pin="2"/>
+      <node ref="R7" pin="1"/>
     </net>
     <net code="105" name="Net-(LED1-Pad1)">
-      <node ref="Q1" pin="3"/>
       <node ref="LED1" pin="1"/>
+      <node ref="Q1" pin="3"/>
     </net>
     <net code="106" name="Net-(LED1-Pad2)">
       <node ref="LED1" pin="2"/>
@@ -2999,16 +3407,16 @@
       <node ref="R10" pin="1"/>
     </net>
     <net code="108" name="Net-(LED2-Pad1)">
-      <node ref="LED2" pin="1"/>
       <node ref="Q2" pin="3"/>
+      <node ref="LED2" pin="1"/>
     </net>
     <net code="109" name="Net-(U1-Pad5)">
       <node ref="U1" pin="5"/>
     </net>
-    <net code="110" name="Net-(Q0-Pad1)">
-      <node ref="R5" pin="2"/>
-      <node ref="R4" pin="1"/>
+    <net code="110" name="Net-(E1-Pad2)">
       <node ref="Q0" pin="1"/>
+      <node ref="R4" pin="1"/>
+      <node ref="E1" pin="2"/>
     </net>
     <net code="111" name="Net-(D7-Pad2)">
       <node ref="D7" pin="2"/>
@@ -3019,8 +3427,8 @@
       <node ref="Q15" pin="3"/>
     </net>
     <net code="113" name="Net-(Q15-Pad1)">
-      <node ref="R50" pin="2"/>
       <node ref="R49" pin="1"/>
+      <node ref="R50" pin="2"/>
       <node ref="Q15" pin="1"/>
     </net>
     <net code="114" name="Net-(D6-Pad2)">
@@ -3032,9 +3440,9 @@
       <node ref="Q14" pin="3"/>
     </net>
     <net code="116" name="Net-(Q14-Pad1)">
-      <node ref="R47" pin="2"/>
-      <node ref="Q14" pin="1"/>
       <node ref="R46" pin="1"/>
+      <node ref="Q14" pin="1"/>
+      <node ref="R47" pin="2"/>
     </net>
     <net code="117" name="Net-(D5-Pad2)">
       <node ref="D5" pin="2"/>
@@ -3045,26 +3453,26 @@
       <node ref="D5" pin="1"/>
     </net>
     <net code="119" name="Net-(Q13-Pad1)">
-      <node ref="R44" pin="2"/>
-      <node ref="Q13" pin="1"/>
       <node ref="R43" pin="1"/>
+      <node ref="Q13" pin="1"/>
+      <node ref="R44" pin="2"/>
     </net>
     <net code="120" name="Net-(C0-Pad1)">
-      <node ref="R52" pin="1"/>
-      <node ref="U4" pin="1"/>
-      <node ref="C0" pin="1"/>
       <node ref="KEY1" pin="2"/>
+      <node ref="U4" pin="1"/>
+      <node ref="R52" pin="1"/>
       <node ref="KEY1" pin="3"/>
+      <node ref="C0" pin="1"/>
     </net>
     <net code="121" name="Net-(Q8-Pad1)">
-      <node ref="R28" pin="1"/>
-      <node ref="Q8" pin="1"/>
       <node ref="R29" pin="2"/>
+      <node ref="Q8" pin="1"/>
+      <node ref="R28" pin="1"/>
     </net>
     <net code="122" name="Net-(Q9-Pad1)">
-      <node ref="R32" pin="2"/>
-      <node ref="R31" pin="1"/>
       <node ref="Q9" pin="1"/>
+      <node ref="R31" pin="1"/>
+      <node ref="R32" pin="2"/>
     </net>
     <net code="123" name="Net-(D1-Pad2)">
       <node ref="R33" pin="2"/>
@@ -3075,20 +3483,20 @@
       <node ref="D1" pin="1"/>
     </net>
     <net code="125" name="Net-(D0-Pad2)">
-      <node ref="R30" pin="2"/>
       <node ref="D0" pin="2"/>
+      <node ref="R30" pin="2"/>
     </net>
     <net code="126" name="Net-(D0-Pad1)">
-      <node ref="Q8" pin="3"/>
       <node ref="D0" pin="1"/>
+      <node ref="Q8" pin="3"/>
     </net>
     <net code="127" name="Net-(D4-Pad2)">
-      <node ref="R42" pin="2"/>
       <node ref="D4" pin="2"/>
+      <node ref="R42" pin="2"/>
     </net>
     <net code="128" name="Net-(D4-Pad1)">
-      <node ref="Q12" pin="3"/>
       <node ref="D4" pin="1"/>
+      <node ref="Q12" pin="3"/>
     </net>
     <net code="129" name="Net-(Q12-Pad1)">
       <node ref="R41" pin="2"/>
@@ -3096,29 +3504,29 @@
       <node ref="R40" pin="1"/>
     </net>
     <net code="130" name="Net-(D3-Pad2)">
-      <node ref="R39" pin="2"/>
       <node ref="D3" pin="2"/>
+      <node ref="R39" pin="2"/>
     </net>
     <net code="131" name="Net-(D3-Pad1)">
       <node ref="D3" pin="1"/>
       <node ref="Q11" pin="3"/>
     </net>
     <net code="132" name="Net-(Q11-Pad1)">
+      <node ref="R38" pin="2"/>
       <node ref="R37" pin="1"/>
       <node ref="Q11" pin="1"/>
-      <node ref="R38" pin="2"/>
     </net>
     <net code="133" name="Net-(D2-Pad2)">
-      <node ref="D2" pin="2"/>
       <node ref="R36" pin="2"/>
+      <node ref="D2" pin="2"/>
     </net>
     <net code="134" name="Net-(D2-Pad1)">
       <node ref="Q10" pin="3"/>
       <node ref="D2" pin="1"/>
     </net>
     <net code="135" name="Net-(Q10-Pad1)">
-      <node ref="R34" pin="1"/>
       <node ref="Q10" pin="1"/>
+      <node ref="R34" pin="1"/>
       <node ref="R35" pin="2"/>
     </net>
     <net code="136" name="Net-(J8-Pad3)">
@@ -3127,201 +3535,201 @@
     <net code="137" name="Net-(J8-Pad4)">
       <node ref="J8" pin="4"/>
     </net>
-    <net code="138" name="/MCU/D-">
-      <node ref="U6" pin="3"/>
-      <node ref="R3" pin="1"/>
+    <net code="138" name="Net-(DS1-Pad3)">
+      <node ref="TRIM0" pin="2"/>
+      <node ref="DS1" pin="3"/>
     </net>
-    <net code="139" name="/MCU/LCD_ENABLE">
-      <node ref="DS0" pin="6"/>
-      <node ref="U6" pin="31"/>
-    </net>
-    <net code="140" name="Net-(R58-Pad2)">
-      <node ref="U6" pin="33"/>
-      <node ref="R58" pin="2"/>
-    </net>
-    <net code="141" name="/MCU/LCD_4">
-      <node ref="DS0" pin="11"/>
-      <node ref="U6" pin="37"/>
-    </net>
-    <net code="142" name="/MCU/LCD_3">
-      <node ref="DS0" pin="10"/>
-      <node ref="U6" pin="38"/>
-    </net>
-    <net code="143" name="/MCU/LCD_2">
-      <node ref="DS0" pin="9"/>
-      <node ref="U6" pin="39"/>
-    </net>
-    <net code="144" name="/MCU/IC_165_CTRL">
-      <node ref="U8" pin="1"/>
-      <node ref="U6" pin="27"/>
-      <node ref="U10" pin="1"/>
-    </net>
-    <net code="145" name="/MCU/LCD_6">
-      <node ref="DS0" pin="13"/>
-      <node ref="U6" pin="26"/>
-    </net>
-    <net code="146" name="/MCU/LCD_5">
-      <node ref="U6" pin="22"/>
-      <node ref="DS0" pin="12"/>
-    </net>
-    <net code="147" name="Net-(C10-Pad1)">
-      <node ref="U6" pin="2"/>
-      <node ref="C10" pin="1"/>
-      <node ref="FB1" pin="2"/>
-    </net>
-    <net code="148" name="Net-(FB0-Pad2)">
-      <node ref="FB0" pin="2"/>
-      <node ref="J1" pin="1"/>
-    </net>
-    <net code="149" name="Net-(J1-Pad2)">
-      <node ref="R3" pin="2"/>
-      <node ref="TD0" pin="6"/>
-      <node ref="J1" pin="2"/>
-    </net>
-    <net code="150" name="Net-(J1-Pad3)">
-      <node ref="TD0" pin="4"/>
-      <node ref="R2" pin="2"/>
-      <node ref="J1" pin="3"/>
-    </net>
-    <net code="151" name="/MCU/D+">
-      <node ref="R2" pin="1"/>
-      <node ref="U6" pin="4"/>
-    </net>
-    <net code="152" name="/MCU/SCK">
-      <node ref="U7" pin="3"/>
-      <node ref="U6" pin="9"/>
-    </net>
-    <net code="153" name="/MCU/LCD_0">
-      <node ref="DS0" pin="7"/>
+    <net code="139" name="/MCU/LCD_0">
+      <node ref="DS1" pin="7"/>
       <node ref="U6" pin="41"/>
     </net>
-    <net code="154" name="Net-(TD0-Pad5)">
-      <node ref="TD0" pin="5"/>
+    <net code="140" name="Net-(DS1-Pad15)">
+      <node ref="R58" pin="1"/>
+      <node ref="DS1" pin="15"/>
     </net>
-    <net code="155" name="Net-(TD0-Pad3)">
-      <node ref="TD0" pin="3"/>
+    <net code="141" name="/MCU/LCD_7">
+      <node ref="DS1" pin="14"/>
+      <node ref="U6" pin="28"/>
     </net>
-    <net code="156" name="/MCU/VBUS">
-      <node ref="TD0" pin="1"/>
-      <node ref="FB0" pin="1"/>
-      <node ref="U6" pin="7"/>
+    <net code="142" name="Net-(SW9-Pad2)">
+      <node ref="SW9" pin="2"/>
     </net>
-    <net code="157" name="Net-(U11-Pad9)">
-      <node ref="U11" pin="9"/>
+    <net code="143" name="Net-(U10-Pad7)">
+      <node ref="U10" pin="7"/>
+    </net>
+    <net code="144" name="/MCU/IC_595_CTRL">
+      <node ref="U9" pin="12"/>
+      <node ref="U11" pin="12"/>
+      <node ref="U6" pin="25"/>
+    </net>
+    <net code="145" name="/MCU/IC_CLOCK">
+      <node ref="U8" pin="2"/>
+      <node ref="U11" pin="11"/>
+      <node ref="U6" pin="12"/>
+      <node ref="U9" pin="11"/>
+      <node ref="U10" pin="2"/>
+    </net>
+    <net code="146" name="/MCU/IC_165_TO_MCU">
+      <node ref="U6" pin="21"/>
+      <node ref="U10" pin="9"/>
+    </net>
+    <net code="147" name="/MCU/RESET">
+      <node ref="U6" pin="13"/>
+      <node ref="U7" pin="5"/>
+      <node ref="C12" pin="1"/>
+      <node ref="SW9" pin="1"/>
+      <node ref="R59" pin="2"/>
+    </net>
+    <net code="148" name="Net-(J1-Pad3)">
+      <node ref="R3" pin="2"/>
+      <node ref="J1" pin="3"/>
+      <node ref="TD1" pin="4"/>
+    </net>
+    <net code="149" name="Net-(TD1-Pad5)">
+      <node ref="TD1" pin="5"/>
+    </net>
+    <net code="150" name="Net-(TD1-Pad3)">
+      <node ref="TD1" pin="3"/>
+    </net>
+    <net code="151" name="Net-(R57-Pad2)">
+      <node ref="U6" pin="33"/>
+      <node ref="R57" pin="2"/>
+    </net>
+    <net code="152" name="/MCU/SCK">
+      <node ref="U6" pin="9"/>
+      <node ref="U7" pin="3"/>
+    </net>
+    <net code="153" name="Net-(J1-Pad2)">
+      <node ref="J1" pin="2"/>
+      <node ref="R5" pin="2"/>
+      <node ref="TD1" pin="6"/>
+    </net>
+    <net code="154" name="Net-(SW9-Pad4)">
+      <node ref="SW9" pin="4"/>
+    </net>
+    <net code="155" name="Net-(FB3-Pad2)">
+      <node ref="FB3" pin="2"/>
+      <node ref="J1" pin="1"/>
+    </net>
+    <net code="156" name="Net-(U10-Pad10)">
+      <node ref="U8" pin="9"/>
+      <node ref="U10" pin="10"/>
+    </net>
+    <net code="157" name="Net-(U8-Pad7)">
+      <node ref="U8" pin="7"/>
     </net>
     <net code="158" name="/MCU/MISO">
       <node ref="U6" pin="11"/>
       <node ref="U7" pin="1"/>
     </net>
-    <net code="159" name="/MCU/MOSI">
-      <node ref="U6" pin="10"/>
+    <net code="159" name="/MCU/LCD_5">
+      <node ref="DS1" pin="12"/>
+      <node ref="U6" pin="22"/>
+    </net>
+    <net code="160" name="Net-(C9-Pad1)">
+      <node ref="U6" pin="2"/>
+      <node ref="FB4" pin="2"/>
+      <node ref="C9" pin="1"/>
+    </net>
+    <net code="161" name="/MCU/MOSI">
       <node ref="U7" pin="4"/>
+      <node ref="U6" pin="10"/>
     </net>
-    <net code="160" name="/MCU/LCD_RS">
+    <net code="162" name="/MCU/LCD_RS">
       <node ref="U6" pin="1"/>
-      <node ref="DS0" pin="4"/>
+      <node ref="DS1" pin="4"/>
     </net>
-    <net code="161" name="Net-(U8-Pad7)">
-      <node ref="U8" pin="7"/>
+    <net code="163" name="/MCU/VBUS">
+      <node ref="FB3" pin="1"/>
+      <node ref="U6" pin="7"/>
+      <node ref="TD1" pin="1"/>
     </net>
-    <net code="162" name="/MCU/RESET">
-      <node ref="U6" pin="13"/>
-      <node ref="R57" pin="2"/>
-      <node ref="SW9" pin="1"/>
-      <node ref="C5" pin="1"/>
-      <node ref="U7" pin="5"/>
+    <net code="164" name="Net-(J1-PadS1)">
+      <node ref="R1" pin="2"/>
+      <node ref="J1" pin="S2"/>
+      <node ref="J1" pin="S1"/>
     </net>
-    <net code="163" name="/MCU/MCU_TO_IC_595">
+    <net code="165" name="/MCU/LCD_1">
+      <node ref="U6" pin="40"/>
+      <node ref="DS1" pin="8"/>
+    </net>
+    <net code="166" name="/MCU/D+">
+      <node ref="U6" pin="4"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="167" name="/MCU/LCD_2">
+      <node ref="U6" pin="39"/>
+      <node ref="DS1" pin="9"/>
+    </net>
+    <net code="168" name="/MCU/LCD_3">
+      <node ref="DS1" pin="10"/>
+      <node ref="U6" pin="38"/>
+    </net>
+    <net code="169" name="/MCU/LCD_4">
+      <node ref="DS1" pin="11"/>
+      <node ref="U6" pin="37"/>
+    </net>
+    <net code="170" name="/MCU/LCD_ENABLE">
+      <node ref="DS1" pin="6"/>
+      <node ref="U6" pin="31"/>
+    </net>
+    <net code="171" name="/MCU/D-">
+      <node ref="U6" pin="3"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="172" name="/MCU/IC_165_CTRL">
+      <node ref="U6" pin="27"/>
+      <node ref="U10" pin="1"/>
+      <node ref="U8" pin="1"/>
+    </net>
+    <net code="173" name="/MCU/LCD_6">
+      <node ref="DS1" pin="13"/>
+      <node ref="U6" pin="26"/>
+    </net>
+    <net code="174" name="/MCU/MCU_TO_IC_595">
       <node ref="U9" pin="14"/>
       <node ref="U6" pin="8"/>
     </net>
-    <net code="164" name="Net-(U11-Pad14)">
-      <node ref="U11" pin="14"/>
+    <net code="175" name="Net-(U11-Pad9)">
+      <node ref="U11" pin="9"/>
+    </net>
+    <net code="176" name="Net-(U11-Pad14)">
       <node ref="U9" pin="9"/>
+      <node ref="U11" pin="14"/>
     </net>
-    <net code="165" name="/MCU/LCD_7">
-      <node ref="U6" pin="28"/>
-      <node ref="DS0" pin="14"/>
-    </net>
-    <net code="166" name="/MCU/LCD_1">
-      <node ref="U6" pin="40"/>
-      <node ref="DS0" pin="8"/>
-    </net>
-    <net code="167" name="Net-(DS0-Pad15)">
-      <node ref="DS0" pin="15"/>
-      <node ref="R0" pin="1"/>
-    </net>
-    <net code="168" name="Net-(DS0-Pad3)">
-      <node ref="DS0" pin="3"/>
-      <node ref="TRIM0" pin="2"/>
-    </net>
-    <net code="169" name="Net-(SW9-Pad2)">
-      <node ref="SW9" pin="2"/>
-    </net>
-    <net code="170" name="Net-(SW9-Pad4)">
-      <node ref="SW9" pin="4"/>
-    </net>
-    <net code="171" name="/MCU/IC_595_CTRL">
-      <node ref="U6" pin="25"/>
-      <node ref="U9" pin="12"/>
-      <node ref="U11" pin="12"/>
-    </net>
-    <net code="172" name="/MCU/IC_CLOCK">
-      <node ref="U9" pin="11"/>
-      <node ref="U8" pin="2"/>
-      <node ref="U6" pin="12"/>
-      <node ref="U11" pin="11"/>
-      <node ref="U10" pin="2"/>
-    </net>
-    <net code="173" name="/MCU/IC_165_TO_MCU">
-      <node ref="U10" pin="9"/>
-      <node ref="U6" pin="21"/>
-    </net>
-    <net code="174" name="Net-(U10-Pad7)">
-      <node ref="U10" pin="7"/>
-    </net>
-    <net code="175" name="Net-(U10-Pad10)">
-      <node ref="U8" pin="9"/>
-      <node ref="U10" pin="10"/>
-    </net>
-    <net code="176" name="Net-(C11-Pad1)">
-      <node ref="U6" pin="34"/>
-      <node ref="FB2" pin="2"/>
-      <node ref="C11" pin="1"/>
-      <node ref="U6" pin="14"/>
-    </net>
-    <net code="177" name="Net-(C9-Pad1)">
-      <node ref="U6" pin="6"/>
+    <net code="177" name="Net-(C10-Pad1)">
       <node ref="FB5" pin="2"/>
-      <node ref="C9" pin="1"/>
+      <node ref="U6" pin="14"/>
+      <node ref="C10" pin="1"/>
+      <node ref="U6" pin="34"/>
     </net>
-    <net code="178" name="Net-(C12-Pad1)">
+    <net code="178" name="Net-(C6-Pad1)">
+      <node ref="U6" pin="6"/>
+      <node ref="FB2" pin="2"/>
+      <node ref="C6" pin="1"/>
+    </net>
+    <net code="179" name="Net-(C11-Pad1)">
+      <node ref="FB6" pin="2"/>
+      <node ref="C11" pin="1"/>
       <node ref="U6" pin="24"/>
       <node ref="U6" pin="44"/>
-      <node ref="C12" pin="1"/>
-      <node ref="FB3" pin="2"/>
-    </net>
-    <net code="179" name="Net-(C6-Pad1)">
-      <node ref="C6" pin="1"/>
-      <node ref="Y0" pin="1"/>
-      <node ref="U6" pin="17"/>
-      <node ref="R59" pin="1"/>
     </net>
     <net code="180" name="Net-(C7-Pad1)">
-      <node ref="R59" pin="2"/>
+      <node ref="U6" pin="17"/>
+      <node ref="R2" pin="1"/>
       <node ref="C7" pin="1"/>
-      <node ref="U6" pin="16"/>
-      <node ref="Y0" pin="3"/>
+      <node ref="Y1" pin="1"/>
     </net>
     <net code="181" name="Net-(C8-Pad1)">
       <node ref="C8" pin="1"/>
-      <node ref="FB4" pin="2"/>
-      <node ref="U6" pin="42"/>
+      <node ref="R2" pin="2"/>
+      <node ref="U6" pin="16"/>
+      <node ref="Y1" pin="3"/>
     </net>
-    <net code="182" name="Net-(J1-PadS1)">
-      <node ref="J1" pin="S1"/>
-      <node ref="J1" pin="S2"/>
-      <node ref="R1" pin="2"/>
+    <net code="182" name="Net-(C5-Pad1)">
+      <node ref="C5" pin="1"/>
+      <node ref="U6" pin="42"/>
+      <node ref="FB1" pin="2"/>
     </net>
   </nets>
 </export>
