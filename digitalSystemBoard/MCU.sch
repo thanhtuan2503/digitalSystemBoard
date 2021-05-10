@@ -50,10 +50,10 @@ F 4 "C26098" H 1970 4340 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L digitalSystemBoard:Resonator Y1
+L digitalSystemBoard:Resonator Y0
 U 1 1 5FBACC99
 P 1720 4340
-F 0 "Y1" V 1674 4450 50  0000 L CNN
+F 0 "Y0" V 1674 4450 50  0000 L CNN
 F 1 "16MHz" V 1710 4210 50  0000 L CNN
 F 2 "Crystal:Crystal_SMD_Abracon_ABM3B-4Pin_5.0x3.2mm" H 1695 4340 50  0001 C CNN
 F 3 "" H 1695 4340 50  0001 C CNN
