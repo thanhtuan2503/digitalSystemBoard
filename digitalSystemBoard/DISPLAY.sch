@@ -869,10 +869,6 @@ Wire Wire Line
 Wire Wire Line
 	7460 3650 7460 3500
 Connection ~ 7460 3650
-Text HLabel 5410 5510 0    50   Input ~ 0
-7SEGLED_TEST_ON
-Text HLabel 5410 5610 0    50   Input ~ 0
-7SEGLED_TEST_OFF
 Text HLabel 8350 5470 0    50   Input ~ 0
 7SEGLED_TEST_ON
 Text HLabel 8350 5570 0    50   Input ~ 0
@@ -1105,4 +1101,8 @@ Text HLabel 4110 5670 2    50   Input ~ 0
 VCC5V
 Text HLabel 2300 5700 2    50   Input ~ 0
 VCC5V
+Text HLabel 5410 5610 0    50   Input ~ 0
+7SEGLED_TEST_OFF
+Text HLabel 5410 5510 0    50   Input ~ 0
+7SEGLED_TEST_ON
 $EndSCHEMATC
