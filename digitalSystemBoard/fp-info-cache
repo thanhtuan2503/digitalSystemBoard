@@ -1,4 +1,4 @@
-17096859325127951
+17101732950670711
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -75320,6 +75320,13 @@ logoPID
 0
 0
 analogPidBoard
+noSolder
+
+
+0
+6
+6
+analogPidBoard
 opAmp
 
 
@@ -75333,6 +75340,13 @@ reg
 0
 0
 0
+analogPidBoard
+sp_ft
+
+
+0
+1
+1
 analogPidBoard
 switch
 
@@ -75585,6 +75599,13 @@ LCD 16x2 Alphanumeric 16pin
 0
 16
 16
+digitalSystemBoard
+noSolder
+
+
+0
+6
+6
 footprints
 2-SMD-5X3
 <b>2-SMD</b><p>5 x 3.2 mm
