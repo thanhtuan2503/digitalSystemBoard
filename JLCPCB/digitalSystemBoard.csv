@@ -40,4 +40,4 @@ Potentiometer,U5,digitalSystemBoard:RV09S,
 ATmega32U4-AU,U6,Package_QFP:TQFP-44_10x10mm_P0.8mm,C44854
 ICSP,U7,Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical_SMD,
 74HC165,"U8,U10",Package_SO:SOIC-16_3.9x9.9mm_P1.27mm,C5613
-16MHz,Y0,Crystal:Crystal_SMD_Abracon_ABM3B-4Pin_5.0x3.2mm,C258963
+16MHz,Y0,Crystal:Crystal_SMD_Abracon_ABM3B-4Pin_5.0x3.2mm,C112586
