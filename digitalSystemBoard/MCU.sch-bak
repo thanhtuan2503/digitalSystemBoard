@@ -774,7 +774,7 @@ Text HLabel 3570 5320 2    50   Input ~ 0
 CLK_OUT
 Text HLabel 2370 5520 0    50   Input ~ 0
 ADJ_CLOCK
-Text Label 3570 5920 0    50   ~ 0
+Text Label 3570 6120 0    50   ~ 0
 IC_CLOCK
 Text Label 3570 5620 0    50   ~ 0
 IC_165_TO_MCU
@@ -802,9 +802,9 @@ Text Label 2370 5620 2    50   ~ 0
 LCD_RS
 Text Label 2370 5720 2    50   ~ 0
 LCD_ENABLE
-Text HLabel 3570 6120 2    50   Input ~ 0
+Text HLabel 3570 5920 2    50   Input ~ 0
 7SEGLED_TEST_ON
-Text HLabel 3570 6220 2    50   Input ~ 0
+Text HLabel 3570 6020 2    50   Input ~ 0
 7SEGLED_TEST_OFF
 Text Label 2370 3720 2    50   ~ 0
 RESET
@@ -1139,5 +1139,5 @@ Wire Wire Line
 Wire Wire Line
 	3070 3280 3320 3280
 Connection ~ 3320 3280
-NoConn ~ 3570 6020
+NoConn ~ 3570 6220
 $EndSCHEMATC
