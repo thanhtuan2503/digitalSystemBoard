@@ -851,22 +851,12 @@ Text Label 1610 5710 0    50   ~ 0
 RXD
 NoConn ~ 2370 5020
 NoConn ~ 2370 5120
-Text Label 2370 6420 2    50   ~ 0
-RXD
-Text Label 2370 6520 2    50   ~ 0
-TXD
 NoConn ~ 2370 6620
 NoConn ~ 2370 6720
-NoConn ~ 2370 6820
 NoConn ~ 2370 6920
 NoConn ~ 2370 7020
-NoConn ~ 2370 7120
 Text Label 3570 4720 0    50   ~ 0
 SCK
-Text Label 3570 4820 0    50   ~ 0
-MOSI
-Text Label 3570 4920 0    50   ~ 0
-MISO
 NoConn ~ 3570 5020
 NoConn ~ 3570 5120
 NoConn ~ 3570 5220
@@ -876,7 +866,7 @@ Text HLabel 3570 6420 2    50   Input ~ 0
 UP_CLK
 Text HLabel 3570 6520 2    50   Input ~ 0
 DOWN_CLK
-Text HLabel 3570 6620 2    50   Input ~ 0
+Text HLabel 2370 7120 0    50   Input ~ 0
 CHANGE_CLK_SRC
 Text Label 3570 5520 0    50   ~ 0
 MCU_TO_IC_595
@@ -1019,8 +1009,6 @@ F 4 "C14267" H 1210 6110 50  0001 C CNN "LCSC"
 $EndComp
 Text HLabel 1210 5510 1    50   Input ~ 0
 VCC5V
-NoConn ~ 3570 6720
-NoConn ~ 3570 6820
 NoConn ~ 3570 6920
 NoConn ~ 3570 7020
 NoConn ~ 3570 7120
@@ -1075,18 +1063,6 @@ Wire Wire Line
 	3320 3040 3320 3280
 Wire Wire Line
 	3530 3040 3530 3280
-$Comp
-L MCU_Microchip_ATmega:ATmega64A-AU U12
-U 1 1 618E9CED
-P 2970 5420
-F 0 "U12" H 2970 4560 50  0000 C CNN
-F 1 "ATmega64A-AU" H 2970 4460 50  0000 C CNN
-F 2 "Package_QFP:TQFP-64_14x14mm_P0.8mm" H 2970 5420 50  0001 C CIN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-8160-8-bit-avr-microcontroller-atmega64a-datasheet.pdf" H 2970 5420 50  0001 C CNN
-F 4 "C9435" H 2970 5420 50  0001 C CNN "LCSC"
-	1    2970 5420
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2750 3030 2750 3280
 Wire Wire Line
@@ -1141,4 +1117,28 @@ Wire Wire Line
 	3070 3280 3320 3280
 Connection ~ 3320 3280
 NoConn ~ 3570 6220
+NoConn ~ 3570 4820
+NoConn ~ 3570 4920
+Text Label 2370 6520 2    50   ~ 0
+MISO
+Text Label 2370 6420 2    50   ~ 0
+MOSI
+Text Label 3570 6720 0    50   ~ 0
+TXD
+Text Label 3570 6620 0    50   ~ 0
+RXD
+$Comp
+L MCU_Microchip_ATmega:ATmega64A-AU U12
+U 1 1 618E9CED
+P 2970 5420
+F 0 "U12" H 2970 4560 50  0000 C CNN
+F 1 "ATmega64A-AU" H 2970 4460 50  0000 C CNN
+F 2 "Package_QFP:TQFP-64_14x14mm_P0.8mm" H 2970 5420 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-8160-8-bit-avr-microcontroller-atmega64a-datasheet.pdf" H 2970 5420 50  0001 C CNN
+F 4 "C9435" H 2970 5420 50  0001 C CNN "LCSC"
+	1    2970 5420
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3570 6820
+NoConn ~ 2370 6820
 $EndSCHEMATC
