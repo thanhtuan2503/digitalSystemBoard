@@ -855,7 +855,6 @@ NoConn ~ 2370 6620
 NoConn ~ 2370 6720
 NoConn ~ 2370 6920
 NoConn ~ 2370 7020
-NoConn ~ 2370 7120
 Text Label 3570 4720 0    50   ~ 0
 SCK
 NoConn ~ 3570 5020
@@ -867,7 +866,7 @@ Text HLabel 3570 6420 2    50   Input ~ 0
 UP_CLK
 Text HLabel 3570 6520 2    50   Input ~ 0
 DOWN_CLK
-Text HLabel 2370 6820 0    50   Input ~ 0
+Text HLabel 2370 7120 0    50   Input ~ 0
 CHANGE_CLK_SRC
 Text Label 3570 5520 0    50   ~ 0
 MCU_TO_IC_595
@@ -1141,4 +1140,5 @@ F 4 "C9435" H 2970 5420 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 NoConn ~ 3570 6820
+NoConn ~ 2370 6820
 $EndSCHEMATC
