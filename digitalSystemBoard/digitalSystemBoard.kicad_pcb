@@ -793,8 +793,8 @@
     (pad "" np_thru_hole circle (at -5.5 31) (size 5 5) (drill 3) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 69.5 31) (size 5 5) (drill 3) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 69.5 0) (size 5 5) (drill 3) (layers *.Cu *.Mask))
-    (model ${KISYS3DMOD}/Display.3dshapes/WC1602A.wrl
-      (offset (xyz 0 0 10))
+    (model ${KIPRJMOD}/3dSymbol/1602LCD.step
+      (offset (xyz 1 -55 -47.5))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
@@ -10891,7 +10891,7 @@
   (segment (start 108.5 101) (end 108.5 94.1) (width 0.35) (layer B.Cu) (net 172))
   (segment (start 108.5 94.1) (end 106.175 91.775) (width 0.35) (layer B.Cu) (net 172))
 
-  (zone (net 1) (net_name GND) (layer F.Cu) (tstamp 61AA7FC9) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer F.Cu) (tstamp 61AD4F95) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -14174,7 +14174,7 @@
       )
     )
   )
-  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 61AA7FC6) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 61AD4F92) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
