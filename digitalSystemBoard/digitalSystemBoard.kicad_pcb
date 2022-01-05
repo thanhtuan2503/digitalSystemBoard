@@ -1617,7 +1617,7 @@
     (pad "" np_thru_hole circle (at -11.5 -19 180) (size 3.5 3.5) (drill 3.5) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 11.5 -19 180) (size 3.5 3.5) (drill 3.5) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 0 17.05 180) (size 3.5 3.5) (drill 3.5) (layers *.Cu *.Mask))
-    (model ${KIPRJMOD}/3dSymbol/Modul3d.step
+    (model ${KIPRJMOD}/3dSymbol/Modul3d_V2.step
       (offset (xyz -36 -17 -18.6))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 -90))
@@ -2479,7 +2479,7 @@
       (net 1 GND))
     (pad 1 smd rect (at -7.25 -2.5 90) (size 1.5 1.5) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model "${KIPRJMOD}/3dSymbol/Tactal Switch - SMD (12mmx12mmx4.3mm).stp"
+    (model ${KIPRJMOD}/3dSymbol/Tactal-Switch-SMD-12mmx12mmx4.3mm_V2.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2508,7 +2508,7 @@
       (net 1 GND))
     (pad 1 smd rect (at -7.25 -2.5 90) (size 1.5 1.5) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model "${KIPRJMOD}/3dSymbol/Tactal Switch - SMD (12mmx12mmx4.3mm).stp"
+    (model ${KIPRJMOD}/3dSymbol/Tactal-Switch-SMD-12mmx12mmx4.3mm_V2.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2537,7 +2537,7 @@
       (net 1 GND))
     (pad 1 smd rect (at -7.25 -2.5 90) (size 1.5 1.5) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model "${KIPRJMOD}/3dSymbol/Tactal Switch - SMD (12mmx12mmx4.3mm).stp"
+    (model ${KIPRJMOD}/3dSymbol/Tactal-Switch-SMD-12mmx12mmx4.3mm_V2.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2566,7 +2566,7 @@
       (net 1 GND))
     (pad 1 smd rect (at -7.25 -2.5 90) (size 1.5 1.5) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model "${KIPRJMOD}/3dSymbol/Tactal Switch - SMD (12mmx12mmx4.3mm).stp"
+    (model ${KIPRJMOD}/3dSymbol/Tactal-Switch-SMD-12mmx12mmx4.3mm_V2.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2595,7 +2595,7 @@
       (net 1 GND))
     (pad 1 smd rect (at -7.25 -2.5 90) (size 1.5 1.5) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model "${KIPRJMOD}/3dSymbol/Tactal Switch - SMD (12mmx12mmx4.3mm).stp"
+    (model ${KIPRJMOD}/3dSymbol/Tactal-Switch-SMD-12mmx12mmx4.3mm_V2.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
