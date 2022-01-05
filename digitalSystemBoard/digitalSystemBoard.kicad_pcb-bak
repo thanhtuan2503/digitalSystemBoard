@@ -1551,7 +1551,7 @@
       (net 177 "Net-(SW9-Pad4)"))
     (pad 3 smd rect (at 4.15 2.25 180) (size 2 1.5) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model ${KIPRJMOD}/3dSymbol/FSM4JSMA.STEP
+    (model ${KIPRJMOD}/3dSymbol/FSM4JSMA_V2.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 0.9))
       (rotate (xyz -90 0 90))
@@ -4104,15 +4104,10 @@
       (net 118 /BCD_C_1))
     (pad 1 thru_hole rect (at -3.81 -8.89 90) (size 1.397 1.397) (drill 0.889) (layers *.Cu *.Mask)
       (net 119 /BCD_B_1))
-    (model ${KIPRJMOD}/3dSymbol/DIP_16_PIN_SOCKET.stp
-      (offset (xyz 0 0 4))
+    (model ${KIPRJMOD}/3dSymbol/User-Library-DIP-16-_-socket-214_V2.step
+      (offset (xyz -3.5 9 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
-    )
-    (model ${KIPRJMOD}/3dSymbol/SN74LS47N.STEP
-      (offset (xyz 0 0 4))
-      (scale (xyz 1 1 1))
-      (rotate (xyz -90 0 90))
     )
   )
 
@@ -5674,10 +5669,10 @@
       (net 36 /VCC5V) (zone_connect 0))
     (pad 3 thru_hole circle (at -2.54 -3.81 180) (size 1.524 1.524) (drill 1) (layers *.Cu *.Mask)
       (net 1 GND) (zone_connect 0))
-    (model ${KIPRJMOD}/3dSymbol/RK09K1130AH1.STEP
-      (offset (xyz 0 -3 0))
+    (model ${KIPRJMOD}/3dSymbol/User-Library-RK09K1130-20-1_V2.step
+      (offset (xyz 0 -3 6.5))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 180))
+      (rotate (xyz 180 0 0))
     )
   )
 
@@ -6028,15 +6023,10 @@
       (net 111 /BCD_C_0))
     (pad 1 thru_hole rect (at -3.81 -8.89 90) (size 1.397 1.397) (drill 0.889) (layers *.Cu *.Mask)
       (net 115 /BCD_B_0))
-    (model ${KIPRJMOD}/3dSymbol/DIP_16_PIN_SOCKET.stp
-      (offset (xyz 0 0 4))
+    (model ${KIPRJMOD}/3dSymbol/User-Library-DIP-16-_-socket-214_V2.step
+      (offset (xyz -3.5 9 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
-    )
-    (model ${KIPRJMOD}/3dSymbol/SN74LS47N.STEP
-      (offset (xyz 0 0 4))
-      (scale (xyz 1 1 1))
-      (rotate (xyz -90 0 90))
     )
   )
 
