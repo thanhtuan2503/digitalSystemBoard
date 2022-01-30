@@ -8,7 +8,7 @@ Delivered to: HCMUT CE-LAB
 
 Designed in Vietnam
 
-![3D Render Board with KiCad](Images/3dRenderPic.png)
+![3D Render Board with KiCad](Images/3dRenderPIc.png)
 <p align="center">
     3D Render Board with KiCad.
 </p>
