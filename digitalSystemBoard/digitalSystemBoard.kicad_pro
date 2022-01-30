@@ -417,6 +417,27 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "f73b5500-6337-4860-a114-6e307f65ec9f",
+      ""
+    ],
+    [
+      "00000000-0000-0000-0000-00005fb71076",
+      "DISPLAY"
+    ],
+    [
+      "00000000-0000-0000-0000-00005fba3f95",
+      "Header and Mounting"
+    ],
+    [
+      "00000000-0000-0000-0000-00005fba4597",
+      "MCU"
+    ],
+    [
+      "00000000-0000-0000-0000-00005fb7130a",
+      "SWITCH_AND_BUTTON"
+    ]
+  ],
   "text_variables": {}
 }
