@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 update=10/29/2020 2:56:11 PM
+=======
+update=11/13/2021 12:13:53 PM
+>>>>>>> dev
 version=1
 last_client=kicad
 [general]
@@ -15,7 +19,7 @@ LibDir=
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=../../123/
+PlotDirectoryName=C:/Users/thanh/Downloads/
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=Pcbnew
@@ -241,7 +245,11 @@ Enabled=0
 [pcbnew/Netclasses/Default]
 Name=Default
 Clearance=0.2
+<<<<<<< HEAD
 TrackWidth=0.25
+=======
+TrackWidth=0.35
+>>>>>>> dev
 ViaDiameter=0.8
 ViaDrill=0.4
 uViaDiameter=0.3
